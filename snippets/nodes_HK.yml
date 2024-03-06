@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|[香港]Node-B
+  name: 14|[香港]Node-B
   network: ws
   port: '8443'
   server: hk-b.funhub.cc
@@ -15,7 +15,7 @@ proxies:
     path: /hk-b
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-185.242.232....
+  name: 14|🔒 VM-TCP-NA 🇭🇰 HK-185.242.232....
   network: tcp
   port: '25185'
   server: 185.242.232.164
@@ -25,7 +25,7 @@ proxies:
   uuid: 784e7466-c926-4c50-dbf4-f07fe8eaf77d
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
+  name: 16|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -41,7 +41,7 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  name: 16|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -58,7 +58,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国|@ripaojiedian
+  name: 16|🇺🇸 美国|@ripaojiedian
   port: 47104
   server: 8.222.187.115
   skip-cert-verify: false
@@ -68,7 +68,7 @@ proxies:
   uuid: a6c4321a-83fb-490b-ecae-2a6340c55d9d
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
+  name: 16|🇭🇰 香港3|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: obfs
   plugin-opts:
@@ -80,7 +80,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
+  name: 16|🇭🇰 香港4|@ripaojiedian
   password: mai9t5nk91
   port: 56005
   server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com
@@ -88,7 +88,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 16|香港|@ripaojiedian
+  name: 17|香港|@ripaojiedian
   network: tcp
   port: '44602'
   server: 183.237.20.150
@@ -98,7 +98,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 16|香港2|@ripaojiedian
+  name: 17|香港2|@ripaojiedian
   network: tcp
   port: '45055'
   server: 183.233.187.217

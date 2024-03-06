@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
+  name: 16|🇹🇼 台湾|@ripaojiedian
   password: 46a4f80c-cf3d-4b56-97e0-0c45b8455bac
   port: 20702
   server: tw02.jjjjjj.icu
@@ -10,7 +10,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|台湾2|@ripaojiedian
+  name: 16,17|台湾2|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com

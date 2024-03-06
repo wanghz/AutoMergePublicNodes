@@ -13,3 +13,9 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- cipher: aes-128-gcm
+  name: 13|🇳·中国节点=中节点
+  password: 48c3e0df-0e15-4dec-bedd-4f4f2ab4871d
+  port: 20006
+  server: 116.162.216.43
+  type: ss
