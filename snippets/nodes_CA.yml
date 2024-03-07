@@ -8,21 +8,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f8bc50c1-f4b0-48d0-85c7-5f12d79b6169
+  uuid: 4e990bb3-939c-4989-ac2c-141150378293
 - alterId: 0
   cipher: auto
-  name: 14|加拿大 011
+  name: 14|加拿大 014
   network: ws
   port: 443
-  server: 104.20.39.186
+  server: 104.16.216.241
   servername: ''
   tls: true
   type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: vmess.taxar71054.workers.dev
-    path: /ivideos.sbs/linkws
+      Host: nelly.homes
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 14|加拿大 016
@@ -49,70 +49,18 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 14|加拿大 008
-  network: ws
-  port: 8080
-  server: 172.67.143.192
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 009
-  network: ws
-  port: 2052
-  server: onea.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 014
+  name: 14|加拿大 011
   network: ws
   port: 443
-  server: 104.16.216.241
+  server: 104.20.39.186
   servername: ''
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
   ws-opts:
     headers:
-      Host: nelly.homes
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 015
-  network: ws
-  port: 2052
-  server: 104.21.23.231
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 018
-  network: tcp
-  port: 443
-  server: 216.128.184.239
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
+      Host: vmess.taxar71054.workers.dev
+    path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
   name: 15|【BGP】加拿大 02 | 1x CA
@@ -122,4 +70,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 482508f2-63d9-48ad-b398-1f6f17eeebeb
+  uuid: 048fd552-5ef7-4079-bd4b-4897009f6aa4
