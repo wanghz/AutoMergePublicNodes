@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4|🇺🇸_US_美国 #4'
+  name: '0,3,4,7,18|🇺🇸_US_美国 #12'
   network: ws
   port: 8080
   server: 104.21.54.252
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4|🇺🇸_US_美国 #5'
+  name: '0,3,4,7,18|🇺🇸_US_美国 #13'
   network: ws
   port: 8080
   server: www.velvetmountain.shop
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,14|关注电报https://t.me/aifenxiang202...
+  name: '0,3,4,14,18|🇺🇸_US_美国 #11'
   network: ws
   port: 80
   server: cloudflare.cfgo.cc
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4|🇺🇸_US_美国 #7'
+  name: '0,3,4,7,18|🇺🇸_US_美国 #14'
   network: ws
   port: 8080
   server: 172.67.143.192
@@ -114,7 +114,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dc141b58-3677-4437-b1c3-3089b26673ab
+  uuid: cca77e3e-33a6-4a70-9b4b-e926c62100d5
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -124,7 +124,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dc141b58-3677-4437-b1c3-3089b26673ab
+  uuid: cca77e3e-33a6-4a70-9b4b-e926c62100d5
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -134,7 +134,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dc141b58-3677-4437-b1c3-3089b26673ab
+  uuid: cca77e3e-33a6-4a70-9b4b-e926c62100d5
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -561,7 +561,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 11086d48-2eb8-4eae-aa46-46ebc189f2cd
+  uuid: bf5ea888-e7ce-4fcf-8532-8b0d93e7c765
 - alterId: 0
   cipher: auto
   name: 15|【BGP】美国 05 | 1x US
@@ -571,7 +571,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 11086d48-2eb8-4eae-aa46-46ebc189f2cd
+  uuid: bf5ea888-e7ce-4fcf-8532-8b0d93e7c765
 - alterId: 0
   cipher: auto
   name: 15|【BGP】美国 06 | 1x US
@@ -581,7 +581,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 11086d48-2eb8-4eae-aa46-46ebc189f2cd
+  uuid: bf5ea888-e7ce-4fcf-8532-8b0d93e7c765
 - client-fingerprint: chrome
   name: 16|🇺🇸 美国|@ripaojiedian
   network: ws
