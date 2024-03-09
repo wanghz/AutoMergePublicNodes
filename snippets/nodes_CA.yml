@@ -22,76 +22,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6a83f9ab-e9f7-4293-bba4-0d2ad19a1a32
-- alterId: 0
-  cipher: auto
-  name: 14|🇨🇦 加拿大 022
-  network: ws
-  port: '443'
-  server: 104.21.25.94
-  tls: true
-  type: vmess
-  uuid: 4d74f126-0ef1-4579-b0a3-78e7b48ef067
-  ws-opts:
-    headers:
-      Host: de2-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 020
-  network: ws
-  port: 443
-  server: 104.24.0.11
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vip2323.cfd
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 007
-  network: ws
-  port: 8080
-  server: 172.67.66.46
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  ws-opts:
-    headers:
-      Host: eu2.openxai.link
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 016
-  network: ws
-  port: 443
-  server: 104.16.217.241
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: nelly.homes
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 004
-  network: ws
-  port: 8080
-  server: www.ywnouvbale.biz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.ywnouvbale.biz
-    path: /
+  uuid: fcb7f15d-d6f5-42c9-aab9-c82e85a7c8a4
 - alterId: 0
   cipher: auto
   name: 14|加拿大 014
@@ -122,18 +53,73 @@ proxies:
     path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NA 🇨🇦 CA-23.26.239.147...
+  name: 14|🇨🇦 加拿大 020
   network: ws
-  port: '46768'
-  server: 23.26.239.147
+  port: '443'
+  server: 104.24.0.11
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '14|Channel id: @ShadowProxy66 🇨🇦'
+  network: ws
+  port: '443'
+  server: 104.21.75.246
+  servername: cf.tonyluk.link
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: cf.tonyluk.link
+    path: /ophelia.mom:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 022
+  network: ws
+  port: 443
+  server: 104.21.25.94
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4d74f126-0ef1-4579-b0a3-78e7b48ef067
+  ws-opts:
+    headers:
+      Host: de2-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 016
+  network: ws
+  port: 443
+  server: 104.16.217.241
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: nelly.homes
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 001
+  network: ws
+  port: 2082
+  server: 104.18.202.250
   servername: ''
   tls: false
   type: vmess
-  uuid: 1362cc37-0917-4e40-dce4-c689609d9e82
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: 23.26.239.147
-    path: /
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
   name: 15|【BGP】加拿大 02 | 1x CA
@@ -143,4 +129,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4b69c5b7-6191-4dc7-8277-59b38a1ee285
+  uuid: f752d645-ccc0-486a-8956-f1c474771690
