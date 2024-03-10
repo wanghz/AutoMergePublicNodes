@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f2e58c7f-bfec-4508-8c01-a5406db6626c
+  uuid: 7437f34a-e3ae-4530-a03e-6dd24d6476b9
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f2e58c7f-bfec-4508-8c01-a5406db6626c
+  uuid: 7437f34a-e3ae-4530-a03e-6dd24d6476b9
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,34 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f2e58c7f-bfec-4508-8c01-a5406db6626c
+  uuid: 7437f34a-e3ae-4530-a03e-6dd24d6476b9
+- alterId: 0
+  cipher: auto
+  name: 14|新加坡【TG：@ccbaohe】定时更新节点订阅 13
+  network: tcp
+  port: 443
+  server: 66.42.54.252
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,16,17|新加坡3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6ad77d6b-7a45-4ed3-b65d-1c3ec0226603
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 04 | 1x SG
@@ -38,7 +65,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 530ee269-1cfb-4520-9f25-cfb47ad750ab
+  uuid: e291e4af-ccfc-4c14-9721-8f291b0d63bb
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 05 | 1x SG
@@ -48,7 +75,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 530ee269-1cfb-4520-9f25-cfb47ad750ab
+  uuid: e291e4af-ccfc-4c14-9721-8f291b0d63bb
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 06 | 1x SG
@@ -58,7 +85,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 530ee269-1cfb-4520-9f25-cfb47ad750ab
+  uuid: e291e4af-ccfc-4c14-9721-8f291b0d63bb
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡2|@ripaojiedian
