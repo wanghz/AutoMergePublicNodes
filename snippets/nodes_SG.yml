@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 39f547f1-c8f2-4b08-a8a8-a851cdc37965
+  uuid: b6dab811-073d-434d-81a0-d61fa0a54df3
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 39f547f1-c8f2-4b08-a8a8-a851cdc37965
+  uuid: b6dab811-073d-434d-81a0-d61fa0a54df3
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,21 +28,17 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 39f547f1-c8f2-4b08-a8a8-a851cdc37965
+  uuid: b6dab811-073d-434d-81a0-d61fa0a54df3
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NA 🇸🇬 SG-206.238.236.3...
-  network: ws
-  port: '2052'
-  server: 206.238.236.36
-  servername: mysan2.jaquay22.workers.dev
-  tls: false
+  name: 14|新加坡 003
+  network: tcp
+  port: 443
+  server: 66.42.54.252
+  servername: ''
+  tls: true
   type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
+  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇸🇬 SG-128.199.125.2...
@@ -59,17 +55,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NONE 🇸🇬 SG-146.190.97....
+  name: 14|🔒 VM-WS-NA 🇸🇬 SG-206.238.236.3...
   network: ws
-  port: 51185
-  server: 146.190.97.161
+  port: '2052'
+  server: 206.238.236.36
+  servername: mysan2.jaquay22.workers.dev
   tls: false
   type: vmess
-  uuid: 959880ca-2472-46d1-f7c8-b8c9e2123dd2
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
   ws-opts:
     headers:
-      Host: google.com
-    path: /
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 04 | 1x SG
@@ -79,7 +76,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a8ed90eb-1e1c-4699-a9c5-60147e3126a8
+  uuid: 18346387-abb6-4d39-b0bc-df70c104e739
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 05 | 1x SG
@@ -89,7 +86,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a8ed90eb-1e1c-4699-a9c5-60147e3126a8
+  uuid: 18346387-abb6-4d39-b0bc-df70c104e739
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 06 | 1x SG
@@ -99,7 +96,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a8ed90eb-1e1c-4699-a9c5-60147e3126a8
+  uuid: 18346387-abb6-4d39-b0bc-df70c104e739
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡2|@ripaojiedian
@@ -108,19 +105,21 @@ proxies:
   server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡4|@ripaojiedian
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 20109
-  server: ddns.olucloud.subapi.cc
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.231.243.147
+  server: 13.125.56.153
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 17|新加坡3|@ripaojiedian
+  network: tcp
+  port: '50014'
+  server: 50014.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
