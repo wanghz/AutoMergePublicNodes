@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3a1feae1-41a9-48e2-a7bf-e51605653249
+  uuid: 0e386d15-5a6a-49db-9411-37dcedf3a69a
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3a1feae1-41a9-48e2-a7bf-e51605653249
+  uuid: 0e386d15-5a6a-49db-9411-37dcedf3a69a
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,17 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3a1feae1-41a9-48e2-a7bf-e51605653249
+  uuid: 0e386d15-5a6a-49db-9411-37dcedf3a69a
+- alterId: 0
+  cipher: auto
+  name: 14|新加坡 003
+  network: tcp
+  port: 443
+  server: 66.42.54.252
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇸🇬 SG-128.199.125.2...
@@ -45,30 +55,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 14|新加坡 003
-  network: tcp
-  port: 443
-  server: 66.42.54.252
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
-- alterId: 0
-  cipher: auto
-  name: 14|🔒 VM-WS-NA 🇸🇬 SG-206.238.236.3...
-  network: ws
-  port: '2052'
-  server: 206.238.236.36
-  servername: mysan2.jaquay22.workers.dev
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
   name: 15|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -76,7 +62,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7c949a43-1bbf-4b30-8dfc-c382b1aba7e5
+  uuid: 10559ff2-40bc-495e-b54a-040d2d2979bc
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 05 | 1x SG
@@ -86,7 +72,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7c949a43-1bbf-4b30-8dfc-c382b1aba7e5
+  uuid: 10559ff2-40bc-495e-b54a-040d2d2979bc
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 06 | 1x SG
@@ -96,7 +82,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7c949a43-1bbf-4b30-8dfc-c382b1aba7e5
+  uuid: 10559ff2-40bc-495e-b54a-040d2d2979bc
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡2|@ripaojiedian
