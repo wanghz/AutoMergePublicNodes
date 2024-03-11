@@ -15,7 +15,7 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 13|🇳·中国·TG@kkouokk·50
+  name: 13|🇨🇳·中国·TG@kkouokk·46
   network: tcp
   port: 50018
   server: 50018.baidu-cdn.top
@@ -25,7 +25,7 @@ proxies:
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇳·中国·TG@kkouokk·51
+  name: 13|🇨🇳·中国·TG@kkouokk·47
   network: tcp
   port: 50020
   server: 50020.baidu-cdn.top
@@ -35,7 +35,7 @@ proxies:
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇳·中国·TG@kkouokk·52
+  name: 13|🇨🇳·中国·TG@kkouokk·48
   network: tcp
   port: 50021
   server: 50021.baidu-cdn.top
@@ -56,7 +56,7 @@ proxies:
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇳·中国·TG@kkouokk·54
+  name: 13|🇨🇳·中国·TG@kkouokk·50
   network: tcp
   port: 50029
   server: 50029.baidu-cdn.top
@@ -66,7 +66,7 @@ proxies:
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇳·中国·TG@kkouokk·55
+  name: 13|🇨🇳·中国·TG@kkouokk·51
   network: tcp
   port: 50008
   server: 50008.baidu-cdn.top
@@ -76,7 +76,7 @@ proxies:
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇳·中国·TG@kkouokk·56
+  name: 13|🇨🇳·中国·TG@kkouokk·52
   network: tcp
   port: 50009
   server: 50009.baidu-cdn.top
@@ -86,7 +86,7 @@ proxies:
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇳·中国·TG@kkouokk·57
+  name: 13|🇨🇳·中国·TG@kkouokk·53
   network: tcp
   port: 50010
   server: 50010.baidu-cdn.top
@@ -96,7 +96,7 @@ proxies:
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇳·中国·TG@kkouokk·58
+  name: 13|🇨🇳·中国·TG@kkouokk·54
   network: tcp
   port: 50012
   server: 50012.baidu-cdn.top
@@ -106,7 +106,7 @@ proxies:
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇳·中国·TG@kkouokk·59
+  name: 13|🇨🇳·中国·TG@kkouokk·55
   network: tcp
   port: 50001
   server: 50001.baidu-cdn.top
@@ -121,6 +121,26 @@ proxies:
   port: '50003'
   server: 50003.baidu-cdn.top
   servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇳·中国·TG@kkouokk·57
+  network: tcp
+  port: 50004
+  server: 50004.baidu-cdn.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇳·中国·TG@kkouokk·58
+  network: tcp
+  port: 50005
+  server: 50005.baidu-cdn.top
   skip-cert-verify: true
   tls: false
   type: vmess
