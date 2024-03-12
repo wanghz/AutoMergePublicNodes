@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,17|新加坡3|@ripaojiedian
-  network: tcp
-  port: '50014'
-  server: 50014.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
-- alterId: 0
-  cipher: auto
   name: 11,13,17|香港|@ripaojiedian
   network: tcp
   port: '50022'
@@ -120,17 +110,6 @@ proxies:
   network: tcp
   port: 50001
   server: 50001.baidu-cdn.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
-- alterId: 0
-  cipher: auto
-  name: 13,17|美国3|@ripaojiedian
-  network: tcp
-  port: '50003'
-  server: 50003.baidu-cdn.top
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
