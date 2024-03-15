@@ -11,7 +11,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,18|🇨🇦_CA_加拿大 #9'
+  name: '0,3,4,6,7,11,18|🇨🇦_CA_加拿大 #9'
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -45,7 +45,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dbc5c607-741f-4fd2-b82a-f9821b870be2
+  uuid: f8186866-7683-4a76-ac2c-0dd9eb533ac0
 - alterId: 0
   cipher: auto
   name: 14|加拿大 010
@@ -76,17 +76,18 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 14|🇨🇦 加拿大 057
+  name: 14|加拿大 033
   network: ws
-  port: '443'
-  server: www.qdjljy.com
-  tls: true
+  port: 80
+  server: 104.21.221.16
+  servername: ''
+  tls: false
   type: vmess
-  uuid: da8954a5-9c03-4fe5-be6a-d90f3f01b881
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: h161-fr2.kxnn.eu.org
-    path: /D26xvdqUdCpvvPTz4R
+      Host: a.prapt1.ir
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 14|加拿大 029
@@ -200,19 +201,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 14|🇨🇦 加拿大 038
-  network: ws
-  port: '80'
-  server: 104.21.221.169
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 14|加拿大 027
   network: ws
   port: 80
@@ -231,6 +219,20 @@ proxies:
   network: ws
   port: 80
   server: 104.21.221.235
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 037
+  network: ws
+  port: 80
+  server: 104.21.221.219
   servername: ''
   tls: false
   type: vmess
@@ -304,4 +306,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4bdfd51f-2fc6-4fcd-811a-f4f776ea384b
+  uuid: fc39ccd1-3fb7-4604-98ca-17f0a8edba95
