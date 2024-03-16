@@ -1,4 +1,32 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 14|🇭🇰香港 02
+  network: ws
+  port: '443'
+  server: cf.335570.xyz
+  servername: hk01.cao.gay
+  tls: true
+  type: vmess
+  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
+  ws-opts:
+    headers:
+      Host: hk01.cao.gay
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 14|🇭🇰香港 01
+  network: ws
+  port: '443'
+  server: cf.iepl1.me
+  servername: hk01.cao.gay
+  tls: true
+  type: vmess
+  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
+  ws-opts:
+    headers:
+      Host: hk01.cao.gay
+    path: /ws?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港KT|@ripaojiedian
@@ -31,57 +59,60 @@ proxies:
   server: 42.2.115.231
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16|🇮🇳 印度|@ripaojiedian
+  port: 3389
+  server: 139.59.24.215
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港|@ripaojiedian
-  password: cb0s3xr4av
-  port: 56005
-  server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com
+  name: 16|🇭🇰 香港3|@ripaojiedian
+  password: 6f932057-ffd9-4426-8ca7-f0654babf84f
+  port: 21001
+  server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|香港2|@ripaojiedian
-  network: ws
-  port: '16627'
-  server: vip.basicnode.host
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
-  ws-opts:
-    headers:
-      Host: 193.25.215.160
-    path: /niuniu
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港3|@ripaojiedian
-  port: 25469
-  server: 103.30.76.87
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港4|@ripaojiedian
-  password: d04e5e2f-49f2-4eee-8f40-5f0c6485a509
+  password: 66f9f4e5-a88d-40b2-a1ae-6b750b71a8bb
   port: 43217
   server: hk05.jjjjjj.icu
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 17|香港3|@ripaojiedian
+  name: 17|香港|@ripaojiedian
   network: tcp
-  port: '25469'
-  server: 103.30.76.87
+  port: '12696'
+  server: 154.198.227.34
   servername: ''
   tls: false
   type: vmess
-  uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044
+  uuid: a2f6696a-bf90-43ae-960b-c5bdc1fe947a
+- alterId: 64
+  cipher: auto
+  name: 17|香港1|@ripaojiedian
+  network: tcp
+  port: '32996'
+  server: 120.232.242.96
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 17|香港2|@ripaojiedian
+  network: tcp
+  port: '51702'
+  server: 183.236.51.51
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
