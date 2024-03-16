@@ -247,13 +247,3 @@ proxies:
   protocol-param: 26272:09kp3qPzKiKRsAqm
   server: vip3.niuniupremium.xyz
   type: ssr
-- alterId: 64
-  cipher: auto
-  name: 14,17|香港2|@ripaojiedian
-  network: tcp
-  port: '51702'
-  server: 183.236.51.51
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
