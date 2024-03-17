@@ -23,158 +23,148 @@ proxies:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·2
+  name: 13|🇨🇳·中国·TG@kkouokk·49
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11814
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·3
+  name: 13|🇨🇳·中国·TG@kkouokk·50
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
-  password: Fhbe0z
-  port: 11802
-  protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
-  server: vip.basicnode.host
-  type: ssr
-- cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·4
-  obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11420
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip3.niuniupremium.xyz
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·5
+  name: 13|🇨🇳·中国·TG@kkouokk·51
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11421
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip3.niuniupremium.xyz
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·6
+  name: 13|🇨🇳·中国·TG@kkouokk·52
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11810
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·7
+  name: 13|🇨🇳·中国·TG@kkouokk·53
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11845
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·8
+  name: 13|🇨🇳·中国·TG@kkouokk·54
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
-  password: Fhbe0z
-  port: 11806
-  protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
-  server: vip.basicnode.host
-  type: ssr
-- cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·9
-  obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11807
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·10
+  name: 13|🇨🇳·中国·TG@kkouokk·55
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11846
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·11
+  name: 13|🇨🇳·中国·TG@kkouokk·56
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11422
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip3.niuniupremium.xyz
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·12
+  name: 13|🇨🇳·中国·TG@kkouokk·57
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11429
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip3.niuniupremium.xyz
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·13
+  name: 13|🇨🇳·中国·TG@kkouokk·58
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11851
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·14
+  name: 13|🇨🇳·中国·TG@kkouokk·59
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
+  password: Fhbe0z
+  port: 11842
+  protocol: auth_aes128_sha1
+  protocol-param: 22997:JeHHT2
+  server: vip.basicnode.host
+  type: ssr
+- cipher: chacha20-ietf
+  name: 13|🇨🇳·中国·TG@kkouokk·60
+  obfs: tls1.2_ticket_auth
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11812
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·15
+  name: 13|🇨🇳·中国·TG@kkouokk·61
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11805
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·16
+  name: 13|🇨🇳·中国·TG@kkouokk·62
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11804
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇳·中国·TG@kkouokk·17
+  name: 13|🇨🇳·中国·TG@kkouokk·63
   network: ws
   port: 16928
   server: vip3.niuniupremium.xyz
@@ -187,72 +177,62 @@ proxies:
       host: 193.25.215.160
     path: /v2ray
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·18
+  name: 13|🇨🇳·中国·TG@kkouokk·64
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11427
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip3.niuniupremium.xyz
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·19
+  name: 13|🇨🇳·中国·TG@kkouokk·65
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11423
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip3.niuniupremium.xyz
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·20
+  name: 13|🇨🇳·中国·TG@kkouokk·66
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 35247
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·21
+  name: 13|🇨🇳·中国·TG@kkouokk·67
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11005
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·22
+  name: 13|🇨🇳·中国·TG@kkouokk·68
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 11501
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip3.niuniupremium.xyz
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·23
+  name: 13|🇨🇳·中国·TG@kkouokk·69
   obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
+  obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
   port: 22848
   protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
+  protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
-  type: ssr
-- cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·24
-  obfs: tls1.2_ticket_auth
-  obfs-param: 880e226272.microsoft.com
-  password: Fhbe0z
-  port: 11445
-  protocol: auth_aes128_sha1
-  protocol-param: 26272:09kp3qPzKiKRsAqm
-  server: vip3.niuniupremium.xyz
   type: ssr
