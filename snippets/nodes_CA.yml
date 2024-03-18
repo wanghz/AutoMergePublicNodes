@@ -67,7 +67,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '3,4|🇨🇦_CA_加拿大 #5'
+  name: '3,4,18|🇨🇦_CA_加拿大 #16'
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -80,7 +80,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '3,4,7|🇨🇦_CA_加拿大 #12'
+  name: '3,4,7,18|🇨🇦_CA_加拿大 #18'
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -93,7 +93,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '3,4|🇨🇦_CA_加拿大 #6'
+  name: '3,4,18|🇨🇦_CA_加拿大 #19'
   network: ws
   port: 8080
   server: 23.227.38.22
@@ -106,7 +106,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '3,4,6,7,14,18|🇨🇦_CA_加拿大 #16'
+  name: '3,4,6,7,14,18|🇨🇦_CA_加拿大 #20'
   network: ws
   port: 8080
   server: 108.181.23.161
@@ -126,7 +126,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9e3ace31-adc3-4429-8e48-f37fe0420529
+  uuid: cbcecf8d-a761-46f2-a18d-4ff3cd6e4adc
 - alterId: 0
   cipher: auto
   name: 14|加拿大 030
@@ -591,4 +591,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bb834d6c-cb18-4604-83ba-960c28057c2c
+  uuid: 4db579d4-1b99-4695-816e-1a17fa8cf109
