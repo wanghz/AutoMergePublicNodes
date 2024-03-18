@@ -34,7 +34,8 @@ proxies:
   server: vip3.niuniupremium.xyz
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·51
+  client-fingerprint: chrome
+  name: 13,16|🇭🇰 香港5|@ripaojiedian
   obfs: tls1.2_ticket_auth
   obfs-param: b91a022997.microsoft.com
   password: Fhbe0z
