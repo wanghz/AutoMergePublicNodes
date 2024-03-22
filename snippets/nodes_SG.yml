@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 952ae520-8259-46df-b353-3c38cc80a6b3
+  uuid: e98dd6e0-5ba5-430f-979d-407f8a61fa54
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 952ae520-8259-46df-b353-3c38cc80a6b3
+  uuid: e98dd6e0-5ba5-430f-979d-407f8a61fa54
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 952ae520-8259-46df-b353-3c38cc80a6b3
+  uuid: e98dd6e0-5ba5-430f-979d-407f8a61fa54
+- alterId: 0
+  cipher: auto
+  name: 14|新加坡 002
+  network: ws
+  port: 80
+  server: sgb.sinhvien4g.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 926ffb58-04d7-4100-b5d5-d09f869c788f
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
@@ -52,7 +66,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 814ab80d-f9db-4b0e-b97a-d62fd33c5ec9
+  uuid: 82de24c4-3be1-4518-8faa-a36428995035
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 05 | 1x SG
@@ -62,7 +76,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 814ab80d-f9db-4b0e-b97a-d62fd33c5ec9
+  uuid: 82de24c4-3be1-4518-8faa-a36428995035
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 06 | 1x SG
@@ -72,7 +86,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 814ab80d-f9db-4b0e-b97a-d62fd33c5ec9
+  uuid: 82de24c4-3be1-4518-8faa-a36428995035
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡|@ripaojiedian
