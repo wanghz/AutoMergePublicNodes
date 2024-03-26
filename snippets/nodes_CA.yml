@@ -93,11 +93,10 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 6,7,11|美国 CloudFlare公司CDN节点(shopify)
+  name: '6,7|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
   network: ws
-  port: '8080'
+  port: 8080
   server: 23.227.38.23
-  servername: ''
   tls: false
   type: vmess
   uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
@@ -114,7 +113,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a50fa12b-b0f7-4093-af72-4f401ae49578
+  uuid: c49bd960-e6b6-4bee-be35-fe5f48fea9b1
 - alterId: 0
   cipher: auto
   name: 14|加拿大 122
@@ -262,4 +261,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a563103b-ac1a-49cc-a9bb-2b71661511b7
+  uuid: 2326ed11-4a9b-4010-9208-6aa4842bb53b
