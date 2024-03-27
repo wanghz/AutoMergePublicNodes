@@ -113,42 +113,66 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 43a42ba2-7b74-42d5-95f6-8540b24f80c8
+  uuid: 57db65c5-dd81-4064-9615-3a52f0058262
 - alterId: 0
   cipher: auto
-  name: 14|加拿大 122
+  name: 11,14|🔒 VM-WS-NA 🇨🇦 CA-132.145.100.2...
   network: ws
-  port: 2053
-  server: 104.21.67.246
+  port: '37302'
+  server: 132.145.100.232
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: ffde13b1-e66e-4b2a-9392-4ed9a826aec6
+  uuid: 1a968778-72c9-4dce-be1b-65de17b05a6c
   ws-opts:
     headers:
-      Host: mg013.tk4433.com
-    path: /mg013.tk4433.com
+      Host: baidu.com
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 14|加拿大 132
+  name: 14|🇨🇦 加拿大 180
   network: ws
-  port: 2053
-  server: u04.tk3322.com
-  servername: ''
-  tls: true
+  port: '8080'
+  server: lanmaoyunvm.ksr.free.hr
+  tls: false
   type: vmess
-  uuid: bfccd2a4-a421-4d4f-f564-a081f4a12d7e
+  uuid: 3b52fe01-aa51-49f7-b4e7-31b683ffb2a7
   ws-opts:
     headers:
-      Host: u04.tk3322.com
-    path: /u04
+      Host: lanmaoyunvm.ksr.free.hr
+    path: /
 - alterId: 0
   cipher: auto
-  name: 14|加拿大 167
+  name: 14|🇨🇦 加拿大 202
   network: ws
-  port: 443
+  port: '80'
+  server: 104.21.222.111
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 14|🇨🇦 加拿大 210
+  network: ws
+  port: '8080'
+  server: lanmaoyun-fr.ksr.free.hr
+  tls: false
+  type: vmess
+  uuid: 3b52fe01-aa51-49f7-b4e7-31b683ffb2a7
+  ws-opts:
+    headers:
+      Host: lanmaoyun-fr.ksr.free.hr
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|🇨🇦 加拿大 167
+  network: ws
+  port: '443'
   server: nina.bond
-  servername: nina.bond
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -171,18 +195,17 @@ proxies:
     path: /qin20
 - alterId: 0
   cipher: auto
-  name: 14|加拿大 180
+  name: 14|🇨🇦 加拿大 132
   network: ws
-  port: 8080
-  server: lanmaoyunvm.ksr.free.hr
-  servername: ''
-  tls: false
+  port: '2053'
+  server: u04.tk3322.com
+  tls: true
   type: vmess
-  uuid: 3b52fe01-aa51-49f7-b4e7-31b683ffb2a7
+  uuid: bfccd2a4-a421-4d4f-f564-a081f4a12d7e
   ws-opts:
     headers:
-      Host: lanmaoyunvm.ksr.free.hr
-    path: /
+      Host: u04.tk3322.com
+    path: /u04
 - alterId: 0
   cipher: auto
   name: 14|加拿大 003
@@ -199,52 +222,24 @@ proxies:
     path: /v149-dskds65
 - alterId: 0
   cipher: auto
-  name: 14|🇨🇦 加拿大 177
+  name: 14|加拿大 022
   network: ws
-  port: '2053'
-  server: 104.21.94.20
-  tls: true
-  type: vmess
-  uuid: 9e649329-c23a-4b57-a6b2-41d9aee8ed8e
-  ws-opts:
-    headers:
-      Host: GK0005.nnaotexiongditkgroup.top
-    path: /GK0005
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 164
-  network: ws
-  port: 443
-  server: 104.26.8.210
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 206259fd-09af-46ee-ec6d-5ac8a8291d6d
-  ws-opts:
-    headers:
-      Host: uyhgiuyfewdrgf-to12345.xiaohhh.xyz
-    path: /66
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 184
-  network: ws
-  port: 80
-  server: 104.21.236.244
+  port: 2086
+  server: admin.arzonhost.ir
   servername: ''
   tls: false
   type: vmess
-  uuid: 1973e770-e615-11ee-b238-205c6d5f5d78
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
   ws-opts:
     headers:
-      Host: VKJi7.cnbete.life
-    path: /?ed=2048
+      Host: admin.arzonhost.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: 14|加拿大 070
+  name: 14|🇨🇦 加拿大 070
   network: ws
-  port: 2087
+  port: '2087'
   server: 104.21.10.205
-  servername: api.cdn-tgju.org
   tls: true
   type: vmess
   uuid: 13fc87d3-43c6-4cc1-9ab9-523d9707a113
@@ -261,4 +256,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 082f0793-f73a-4ca0-8cd3-7cc50a8288f2
+  uuid: a8ef426b-d876-47f6-8826-9ec62c945393
