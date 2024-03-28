@@ -145,6 +145,7 @@ proxies:
   network: ws
   port: 2082
   server: 172.67.130.140
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -167,9 +168,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,7,14|🇺🇸|US|美国|@wxgqlfx|150
+  name: '6,7,11|美国 CloudFlare节点 #21'
   network: ws
-  port: 8080
+  port: '8080'
   server: 162.159.5.6
   tls: false
   type: vmess
