@@ -1,70 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_CA__1
-  network: ws
-  port: 8080
-  server: 23.227.39.24
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: 1|_CA__2
-  network: ws
-  port: 8080
-  server: 23.227.38.22
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: 1|_CA__3
-  network: ws
-  port: 8080
-  server: 108.181.23.161
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      host: internet.life.com.by
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: '1,3,6,7,18|🇨🇦_CA_加拿大 #7'
+  name: '3,6,7,18|🇨🇦_CA_加拿大 #7'
   network: http
   port: 3389
   server: 134.122.41.160
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 1|_CA__5
-  network: ws
-  port: 8080
-  server: 23.227.38.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
   name: '6|🇨🇦_CA_加拿大 #1'
@@ -113,161 +56,49 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ee224b81-ea84-46c0-b7a7-2d4680421a79
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 010
-  network: ws
-  port: 80
-  server: 104.21.221.181
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
+  uuid: 1dd891e4-3024-4d62-b85d-c27f1653e00b
 - alterId: 0
   cipher: auto
   name: '14|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
   port: '443'
-  server: 162.159.135.79
-  servername: janett.click
+  server: 172.67.71.160
+  servername: obdii.cfd
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 14|🇨🇦_CA_加拿大_3
+  network: ws
+  port: 8080
+  server: 108.181.23.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1IKYjV0r/
+- alterId: 0
+  cipher: auto
+  name: '14|Channel id: @ShadowProxy66 🇨🇦 #1'
+  network: ws
+  port: '443'
+  server: 172.67.179.151
+  servername: kittiy.sbs
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: janett.click
+      Host: kittiy.sbs
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 014
-  network: ws
-  port: 80
-  server: 104.21.222.11
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt4.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 008
-  network: ws
-  port: 80
-  server: 104.21.220.186
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 016
-  network: ws
-  port: 80
-  server: 104.21.225.26
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 041
-  network: ws
-  port: 80
-  server: 104.21.220.178
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 011
-  network: ws
-  port: 443
-  server: 172.67.174.63
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: nina.bond
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 017
-  network: ws
-  port: 80
-  server: 104.21.220.176
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 015
-  network: ws
-  port: 80
-  server: 104.21.220.34
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 013
-  network: ws
-  port: 80
-  server: 104.21.232.44
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 009
-  network: ws
-  port: 80
-  server: 104.21.227.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /
 - alterId: 0
   cipher: auto
   name: 14|加拿大 022
@@ -284,46 +115,18 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 14|加拿大 012
+  name: 14|加拿大 011
   network: ws
-  port: 80
-  server: 104.21.224.22
+  port: 443
+  server: 172.67.174.63
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: a.prapt4.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 045
-  network: ws
-  port: 80
-  server: 104.21.220.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 025
-  network: ws
-  port: 80
-  server: 104.21.223.2
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
+      Host: nina.bond
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 15|【BGP】加拿大 02 | 1x CA
@@ -333,4 +136,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 47e62792-820b-493e-bf56-d73ee2ebe030
+  uuid: da8fa046-b248-4e00-999e-9240dcc19f4e
