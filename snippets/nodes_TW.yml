@@ -1,18 +1,44 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|台湾2|@ripaojiedian
+  name: 11|台湾省高雄市 中华电信
   network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
+  port: 443
+  server: tw1g.xn--vhq70hxyat50h6wk.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: d4a530d5-9755-4ff9-a9ed-5a058cf0038b
+  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
   ws-opts:
     headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|TW_粉爱福利节点_6
+  network: ws
+  port: 80
+  server: tw1g.xn--vhq70hxyat50h6wk.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /
+  name: 16,17|台湾3|@ripaojiedian
+  network: grpc
+  port: '3443'
+  server: 47.75.101.0
+  servername: itw.node.now.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 61f7a2a6-e699-40fd-bf63-5000aa4cbdeb
