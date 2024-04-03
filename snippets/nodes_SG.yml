@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7139fea9-b8f7-4bd2-96a3-691636344601
+  uuid: 3587635a-993b-4011-9609-e4d56833d8c8
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7139fea9-b8f7-4bd2-96a3-691636344601
+  uuid: 3587635a-993b-4011-9609-e4d56833d8c8
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7139fea9-b8f7-4bd2-96a3-691636344601
+  uuid: 3587635a-993b-4011-9609-e4d56833d8c8
 - name: 13|🇸🇬·新加坡·TG@kkouokk·2
   network: tcp
   password: 9d1bb718-f429-40eb-9373-3e6d588ff78c
@@ -38,6 +38,20 @@ proxies:
   sni: www.baidu.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
+  network: ws
+  port: '26012'
+  server: 146.190.84.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
+  ws-opts:
+    headers:
+      Host: tiktok.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
@@ -61,7 +75,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e598a8df-9012-4e53-978a-bdb5d1f65764
+  uuid: 8f25a978-4ed2-4c18-8dbf-810fb66be195
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 05 | 1x SG
@@ -71,7 +85,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e598a8df-9012-4e53-978a-bdb5d1f65764
+  uuid: 8f25a978-4ed2-4c18-8dbf-810fb66be195
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 06 | 1x SG
@@ -81,7 +95,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e598a8df-9012-4e53-978a-bdb5d1f65764
+  uuid: 8f25a978-4ed2-4c18-8dbf-810fb66be195
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡|@ripaojiedian
