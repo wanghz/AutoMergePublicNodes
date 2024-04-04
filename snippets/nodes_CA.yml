@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 138dbe69-e73f-4531-b1a4-298b354902b1
+  uuid: f9e8195f-5cc5-46d1-8be0-005aae9c58d5
 - alterId: 0
   cipher: auto
   name: 14|加拿大 036
@@ -86,6 +86,33 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
+  name: 14|🇨🇦 加拿大 035
+  network: ws
+  port: '8080'
+  server: 162.159.0.33
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-WS-NA 🇨🇦 CA-104.234.69.24...
+  network: ws
+  port: 53259
+  server: 104.234.69.243
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4dd6c192-8284-4504-9dee-5ca7da27069b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 15|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -93,4 +120,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 78c8de3a-1d4e-41c7-8783-65e997a3245e
+  uuid: 864633ed-435f-42ba-9ce7-190869e19caf
