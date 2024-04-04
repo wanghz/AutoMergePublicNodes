@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ff0f5867-a8bb-45d6-b119-781abeaccab6
+  uuid: 901bd67e-8853-4def-bc7d-66df860188c6
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ff0f5867-a8bb-45d6-b119-781abeaccab6
+  uuid: 901bd67e-8853-4def-bc7d-66df860188c6
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ff0f5867-a8bb-45d6-b119-781abeaccab6
+  uuid: 901bd67e-8853-4def-bc7d-66df860188c6
 - name: 13|🇸🇬·新加坡·TG@kkouokk·2
   network: tcp
   password: 9d1bb718-f429-40eb-9373-3e6d588ff78c
@@ -38,6 +38,31 @@ proxies:
   sni: www.baidu.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
+  network: ws
+  port: '26012'
+  server: 146.190.84.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
+  ws-opts:
+    headers:
+      Host: tiktok.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-WS-NONE 🇸🇬 SG-146.190.87....
+  network: ws
+  port: 19193
+  server: 146.190.87.238
+  tls: false
+  type: vmess
+  uuid: 0f94fdae-5653-4314-9c92-e57e5ec55513
+  ws-opts:
+    path: /ow
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
@@ -61,7 +86,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: aec5530f-e850-4fba-8c04-b77437930936
+  uuid: 8067cd05-805a-4876-a7cd-8e5b7d22d963
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 05 | 1x SG
@@ -71,7 +96,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: aec5530f-e850-4fba-8c04-b77437930936
+  uuid: 8067cd05-805a-4876-a7cd-8e5b7d22d963
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 06 | 1x SG
@@ -81,12 +106,20 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: aec5530f-e850-4fba-8c04-b77437930936
+  uuid: 8067cd05-805a-4876-a7cd-8e5b7d22d963
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇸🇬 新加坡|@ripaojiedian
+  password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
+  port: 20109
+  server: ddns.olucloud.subapi.cc
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.231.229.48
+  server: 13.215.156.208
   tfo: false
   type: ss
