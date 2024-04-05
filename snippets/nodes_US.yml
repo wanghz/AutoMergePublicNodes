@@ -230,7 +230,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7e78ecef-43b3-49f1-9977-8e337f92648d
+  uuid: 95c25ccb-f79c-48da-b807-929a0a744ce8
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -240,7 +240,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7e78ecef-43b3-49f1-9977-8e337f92648d
+  uuid: 95c25ccb-f79c-48da-b807-929a0a744ce8
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -250,7 +250,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7e78ecef-43b3-49f1-9977-8e337f92648d
+  uuid: 95c25ccb-f79c-48da-b807-929a0a744ce8
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -455,12 +455,6 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: aes-256-cfb
-  name: 13|🇺🇸·美国·TG@kkouokk·6
-  password: amazonskr05
-  port: 443
-  server: 34.222.137.60
-  type: ss
 - alterId: 0
   cipher: auto
   name: 14|💰🇺🇸 US 154.21.93.94 ◈ ws:32339...
@@ -1348,7 +1342,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 26b8091e-af09-44e2-9e30-a283f7282f93
+  uuid: a99388c9-7f8e-406b-8816-502e495b5f99
 - alterId: 0
   cipher: auto
   name: 15|【BGP】美国 05 | 1x US
@@ -1358,7 +1352,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 26b8091e-af09-44e2-9e30-a283f7282f93
+  uuid: a99388c9-7f8e-406b-8816-502e495b5f99
 - alterId: 0
   cipher: auto
   name: 15|【BGP】美国 06 | 1x US
@@ -1368,7 +1362,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 26b8091e-af09-44e2-9e30-a283f7282f93
+  uuid: a99388c9-7f8e-406b-8816-502e495b5f99
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
