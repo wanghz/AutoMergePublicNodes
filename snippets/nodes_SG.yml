@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 95c25ccb-f79c-48da-b807-929a0a744ce8
+  uuid: 475852fa-1fc6-450a-b49d-3316a9d1ca4f
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 95c25ccb-f79c-48da-b807-929a0a744ce8
+  uuid: 475852fa-1fc6-450a-b49d-3316a9d1ca4f
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 95c25ccb-f79c-48da-b807-929a0a744ce8
+  uuid: 475852fa-1fc6-450a-b49d-3316a9d1ca4f
 - name: 13|🇸🇬·新加坡·TG@kkouokk·2
   network: tcp
   password: 9d1bb718-f429-40eb-9373-3e6d588ff78c
@@ -40,6 +40,47 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: 14|SG_youtube@资源分享师_217
+  network: ws
+  port: 80
+  server: sg03.oliviapretty.online
+  tls: false
+  type: vmess
+  uuid: b5f40979-0200-428c-8ae1-f8c981560dd3
+  ws-opts:
+    headers:
+      Host: sg03.oliviapretty.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|SG_speednode_0087
+  network: ws
+  port: 80
+  server: sg04.victorialouisa.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ecbc3680-a5f0-4ac2-b790-2ed6e72564f3
+  ws-opts:
+    headers:
+      Host: sg04.victorialouisa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
+  network: ws
+  port: 26012
+  server: 146.190.84.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
+  ws-opts:
+    headers:
+      Host: tiktok.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 15|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -47,7 +88,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a99388c9-7f8e-406b-8816-502e495b5f99
+  uuid: d1e52507-6aae-448b-a121-1d9349ffe35e
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 05 | 1x SG
@@ -57,7 +98,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a99388c9-7f8e-406b-8816-502e495b5f99
+  uuid: d1e52507-6aae-448b-a121-1d9349ffe35e
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 06 | 1x SG
@@ -67,7 +108,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a99388c9-7f8e-406b-8816-502e495b5f99
+  uuid: d1e52507-6aae-448b-a121-1d9349ffe35e
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
