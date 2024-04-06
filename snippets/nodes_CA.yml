@@ -62,6 +62,16 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
+  name: 10|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.a3b5wy.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 1e72b813-1851-4a29-bb99-950c14ba0b7b
+- alterId: 0
+  cipher: auto
   name: '14|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
   port: '443'
@@ -299,4 +309,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d9a5e41-693d-4a6b-a8b3-8e59b8a69254
+  uuid: cb5ed77d-bd05-47ef-868d-366677d79323
