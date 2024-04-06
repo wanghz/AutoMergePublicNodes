@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8508684d-5128-4439-b775-74d77ee160c7
+  uuid: b45d10dc-1191-49b3-87d6-ad4485f21391
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8508684d-5128-4439-b775-74d77ee160c7
+  uuid: b45d10dc-1191-49b3-87d6-ad4485f21391
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8508684d-5128-4439-b775-74d77ee160c7
+  uuid: b45d10dc-1191-49b3-87d6-ad4485f21391
 - name: 13|🇸🇬·新加坡·TG@kkouokk·2
   network: tcp
   password: 9d1bb718-f429-40eb-9373-3e6d588ff78c
@@ -40,19 +40,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 14|SG_youtube@资源分享师_217
-  network: ws
-  port: 80
-  server: sg03.oliviapretty.online
-  tls: false
-  type: vmess
-  uuid: b5f40979-0200-428c-8ae1-f8c981560dd3
-  ws-opts:
-    headers:
-      Host: sg03.oliviapretty.online
-    path: /
-- alterId: 0
-  cipher: auto
   name: 15|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -60,7 +47,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 09f03236-1807-443c-a92d-7a21f31e97c1
+  uuid: 39f0107b-1e6e-4663-a7d9-a6bf7592a935
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 05 | 1x SG
@@ -70,7 +57,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 09f03236-1807-443c-a92d-7a21f31e97c1
+  uuid: 39f0107b-1e6e-4663-a7d9-a6bf7592a935
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 06 | 1x SG
@@ -80,12 +67,39 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 09f03236-1807-443c-a92d-7a21f31e97c1
+  uuid: 39f0107b-1e6e-4663-a7d9-a6bf7592a935
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16,17|新加坡|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1b06158a-ea35-4e54-885d-d1eb61f34278
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.214.212.171
+  server: 13.124.212.29
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 17|新加坡2|@ripaojiedian
+  network: tcp
+  port: '37996'
+  server: 9898.fz-6-0-kcet8y0fd-so04.my777999.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
