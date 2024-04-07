@@ -69,7 +69,76 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8263a5f1-547a-44a4-a0d4-73f2ebd21165
+  uuid: 294c6b2d-1985-4667-be2c-0f25270be1bb
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 055
+  network: ws
+  port: 443
+  server: 162.159.192.83
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: nina.bond
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 14|🇨🇦 加拿大 049
+  network: ws
+  port: '2096'
+  server: speed.cloudflare.com
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: worker-divine-hat-02d6.savofir317.workers.dev
+    path: /nina.bond/linkvws
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 058
+  network: ws
+  port: 443
+  server: maviss.cfd
+  servername: maviss.cfd
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: maviss.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 005
+  network: ws
+  port: 2095
+  server: 172.67.214.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 056
+  network: ws
+  port: 443
+  server: myrna.fun
+  servername: myrna.fun
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: myrna.fun
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: '14|Channel id: @ShadowProxy66 🇨🇦'
@@ -83,6 +152,20 @@ proxies:
   ws-opts:
     headers:
       Host: nelly.homes
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 061
+  network: ws
+  port: 443
+  server: maxin.beauty
+  servername: maxin.beauty
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: maxin.beauty
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -100,82 +183,74 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 14|加拿大 055
-  network: ws
-  port: 443
-  server: 162.159.192.83
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: nina.bond
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 14|🇨🇦 加拿大 036
-  network: ws
-  port: '80'
-  server: 104.21.94.251
-  tls: false
-  type: vmess
-  uuid: c7421a39-020d-4a01-97ed-9eacbce0a7ca
-  ws-opts:
-    headers:
-      Host: de2.xv2ray.net
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 061
-  network: ws
-  port: 443
-  server: maxin.beauty
-  servername: maxin.beauty
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: maxin.beauty
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大 049
-  network: ws
-  port: 2096
-  server: speed.cloudflare.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: worker-divine-hat-02d6.savofir317.workers.dev
-    path: /nina.bond/linkvws
-- alterId: 0
-  cipher: auto
-  name: 14|🇨🇦 加拿大 056
+  name: '14|Channel id: @ShadowProxy66 🇨🇦 #1'
   network: ws
   port: '443'
-  server: myrna.fun
+  server: 104.21.15.36
+  servername: linde06.indiavideo.sbs
   tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 051
+  network: ws
+  port: 2095
+  server: speed.cloudflare.com
+  servername: ''
+  tls: false
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: myrna.fun
-    path: /linkvws
+      Host: freevpn878.hamidimorteza680.workers.dev
+    path: /vip2323.cfd/linkvws
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
+  name: 14|加拿大 002
+  network: ws
+  port: 2095
+  server: 104.21.23.231
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '14|Channel id: @ShadowProxy66 🇨🇦 #2'
+  network: ws
+  port: '443'
+  server: 104.21.4.6
+  servername: glweidf.cfd
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: glweidf.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '14|Channel id: @ShadowProxy66 🇨🇦 #3'
+  network: ws
+  port: '443'
+  server: 104.21.15.212
+  servername: glweidf.sbs
+  tls: true
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: glweidf.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 15|【BGP】加拿大 02 | 1x CA
@@ -185,4 +260,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 87274543-78a8-4c4a-91ba-9fa4c587189b
+  uuid: ffde7309-f683-4f3d-b518-0dde58edede9
