@@ -4,31 +4,31 @@ proxies:
   name: 10|🇸🇬新加坡04
   network: tcp
   port: '36201'
-  server: 9s5g04.a3b5wy.xyz
+  server: free.2weradf.xyz
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b0b61656-cd54-4cc4-b307-788474050f01
+  uuid: 9c187684-9882-4e87-9c68-1d40a3ccadf4
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
   network: tcp
   port: '36206'
-  server: 9s5g05.a3b5wy.xyz
+  server: free.2weradf.xyz
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b0b61656-cd54-4cc4-b307-788474050f01
+  uuid: 9c187684-9882-4e87-9c68-1d40a3ccadf4
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
   network: tcp
   port: '36211'
-  server: 9s5g06.a3b5wy.xyz
+  server: free.2weradf.xyz
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b0b61656-cd54-4cc4-b307-788474050f01
+  uuid: 9c187684-9882-4e87-9c68-1d40a3ccadf4
 - name: 13|🇸🇬·新加坡·TG@kkouokk·34
   network: tcp
   password: 9d1bb718-f429-40eb-9373-3e6d588ff78c
@@ -57,31 +57,31 @@ proxies:
   name: 15|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
-  server: 1c7s2g04.m3c5wy.xyz
+  server: free.2apzhfa.xyz
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7b09dac-2c0c-430d-b025-f3a975ddced2
+  uuid: e2f3e771-9b7a-4df2-84f1-4f24ff583463
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 05 | 1x SG
   network: tcp
   port: '31206'
-  server: 1c7s2g05.m3c5wy.xyz
+  server: free.2apzhfa.xyz
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7b09dac-2c0c-430d-b025-f3a975ddced2
+  uuid: e2f3e771-9b7a-4df2-84f1-4f24ff583463
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 06 | 1x SG
   network: tcp
   port: '31211'
-  server: 1c7s2g06.m3c5wy.xyz
+  server: free.2apzhfa.xyz
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7b09dac-2c0c-430d-b025-f3a975ddced2
+  uuid: e2f3e771-9b7a-4df2-84f1-4f24ff583463
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
