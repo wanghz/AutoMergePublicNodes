@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 277dcace-f349-408d-9365-a8bf1fd9e167
+  uuid: 4385ddc7-8729-43e1-bd72-c162642a37de
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 277dcace-f349-408d-9365-a8bf1fd9e167
+  uuid: 4385ddc7-8729-43e1-bd72-c162642a37de
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,21 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 277dcace-f349-408d-9365-a8bf1fd9e167
-- alterId: 0
-  cipher: auto
-  name: 14|SG_粉爱福利线路_2
-  network: ws
-  port: 80
-  server: sg4g.xn--vhq70hxyat50h6wk.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1f9b54af-3ab1-48c8-b58c-59d8d78277af
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 4385ddc7-8729-43e1-bd72-c162642a37de
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 04 | 1x SG
@@ -52,7 +38,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 04df07af-a728-4259-bcd5-8c3b5c410ef8
+  uuid: 0392c3c7-fb59-41c2-b284-3df905f56312
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 05 | 1x SG
@@ -62,7 +48,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 04df07af-a728-4259-bcd5-8c3b5c410ef8
+  uuid: 0392c3c7-fb59-41c2-b284-3df905f56312
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 06 | 1x SG
@@ -72,29 +58,20 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 04df07af-a728-4259-bcd5-8c3b5c410ef8
-- alterId: 0
-  cipher: auto
+  uuid: 0392c3c7-fb59-41c2-b284-3df905f56312
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16,17|新加坡|@ripaojiedian
-  network: ws
-  port: '21021'
-  server: sg.lianjianode.cc
-  servername: ''
-  skip-cert-verify: false
+  name: 16|🇸🇬 新加坡|@ripaojiedian
+  password: 4feb33c2-cb06-4371-a572-243d47b789d9
+  port: 20009
+  server: ddns.olucloud.subapi.cc
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 44ceed0a-7421-4da0-b968-c30cb933a89d
-  ws-opts:
-    headers:
-      Host: sg1.luodi.xyz
-    path: /singapore
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.195.237.198
+  server: 54.71.116.112
   tfo: false
   type: ss
