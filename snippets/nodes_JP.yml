@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7460936b-1f80-4b20-b8eb-ea787a1fbcfd
+  uuid: 5f47709f-1990-436a-b437-4ed0a31a35f2
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7460936b-1f80-4b20-b8eb-ea787a1fbcfd
+  uuid: 5f47709f-1990-436a-b437-4ed0a31a35f2
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,62 +28,19 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7460936b-1f80-4b20-b8eb-ea787a1fbcfd
+  uuid: 5f47709f-1990-436a-b437-4ed0a31a35f2
 - alterId: 0
   cipher: auto
-  name: 14|RU_分享日记
+  name: 14|🇯🇵 日本 东京Choopa数据中心
   network: tcp
-  port: '47555'
-  server: 46.29.166.237
-  servername: ''
+  port: '14935'
+  server: 167.179.111.237
   tls: false
   type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
-  name: 14|VN_分享日记
-  network: ws
-  port: '80'
-  server: bs4.loadingip.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e5999ba-870a-46b1-8500-37c640371ec6
-  ws-opts:
-    headers:
-      Host: bs4.loadingip.com
-    path: /bs
-- alterId: 0
-  cipher: auto
-  name: 14|GB_分享日记
-  network: ws
-  port: '80'
-  server: www.wwbio.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4f864ae4-6c08-4537-a9f3-75ce3121b8e9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|节点日期：04-12
-  network: ws
-  port: '80'
-  server: 172.64.104.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
-  ws-opts:
-    headers:
-      Host: fr.grpc.gay
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 14|JP_分享日记
+  name: 14|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
   network: ws
   port: '12345'
   server: 152.69.197.74
@@ -97,6 +54,29 @@ proxies:
     path: /bb
 - alterId: 0
   cipher: auto
+  name: 14|🇯🇵 日本 001
+  network: ws
+  port: '8080'
+  server: kkyx.yydsii.com
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|RU_分享日记
+  network: tcp
+  port: '47555'
+  server: 46.29.166.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- alterId: 0
+  cipher: auto
   name: 15|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -104,7 +84,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 200b5c1b-a885-418f-9f26-1007c2172cc0
+  uuid: 79075806-4484-45ae-a207-3176c5ffdf49
 - alterId: 0
   cipher: auto
   name: 15|【BGP】日本 05  | 1x JP
@@ -114,7 +94,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 200b5c1b-a885-418f-9f26-1007c2172cc0
+  uuid: 79075806-4484-45ae-a207-3176c5ffdf49
 - alterId: 0
   cipher: auto
   name: 15|【BGP】日本 06  | 1x JP
@@ -124,15 +104,24 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 200b5c1b-a885-418f-9f26-1007c2172cc0
-- cipher: chacha20-ietf-poly1305
+  uuid: 79075806-4484-45ae-a207-3176c5ffdf49
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 16|🇯🇵 日本1|@ripaojiedian
-  password: 4feb33c2-cb06-4371-a572-243d47b789d9
-  port: 50005
-  server: ddns.olucloud.subapi.cc
+  name: 16,17|日本3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: e7bd848c-c1c9-40a4-b1d9-eba048a340c5
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇯🇵 日本特殊|@ripaojiedian
@@ -145,9 +134,9 @@ proxies:
   cipher: auto
   name: 17|日本|@ripaojiedian
   network: tcp
-  port: '13820'
-  server: c76s4.portablesubmarines.com
+  port: '30038'
+  server: 183.240.179.207
   servername: ''
   tls: false
   type: vmess
-  uuid: f094f632-5113-4f1c-8398-25077be216b0
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
