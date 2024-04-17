@@ -69,24 +69,10 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 895b6d90-b9c7-4305-a202-532459104548
+  uuid: 111dca5a-7fbb-4631-9b56-2ed7e23751e2
 - alterId: 0
   cipher: auto
-  name: 14|加拿大 015
-  network: ws
-  port: 2082
-  server: 104.26.5.32
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 009d320a-5960-49e6-99c3-301966ff6fea
-  ws-opts:
-    headers:
-      Host: bbh.redbullplus.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|CA_speednode_0001
+  name: 11,14|CA_speednode_0001
   network: ws
   port: 443
   server: 158.51.123.111
@@ -98,6 +84,19 @@ proxies:
     headers:
       Host: ''
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 14|🇨🇦 加拿大 034
+  network: ws
+  port: '8080'
+  server: 172.67.169.90
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '14|Channel id: @ShadowProxy66 🇨🇦'
@@ -114,35 +113,39 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 14|CA_speednode_0003
+  name: '14|Channel id: @ShadowProxy66 🇨🇦 #1'
   network: ws
-  port: 443
-  server: 23.162.200.227
-  servername: 23.162.200.227
+  port: '443'
+  server: 104.21.15.36
+  servername: linde06.indiavideo.sbs
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   ws-opts:
     headers:
-      Host: ''
-    path: /linkvws
+      Host: linde06.indiavideo.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
-  name: 14|Canada_Toronto_vmess_10155
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
+  name: 14|加拿大 003
+  network: ws
+  port: 8080
+  server: 172.67.199.185
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 14|CA_speednode_0002
+  name: 14|加拿大 002
   network: ws
   port: 443
   server: 158.51.121.36
-  servername: ''
+  servername: 158.51.121.36
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -159,4 +162,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4ed9ce9b-62d6-4d8a-a82a-627b4f6cb91b
+  uuid: 46257dd7-7a75-49c5-81f9-2ba7497998a0

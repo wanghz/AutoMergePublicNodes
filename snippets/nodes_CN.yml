@@ -1,25 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|广东省汕头市 移动
-  network: tcp
-  port: '30055'
-  server: 183.240.179.207
-  tls: false
-  type: vmess
-  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
-- alterId: 0
-  cipher: auto
-  name: 11,17|日本2|@ripaojiedian
-  network: tcp
-  port: '30039'
-  server: 183.240.179.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
-- alterId: 0
-  cipher: auto
   name: 11,12|github.com/freefq - 广东省移动 7
   network: ws
   port: '20401'
@@ -32,19 +13,8 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 64
-  cipher: auto
-  name: 11,17|香港|@ripaojiedian
-  network: tcp
-  port: '54437'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 13,16|🇹🇼 台湾2|@ripaojiedian
+  name: 13|🇳·中国·TG@kkouokk·159
   obfs: tls1.2_ticket_auth
   obfs-param: 6f41b24.microsoft.com
   password: Fhbe0z
@@ -64,8 +34,7 @@ proxies:
   server: 183.240.220.84
   type: ssr
 - cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 13,16|🇭🇰 香港4|@ripaojiedian
+  name: 13|🇨🇳·中国·TG@kkouokk·161
   obfs: tls1.2_ticket_auth
   obfs-param: 6f41b24.microsoft.com
   password: Fhbe0z
@@ -125,8 +94,7 @@ proxies:
   server: 120.232.240.1
   type: ssr
 - cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 13,16|🇯🇵 日本|@ripaojiedian
+  name: 13|🇨🇳·中国·TG@kkouokk·167
   obfs: tls1.2_ticket_auth
   obfs-param: 6f41b24.microsoft.com
   password: Fhbe0z
