@@ -69,10 +69,24 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a0c047e7-12d7-4148-81ba-940cc0310a9a
+  uuid: bd7ad508-e155-44f2-a47b-5c587e8afce5
 - alterId: 0
   cipher: auto
-  name: 11,14|🇨🇦 加拿大
+  name: 14|加拿大 001
+  network: ws
+  port: 2086
+  server: 104.21.4.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|🇨🇦 加拿大
   network: ws
   port: 443
   server: 158.51.123.111
@@ -84,16 +98,6 @@ proxies:
     headers:
       Host: ''
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 14|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 14|加拿大 002
@@ -110,6 +114,20 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: '14|Channel id: @ShadowProxy66 🇨🇦'
+  network: ws
+  port: '443'
+  server: 104.21.15.36
+  servername: linde06.indiavideo.sbs
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
   name: 14|加拿大 034
   network: ws
   port: 8080
@@ -124,17 +142,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '14|Channel id: @ShadowProxy66 🇨🇦'
+  name: '14|Channel id: @ShadowProxy66 🇨🇦 #1'
   network: ws
   port: '443'
-  server: maviss.cfd
-  servername: ''
+  server: martina.quest
+  servername: martina.quest
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ''
+      Host: martina.quest
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -145,4 +163,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 40b81061-abb4-4ea0-aed9-27558c42748d
+  uuid: 74e10cb0-d0f0-41d8-913c-b0c157d15d3c
