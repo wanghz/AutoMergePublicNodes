@@ -69,28 +69,13 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2b80d421-99d9-4df4-9d99-3db6f12b856a
+  uuid: d8dd532e-cef0-4911-8665-9e829139bbcc
 - alterId: 0
   cipher: auto
-  name: 14|加拿大 003
-  network: ws
-  port: 8080
-  server: 172.67.199.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|[🇨🇦]t.me/ConfigsHub_26
+  name: 11|加拿大 v2rayfree.eu.org
   network: ws
   port: 443
-  server: maxin.beauty
-  servername: ''
+  server: 158.51.123.111
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -100,21 +85,21 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '14|6|🇨🇦_CA_加拿大 #2'
+  name: '14|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
-  port: 8080
-  server: 108.181.23.161
-  servername: ''
-  tls: false
+  port: '443'
+  server: 104.21.83.108
+  servername: hms02.fxiaomi.sbs
+  tls: true
   type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
   ws-opts:
     headers:
-      Host: ''
-    path: /1IKYjV0r/
+      Host: hms02.fxiaomi.sbs
+    path: /link
 - alterId: 0
   cipher: auto
-  name: 14|CA_speednode_0001
+  name: 14|加拿大-1.63MB/s
   network: ws
   port: 443
   server: 158.51.123.111
@@ -124,8 +109,36 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
+      Host: 158.51.123.111
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 14|CA_speednode_0003
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: 23.162.200.227
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
       Host: ''
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '14|Channel id: @ShadowProxy66 🇨🇦 #1'
+  network: ws
+  port: '443'
+  server: jahfkjha.cfd
+  servername: jahfkjha.cfd
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 14|加拿大 002
@@ -142,59 +155,32 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 14|🇨🇦 加拿大 001
+  name: 14|加拿大 003
   network: ws
-  port: '2086'
-  server: 104.21.4.14
+  port: 8080
+  server: 172.67.199.185
+  servername: ''
   tls: false
   type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: admin.arzonhost.ir
+      Host: oiictw.yydsii.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 14|[🇨🇦]t.me/ConfigsHub_3
+  name: '14|Channel id: @ShadowProxy66 🇨🇦 #2'
   network: ws
-  port: 443
-  server: jahfkjha.cfd
-  servername: ''
+  port: '443'
+  server: 172.67.170.13
+  servername: glweidf.sbs
   tls: true
   type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
   ws-opts:
     headers:
-      Host: ''
+      Host: glweidf.sbs
     path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_多伦多_25
-  network: ws
-  port: 2086
-  server: mizban.arzonhost.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|%F0%9F%87%A8%F0%9F%87%A6%20Can...
-  network: ws
-  port: 8443
-  server: v014.583181.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6bcb91d7-3d6b-40ad-93f4-b326d0ed20a4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 15|【BGP】加拿大 02 | 1x CA
@@ -204,4 +190,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cd47abbc-eb9a-4b16-b0eb-6e603eab29ca
+  uuid: 497e062f-d271-4feb-bc43-69ef5ce0d3f5
