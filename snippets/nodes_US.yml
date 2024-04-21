@@ -214,7 +214,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2071ff0f-c2c4-4d41-9d74-554a2e5f7615
+  uuid: 311e4450-db0e-4aa3-9648-f0a6a0228cb8
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -224,7 +224,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2071ff0f-c2c4-4d41-9d74-554a2e5f7615
+  uuid: 311e4450-db0e-4aa3-9648-f0a6a0228cb8
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -234,7 +234,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2071ff0f-c2c4-4d41-9d74-554a2e5f7615
+  uuid: 311e4450-db0e-4aa3-9648-f0a6a0228cb8
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -893,7 +893,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 98902d0c-cdab-4be0-9a3b-fccdb064f39a
+  uuid: 797eb2d7-9285-4760-983e-123b34748877
 - alterId: 0
   cipher: auto
   name: 15|【BGP】美国 05 | 1x US
@@ -903,7 +903,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 98902d0c-cdab-4be0-9a3b-fccdb064f39a
+  uuid: 797eb2d7-9285-4760-983e-123b34748877
 - alterId: 0
   cipher: auto
   name: 15|【BGP】美国 06 | 1x US
@@ -913,7 +913,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 98902d0c-cdab-4be0-9a3b-fccdb064f39a
+  uuid: 797eb2d7-9285-4760-983e-123b34748877
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
