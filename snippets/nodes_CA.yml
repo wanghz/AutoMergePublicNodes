@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 48bebe1e-596b-4e3d-b92f-c06380508c33
+  uuid: b7dffdc6-8f86-417f-9a2e-8f09c7c25082
 - alterId: 0
   cipher: auto
   name: '14|Channel id: @ShadowProxy66 🇨🇦'
@@ -126,6 +126,23 @@ proxies:
     headers:
       Host: helanv6cf.inekokkk.top
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,16,17|新加坡|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aa385f39-d784-4b80-9725-c3904a337cf8
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
   name: 14|加拿大 002
@@ -190,4 +207,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2a6228ed-2b52-4bf0-a1b1-a3dd79c1e8e4
+  uuid: ec0aa878-97d0-4467-8621-cc5da53052f4
