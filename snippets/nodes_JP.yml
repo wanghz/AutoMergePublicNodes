@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 311e4450-db0e-4aa3-9648-f0a6a0228cb8
+  uuid: bd2e8a15-555a-4292-ad16-2c79fd8c9654
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 311e4450-db0e-4aa3-9648-f0a6a0228cb8
+  uuid: bd2e8a15-555a-4292-ad16-2c79fd8c9654
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 311e4450-db0e-4aa3-9648-f0a6a0228cb8
+  uuid: bd2e8a15-555a-4292-ad16-2c79fd8c9654
 - alterId: 0
   cipher: auto
   name: 11|日本 东京Fastly节点
@@ -45,15 +45,18 @@ proxies:
     path: /aries?ed=2560
 - alterId: 0
   cipher: auto
-  name: 14|NL_分享日记_28
+  name: 14|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
   network: ws
-  port: 443
-  server: nl2-full.privateip.net
-  tls: true
+  port: 12345
+  server: 152.69.197.74
+  servername: ''
+  tls: false
   type: vmess
-  uuid: fcea439c-dda2-4d6a-9764-e32557f04f4a
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
   ws-opts:
-    path: /RACEVPN
+    headers:
+      Host: ''
+    path: /bb
 - alterId: 0
   cipher: auto
   name: 14|DE_分享日记_18
@@ -69,31 +72,6 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 14|AU_分享日记_6
-  network: ws
-  port: 443
-  server: au-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: e7032fbd-34ca-46b2-9c07-238bc837d25d
-  ws-opts:
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 14|JP_speednode_0067
-  network: ws
-  port: 80
-  server: 18.179.199.9
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bed1af89-0b18-44f8-90d4-1e1cf662f8fd
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 14|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
   network: tcp
   port: '14935'
@@ -104,29 +82,15 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
-  name: 14|DE_分享日记_21
+  name: 14|NL_分享日记_28
   network: ws
   port: 443
-  server: de2-full.privateip.net
+  server: nl2-full.privateip.net
   tls: true
   type: vmess
-  uuid: 532ce22b-91e2-4a05-9805-765b5dff2345
+  uuid: fcea439c-dda2-4d6a-9764-e32557f04f4a
   ws-opts:
     path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 14|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
 - alterId: 0
   cipher: auto
   name: 15|【BGP】日本 04  | 1x JP
@@ -136,7 +100,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 797eb2d7-9285-4760-983e-123b34748877
+  uuid: 63918964-7563-4841-a87e-a1a2f2331361
 - alterId: 0
   cipher: auto
   name: 15|【BGP】日本 05  | 1x JP
@@ -146,7 +110,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 797eb2d7-9285-4760-983e-123b34748877
+  uuid: 63918964-7563-4841-a87e-a1a2f2331361
 - alterId: 0
   cipher: auto
   name: 15|【BGP】日本 06  | 1x JP
@@ -156,76 +120,29 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 797eb2d7-9285-4760-983e-123b34748877
+  uuid: 63918964-7563-4841-a87e-a1a2f2331361
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16,17|日本|@ripaojiedian
+  name: 16,17|日本2|@ripaojiedian
   network: ws
-  port: '80'
-  server: 54.249.13.12
+  port: '2052'
+  server: cfcdn3.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: cc8624d9-9012-41fc-a425-0039ad48ae85
+  uuid: aa385f39-d784-4b80-9725-c3904a337cf8
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|日本3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 18.179.199.9
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 146f5892-29b5-4f91-b96c-62a0f92c7690
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /?ed
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  port: 46011
-  server: mmjp11.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
-  ws-opts:
-    headers:
-      Host: mmjp11.micloud.buzz
-    path: /zh-cn
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.215.162.189
+  server: 13.124.178.1
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 17|日本4|@ripaojiedian
-  network: ws
-  port: '46011'
-  server: mmjp11.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn

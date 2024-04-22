@@ -69,10 +69,10 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 311e4450-db0e-4aa3-9648-f0a6a0228cb8
+  uuid: bd2e8a15-555a-4292-ad16-2c79fd8c9654
 - alterId: 0
   cipher: auto
-  name: 11,14|CA_speednode_0004
+  name: 14|加拿大 002
   network: ws
   port: 443
   server: 158.51.121.36
@@ -86,10 +86,23 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 14|加拿大 003
+  name: 14|🇨🇦 加拿大 006
+  network: ws
+  port: '2095'
+  server: 104.16.67.38
+  tls: false
+  type: vmess
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  ws-opts:
+    headers:
+      Host: uare-truth-7033.rijiwex893.workers.dev
+    path: /ming2.kiwireich.com/ray
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 034
   network: ws
   port: 8080
-  server: 172.67.199.185
+  server: 172.67.169.90
   servername: ''
   tls: false
   type: vmess
@@ -100,17 +113,32 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 14|🇨🇦 加拿大 001
+  name: '14|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
-  port: '2086'
-  server: 104.21.4.14
-  tls: false
+  port: '443'
+  server: 104.21.83.108
+  servername: hms02.fxiaomi.sbs
+  tls: true
   type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
   ws-opts:
     headers:
-      Host: admin.arzonhost.ir
-    path: /
+      Host: hms02.fxiaomi.sbs
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: '14|Channel id: @ShadowProxy66 🇨🇦 #1'
+  network: ws
+  port: '443'
+  server: 104.21.15.36
+  servername: linde06.indiavideo.sbs
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 14|🇨🇦 加拿大
@@ -127,47 +155,6 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '14|Channel id: @ShadowProxy66 🇨🇦'
-  network: ws
-  port: '443'
-  server: jahfkjha.cfd
-  servername: jahfkjha.cfd
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
-- alterId: 64
-  cipher: auto
-  name: 14|CA_speednode_0006
-  network: ws
-  port: 443
-  server: 71.19.248.159
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 3d173f0a-138b-4baf-9ec6-4848243e0a12
-  ws-opts:
-    headers:
-      Host: www.91856095.xyz
-    path: /path/180401120101
-- alterId: 0
-  cipher: auto
-  name: 14|🇨🇦 加拿大 006
-  network: ws
-  port: '2095'
-  server: 104.16.67.38
-  tls: false
-  type: vmess
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-  ws-opts:
-    headers:
-      Host: uare-truth-7033.rijiwex893.workers.dev
-    path: /ming2.kiwireich.com/ray
-- alterId: 0
-  cipher: auto
   name: 15|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -175,4 +162,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 797eb2d7-9285-4760-983e-123b34748877
+  uuid: 63918964-7563-4841-a87e-a1a2f2331361
