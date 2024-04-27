@@ -1,31 +1,24 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11|广东省广州市 移动
-  network: tcp
-  port: '41492'
-  server: 120.232.242.117
+  name: 11|广东省深圳市 移动
+  network: ws
+  port: '20301'
+  server: data-jp-v1.usabooks.com.cn
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-jp-v1.usabooks.com.cn
+    path: /debian
 - alterId: 64
   cipher: auto
   name: 11|广东省 移动
   network: tcp
   port: '41242'
   server: 183.237.20.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,17|香港2|@ripaojiedian
-  network: tcp
-  port: '40259'
-  server: 120.238.122.243
-  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -102,11 +95,10 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 14|中国 阿里云（ccbaohe.com）免费机场节点
+  name: 14|🇨🇳 中国 阿里云
   network: ws
   port: '80'
-  server: 8.222.221.197
-  servername: ''
+  server: 8.218.126.53
   tls: false
   type: vmess
   uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
@@ -116,10 +108,11 @@ proxies:
     path: /needay?ed=2048
 - alterId: 0
   cipher: auto
-  name: 14|🇨🇳 中国 阿里云
+  name: 14|中国 阿里云（ccbaohe.com）免费机场节点
   network: ws
   port: '80'
-  server: 8.218.126.53
+  server: 8.222.221.197
+  servername: ''
   tls: false
   type: vmess
   uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
