@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 13|🇸🇬·新加坡·TG@kkouokk·24
+  password: amazonskr05
+  port: 443
+  server: 18.143.159.186
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
