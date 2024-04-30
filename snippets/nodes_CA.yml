@@ -69,14 +69,14 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7f4a9a95-cc90-456b-9aff-8338e9300101
+  uuid: 6b2dfea4-7d2c-4b28-8feb-a63d0d006bf8
 - alterId: 0
   cipher: auto
-  name: 11|加拿大 v2rayfree.eu.org
+  name: 14|加拿大 001
   network: ws
   port: 443
-  server: 158.51.123.111
-  servername: ''
+  server: 158.51.121.36
+  servername: 158.51.121.36
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -86,30 +86,86 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 14|🇨🇦 加拿大 015
+  name: 14|加拿大 012
   network: ws
-  port: '443'
-  server: 104.19.49.185
+  port: 443
+  server: laxfree.starsea.vip
+  servername: ''
   tls: true
   type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  uuid: 9d5041a5-99c1-417f-bcfc-d3edc7c75248
   ws-opts:
     headers:
-      Host: cfhk.393930.xyz
+      Host: laxfree.starsea.vip
     path: /
 - alterId: 0
   cipher: auto
-  name: 14|CA_08 |14.88Mb
+  name: 14|加拿大 008
   network: ws
   port: 443
-  server: 158.51.121.36
+  server: cdn2_de.majutsu.top
   servername: ''
+  tls: true
+  type: vmess
+  uuid: 61abbe9b-ac90-4dcc-99de-35e17f0ce847
+  ws-opts:
+    headers:
+      Host: cdn2_de.majutsu.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 033
+  network: ws
+  port: 80
+  server: 104.19.43.217
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: tw1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 14|🇨🇦 加拿大 034
+  network: ws
+  port: '80'
+  server: 104.19.43.51
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: tw1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大 018
+  network: ws
+  port: 2086
+  server: 104.16.64.75
+  servername: cache-us-1.cn-db.top
+  tls: false
+  type: vmess
+  uuid: bdc7d7c5-be05-3db8-93e9-4d4157bfaa17
+  ws-opts:
+    headers:
+      Host: 100.100.17.64.cn-db.top
+    path: /dabai.in756416
+- alterId: 0
+  cipher: auto
+  name: 14|CA_speednode_0003
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: 158.51.123.111
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: 158.51.121.36
+      Host: ''
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -120,4 +176,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bb3f7cb4-6170-4acd-a41e-c0030256dba3
+  uuid: c2d14196-a751-457f-b1eb-f571dd0e25a8
