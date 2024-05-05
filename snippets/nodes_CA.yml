@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1,3,14|美国 V2CROSS.COM
+  name: 1,3,11,14|美国 V2CROSS.COM
   network: ws
   port: 443
   server: 23.162.200.227
@@ -84,7 +84,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 82f3c2ca-6cd9-4a22-9ddd-c6cb24735c7a
+  uuid: 3e943081-6241-4f07-ab4c-09616139f757
 - alterId: 0
   cipher: auto
   name: 14|@DeamNet - Canada 6
@@ -317,4 +317,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3a592dd7-3845-45f1-9a4a-cf299760e55e
+  uuid: 3b6f5787-7be5-4950-b090-77b8622cc7a0
