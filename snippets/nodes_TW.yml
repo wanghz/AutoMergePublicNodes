@@ -1,27 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|台湾 03 | tcp
-  network: tcp
-  port: '80'
-  server: 7a0add83-5270-1775-a87c-691656dba7c3.bugtik.ltd
+  client-fingerprint: chrome
+  name: 16,17|台湾2|@ripaojiedian
+  network: ws
+  port: '21003'
+  server: tw.lianjianode.cc
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 3ae2132f-bc69-4782-9a65-c7ad4002b5c2
+  uuid: 4087c4c8-5c08-4dfe-8dd1-2dc20b6d9193
+  ws-opts:
+    headers:
+      Host: hinet.luodi.xyz
+    path: /hinet
 - alterId: 0
   cipher: auto
-  name: 14|台湾 04 | tcp
+  name: 17|台湾|@ripaojiedian
   network: tcp
-  port: '80'
-  server: 98ee7637-0cdb-3fe7-dd09-2f619134fb1c.bugtik.ltd
+  port: '21006'
+  server: 183.232.199.28
+  servername: ''
   tls: false
   type: vmess
-  uuid: 3ae2132f-bc69-4782-9a65-c7ad4002b5c2
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇹🇼 台湾|@ripaojiedian
-  password: c440808b-a8ad-484a-90c2-4399d5a26dbe
-  port: 23484
-  server: zy.aand.site
-  tfo: false
-  type: ss
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
