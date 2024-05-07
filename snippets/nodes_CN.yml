@@ -34,7 +34,7 @@ proxies:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
 - cipher: chacha20-ietf
-  name: 13|🇳·中国·TG@kkouokk·171
+  name: 13|🇳·中国·TG@kkouokk·153
   obfs: tls1.2_ticket_auth
   obfs-param: 6f41b24.microsoft.com
   password: Fhbe0z
@@ -44,7 +44,7 @@ proxies:
   server: 183.240.220.84
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·172
+  name: 13|🇨🇳·中国·TG@kkouokk·154
   obfs: tls1.2_ticket_auth
   obfs-param: 6f41b24.microsoft.com
   password: Fhbe0z
@@ -54,7 +54,7 @@ proxies:
   server: 183.240.220.84
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·173
+  name: 13|🇨🇳·中国·TG@kkouokk·155
   obfs: tls1.2_ticket_auth
   obfs-param: 6f41b24.microsoft.com
   password: Fhbe0z
@@ -64,7 +64,7 @@ proxies:
   server: 183.240.220.84
   type: ssr
 - cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·174
+  name: 13|🇨🇳·中国·TG@kkouokk·156
   obfs: tls1.2_ticket_auth
   obfs-param: 6f41b24.microsoft.com
   password: Fhbe0z
