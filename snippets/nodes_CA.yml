@@ -84,7 +84,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 32b7d182-ba69-4ec3-8cfb-9995e1fdc17c
+  uuid: 1bd7fde5-5f6a-4f4a-8ed6-4fcdecefc893
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9...
@@ -292,4 +292,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ca03d752-19f1-4885-b992-297c8fd38b60
+  uuid: ad98695f-4bfe-41ca-9ee3-ca234d83dada
