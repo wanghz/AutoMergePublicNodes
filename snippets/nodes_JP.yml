@@ -3,16 +3,15 @@ proxies:
   cipher: auto
   name: 11|日本 东京都Amazon数据中心
   network: ws
-  port: '80'
+  port: 80
   server: 18.181.190.41
-  servername: ''
   tls: false
   type: vmess
-  uuid: ffee3554-cf70-4a11-8d20-66f45354fc1a
+  uuid: e7c26c01-186a-479e-9218-4952353d97f1
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: tms.dingtalk.com
+    path: /
 - cipher: aes-256-cfb
   name: 13|🇵·日本·TG@kkouokk·116
   password: amazonskr05
@@ -118,7 +117,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9cdb2433-fd9c-466c-a1a8-d926e0487b6e
+  uuid: 399bb340-1fa0-4105-b69b-cb4cf441433d
 - alterId: 0
   cipher: auto
   name: 15|【BGP】日本 05  | 1x JP
@@ -128,7 +127,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9cdb2433-fd9c-466c-a1a8-d926e0487b6e
+  uuid: 399bb340-1fa0-4105-b69b-cb4cf441433d
 - alterId: 0
   cipher: auto
   name: 15|【BGP】日本 06  | 1x JP
@@ -138,7 +137,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9cdb2433-fd9c-466c-a1a8-d926e0487b6e
+  uuid: 399bb340-1fa0-4105-b69b-cb4cf441433d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
