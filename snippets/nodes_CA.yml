@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59ace0bb-23d0-40a5-a2b5-eabe61195836
+  uuid: 0a2349a5-b140-40bb-befe-1b471df30d97
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9...
@@ -94,6 +94,20 @@ proxies:
     headers:
       Host: hms02.fxiaomi.sbs
     path: /link
+- alterId: 0
+  cipher: auto
+  name: 14|@DeamNet - Canada 6
+  network: ws
+  port: 443
+  server: hms04.xmivideo.cfd
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      Host: xmivideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 14|🇨🇦 加拿大
@@ -277,4 +291,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4c89a1ec-d85e-4881-88bc-35a3bcea6911
+  uuid: 040758ab-7560-474f-a911-6894c3d60627
