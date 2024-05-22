@@ -18,10 +18,12 @@ proxies:
   server: 47.128.72.90
   type: ss
 - cipher: aes-256-cfb
-  name: 13|🇸🇬·新加坡·TG@kkouokk·114
+  client-fingerprint: chrome
+  name: 13,16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.143.159.186
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -71,11 +73,28 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16,17|新加坡3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: visa.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f405eff1-9372-4004-b204-ea6edade31cb
+  ws-opts:
+    headers:
+      Host: acmf.zhangyan56.pp.ua
+    path: /cdcxddd
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.219.161.56
+  server: 43.201.47.36
   tfo: false
   type: ss
