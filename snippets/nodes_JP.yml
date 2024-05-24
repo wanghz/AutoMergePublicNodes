@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|日本 东京Fastly节点
-  network: ws
-  port: '80'
-  server: www.hkbu.edu.hk
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0b05000-23dd-4de9-9041-ec130166ff1a
-  ws-opts:
-    headers:
-      Host: nmsl.kp
-    path: /aries?ed=2048
 - cipher: aes-256-cfb
   name: 13|🇵·日本·TG@kkouokk·116
   password: amazonskr05
@@ -118,7 +104,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8bb03e95-f8a9-4401-8c4a-8e579b4d566b
+  uuid: 8594c9cc-afd3-46f9-afe6-464c2cad1e7a
 - alterId: 0
   cipher: auto
   name: 15|【BGP】日本 05  | 1x JP
@@ -128,7 +114,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8bb03e95-f8a9-4401-8c4a-8e579b4d566b
+  uuid: 8594c9cc-afd3-46f9-afe6-464c2cad1e7a
 - alterId: 0
   cipher: auto
   name: 15|【BGP】日本 06  | 1x JP
@@ -138,17 +124,32 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8bb03e95-f8a9-4401-8c4a-8e579b4d566b
+  uuid: 8594c9cc-afd3-46f9-afe6-464c2cad1e7a
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.183.73.152
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|日本3|@ripaojiedian
+  name: 17|日本2|@ripaojiedian
+  network: tcp
+  port: '30038'
+  server: 183.240.179.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+- alterId: 0
+  cipher: auto
+  name: 17|日本3|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
