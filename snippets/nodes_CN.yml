@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|广东省汕头市 移动
+  network: tcp
+  port: '30127'
+  server: 183.240.179.207
+  tls: false
+  type: vmess
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
+- alterId: 0
+  cipher: auto
   name: 11|广东省深圳市 移动
   network: ws
   port: '16632'
@@ -12,43 +21,26 @@ proxies:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11,17|香港8|@ripaojiedian
-  network: tcp
-  port: '15603'
-  server: 183.232.199.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 64
   cipher: auto
   name: 11|广东省广州市 移动
   network: tcp
-  port: '51707'
+  port: '54437'
   server: 183.236.51.59
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|香港5|@ripaojiedian
-  network: ws
-  port: '16632'
-  server: m.cnmjin.net
+  name: 11|广东省江门市 移动
+  network: tcp
+  port: '40259'
+  server: 120.238.122.243
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf
   name: 13|🇨🇳·中国·TG@kkouokk·93
   obfs: tls1.2_ticket_auth
