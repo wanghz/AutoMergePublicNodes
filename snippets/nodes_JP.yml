@@ -104,7 +104,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5a0115b9-2051-4ace-97df-f15f8c3013a0
+  uuid: 1fce05b4-ed1d-4ba5-ba64-f247057b6037
 - alterId: 0
   cipher: auto
   name: 15|【BGP】日本 05  | 1x JP
@@ -114,7 +114,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5a0115b9-2051-4ace-97df-f15f8c3013a0
+  uuid: 1fce05b4-ed1d-4ba5-ba64-f247057b6037
 - alterId: 0
   cipher: auto
   name: 15|【BGP】日本 06  | 1x JP
@@ -124,7 +124,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5a0115b9-2051-4ace-97df-f15f8c3013a0
+  uuid: 1fce05b4-ed1d-4ba5-ba64-f247057b6037
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
@@ -141,23 +141,6 @@ proxies:
   server: jpm1.cdn.housenetworkmp3.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|日本3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 162.159.136.13
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d52dd638-0e14-469b-a34c-bb5184d4dce6
-  ws-opts:
-    headers:
-      Host: jp3.visaapp.top
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇯🇵 日本特殊|@ripaojiedian
