@@ -66,7 +66,7 @@ proxies:
     path: /apple
 - alterId: 0
   cipher: auto
-  name: '3,14|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
+  name: 3|🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2052
   server: 172.67.159.232
@@ -79,10 +79,11 @@ proxies:
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
-  name: 3|🇺🇸_US_美国->🇸🇪_SE_瑞典
+  name: '3,14|[🇨🇦]t.me/ConfigsHub #4'
   network: ws
-  port: 80
+  port: '80'
   server: www.speedtest.net
+  servername: ''
   tls: false
   type: vmess
   uuid: 31488365-7b6a-434a-8b7b-8f35012c6a22
@@ -92,7 +93,7 @@ proxies:
     path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
 - alterId: 0
   cipher: auto
-  name: '3,14|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
+  name: '3|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
   network: ws
   port: 2052
   server: cdncdncdncdn.784654.xyz
@@ -105,7 +106,7 @@ proxies:
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
-  name: '6,18|🇺🇸_US_美国 #29'
+  name: '6,18|🇺🇸_US_美国 #28'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -118,7 +119,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '6,18|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
+  name: '6,18|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -144,7 +145,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,7,18|🇺🇸_US_美国 #28'
+  name: '6,7,18|🇺🇸_US_美国 #27'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -183,14 +184,80 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,18|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
+  name: '7,11,18|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
   network: ws
   port: 2082
   server: 172.67.130.140
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
       Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 2095
+  server: zula.ir
+  tls: false
+  type: vmess
+  uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+  ws-opts:
+    headers:
+      Host: Asdfghjkl10.unique69.com.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '14|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  network: ws
+  port: 2095
+  server: 104.18.202.232
+  tls: false
+  type: vmess
+  uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+  ws-opts:
+    headers:
+      Host: Asdfghjkl10.unique69.com.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|🇺🇸_US_美国->🇧🇷_BR_巴西
+  network: ws
+  port: 2095
+  server: c1.v2raybrasil.cloud
+  tls: false
+  type: vmess
+  uuid: a5dc7082-3433-48ad-9216-ddc9768e5160
+  ws-opts:
+    headers:
+      Host: ybr.redbullplus.xyz
+    path: /DDD
+- alterId: 0
+  cipher: auto
+  name: '14|🇺🇸_US_美国->🇩🇪_DE_德国 #2'
+  network: ws
+  port: 2095
+  server: 172.67.204.84
+  tls: false
+  type: vmess
+  uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+  ws-opts:
+    headers:
+      Host: Asdfghjkl10.unique69.com.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '14|🇺🇸_US_美国->🇩🇪_DE_德国 #3'
+  network: ws
+  port: 2095
+  server: Www.speedtest.net
+  tls: false
+  type: vmess
+  uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+  ws-opts:
+    headers:
+      Host: Asdfghjkl10.unique69.com.
     path: /
