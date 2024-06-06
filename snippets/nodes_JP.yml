@@ -7,37 +7,9 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14|日本2〖电报：@ccbaohe】免费节点定时更新
+  name: 14|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
   network: ws
-  port: 49232
-  server: 167.88.184.129
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1a331b20-4822-4c5f-b1ec-206a86d51b7c
-  ws-opts:
-    headers:
-      Host: 167.88.184.129
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
-  network: ws
-  port: 80
-  server: jp5g.forlive.live
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9394d66-d3cd-4e66-89dd-cda991bde821
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '14|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #1'
-  network: ws
-  port: 12345
+  port: '12345'
   server: 152.69.197.74
   servername: ''
   tls: false
@@ -49,31 +21,35 @@ proxies:
     path: /bb
 - alterId: 0
   cipher: auto
-  name: '14|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #2'
-  network: tcp
-  port: '2083'
-  server: jp-v2ray.ipracevpn.com
+  name: 14|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19...
+  network: ws
+  port: '41597'
+  server: 183.181.36.194
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 3a0c6a81-236b-4e73-ac22-a580549edbf9
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 16,17|日本2|@ripaojiedian
   network: ws
-  port: '49232'
-  server: 167.88.184.129
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 1a331b20-4822-4c5f-b1ec-206a86d51b7c
+  uuid: 3b99fe7d-a3e5-46c2-adee-7c9a8e40eb09
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇯🇵 日本R|@ripaojiedian
@@ -90,23 +66,3 @@ proxies:
   server: 43.202.43.179
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 17|日本3|@ripaojiedian
-  network: tcp
-  port: '61002'
-  server: 183.232.170.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 17|日本5|@ripaojiedian
-  network: tcp
-  port: '38997'
-  server: 8987-3i640t6rlj4n.zpveerb-jp03.my777999.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 33aefd89-3285-4347-9083-6249711f02e9
