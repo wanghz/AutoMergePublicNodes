@@ -760,39 +760,205 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·93
-  obfs: tls1.2_ticket_auth
-  obfs-param: 6f41b24.microsoft.com
-  password: Fhbe0z
-  port: 11812
-  protocol: auth_aes128_sha1
-  protocol-param: 24:SpYUtPeJYhRk4FWC
-  server: 183.240.220.72
-  type: ssr
-- cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·94
-  obfs: tls1.2_ticket_auth
-  obfs-param: 6f41b24.microsoft.com
-  password: Fhbe0z
-  port: 11803
-  protocol: auth_aes128_sha1
-  protocol-param: 24:SpYUtPeJYhRk4FWC
-  server: 183.240.220.72
-  type: ssr
-- cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·95
-  obfs: tls1.2_ticket_auth
-  obfs-param: 6f41b24.microsoft.com
-  password: Fhbe0z
-  port: 22848
-  protocol: auth_aes128_sha1
-  protocol-param: 24:SpYUtPeJYhRk4FWC
-  server: 183.240.220.72
-  type: ssr
+- alterId: 64
+  cipher: auto
+  name: 13|🇯🇵·日本·TG@kkouokk·70
+  network: ws
+  port: 30000
+  server: 103.72.5.167
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.86972765.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|🇸·美国·TG@kkouokk·71
+  network: ws
+  port: 443
+  server: 107.167.20.179
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.15314695.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|🇬··TG@kkouokk·72
+  network: ws
+  port: 30000
+  server: 41.215.242.91
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ee442f43-b07a-419d-bd27-2d3456393abc
+  ws-opts:
+    headers:
+      host: www.55162280.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|··TG@kkouokk·73
+  network: ws
+  port: 443
+  server: 85.206.165.37
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ba49ab05-78f8-4b0b-9400-1826cc2d3f75
+  ws-opts:
+    headers:
+      host: www.83322971.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|🇱·波兰·TG@kkouokk·74
+  network: ws
+  port: 443
+  server: 5.133.12.63
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4d0247e0-d1da-444c-9cda-8cc20e4e4435
+  ws-opts:
+    headers:
+      host: www.91078537.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|🇪··TG@kkouokk·75
+  network: ws
+  port: 31000
+  server: 37.120.209.124
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: dc0cf22d-e35c-4b77-8924-977f6844909b
+  ws-opts:
+    headers:
+      host: www.87867255.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|🇹··TG@kkouokk·76
+  network: ws
+  port: 443
+  server: 217.138.197.174
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 435c978e-2f48-4194-8d04-38cc79a24421
+  ws-opts:
+    headers:
+      host: www.16035964.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|🇧·英国·TG@kkouokk·77
+  network: ws
+  port: 30000
+  server: 83.142.225.59
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e
+  ws-opts:
+    headers:
+      host: www.41825759.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|🇴··TG@kkouokk·78
+  network: ws
+  port: 443
+  server: 46.29.219.44
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.19935376.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|🇮·兰·TG@kkouokk·79
+  network: ws
+  port: 443
+  server: 91.132.197.5
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.97751616.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|🇪·德国·TG@kkouokk·80
+  network: ws
+  port: 443
+  server: 89.163.157.209
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
+  ws-opts:
+    headers:
+      host: www.78791485.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|🇮·爱尔兰·TG@kkouokk·81
+  network: ws
+  port: 30000
+  server: 185.108.128.60
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5aab3936-16d7-4377-8c33-0d77f2d295ee
+  ws-opts:
+    headers:
+      host: www.41824045.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|🇰··TG@kkouokk·82
+  network: ws
+  port: 30000
+  server: 193.29.107.235
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
+  ws-opts:
+    headers:
+      host: www.43701204.xyz
+    path: /path/292806223002
+- alterId: 64
+  cipher: auto
+  name: 13|🇩·尔·TG@kkouokk·83
+  network: ws
+  port: 443
+  server: 178.175.132.84
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7e4219ae-8bf1-4f79-902b-4f259c64533d
+  ws-opts:
+    headers:
+      host: www.10507558.xyz
+    path: /path/292806223002
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇳·中国·TG@kkouokk·96
+  name: 13|🇳·中国·TG@kkouokk·100
   network: ws
   port: 16928
   server: 120.232.240.56
@@ -804,58 +970,6 @@ proxies:
     headers:
       host: '%7B%22Host%22:%22193.25.215.160%22%7D'
     path: /v2ray
-- cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·97
-  obfs: tls1.2_ticket_auth
-  obfs-param: 6f41b24.microsoft.com
-  password: Fhbe0z
-  port: 11427
-  protocol: auth_aes128_sha1
-  protocol-param: 24:SpYUtPeJYhRk4FWC
-  server: 120.232.240.56
-  type: ssr
-- cipher: chacha20-ietf
-  name: 13|🇨🇳·中国·TG@kkouokk·98
-  obfs: tls1.2_ticket_auth
-  obfs-param: 6f41b24.microsoft.com
-  password: Fhbe0z
-  port: 11423
-  protocol: auth_aes128_sha1
-  protocol-param: 24:SpYUtPeJYhRk4FWC
-  server: 120.232.240.56
-  type: ssr
-- cipher: aes-256-cfb
-  name: 13|🇸·美国·TG@kkouokk·132
-  password: amazonskr05
-  port: 443
-  server: 34.208.170.155
-  type: ss
-- cipher: aes-256-cfb
-  name: 13|🇸🇬·新加坡·TG@kkouokk·133
-  password: amazonskr05
-  port: 443
-  server: 54.179.9.170
-  type: ss
-- cipher: aes-256-cfb
-  name: 13|🇸🇬·新加坡·TG@kkouokk·134
-  password: amazonskr05
-  port: 443
-  server: 47.128.72.90
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 13,16|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.143.159.186
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 13|🇵·日本·TG@kkouokk·136
-  password: amazonskr05
-  port: 443
-  server: 18.182.6.181
-  type: ss
 - alterId: 0
   cipher: auto
   name: 14|🆓49@oneclickvpnkeys
@@ -2485,6 +2599,14 @@ proxies:
   password: hGkQ6915tD
   port: 16058
   server: 59.56.77.178
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 16|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.143.159.186
   tfo: false
   type: ss
 - cipher: aes-256-cfb

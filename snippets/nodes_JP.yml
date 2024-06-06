@@ -1,10 +1,18 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 13|🇵·日本·TG@kkouokk·136
-  password: amazonskr05
-  port: 443
-  server: 18.182.6.181
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 13|🇯🇵·日本·TG@kkouokk·70
+  network: ws
+  port: 30000
+  server: 103.72.5.167
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.86972765.xyz
+    path: /path/292806223002
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...

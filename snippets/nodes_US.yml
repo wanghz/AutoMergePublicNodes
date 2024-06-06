@@ -486,12 +486,20 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: aes-256-cfb
-  name: 13|🇸·美国·TG@kkouokk·132
-  password: amazonskr05
+- alterId: 64
+  cipher: auto
+  name: 13|🇸·美国·TG@kkouokk·71
+  network: ws
   port: 443
-  server: 34.208.170.155
-  type: ss
+  server: 107.167.20.179
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.15314695.xyz
+    path: /path/292806223002
 - alterId: 64
   cipher: auto
   name: 14|美国 062
