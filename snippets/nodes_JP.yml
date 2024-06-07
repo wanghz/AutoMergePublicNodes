@@ -29,62 +29,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '14|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #1'
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
-- alterId: 0
-  cipher: auto
-  name: 14|日本【免费 02】
-  network: ws
-  port: 80
-  server: cf2.ftclashcloud.site
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9df421b3-0edb-423c-96ed-e3f327699473
-  ws-opts:
-    headers:
-      Host: azjp01.ftclashcloud.online
-    path: /ws?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 14|日本【免费 01】
-  network: ws
-  port: 80
-  server: cf1.ftclashcloud.site
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9df421b3-0edb-423c-96ed-e3f327699473
-  ws-opts:
-    headers:
-      Host: azjp01.ftclashcloud.online
-    path: /ws?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 14|日本【免费 04】
-  network: ws
-  port: 80
-  server: cf4.ftclashcloud.site
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9df421b3-0edb-423c-96ed-e3f327699473
-  ws-opts:
-    headers:
-      Host: azjp01.ftclashcloud.online
-    path: /ws?ed=2560
-- alterId: 0
-  cipher: auto
   name: 14|日本【TG：@ccbaohe】定时更新节点订阅
   network: ws
   port: 443
@@ -100,20 +44,37 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14,16,17|日本2|@ripaojiedian
+  name: 16,17|日本2|@ripaojiedian
   network: ws
-  port: '80'
+  port: '2052'
   server: cfcdn3.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 3b99fe7d-a3e5-46c2-adee-7c9a8e40eb09
+  uuid: bf475e6c-a607-415e-a7f7-45c889320633
   ws-opts:
     headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16,17|日本3|@ripaojiedian
+  network: ws
+  port: '19332'
+  server: 167.88.184.65
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 42f93dcb-7cc5-4e02-e8d2-3002a8c9d58e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇯🇵 日本R|@ripaojiedian
@@ -127,6 +88,6 @@ proxies:
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.202.43.179
+  server: 13.113.204.156
   tfo: false
   type: ss
