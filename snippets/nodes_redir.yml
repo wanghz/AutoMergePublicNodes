@@ -27,10 +27,11 @@ proxies:
     path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
 - alterId: 0
   cipher: none
-  name: 3|🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀
+  name: 3,11|巴西圣保罗 CloudFlare节点
   network: ws
-  port: 80
+  port: '80'
   server: 188.114.97.3
+  servername: ''
   tls: false
   type: vmess
   uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
