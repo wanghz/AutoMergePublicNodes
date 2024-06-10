@@ -1,10 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|TW_youtube@资源分享师_62
-  network: tcp
-  port: 61017
-  server: in06.dns2024.org
+  name: 14|TW6 43.0KB/s
+  network: ws
+  port: '31945'
+  server: 103.159.206.35
+  servername: ''
   tls: false
   type: vmess
-  uuid: 9eac8830-5da5-3ee2-a4b2-b49598275623
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- client-fingerprint: chrome
+  name: 16|🇹🇼 台湾|@ripaojiedian
+  network: ws
+  password: moist
+  port: 12031
+  server: 60.248.63.88
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
