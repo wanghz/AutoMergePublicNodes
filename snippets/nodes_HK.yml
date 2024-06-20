@@ -1,70 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '14|公测|香港 05 1x #1'
-  network: ws
-  port: '2082'
-  server: baobaojichang.bbjc.xyz
-  tls: false
-  type: vmess
-  uuid: c3572b9c-db66-4656-91b2-853750a422ef
-  ws-opts:
-    headers:
-      Host: xianggang.mojc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '14|公测|香港 03 1x #1'
-  network: ws
-  port: '8880'
-  server: baobaojichang.bbjc.xyz
-  tls: false
-  type: vmess
-  uuid: 3e4a5997-fc81-4f29-b938-c249cc1ac55f
-  ws-opts:
-    headers:
-      Host: xianggang.mojc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 14|公测|香港 04 1x
-  network: ws
-  port: '2052'
-  server: baobaojichang.bbjc.xyz
-  tls: false
-  type: vmess
-  uuid: 3e4a5997-fc81-4f29-b938-c249cc1ac55f
-  ws-opts:
-    headers:
-      Host: xianggang.mojc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 14|香港 01
-  network: ws
-  port: 80
-  server: lzyjc.779917.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 557dd7d1-9085-4f39-970f-7d2bb79b164e
-  ws-opts:
-    headers:
-      Host: hkk.779917.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 14|公测|香港 02 1x
-  network: ws
-  port: '8080'
-  server: baobaojichang.bbjc.xyz
-  tls: false
-  type: vmess
-  uuid: 3e4a5997-fc81-4f29-b938-c249cc1ac55f
-  ws-opts:
-    headers:
-      Host: xianggang.mojc.xyz
-    path: /?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港KT|@ripaojiedian
@@ -81,6 +15,14 @@ proxies:
   server: 172.67.114.125
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港|@ripaojiedian
+  password: 5927ef13-7c5f-4b12-bdc8-7c295242a640
+  port: 58116
+  server: 03-neibuyong.gangbi.vip
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -93,41 +35,33 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 2b6651cd-922c-4c1b-8a0a-3386d6f4187f
-- alterId: 0
-  cipher: auto
+  uuid: db3c11d8-ae65-40ff-a256-babee94056f6
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 16,17|香港5|@ripaojiedian
-  network: ws
-  port: '16632'
-  server: m.cnmjin.net
-  servername: ''
-  skip-cert-verify: false
+  name: 16|🇭🇰 香港5|@ripaojiedian
+  password: 93902842-fc34-40e9-901c-3b76299fd008
+  port: 1002
+  server: plie.5hihwoqjshdnxjahweqsda.shanghaiyige.cyou
   tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 17|香港2|@ripaojiedian
+  network: tcp
+  port: '51193'
+  server: 183.238.202.173
+  servername: ''
   tls: false
   type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|香港7|@ripaojiedian
-  network: ws
-  port: '16632'
-  server: yes.cnmjcn.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 17|香港6|@ripaojiedian
