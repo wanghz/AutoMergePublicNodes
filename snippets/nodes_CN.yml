@@ -13,3 +13,17 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 13|🇳·中国·TG@kkouokk·100
+  network: ws
+  port: 16928
+  server: 120.232.240.56
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    headers:
+      host: '%7B%22Host%22:%22193.25.215.160%22%7D'
+    path: /v2ray
