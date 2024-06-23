@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|日本 东京都Amazon数据中心
+  network: tcp
+  port: 41001
+  server: bgroup.node1.v.nodelist-gfwairport2.top
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
 - alterId: 64
   cipher: auto
   name: 13|🇯🇵·日本·TG@kkouokk·70
@@ -17,20 +26,27 @@ proxies:
   cipher: auto
   name: 14|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
   network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
+  port: '443'
+  server: jp-full.privateip.net
+  tls: true
   type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  uuid: 2be26164-bbb5-47bf-8990-bb5e985f4083
   ws-opts:
     headers:
       Host: ''
-    path: /bb
+    path: /RACEVPN
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本2|@ripaojiedian
+  password: 7385cf6a-6ba9-4de2-87bb-b7aac0e710b4
+  port: 50108
+  server: free-big.themars.top
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16,17|日本2|@ripaojiedian
+  name: 16,17|日本3|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -39,11 +55,27 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 150be761-0f1b-464c-a0c7-09fd31bd2f31
+  uuid: fec25e7b-3e30-4702-9b93-62ed3849a9d7
   ws-opts:
     headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
+      Host: 6Sn8mFtTjp3.yofnhkfc.xyz
+    path: /video/X37qXHip
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  network: ws
+  port: 46011
+  server: mmjp11.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+  ws-opts:
+    headers:
+      Host: mmjp11.micloud.buzz
+    path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇯🇵 日本R|@ripaojiedian
@@ -57,6 +89,20 @@ proxies:
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.39.251.119
+  server: 54.199.71.126
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 17|日本4|@ripaojiedian
+  network: ws
+  port: '46011'
+  server: mmjp11.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
