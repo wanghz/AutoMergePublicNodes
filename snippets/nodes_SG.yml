@@ -7,37 +7,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14|🇸🇬 新加坡 Linode数据中心
+  name: 14|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
   network: tcp
-  port: 2083
+  port: '2083'
   server: sg2-v2ray.ipracevpn.com
   servername: ''
   tls: true
   type: vmess
   uuid: 0eb76650-5dda-4466-a142-b2097b93c50a
-- alterId: 0
-  cipher: auto
-  name: 14|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
-  network: ws
-  port: '443'
-  server: sg2-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: 8114a974-d3c2-466e-9475-748aba41c307
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 14|PRO 新加坡05 | 4x 原生IP
-  network: tcp
-  port: 3051
-  server: pro01.dns2024.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4b804301-23ce-378f-87df-af85f73c611f
 - alterId: 0
   cipher: auto
   name: 14|新加坡_明懂砖线_彦卿的大腿
@@ -54,14 +31,31 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 14|新加坡 隧道 均衡负载 动态IP 1.2x
-  network: tcp
-  port: 61012
-  server: in06.dns2024.org
+  name: 14|新加坡_明懂砖线_米沙的长达18CM直径8CM的深渊粉头寄吧
+  network: ws
+  port: '2052'
+  server: tgqyjc2024.qyjc.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 4b804301-23ce-378f-87df-af85f73c611f
+  uuid: 1e3e82b2-36c0-44aa-80ad-5c3f693824f1
+  ws-opts:
+    headers:
+      Host: singapore.tgqyjc2024.qyjc666.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '14|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
+  network: ws
+  port: '443'
+  server: sg-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 951acb73-09b9-4092-b4fa-b1987cec7f49
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡2|@ripaojiedian
