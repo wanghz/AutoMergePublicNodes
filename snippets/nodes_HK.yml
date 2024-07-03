@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|🇭🇰 香港 | V1 | 直连
-  network: tcp
-  port: 39589
-  server: line.acetace.com
-  tls: false
-  type: vmess
-  uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
-- alterId: 0
-  cipher: auto
   name: 14|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
   network: ws
   port: '28681'
@@ -22,23 +13,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,16,17|香港|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d22e082c-3742-421f-aabd-2511eec9148c
-  ws-opts:
-    headers:
-      Host: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港KT|@ripaojiedian
@@ -55,19 +29,17 @@ proxies:
   server: 47.243.99.111
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 16|🇻🇳 越南|@ripaojiedian
-  password: RmdXQRXg
-  port: 45219
-  server: 120.241.47.176
-  skip-cert-verify: false
-  sni: us-tj-6211.fn999.vip
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cf7d0dea-d2ac-4af2-b8ee-b42c6750503b
+  name: 16|🇭🇰 香港2|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: 6f41b24.microsoft.com
+  password: Fhbe0z
+  port: 11810
+  protocol: auth_aes128_sha1
+  protocol-param: 24:SpYUtPeJYhRk4FWC
+  server: 120.232.240.46
+  type: ssr
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇭🇰 香港R|@ripaojiedian
@@ -76,16 +48,6 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 17|香港2|@ripaojiedian
-  network: tcp
-  port: '23870'
-  server: 156.251.217.3
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7e32a0d3-8ee7-4542-a4fc-a8dfeefac923
 - alterId: 64
   cipher: auto
   name: 17|香港3|@ripaojiedian
@@ -96,13 +58,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 17|香港5|@ripaojiedian
-  network: tcp
-  port: '45201'
-  server: 120.233.42.203
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cf7d0dea-d2ac-4af2-b8ee-b42c6750503b
