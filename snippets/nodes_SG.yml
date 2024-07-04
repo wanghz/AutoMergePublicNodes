@@ -1,345 +1,43 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|SG_19
+  client-fingerprint: chrome
+  name: 16,17|新加坡|@ripaojiedian
   network: ws
-  port: 2082
-  server: 104.19.45.19
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
+  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
   ws-opts:
     headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳
+      Host: 7nAi74jJsg1.yofnhkfc.xyz
+    path: /video/c9efxRCi
 - alterId: 0
   cipher: auto
-  name: 14|SG_35
+  client-fingerprint: chrome
+  name: 16,17|新加坡2|@ripaojiedian
   network: ws
-  port: 2082
-  server: 104.19.45.35
+  port: '16848'
+  server: 103.30.76.56
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
+  uuid: febc59fd-9132-4000-9d6a-dcf1a29d7d4b
   ws-opts:
     headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_37
-  network: ws
-  port: '2082'
-  server: 104.19.45.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|SG_5
-  network: ws
-  port: 2082
-  server: 104.19.45.5
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_212
-  network: ws
-  port: '2082'
-  server: 104.19.45.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_133
-  network: ws
-  port: '2082'
-  server: 104.19.45.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_247
-  network: ws
-  port: '2082'
-  server: 104.19.45.247
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_122
-  network: ws
-  port: '2082'
-  server: 104.19.45.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|SG_20
-  network: ws
-  port: 2082
-  server: 104.19.45.20
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 14|SG_60
-  network: ws
-  port: 2082
-  server: 104.19.45.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 14|SG_249
-  network: ws
-  port: 2082
-  server: 104.19.45.249
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 14|SG_175
-  network: ws
-  port: 2082
-  server: 104.19.45.175
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 14|新加坡SG
-  network: ws
-  port: '80'
-  server: sg1.ludou.us.kg
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ff2d9dd7-057f-4270-9da7-d0b044bd5af6
-  ws-opts:
-    headers:
-      Host: sg.ludou.us.kg
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_39
-  network: ws
-  port: '2082'
-  server: 104.19.45.39
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|SG_21
-  network: ws
-  port: 2082
-  server: 104.19.45.21
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_2
-  network: ws
-  port: '2082'
-  server: 104.19.45.2
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_238
-  network: ws
-  port: '2082'
-  server: 104.19.45.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_239
-  network: ws
-  port: '2082'
-  server: 104.19.45.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_253
-  network: ws
-  port: '2082'
-  server: 104.19.45.253
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_144
-  network: ws
-  port: '2082'
-  server: 104.19.45.144
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|SG_49
-  network: ws
-  port: 2082
-  server: 104.19.45.49
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_251
-  network: ws
-  port: '2082'
-  server: 104.19.45.251
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_34
-  network: ws
-  port: '2082'
-  server: 104.19.45.34
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬SG_254
-  network: ws
-  port: '2082'
-  server: 104.19.45.254
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 760e05da-2333-4db4-9de4-2926cd3c64cf
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.11.246.110
+  server: 13.114.74.148
   tfo: false
   type: ss
