@@ -1,15 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
+  name: 14|Relay_🏁ZZ-🇹🇼TW_236
   network: ws
-  port: '31945'
-  server: 103.159.206.35
+  port: 8080
+  server: 104.19.47.186
   servername: ''
   tls: false
   type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: ''
+      Host: oiictw.yydsii.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,16,17|台湾|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
