@@ -5,24 +5,19 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|🇸🇬新加坡IPLC砖线
-  network: ws
-  port: '80'
-  server: sg3.wgxghhur.skynode.top
-  tls: false
-  type: vmess
-  uuid: fda1ef74-4329-341c-a477-f14cad182e77
-  ws-opts:
-    headers:
-      Host: baiducdncmn2.inter.iqiyi.com
-    path: /ws?ed=2048
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇸🇬 新加坡|@ripaojiedian
+  password: fe3038e9-5653-4ec1-be64-04532782d8b0
+  port: 50046
+  server: 123.88.148.9
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.250.98.179
+  server: 54.95.211.49
   tfo: false
   type: ss
