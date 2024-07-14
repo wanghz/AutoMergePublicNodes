@@ -193,7 +193,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 14|CN_youtube@资源分享师_104
+  name: 14|CN_youtube@资源分享师_96
   network: tcp
   port: 63004
   server: in06.dns2024.org
