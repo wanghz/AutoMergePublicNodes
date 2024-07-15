@@ -1,18 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|台湾 02 | ws
-  network: ws
-  port: 80
-  server: 207c13fb-83b6-2021-766b-6c95e56a4a33.bugtik.ltd
+  name: 14|-0739-TW【ccbaohe.com〗 永久免费节点机场
+  network: tcp
+  port: '63007'
+  server: in06.dns2024.org
   servername: ''
   tls: false
   type: vmess
-  uuid: 4e152726-941a-4196-afa4-58aa03d38f8f
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+  uuid: 6cf559be-8e10-3c59-ad8c-7345fa164ab8
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
@@ -27,16 +23,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 14|-0716-TW【ccbaohe.com〗 永久免费节点机场
-  network: tcp
-  port: '63097'
-  server: in06.dns2024.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6cf559be-8e10-3c59-ad8c-7345fa164ab8
 - client-fingerprint: chrome
   name: 16|🇹🇼 台湾|@ripaojiedian
   network: ws
@@ -50,3 +36,11 @@ proxies:
     headers:
       Host: trojan.freenods.sbs
     path: /?ed=2560
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇹🇼 台湾2|@ripaojiedian
+  password: 6f3562c7-904f-417e-818b-dcd49b564078
+  port: 30003
+  server: gdyddx500.xiyunchen.cn
+  tfo: false
+  type: ss

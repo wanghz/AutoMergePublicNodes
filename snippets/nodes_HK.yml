@@ -1,31 +1,42 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|香港高速2
+  name: 14|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21...
   network: ws
-  port: '2052'
-  server: ss.moonriver.sbs
-  tls: false
+  port: '12909'
+  server: 210.0.158.219
+  servername: 19.lwdh.us
+  tls: true
   type: vmess
-  uuid: 9f104453-9e04-4150-b851-768990422e01
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
   ws-opts:
     headers:
-      Host: hkgs02.moonriver.sbs
-    path: /
+      Host: 19.lwdh.us
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 14|香港【TG：@ccbaohe】定时更新节点订阅
+  network: tcp
+  port: '63090'
+  server: in06.dns2024.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6cf559be-8e10-3c59-ad8c-7345fa164ab8
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
-    host: a1.wagaga.online
+    host: h1.fjdd.store
     mode: websocket
     mux: true
     path: ''
     skip-cert-verify: false
     tls: true
   port: 8443
-  server: 36.232.27.161
+  server: 172.67.141.111
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -39,15 +50,31 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇺🇸 美国4|@ripaojiedian
+  name: 16|🇺🇸 美国3|@ripaojiedian
   password: GsKYmYOE
-  port: 40081
-  server: 183.232.139.22
-  skip-cert-verify: true
+  port: 19358
+  server: bvip.hongxingdl.vip
+  skip-cert-verify: false
   tfo: false
   tls: false
-  type: trojan
-  uuid: 7345a163-c47b-47b3-8675-bf12b85ce364
+  type: vmess
+  uuid: b8b99a7a-c4a5-4ccd-ad36-8a66067d123d
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港3|@ripaojiedian
+  password: 6f3562c7-904f-417e-818b-dcd49b564078
+  port: 30001
+  server: gdyddx500.xiyunchen.cn
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港6|@ripaojiedian
+  password: 6f3562c7-904f-417e-818b-dcd49b564078
+  port: 30001
+  server: 115.239.225.217
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇭🇰 香港R|@ripaojiedian
@@ -56,26 +83,6 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 17|香港2|@ripaojiedian
-  network: tcp
-  port: '51193'
-  server: 183.238.202.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 17|香港3|@ripaojiedian
-  network: tcp
-  port: '29767'
-  server: gvip.hongxingdl.vip
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: db5022dd-0d7c-4ef4-8451-f7c7a558bba7
 - alterId: 0
   cipher: auto
   name: 17|香港5|@ripaojiedian
@@ -85,4 +92,4 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 7345a163-c47b-47b3-8675-bf12b85ce364
+  uuid: f63b367e-214f-4710-9e5b-80f43daa8368
