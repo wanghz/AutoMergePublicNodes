@@ -413,18 +413,18 @@ proxies:
   client-fingerprint: chrome
   name: 11,16,17|美国2|@ripaojiedian
   network: ws
-  port: '2052'
+  port: '2086'
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 409fe654-65e4-4fce-ac9a-faaff3d334ec
+  uuid: 9a403efc-18d7-4a78-8532-fb15541ef836
   ws-opts:
     headers:
-      Host: us1cPZiz8nb.fzbqfrse.xyz
-    path: /video/6VBhAkCtV4/
+      Host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
