@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,17|香港3|@ripaojiedian
+  name: 11,17|香港6|@ripaojiedian
   network: tcp
   port: '44806'
   server: ambxxic01hk.dorabbb.top
@@ -9,29 +9,12 @@ proxies:
   tls: false
   type: vmess
   uuid: fe9333e9-c864-41ea-8076-a0df85cc50de
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17,21|美国_由快嘴科技提供：kkzui.com美国 #118'
-  network: ws
-  port: 80
-  server: 38.207.142.31
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-  ws-opts:
-    headers:
-      Host: syjsq.hk6.flyidc.top
-    path: /syjsq/data
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港|@ripaojiedian
+  name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.221.193.173
+  server: 18.141.159.184
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -42,24 +25,48 @@ proxies:
   server: gdyddx500.xiyunchen.cn
   tfo: false
   type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港3|@ripaojiedian
+  password: 67FxYtanE2g5
+  port: 8388
+  server: 103.97.128.45
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡|@ripaojiedian
+  name: 16|🇭🇰 香港6|@ripaojiedian
   password: lNOcIAxy
-  port: 17575
-  server: relay.gz.flyidc.top
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+  uuid: fe9333e9-c864-41ea-8076-a0df85cc50de
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港5|@ripaojiedian
+  password: sacQKAwXBLMR
+  port: 7568
+  server: 103.97.131.204
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港6|@ripaojiedian
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20001
-  server: hk1.mhw7e2.online
+  name: 16|🇭🇰 香港7|@ripaojiedian
+  password: ce19c839-49d3-4b65-bd5d-201862ead65b
+  port: 40000
+  server: cname-heyck2gkxig6ajkp.bestruisleipa.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港8|@ripaojiedian
+  password: ce19c839-49d3-4b65-bd5d-201862ead65b
+  port: 40000
+  server: cnamepc01-drwtbltc3xwmfzhd.coffeehouse.wiki
   tfo: false
   type: ss
 - cipher: aes-256-cfb

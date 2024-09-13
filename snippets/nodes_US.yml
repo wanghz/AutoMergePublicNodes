@@ -444,23 +444,6 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|美国5|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 23.156.152.106
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-  ws-opts:
-    headers:
-      Host: syjsq.us4.flyidc.top
-    path: /syjsq/data
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -533,6 +516,14 @@ proxies:
   password: shadowsocks
   port: 443
   server: 212.102.47.130
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国5|@ripaojiedian
+  password: z5WzrVUCMZa2
+  port: 6297
+  server: 45.89.53.134
   tfo: false
   type: ss
 - alterId: 0
@@ -1093,45 +1084,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '21|美国_由快嘴科技提供：kkzui.com美国 #45'
-  network: ws
-  port: 2086
-  server: russia.com
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '21|美国_由快嘴科技提供：kkzui.com美国 #46'
-  network: ws
-  port: 2086
-  server: ip.sb
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '21|美国_由快嘴科技提供：kkzui.com美国 #47'
-  network: ws
-  port: 2086
-  server: malaysia.com
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -2028,6 +1980,32 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: '21|美国_由快嘴科技提供：kkzui.com美国 #118'
+  network: ws
+  port: 80
+  server: 38.207.142.31
+  tls: false
+  type: vmess
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+  ws-opts:
+    headers:
+      Host: syjsq.hk6.flyidc.top
+    path: /syjsq/data
+- alterId: 0
+  cipher: auto
+  name: '21|美国_由快嘴科技提供：kkzui.com美国 #119'
+  network: ws
+  port: 80
+  server: 108.165.144.8
+  tls: false
+  type: vmess
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+  ws-opts:
+    headers:
+      Host: syjsq.tw1.flyidc.top
+    path: /syjsq/data
+- alterId: 0
+  cipher: auto
   name: '21|美国_由快嘴科技提供：kkzui.com美国 #121'
   network: ws
   port: 80
@@ -2273,6 +2251,19 @@ proxies:
     headers:
       Host: harriscity.com
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '21|美国_由快嘴科技提供：kkzui.com美国 #140'
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: cd47cb10-d851-489b-86cd-ffaf659ed943
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
 - alterId: 0
   cipher: auto
   name: '21|美国_由快嘴科技提供：kkzui.com美国 #141'

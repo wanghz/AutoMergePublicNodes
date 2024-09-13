@@ -2,23 +2,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '11,16,17,21|美国_由快嘴科技提供：kkzui.com美国 #119'
-  network: ws
-  port: 80
-  server: 108.165.144.8
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-  ws-opts:
-    headers:
-      Host: syjsq.tw1.flyidc.top
-    path: /syjsq/data
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 11,16,17|台湾2|@ripaojiedian
   network: ws
   port: '2052'
@@ -33,3 +16,11 @@ proxies:
     headers:
       Host: tw1eskJpKcA.inivtrak.xyz
     path: /video/WNMicnDh
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇹🇼 台湾|@ripaojiedian
+  password: ce19c839-49d3-4b65-bd5d-201862ead65b
+  port: 40040
+  server: cnamepc02-tdkdep2xnpmwi4ga.coffeehouse.wiki
+  tfo: false
+  type: ss
