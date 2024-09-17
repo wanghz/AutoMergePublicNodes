@@ -510,6 +510,270 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·24
+  network: ws
+  port: 2086
+  server: skk.moe
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·25
+  network: ws
+  port: 2086
+  server: 104.20.25.146
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·26
+  network: ws
+  port: 2086
+  server: 104.26.5.66
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·27
+  network: ws
+  port: 2086
+  server: 104.19.32.46
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      host: ip006.3196772.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·28
+  network: ws
+  port: 2086
+  server: 172.64.166.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·29
+  network: ws
+  port: 2086
+  server: 104.19.45.35
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·30
+  network: ws
+  port: 2086
+  server: 104.19.45.17
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·31
+  network: ws
+  port: 2086
+  server: 104.19.47.36
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·32
+  network: ws
+  port: 2086
+  server: 172.64.167.44
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·34
+  network: ws
+  port: 2086
+  server: 172.64.167.15
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·35
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·36
+  network: ws
+  port: 2086
+  server: 172.64.166.2
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇺🇸·美国·TG@kkouokk·37
+  password: mps3FwmDjLrWaOVg
+  port: 443
+  server: series-a2.varzesh360.co
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·38
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      host: ip005.dtku47.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·39
+  network: ws
+  port: 2086
+  server: 104.19.38.62
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      host: ip005.3196772.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·TG@kkouokk·40
+  network: ws
+  port: 2086
+  server: 172.64.175.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip1.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸· 美国·TG@kkouokk·41
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- cipher: aes-128-gcm
+  name: 13|🇺🇸·美国·TG@kkouokk·43
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.167
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸· 美国·TG@kkouokk·44
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a7fa0544-86ec-4cf6-b216-fc0ee4422b8b
+  ws-opts:
+    headers:
+      host: us3AJ8biuQx.fzbqfrse.xyz
+    path: /video/QXjZG5u4F2
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸· 美国·TG@kkouokk·45
+  network: ws
+  port: 2086
+  server: 104.19.46.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip2.1457230.xyz
+    path: /github.com/Alvin9999
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇺🇸 美国3|@ripaojiedian
