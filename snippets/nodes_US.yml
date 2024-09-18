@@ -774,11 +774,3 @@ proxies:
     headers:
       host: ip2.1457230.xyz
     path: /github.com/Alvin9999
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇺🇸 美国3|@ripaojiedian
-  password: 05174439-6643-4c44-b16c-2fd7d700f1ba
-  port: 33115
-  server: 14.29.215.158
-  tfo: false
-  type: ss
