@@ -437,7 +437,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 75781b8f-db32-44b5-936c-0065a3064a98
+  uuid: cfa71038-632b-4a8f-859d-cce4d91c1082
   ws-opts:
     headers:
       Host: us82pRzxDMb.fzbqfrse.xyz
@@ -774,3 +774,11 @@ proxies:
     headers:
       host: ip2.1457230.xyz
     path: /github.com/Alvin9999
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 156.247.9.167
+  tfo: false
+  type: ss
