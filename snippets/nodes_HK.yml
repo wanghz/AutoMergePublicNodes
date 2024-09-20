@@ -36,6 +36,124 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇰·香港·TG@kkouokk·12
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20018
+  server: tw4.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇭🇰·香港·TG@kkouokk·13
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20025
+  server: 14.215.169.69
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇭🇰·香港·TG@kkouokk·14
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20025
+  server: hk5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇭🇰·香港·TG@kkouokk·15
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: hk4.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇭🇰·香港·TG@kkouokk·16
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20010
+  server: tw5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇭🇰·香港·TG@kkouokk·17
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20017
+  server: tw2.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇭🇰·香港·TG@kkouokk·18
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20021
+  server: sg5.mhw7e2.online
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇭🇰·香港·TG@kkouokk·19
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20025
+  server: jp2.mhw7e2.online
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇰·香港·TG@kkouokk·78
+  network: ws
+  port: 443
+  server: n1726709801.ryjml.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4bb95c0c-0bff-4f54-9d29-61c84e959505
+  ws-opts:
+    headers:
+      host: n1726709801.ryjml.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇰·香港·TG@kkouokk·79
+  network: ws
+  port: 443
+  server: n1721189676.ryjml.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8238c168-a9dc-4f63-8086-9109768a20ab
+  ws-opts:
+    headers:
+      host: n1721189676.ryjml.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰·香港·TG@kkouokk·80
+  network: ws
+  port: 443
+  server: n1721189684.ryjml.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 42fd8d4a-9a59-40da-8958-05a7fc04d916
+  ws-opts:
+    headers:
+      host: n1721189684.ryjml.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰·香港·TG@kkouokk·81
+  network: ws
+  port: 443
+  server: n1721189690.ryjml.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c4eb4393-02c4-4e89-af37-48467f777ac7
+  ws-opts:
+    headers:
+      host: n1721189690.ryjml.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰·香港·TG@kkouokk·82
+  network: ws
+  port: 443
+  server: n1721189686.afjian.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c04ec998-b12c-4c9b-9d78-e116ae8b5be8
+  ws-opts:
+    headers:
+      host: n1721189686.afjian.cn
+    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
