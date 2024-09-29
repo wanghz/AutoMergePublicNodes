@@ -1,21 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|香港5|@ripaojiedian
-  network: ws
-  port: '16301'
-  server: 220.246.57.32
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 13|🇰·香港·TG@kkouokk·12
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
@@ -137,15 +120,15 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇺🇸 美国6|@ripaojiedian
+  name: 16|🇺🇸 美国5|@ripaojiedian
   password: c471ef32-798d-40a0-a57c-acf3475a204e
-  port: 13019
-  server: naiu-us.05vr9nyqg5.download
+  port: 58831
+  server: 120.232.153.27
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   tfo: false
   tls: false
-  type: trojan
+  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -157,24 +140,41 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 16,17|香港5|@ripaojiedian
+  network: ws
+  port: '16301'
+  server: 220.246.57.32
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 17|香港|@ripaojiedian
+  network: tcp
+  port: '57739'
+  server: 103.30.78.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1a52841-0c10-4119-8617-7c3ff2a4a937
+- alterId: 0
+  cipher: auto
   name: 17|香港2|@ripaojiedian
   network: tcp
-  port: '44806'
-  server: ambxxic01hk.dorabbb.top
+  port: '47207'
+  server: 149.104.20.212
   servername: ''
   tls: false
   type: vmess
-  uuid: be263eac-a624-452b-89da-bb25190676fc
-- alterId: 64
-  cipher: auto
-  name: 17|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.237.79.157
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 88e49a19-9448-4a15-adf0-db54c97e0ad4
 - alterId: 64
   cipher: auto
   name: 17|香港4|@ripaojiedian
