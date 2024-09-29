@@ -1,21 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|香港5|@ripaojiedian
-  network: ws
-  port: '16301'
-  server: 220.246.57.32
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 13|🇰·香港·TG@kkouokk·12
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
@@ -157,6 +140,23 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 16,17|香港5|@ripaojiedian
+  network: ws
+  port: '16301'
+  server: 220.246.57.32
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 17|香港|@ripaojiedian
   network: tcp
   port: '57739'
@@ -175,3 +175,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 88e49a19-9448-4a15-adf0-db54c97e0ad4
+- alterId: 64
+  cipher: auto
+  name: 17|香港4|@ripaojiedian
+  network: tcp
+  port: '35601'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
