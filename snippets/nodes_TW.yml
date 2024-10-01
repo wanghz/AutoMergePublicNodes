@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|台湾2|@ripaojiedian
+  name: 16,17|台湾2|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -16,3 +16,11 @@ proxies:
     headers:
       Host: tw1eskJpKcA.inivtrak.xyz
     path: /video/WNMicnDh
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇹🇼 台湾
+  password: ddfeaada-fcd6-4e8d-be0c-d4a847725d02
+  port: 32185
+  server: whcm.v6v.eu
+  tfo: false
+  type: ss
