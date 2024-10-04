@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|香港 电讯盈科有限公司
-  network: ws
-  port: 677
-  server: 220.246.57.32
-  tls: false
-  type: vmess
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 13|🇰·香港·TG@kkouokk·12
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
@@ -130,52 +117,56 @@ proxies:
     headers:
       host: n1721189686.afjian.cn
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港|@ripaojiedian
-  password: ddfeaada-fcd6-4e8d-be0c-d4a847725d02
-  port: 25991
-  server: whcm.v6v.eu
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇰🇷 韩国|@ripaojiedian
-  password: 0b0387b8-5258-386b-8744-dcacb2320d94
-  port: 443
-  server: 3.38.198.76
-  skip-cert-verify: true
-  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: ff6588e1-b3dd-42e8-8f5c-ff90bfbd935d
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|香港3|@ripaojiedian
+  name: 16,17|香港|@ripaojiedian
   network: ws
-  port: '59501'
-  server: cm.laoliu.live
+  port: '80'
+  server: yfg4l.c6tu5uwk9.buzz
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 454e1e97-2dab-4abb-b770-adfa92be4d19
+  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
   ws-opts:
     headers:
-      Host: hk22.laoliu.store
-    path: /downloads_hk22
-- cipher: aes-256-cfb
+      Host: hk01.industriouseileen.buzz
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 16088
-  server: 103.161.255.195
+  name: 16|🇺🇸 美国2|@ripaojiedian
+  password: 0b0387b8-5258-386b-8744-dcacb2320d94
+  port: 2000
+  server: 183.232.159.2
+  skip-cert-verify: true
+  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
   tfo: false
-  type: ss
+  tls: false
+  type: trojan
+  uuid: cea93c7c-7f4c-43b2-a31b-e1ee8e5b19bf
+- alterId: 0
+  cipher: auto
+  name: 17|香港2|@ripaojiedian
+  network: tcp
+  port: '10701'
+  server: 38.147.188.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b76ca9b0-d763-4231-a2ac-c1da3af9e3bd
+- alterId: 0
+  cipher: auto
+  name: 17|香港3|@ripaojiedian
+  network: tcp
+  port: '11667'
+  server: 38.147.188.139
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e099546a-4aef-4481-84e9-d0c951f226c1
 - alterId: 64
   cipher: auto
   name: 17|香港4|@ripaojiedian
@@ -186,13 +177,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 17|香港5|@ripaojiedian
-  network: tcp
-  port: '44826'
-  server: ambxxid02hk.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ff6588e1-b3dd-42e8-8f5c-ff90bfbd935d
