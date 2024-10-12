@@ -763,32 +763,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|美国 CloudFlare节点
-  network: ws
-  port: 2082
-  server: 162.159.140.93
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
-  network: ws
-  port: 2095
-  server: 104.19.45.50
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 11,12|github.com/freefq - 美国Fastly全球...
   network: ws
   port: 443
@@ -802,43 +776,47 @@ proxies:
     path: /77848824
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
+  name: 11|美国 CloudFlare节点
   network: ws
-  port: 2095
-  server: 162.159.140.19
+  port: 2082
+  server: 162.159.140.91
   tls: false
   type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip2.6016725.xyz
+      Host: ip3.6929198.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 11|丹麦 v2rayfree.eu.org
+  name: 11,12|github.com/freefq - 印度  3
   network: ws
-  port: 80
-  server: go.alipay.ovh
-  tls: false
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
   type: vmess
-  uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
   ws-opts:
     headers:
-      Host: open.alipay.ovh
-    path: /aries?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 11,17|德国|@ripaojiedian
-  network: tcp
-  port: '43526'
-  server: 120.232.153.71
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+      Host: sahand.serveminecraft.net
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #3'
+  name: 11,12|github.com/freefq - 美国CloudFla...
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
   network: ws
   port: '443'
   server: 104.16.67.38
@@ -852,31 +830,31 @@ proxies:
     path: /v118-fccxmxm35
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #4'
+  name: '11|美国 CloudFlare节点 #3'
   network: ws
-  port: 2095
-  server: 104.19.58.175
+  port: 80
+  server: 172.66.168.173
   tls: false
   type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: 83452b53-dabc-4d13-b2e6-b904ffee8f5b
   ws-opts:
     headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
+      Host: 50907082685942059876387799824779.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
 - alterId: 0
   cipher: auto
-  name: 11,12|github.com/freefq - 印度  10
+  name: '11,12|github.com/freefq - 美国CloudFla... #2'
   network: ws
-  port: 443
-  server: 202.78.162.5
+  port: 8880
+  server: 104.21.82.183
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
-    path: /@forwardv2ray
+      Host: server26.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -891,33 +869,6 @@ proxies:
     headers:
       Host: irsoft.sytes.net
     path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 12|github.com/freefq - 印度  3
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-  ws-opts:
-    headers:
-      Host: sahand.serveminecraft.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 12|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
 - alterId: 0
   cipher: auto
   name: '12|github.com/freefq - 美国CloudFla... #1'
@@ -948,18 +899,18 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: '12|github.com/freefq - 美国CloudFla... #2'
+  name: 12|github.com/freefq - 印度  10
   network: ws
-  port: 8880
-  server: 104.21.82.183
+  port: 443
+  server: 202.78.162.5
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
   ws-opts:
     headers:
-      Host: server26.beheshtbaneh.com
-    path: /
+      Host: pendar.onthewifi.com
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: '12|github.com/freefq - 美国CloudFla... #3'
@@ -1256,14 +1207,23 @@ proxies:
     headers:
       host: n1721118448.ryjml.cn
     path: /
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港|@ripaojiedian
-  password: 7f5d080e-8dde-4b47-abf7-0b4402510fc7
-  port: 40000
-  server: soonhk.soon.guru
+  name: 16,17|香港|@ripaojiedian
+  network: ws
+  port: '2086'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: gbdzxvumhk1.xqyhvpee.xyz
+    path: /ifBUEjhG
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -1277,118 +1237,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 16,17|台湾|@ripaojiedian
-  network: ws
-  port: '17544'
-  server: jp.gensh.top
-  servername: g5.gensh.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 5db5337e-99ba-4662-86f4-07b926239136
-  ws-opts:
-    headers:
-      Host: ys.mihoyo.com
-    path: /ccwinfcjccjjdccccckc
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇹🇼 台湾2|@ripaojiedian
-  password: 7f5d080e-8dde-4b47-abf7-0b4402510fc7
-  port: 40020
-  server: soontw.soon.guru
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|日本|@ripaojiedian
-  network: ws
-  port: '80'
-  server: kz3bw.c6tu5uwk9.buzz
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
-  ws-opts:
-    headers:
-      Host: jp01.1761d77fead15f193490a0f11b83f3a4.buzz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本2|@ripaojiedian
-  password: 7f5d080e-8dde-4b47-abf7-0b4402510fc7
-  port: 40003
-  server: soonjp.soon.guru
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|日本3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 172.234.94.163
-  servername: 172.234.94.163
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: 172.234.94.163
-    path: /fkPaQhPT
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 16|🇰🇷 韩国2|@ripaojiedian
-  password: a3c29dd3-d366-4fc2-9efa-ec0c81519b75
-  port: 11789
-  server: pj.shakalaka.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|韩国3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cU9jf.c6tu5uwk9.buzz
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
-  ws-opts:
-    headers:
-      Host: kr01.1761d77fead15f193490a0f11b83f3a4.buzz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇰🇷 韩国4|@ripaojiedian
-  password: 7f5d080e-8dde-4b47-abf7-0b4402510fc7
-  port: 40032
-  server: soonkr.soon.guru
+  name: 16|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.207.71.110
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡|@ripaojiedian
-  password: 7f5d080e-8dde-4b47-abf7-0b4402510fc7
-  port: 40005
-  server: soonsgp.soon.guru
+  name: 16|🇯🇵 日本|@ripaojiedian
+  password: '1234'
+  port: 1234
+  server: 54.248.54.190
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16,17|美国|@ripaojiedian
+  name: 16,17|韩国|@ripaojiedian
   network: ws
   port: '80'
   server: strw4.c6tu5uwk9.buzz
@@ -1400,16 +1268,33 @@ proxies:
   uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
   ws-opts:
     headers:
-      Host: us04.1761d77fead15f193490a0f11b83f3a4.buzz
+      Host: kr03.1761d77fead15f193490a0f11b83f3a4.buzz
     path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16,17|美国3|@ripaojiedian
+  name: 16,17|新加坡2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: bfdo3.c6tu5uwk9.buzz
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
+  ws-opts:
+    headers:
+      Host: sg02.1761d77fead15f193490a0f11b83f3a4.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16,17|新加坡3|@ripaojiedian
   network: ws
   port: '443'
-  server: 173.230.153.192
-  servername: 173.230.153.192
+  server: 192.53.172.191
+  servername: 192.53.172.191
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -1417,14 +1302,31 @@ proxies:
   uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: 173.230.153.192
-    path: /JyKvcGEV
+      Host: 192.53.172.191
+    path: /wrPUMAzPF
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16,17|美国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 45.33.54.48
+  servername: 45.33.54.48
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: 45.33.54.48
+    path: /uzbXtnJH
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.212.100.34
+  server: 3.0.93.45
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1432,37 +1334,29 @@ proxies:
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.12.74.84
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 16|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.36.69.3
+  server: 43.201.82.24
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   name: 17|香港2|@ripaojiedian
   network: tcp
-  port: '44803'
-  server: ambxxic01hk.dorabbb.top
+  port: '18210'
+  server: 149.104.20.212
   servername: ''
   tls: false
   type: vmess
-  uuid: b03ec976-3100-48ea-b1b1-767f8d425907
+  uuid: d57c4ac9-f43b-4856-ac46-4987a08e1f6f
 - alterId: 0
-  cipher: auto
+  cipher: none
   name: 17|香港3|@ripaojiedian
   network: tcp
-  port: '55305'
-  server: 45.125.35.57
+  port: '32447'
+  server: 110.40.59.61
   servername: ''
   tls: false
   type: vmess
-  uuid: db87b0f5-01bb-448c-bb5f-9668fe09300e
+  uuid: 74eb53ef-46dd-418d-f09a-98f31e7eea3a
 - alterId: 64
   cipher: auto
   name: 17|香港4|@ripaojiedian
@@ -1483,12 +1377,32 @@ proxies:
   tls: true
   type: vmess
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- alterId: 0
+  cipher: auto
+  name: 17|日本3|@ripaojiedian
+  network: tcp
+  port: '36328'
+  server: 45.159.51.138
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 15c2d96f-e859-4375-9780-0e1975a050a7
 - alterId: 64
   cipher: auto
   name: 17|美国2|@ripaojiedian
   network: tcp
   port: '43526'
   server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 64
+  cipher: auto
+  name: 17|德国|@ripaojiedian
+  network: tcp
+  port: '43526'
+  server: 120.232.153.71
   servername: ''
   tls: false
   type: vmess
