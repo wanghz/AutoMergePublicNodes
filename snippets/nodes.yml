@@ -761,6 +761,53 @@ proxies:
     headers:
       Host: a.prapt1.ir
     path: /
+- alterId: 64
+  cipher: auto
+  name: 11,17|美国2|@ripaojiedian
+  network: tcp
+  port: '43526'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: 11|美国 CloudFlare节点
+  network: ws
+  port: 80
+  server: cf.877771.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ebace182-ad9a-4044-92fd-ad48adf52779
+  ws-opts:
+    headers:
+      Host: 33.bycf.us.kg
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #1'
+  network: ws
+  port: 2095
+  server: 104.19.58.175
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  name: 11,17|德国|@ripaojiedian
+  network: tcp
+  port: '43526'
+  server: 120.232.153.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   name: 11,12|github.com/freefq - 印度  10
@@ -775,57 +822,6 @@ proxies:
     headers:
       Host: pendar.onthewifi.com
     path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 11|美国 CloudFlare节点
-  network: ws
-  port: 2082
-  server: 172.64.198.249
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 64
-  cipher: auto
-  name: 11,17|美国2|@ripaojiedian
-  network: tcp
-  port: '43526'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
-  network: ws
-  port: '443'
-  server: 104.16.67.38
-  servername: us3e-mmnnfr9dop0.v2freevpn.com
-  tls: true
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: us3e-mmnnfr9dop0.v2freevpn.com
-    path: /v118-fccxmxm35
-- alterId: 0
-  cipher: auto
-  name: '11,12|github.com/freefq - 美国CloudFla... #2'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -895,6 +891,20 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: '12|github.com/freefq - 美国CloudFla... #2'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国Fastly全球...
@@ -1204,23 +1214,14 @@ proxies:
     headers:
       host: n1721118448.ryjml.cn
     path: /
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16,17|香港|@ripaojiedian
-  network: ws
-  port: '2086'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
+  name: 16|🇭🇰 香港|@ripaojiedian
+  password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569
+  port: 40000
+  server: soonhk.soon.guru
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: gbdzxvumhk1.xqyhvpee.xyz
-    path: /ifBUEjhG
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -1234,6 +1235,106 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16,17|香港3|@ripaojiedian
+  network: ws
+  port: '443'
+  server: hkcft01.xqc.best
+  servername: d1zonq30ul7iu8.cloudfront.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 86bf5667-081c-46a6-8030-6b50787723d6
+  ws-opts:
+    headers:
+      Host: d1zonq30ul7iu8.cloudfront.net
+    path: /stream
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇹🇼 台湾|@ripaojiedian
+  password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569
+  port: 40020
+  server: soontw.soon.guru
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16,17|日本|@ripaojiedian
+  network: ws
+  port: '443'
+  server: jpcft01.xqc.best
+  servername: d2vx9phh42gj2v.cloudfront.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 86bf5667-081c-46a6-8030-6b50787723d6
+  ws-opts:
+    headers:
+      Host: d2vx9phh42gj2v.cloudfront.net
+    path: /stream
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本3|@ripaojiedian
+  password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569
+  port: 40003
+  server: soonjp.soon.guru
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: JpTYrOJnIhNMXqli
+  port: 23801
+  server: 221.181.185.71
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇰🇷 韩国|@ripaojiedian
+  password: ea541b1a-b823-4e91-8cd4-42ac6d4d4569
+  port: 40032
+  server: soonkr.soon.guru
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16,17|新加坡2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: sgcft01.xqc.best
+  servername: d6dxw1fj76oix.cloudfront.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 86bf5667-081c-46a6-8030-6b50787723d6
+  ws-opts:
+    headers:
+      Host: d6dxw1fj76oix.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16,17|美国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 66.175.217.126
+  servername: 66.175.217.126
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: 66.175.217.126
+    path: /bFhFAWRF
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇰🇷 韩国特殊|@ripaojiedian
@@ -1242,82 +1343,6 @@ proxies:
   server: 43.207.71.110
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本|@ripaojiedian
-  password: '1234'
-  port: 1234
-  server: 54.248.54.190
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|韩国|@ripaojiedian
-  network: ws
-  port: '80'
-  server: strw4.c6tu5uwk9.buzz
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
-  ws-opts:
-    headers:
-      Host: kr03.1761d77fead15f193490a0f11b83f3a4.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|新加坡2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: bfdo3.c6tu5uwk9.buzz
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
-  ws-opts:
-    headers:
-      Host: sg02.1761d77fead15f193490a0f11b83f3a4.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|新加坡3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 192.53.172.191
-  servername: 192.53.172.191
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: 192.53.172.191
-    path: /wrPUMAzPF
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|美国|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 45.33.54.48
-  servername: 45.33.54.48
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: 45.33.54.48
-    path: /uzbXtnJH
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
@@ -1335,25 +1360,15 @@ proxies:
   tfo: false
   type: ss
 - alterId: 0
-  cipher: auto
+  cipher: none
   name: 17|香港2|@ripaojiedian
   network: tcp
-  port: '18210'
-  server: 149.104.20.212
+  port: '14247'
+  server: 103.75.117.78
   servername: ''
   tls: false
   type: vmess
-  uuid: d57c4ac9-f43b-4856-ac46-4987a08e1f6f
-- alterId: 0
-  cipher: none
-  name: 17|香港3|@ripaojiedian
-  network: tcp
-  port: '32447'
-  server: 110.40.59.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 74eb53ef-46dd-418d-f09a-98f31e7eea3a
+  uuid: 56d6f1a9-b26a-4f9b-a95a-ff59de60ee51
 - alterId: 64
   cipher: auto
   name: 17|香港4|@ripaojiedian
@@ -1366,6 +1381,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 17|香港5|@ripaojiedian
+  network: tcp
+  port: '44826'
+  server: ambxxid02hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f01c154-4137-4ffc-bf6d-801352a20d7a
+- alterId: 0
+  cipher: auto
   name: 17|香港6|@ripaojiedian
   network: tcp
   port: '12960'
@@ -1376,21 +1401,11 @@ proxies:
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
 - alterId: 0
   cipher: auto
-  name: 17|日本3|@ripaojiedian
+  name: 17|日本2|@ripaojiedian
   network: tcp
-  port: '36328'
-  server: 45.159.51.138
+  port: '51127'
+  server: 45.159.50.219
   servername: ''
   tls: false
   type: vmess
-  uuid: 15c2d96f-e859-4375-9780-0e1975a050a7
-- alterId: 64
-  cipher: auto
-  name: 17|德国|@ripaojiedian
-  network: tcp
-  port: '43526'
-  server: 120.232.153.71
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+  uuid: ab67e1dc-14ba-4638-9817-7cb68895a4be
