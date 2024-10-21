@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港4|@ripaojiedian
+  network: tcp
+  port: '30251'
+  server: hkt2.bika.hk
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
 - cipher: chacha20-ietf-poly1305
   name: 13|🇰·香港·TG@kkouokk·12
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
@@ -164,16 +174,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 525bf680-dda1-451f-8758-d5ce847e5dc9
-- alterId: 0
-  cipher: auto
-  name: 17|香港4|@ripaojiedian
-  network: tcp
-  port: '30251'
-  server: hkt2.bika.hk
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
 - alterId: 0
   cipher: auto
   name: 17|香港5|@ripaojiedian
