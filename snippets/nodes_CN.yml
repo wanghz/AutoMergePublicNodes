@@ -340,11 +340,11 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 13,16|🇩🇪 德国|@ripaojiedian
-  password: 5b4becce-5739-483f-97ec-68b81a855d68
+  password: '!!str 3690911436885991424'
   port: 43526
   server: 120.232.153.71
   skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  sni: careful-platypus.opossum872.cfd
   tfo: false
   tls: false
   type: vmess
