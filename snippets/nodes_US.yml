@@ -656,6 +656,22 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸·美国·197·TG@kkouokk
+  network: ws
+  port: 2082
+  server: icook.tw
+  servername: ip16.6929198.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      host: ip16.6929198.xyz
+    path: /github.com/Alvin9999
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
