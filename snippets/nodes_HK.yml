@@ -13,12 +13,12 @@ proxies:
   cipher: auto
   name: 11,17|香港5|@ripaojiedian
   network: tcp
-  port: '28724'
-  server: 103.224.80.27
+  port: '53385'
+  server: e00618c75712.uxzbpycs.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 45f7362a-79fd-444f-98b6-e62d7371ca91
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
 - alterId: 64
   cipher: auto
   name: 11,17|香港6|@ripaojiedian
@@ -32,20 +32,20 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港|@ripaojiedian
-  password: HBBC2STZ150IG831
-  port: 15012
-  server: 120.241.45.50
+  password: QMOLGIKYZW15TD56
+  port: 15010
+  server: 58.63.250.61
   tfo: false
   type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
-  password: AlXRB8wqec3pCYZgSNADxROFSEa0Saz3Z6O7u3FjIlDT4eDYxp89aCy35KC2yn
+  password: 7c58bf11-9175-46d1-accf-e1883bf0d5f8
   port: 52112
   server: 183.236.51.23
   skip-cert-verify: false
-  sni: nagoya.meijireform.com
+  sni: mmbiz1.redapricotcloud.com
   tfo: false
   tls: false
   type: vmess
@@ -53,16 +53,16 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港3|@ripaojiedian
-  password: C98R0J6MIG26GH4X
-  port: 15016
-  server: 120.241.45.50
+  password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5
+  port: 30474
+  server: ll-hg.mtls.xyz
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港4|@ripaojiedian
-  password: 87c6d447-b620-4c25-8386-e7f14b6de499
-  port: 11001
-  server: 183.240.255.75
+  password: 1S4F61F85M49UAJP
+  port: 15003
+  server: 58.63.250.61
   tfo: false
   type: ss

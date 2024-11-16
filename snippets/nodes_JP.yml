@@ -1,27 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,17|日本2|@ripaojiedian
-  network: tcp
-  port: '30178'
-  server: 45.159.51.88
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a0dfa194-ce47-409f-b551-ff520181bfab
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本|@ripaojiedian
-  password: bb8b73a1-1b44-4e41-b032-f28e180a3827
-  port: 11001
-  server: 61.172.235.22
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.38.209.2
+  server: 52.79.157.153
   tfo: false
   type: ss
