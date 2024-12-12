@@ -528,6 +528,28 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11|0|--98
+  network: ws
+  port: 2095
+  server: 172.64.166.33
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 11|0|--130
+  network: tcp
+  port: 443
+  server: suddaehihub.sudda.store
+  tls: true
+  type: vmess
+  uuid: ad2cea64-7ce8-46eb-b898-5b3a0937416f
+- alterId: 0
+  cipher: auto
   name: 11,17|香港3|@ripaojiedian
   network: tcp
   port: '39041'
@@ -535,17 +557,7 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
-- alterId: 64
-  cipher: auto
-  name: 11,17|香港5|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 183.236.48.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
 - alterId: 64
   cipher: auto
   name: 11,17|香港7|@ripaojiedian
@@ -565,7 +577,7 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
+  uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
 - alterId: 0
   cipher: auto
   name: 11,17|新加坡2|@ripaojiedian
@@ -575,17 +587,17 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
+  uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
 - alterId: 0
   cipher: auto
-  name: 11,17|美国2|@ripaojiedian
+  name: 11,17|新加坡3|@ripaojiedian
   network: tcp
-  port: '46051'
-  server: us1.tiljkc.top
+  port: '34842'
+  server: sgp1.tiljkc.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
+  uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
 - alterId: 0
   cipher: auto
   name: 11|16|d*********g.com_2
@@ -757,13 +769,21 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
+  uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港4|@ripaojiedian
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54002
   server: h-k02.loveroise.com
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港5|@ripaojiedian
+  password: 5BPUP4YJFYRRQK13
+  port: 15013
+  server: 113.99.142.152
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -816,6 +836,14 @@ proxies:
   server: j-p04.loveroise.com
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本5|@ripaojiedian
+  password: LKX69P4C7CNLBQJ2
+  port: 18016
+  server: 219.135.227.209
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇰🇷 韩国|@ripaojiedian
@@ -834,6 +862,14 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
+  name: 16|🇺🇸 美国2|@ripaojiedian
+  password: MB2IKBDACE0LUEEZ
+  port: 17001
+  server: 113.99.142.152
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: Y6R9pAtvxxzmGC
   port: 3389
@@ -845,7 +881,7 @@ proxies:
   name: 16|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.151.196.32
+  server: 52.38.9.34
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -853,7 +889,7 @@ proxies:
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.141.231.184
+  server: 43.203.255.151
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -861,6 +897,6 @@ proxies:
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.124.228.227
+  server: 52.194.222.57
   tfo: false
   type: ss

@@ -237,16 +237,6 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11,17|美国2|@ripaojiedian
-  network: tcp
-  port: '46051'
-  server: us1.tiljkc.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -313,6 +303,14 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国2|@ripaojiedian
+  password: MB2IKBDACE0LUEEZ
+  port: 17001
+  server: 113.99.142.152
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇺🇸 美国3|@ripaojiedian
