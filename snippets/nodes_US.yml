@@ -314,8 +314,8 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇺🇸 美国2|@ripaojiedian
-  password: OBIS73L4TXP0JP12
-  port: 17014
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  password: 1XQDHG7MU61NKDX2
+  port: 17008
+  server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
