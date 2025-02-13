@@ -8,7 +8,7 @@ proxies:
 - alterId: 0
   cipher: none
   client-fingerprint: chrome
-  name: 16,17|新加坡|@ripaojiedian
+  name: 11,16,17|新加坡|@ripaojiedian
   network: ws
   port: '8967'
   server: 31.58.142.221
