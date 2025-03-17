@@ -528,6 +528,109 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11|2|🇫🇷1 |  2.4MB/s
+  network: ws
+  port: 2095
+  server: 185.174.138.209
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM
+- alterId: 0
+  cipher: auto
+  name: 11|2|🌀1- |  2.2MB/s
+  network: ws
+  port: 2082
+  server: 45.142.120.190
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link#
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸2 |  2.4MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: 9fb63156-5bde-3028-983d-dd9eb33ff9d1
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇬🇧2 |  4.8MB/s
+  network: ws
+  port: 443
+  server: 172.67.169.40
+  servername: hms03.dongfeng.cfd
+  tls: true
+  type: vmess
+  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+  ws-opts:
+    headers:
+      Host: hms03.dongfeng.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港3|@ripaojiedian
+  network: tcp
+  port: '11111'
+  server: bgp1.bgp1.miaomiaowu114514.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
+- alterId: 0
+  cipher: auto
+  name: 11,17|日本3|@ripaojiedian
+  network: tcp
+  port: '18066'
+  server: 45.159.50.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fd359563-996d-461f-b0d7-97083b1616ae
+- alterId: 0
+  cipher: auto
+  name: 11,17|新加坡2|@ripaojiedian
+  network: tcp
+  port: '11003'
+  server: bgp1.bgp1.miaomiaowu114514.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港A|@ripaojiedian
+  network: kcp
+  port: '26706'
+  server: 47.239.242.136
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3949be3c-f862-4081-afca-9979bd189648
+- alterId: 0
+  cipher: auto
+  name: 11,17|日本A|@ripaojiedian
+  network: kcp
+  port: '58490'
+  server: 8.209.203.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
+- alterId: 0
+  cipher: auto
   name: 12|github.com/freefq - 印度  2
   network: ws
   port: 443
@@ -675,7 +778,7 @@ proxies:
   name: 16|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 35.77.94.139
+  server: 47.128.154.164
   tfo: false
   type: ss
 - client-fingerprint: chrome
@@ -699,46 +802,25 @@ proxies:
   server: hk01.x.quickcht3.club
   tfo: false
   type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港3|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8716
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港4|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8752
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 46003
-  server: cloudgd.coemn.com
+  name: 16|🇸🇬 新加坡2|@ripaojiedian
+  port: 11003
+  server: bgp1.bgp1.miaomiaowu114514.org
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: cloudgd.coemn.com
-    path: /zh-cn
+  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港4|@ripaojiedian
+  password: R3FYI7545URTZITK
+  port: 15013
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港6|@ripaojiedian
@@ -763,44 +845,12 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾2|@ripaojiedian
-  network: ws
-  port: 46005
-  server: fadawtawd.zhangwei.li
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: fadawtawd.zhangwei.li
-    path: /zh-cn
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 16|🇹🇼 台湾3|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8746
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 16|🇹🇼 台湾4|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8745
-  server: cn01.efan8867801.xyz
+  password: 645d056f-369c-46d3-a1cb-7f04c06916ce
+  port: 30018
+  server: 114.132.40.118
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -827,62 +877,14 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 46015
-  server: fadawtawd.zhangwei.li
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: fadawtawd.zhangwei.li
-    path: /zh-cn
-- cipher: rc4-md5
+- cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8722
-  server: cn01.efan8867801.xyz
+  password: 3946ff88-2d5c-4cb4-b06b-3375d90a6a6b
+  port: 12022
+  server: mdss-sg.04z3susick.download
   tfo: false
   type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8724
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡3|@ripaojiedian
-  network: ws
-  port: 46019
-  server: fadawtawd.zhangwei.li
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: fadawtawd.zhangwei.li
-    path: /zh-cn
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇺🇸 美国|@ripaojiedian
@@ -910,8 +912,8 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇺🇸 美国3|@ripaojiedian
-  password: TYM1N812T1QGEUE8
-  port: 17008
+  password: E1SCB7Q1P7HFR8K8
+  port: 17005
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
@@ -928,7 +930,7 @@ proxies:
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.34.253.95
+  server: 54.238.186.53
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -936,7 +938,7 @@ proxies:
   name: 16|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 57.180.240.249
+  server: 18.136.193.92
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -944,7 +946,7 @@ proxies:
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.169.134.156
+  server: 3.0.54.96
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -955,59 +957,3 @@ proxies:
   server: 57.128.190.214
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 17|香港5|@ripaojiedian
-  network: ws
-  port: '46003'
-  server: cloudgd.coemn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 17|台湾2|@ripaojiedian
-  network: ws
-  port: '46005'
-  server: fadawtawd.zhangwei.li
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 17|日本3|@ripaojiedian
-  network: ws
-  port: '46015'
-  server: fadawtawd.zhangwei.li
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 17|新加坡3|@ripaojiedian
-  network: ws
-  port: '46019'
-  server: fadawtawd.zhangwei.li
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
