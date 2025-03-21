@@ -235,20 +235,23 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 32
+- alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸2 |  5.4MB/s
+  client-fingerprint: chrome
+  name: 11,16,17|美国3|@ripaojiedian
   network: ws
-  port: 443
-  server: vc.fly.dev
-  servername: vc.fly.dev
-  tls: true
+  port: '20012'
+  server: 207.90.238.136
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  uuid: 7c3589ed-eb5f-48a8-85dc-d6b02de60917
   ws-opts:
     headers:
-      Host: vc.fly.dev
-    path: /vc
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
@@ -339,13 +342,5 @@ proxies:
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-128-cfb
-  client-fingerprint: chrome
-  name: 16|🇺🇸 美国3|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
   tfo: false
   type: ss
