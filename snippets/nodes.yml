@@ -528,16 +528,18 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|🇭🇰2 |  2.7MB/s
-  network: tcp
-  port: 31919
-  server: 183.236.51.38
+  name: 11|1|🇨🇦1 |  5.1MB/s
+  network: ws
+  port: 20032
+  server: 141.195.112.33
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 449ec58b-44f9-436b-8814-1495490ba830
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 11|0|🇫🇷2 |  2.5MB/s
+  name: 11|1|🇫🇷1 |  2.8MB/s
   network: ws
   port: 443
   server: 8.219.206.22
@@ -550,15 +552,18 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 11|0|🇷🇺6 |  4.9MB/s
+  name: 11|1|🇫🇷3 |  1.8MB/s
   network: ws
-  port: 23031
-  server: 195.133.5.127
-  tls: false
+  port: 443
+  server: 144.24.200.164
+  servername: beyonddsz.cfd
+  tls: true
   type: vmess
-  uuid: d9aa0cef-129f-4039-b9cf-8d2b140ecc2d
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
   ws-opts:
-    path: /
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 11,17|香港|@ripaojiedian
