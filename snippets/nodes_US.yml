@@ -237,6 +237,16 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11,17|美国3|@ripaojiedian
+  network: tcp
+  port: '18733'
+  server: 23.236.68.110
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b2e2719-a545-49c1-ab3f-6f4104ae9f56
+- alterId: 0
+  cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -309,7 +319,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-vlFfFCZhtT.download.microsoft.com
+    host: 202503170996717-78Zoi5O2jZ.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -321,25 +331,9 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-vlFfFCZhtT.download.microsoft.com
+    host: 202503170996717-78Zoi5O2jZ.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 16|🇺🇸 美国3|@ripaojiedian
-  password: W6FN1QTMR6UNWXQS
-  port: 17003
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 16|🇺🇸 美国4|@ripaojiedian
-  password: SE9CD8DTF7E35MFG
-  port: 17006
-  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
