@@ -528,49 +528,13 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇨🇦1 |  5.5MB/s
-  network: ws
-  port: 20033
-  server: 141.195.112.33
+  name: 11|2|🇨🇭1 |  3.7MB/s
+  network: tcp
+  port: 22324
+  server: 186.190.215.93
   tls: false
   type: vmess
-  uuid: 7b2730d6-a55a-465f-a502-60c427f2850e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀3-CN |  4.7MB/s
-  network: ws
-  port: 21032
-  server: 212.192.12.56
-  tls: false
-  type: vmess
-  uuid: a277c1b4-e4e6-42f5-adf3-7574ac958342
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰6 |  3.8MB/s
-  network: ws
-  port: 22032
-  server: 212.192.12.73
-  tls: false
-  type: vmess
-  uuid: 7b2730d6-a55a-465f-a502-60c427f2850e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀7-SE |  2.9MB/s
-  network: ws
-  port: 8443
-  server: windows.onetwothree123.ir
-  servername: windows.onetwothree123.ir
-  tls: true
-  type: vmess
-  uuid: b5836e74-021c-49a7-99bd-c98d32a14fb4
-  ws-opts:
-    path: /Xot8ex8r
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 11,17|香港|@ripaojiedian

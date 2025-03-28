@@ -1,17 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰6 |  3.8MB/s
-  network: ws
-  port: 22032
-  server: 212.192.12.73
-  tls: false
-  type: vmess
-  uuid: 7b2730d6-a55a-465f-a502-60c427f2850e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 11,17|香港|@ripaojiedian
   network: tcp
   port: '51182'
