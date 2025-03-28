@@ -1,14 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,17|香港4|@ripaojiedian
-  network: tcp
-  port: '14601'
-  server: stan.pythoncdn.com
-  servername: ''
+  name: 11|2|🇭🇰6 |  3.8MB/s
+  network: ws
+  port: 22032
+  server: 212.192.12.73
   tls: false
   type: vmess
-  uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
+  uuid: 7b2730d6-a55a-465f-a502-60c427f2850e
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,17|香港|@ripaojiedian
@@ -19,6 +20,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港4|@ripaojiedian
+  network: tcp
+  port: '14601'
+  server: stan.pythoncdn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
 - alterId: 0
   cipher: auto
   name: 11,17|香港7|@ripaojiedian
