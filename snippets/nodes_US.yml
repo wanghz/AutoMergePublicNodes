@@ -235,6 +235,15 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸13 |  6.0MB/s
+  network: tcp
+  port: 41068
+  server: ttsh.xissyun.com
+  tls: false
+  type: vmess
+  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

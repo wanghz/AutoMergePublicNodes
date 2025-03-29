@@ -7,13 +7,13 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬1 |  1.1MB/s
+  name: 11|2|🇸🇬4 |  6.2MB/s
   network: tcp
-  port: 46902
-  server: 183.236.51.38
+  port: 44171
+  server: js.sf1.pw
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡|@ripaojiedian

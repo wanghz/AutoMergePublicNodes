@@ -1,6 +1,42 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|2|🇯🇵1 |  4.1MB/s
+  network: tcp
+  port: 30325
+  server: sz.sf1.pw
+  tls: false
+  type: vmess
+  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵5 |  5.7MB/s
+  network: tcp
+  port: 52327
+  server: gdcm.ffzjv.cn
+  tls: false
+  type: vmess
+  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵7 |  5.7MB/s
+  network: tcp
+  port: 23516
+  server: gdcm.ffzjv.cn
+  tls: false
+  type: vmess
+  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵10 |  6.2MB/s
+  network: tcp
+  port: 56309
+  server: qqb12.198139.xyz
+  tls: false
+  type: vmess
+  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
+- alterId: 0
+  cipher: auto
   name: 11,17|日本A|@ripaojiedian
   network: kcp
   port: '58490'
