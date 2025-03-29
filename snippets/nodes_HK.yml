@@ -1,36 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,17|香港|@ripaojiedian
-  network: tcp
-  port: '51182'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,17|香港4|@ripaojiedian
-  network: tcp
-  port: '14601'
-  server: stan.pythoncdn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
-- alterId: 0
-  cipher: auto
-  name: 11,17|香港7|@ripaojiedian
-  network: tcp
-  port: '47231'
-  server: 38.147.188.96
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 178eb98b-3999-4094-a739-1456bdd3ebe1
-- alterId: 0
-  cipher: auto
   name: 11,17|香港A|@ripaojiedian
   network: kcp
   port: '26706'
@@ -39,19 +9,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 3949be3c-f862-4081-afca-9979bd189648
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 16|🇺🇸 美国3|@ripaojiedian
-  password: 6e8b9913-5277-4627-95b0-86766ae65ad6
-  port: 18733
-  server: 23.236.68.110
-  skip-cert-verify: false
-  sni: mmbiz1.redapricotcloud.com
+  name: 16|🇭🇰 香港|@ripaojiedian
+  password: UMG49G7UX0FPLALB
+  port: 15016
+  server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 6b2e2719-a545-49c1-ab3f-6f4104ae9f56
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
@@ -60,19 +25,19 @@ proxies:
   server: 183.232.229.164
   tfo: false
   type: ss
-- cipher: chacha20-ietf
+- client-fingerprint: chrome
+  name: 16|🇺🇸 美国4|@ripaojiedian
+  password: '!!str 74260702287384200'
+  port: 443
+  server: settled-mite.shiner427.skin
+  skip-cert-verify: false
+  sni: settled-mite.shiner427.skin
+  type: trojan
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港5|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.182.191
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港6|@ripaojiedian
-  password: e935efa8-ede3-4fc5-8e2a-7d63b1090452
-  port: 23987
-  server: xg1.gywanglug.xyz
+  name: 16|🇭🇰 香港4|@ripaojiedian
+  password: UVKL67AXW56ZCNT3
+  port: 15004
+  server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
