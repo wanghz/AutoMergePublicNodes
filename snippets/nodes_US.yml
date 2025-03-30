@@ -237,46 +237,94 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸13 |  6.0MB/s
-  network: tcp
-  port: 41068
-  server: ttsh.xissyun.com
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|美国3|@ripaojiedian
+  name: 11|2|🇺🇸3 |  1.2MB/s
   network: ws
-  port: '420'
-  server: 0e1f11d2-stw740-sy3miy-3kis.fmt2-us.sghuawei.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 8443
+  server: 185.238.228.41
+  servername: lax1.ibgfw.top
+  tls: true
   type: vmess
-  uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
   ws-opts:
     headers:
-      Host: 0e1f11d2-stw740-sy3miy-3kis.fmt2-us.sghuawei.com
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸13 |  1.4MB/s
+  network: ws
+  port: 8443
+  server: 5.10.246.166
+  servername: lax1.ibgfw.top
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    headers:
+      Host: lax1.ibgfw.top
+    path: /xrenvws
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸16 |  5.3MB/s
+  network: ws
+  port: 21014
+  server: 134.195.211.116
+  servername: 134.195.211.116
+  tls: false
+  type: vmess
+  uuid: f17c76c1-2c3b-4791-b2a7-15435b81ed3a
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸22 |  1.7MB/s
+  network: ws
+  port: 8443
+  server: 89.116.180.69
+  servername: lax1.ibgfw.top
+  tls: true
+  type: vmess
+  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
+  ws-opts:
+    path: /xrenvws
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸28 |  2.2MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸29 |  1.3MB/s
+  network: ws
+  port: 21013
+  server: 134.195.211.116
+  tls: false
+  type: vmess
+  uuid: f17c76c1-2c3b-4791-b2a7-15435b81ed3a
+  ws-opts:
     path: /
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|美国5|@ripaojiedian
+  name: 11|2|🇺🇸32 |  1.4MB/s
   network: ws
-  port: '420'
-  server: 494a196c-stucg0-t16qfc-3ge3.fmt2-us.sghuawei.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  tls: true
   type: vmess
-  uuid: 6e28d086-f1bd-11ed-9ebc-f23c93665044
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: 494a196c-stucg0-t16qfc-3ge3.fmt2-us.sghuawei.com
+      Host: zxjp-a.tkong.cc
     path: /
 - alterId: 0
   cipher: auto
@@ -368,5 +416,21 @@ proxies:
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国3|@ripaojiedian
+  password: ZJCCR003R9N9XUY1
+  port: 20032
+  server: 147.78.3.137
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国4|@ripaojiedian
+  password: JU8G16JUJ67Q618R
+  port: 17008
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss

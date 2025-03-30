@@ -1,157 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰1 |  2.7MB/s
-  network: tcp
-  port: 60580
-  server: qqb12.198139.xyz
-  tls: false
+  name: 11|2|🇭🇰10 |  4.4MB/s
+  network: ws
+  port: 443
+  server: www.visa.com.tw
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
+  uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
+  ws-opts:
+    headers:
+      Host: hk.insbot.filegear-sg.me
+    path: /aa
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰2 |  5.8MB/s
+  name: 11,17|香港|@ripaojiedian
   network: tcp
-  port: 50341
-  server: cloudgd.coemn.com
+  port: '10295'
+  server: 103.30.78.24
+  servername: ''
   tls: false
   type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰3 |  6.0MB/s
-  network: tcp
-  port: 19654
-  server: gdcm.ffzjv.cn
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰4 |  5.9MB/s
-  network: tcp
-  port: 42175
-  server: qqb12.198139.xyz
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰5 |  1.1MB/s
-  network: tcp
-  port: 11181
-  server: 03xsg.xissyun.com
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰6 |  5.4MB/s
-  network: tcp
-  port: 24556
-  server: js.sf1.pw
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰7 |  5.9MB/s
-  network: tcp
-  port: 40993
-  server: js.sf1.pw
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰8 |  5.8MB/s
-  network: tcp
-  port: 41115
-  server: ttsh.xissyun.com
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰9 |  4.7MB/s
-  network: tcp
-  port: 21526
-  server: qqa813.198139.xyz
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰10 |  4.9MB/s
-  network: tcp
-  port: 50817
-  server: ttsh.xissyun.com
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰12 |  9.7MB/s
-  network: tcp
-  port: 16560
-  server: gdcm.ffzjv.cn
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰13 |  4.7MB/s
-  network: tcp
-  port: 22382
-  server: pgyd.xn--inr8y672ajns.xn--fiqs8s
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰15 |  5.8MB/s
-  network: tcp
-  port: 31430
-  server: cloudgd.coemn.com
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰17 |  5.9MB/s
-  network: tcp
-  port: 44794
-  server: js.sf1.pw
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰18 |  5.5MB/s
-  network: tcp
-  port: 44227
-  server: js.sf1.pw
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰20 |  6.1MB/s
-  network: tcp
-  port: 26488
-  server: cloudgd.coemn.com
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰21 |  1.2MB/s
-  network: tcp
-  port: 23374
-  server: xxsg.xissyun.com
-  tls: false
-  type: vmess
-  uuid: 46d0c7e4-b94e-414b-810c-d281190c9535
+  uuid: 9a948e66-2cad-4064-9585-6c37840c62dc
 - alterId: 0
   cipher: auto
   name: 11,17|香港A|@ripaojiedian
@@ -162,14 +33,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 3949be3c-f862-4081-afca-9979bd189648
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港|@ripaojiedian
-  password: UMG49G7UX0FPLALB
-  port: 15016
-  server: w72tapyb.slashdevslashnetslashtun.net
+  name: 16|🇭🇰 香港3|@ripaojiedian
+  password: VMhGp5wEIyCDf90T
+  port: 42303
+  server: csuzhou01.1cooldns.com
+  skip-cert-verify: false
+  sni: hk06.run.place
   tfo: false
-  type: ss
+  tls: false
+  type: trojan
+  uuid: 9a948e66-2cad-4064-9585-6c37840c62dc
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
@@ -178,19 +54,19 @@ proxies:
   server: 183.232.229.164
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 16|🇺🇸 美国4|@ripaojiedian
-  password: '!!str 74260702287384200'
-  port: 443
-  server: settled-mite.shiner427.skin
-  skip-cert-verify: false
-  sni: settled-mite.shiner427.skin
-  type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港4|@ripaojiedian
-  password: UVKL67AXW56ZCNT3
+  password: FGB2HBMFJ7XAQ87Z
   port: 15004
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港5|@ripaojiedian
+  password: RRSWPFKGCL902OP8
+  port: 15016
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
