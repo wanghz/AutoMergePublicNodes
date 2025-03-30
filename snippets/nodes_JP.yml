@@ -1,6 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|2|🇯🇵3 |  6.0MB/s
+  network: ws
+  port: 25277
+  server: cu.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵7 |  6.1MB/s
+  network: ws
+  port: 25279
+  server: cu.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
   name: 11,17|日本A|@ripaojiedian
   network: kcp
   port: '58490'

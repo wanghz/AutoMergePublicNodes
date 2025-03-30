@@ -528,228 +528,67 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇬🇧1 |  2.0MB/s
+  name: 11|2|🌀2-GR |  6.3MB/s
   network: ws
-  port: '443'
-  server: 188.114.99.134
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸1 |  5.2MB/s
-  network: ws
-  port: 443
-  server: us10-09.852224.ggff.net
-  servername: us10-09.852224.ggff.net
-  tls: true
-  type: vmess
-  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-  ws-opts:
-    headers:
-      Host: us10-09.852224.ggff.net
-    path: /SNwNdunw28lVztopw90eoXel
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸2 |  1.3MB/s
-  network: ws
-  port: 8443
-  server: 185.176.26.209
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇫🇷4 |  2.6MB/s
-  network: ws
-  port: 443
-  server: 172.67.220.10
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    headers:
-      Host: linja05.hwcar.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸5 |  1.6MB/s
-  network: ws
-  port: '8443'
-  server: 185.176.26.209
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸6 |  4.0MB/s
-  network: ws
-  port: 443
-  server: 107.174.34.6
-  tls: true
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /dabai.in172.64.19.172
-- alterId: 64
-  cipher: auto
-  name: 11|2|🇺🇸8 |  3.9MB/s
-  network: tcp
-  port: 52143
-  server: 142.4.104.33
-  servername: ''
+  port: 25244
+  server: hk1.awslcn.info
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇫🇷2 |  1.1MB/s
+  name: 11|2|🌀4-MX |  5.6MB/s
   network: ws
-  port: 443
-  server: 188.114.99.205
-  servername: linde06.indiavideo.sbs
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇫🇷5 |  1.4MB/s
-  network: ws
-  port: '443'
-  server: 188.114.97.1
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇷🇺4 |  5.7MB/s
-  network: ws
-  port: 23036
-  server: 195.133.5.127
+  port: 25284
+  server: cu.awslcn.info
   tls: false
   type: vmess
-  uuid: bf99d413-f3d3-49f6-80cd-7cefda1ed150
-  ws-opts:
-    path: /
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸11 |  1.1MB/s
+  name: 11|2|🌀5-VN |  4.0MB/s
   network: ws
-  port: '8443'
-  server: 194.59.5.221
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇹🇼7 |  5.8MB/s
-  network: tcp
-  port: 26024
-  server: bgp-xdd.blue-bgp.xyz
+  port: 25285
+  server: cm1.awslcn.info
   tls: false
   type: vmess
-  uuid: 66923fc6-906d-4838-b88c-8c9c80f808e9
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸16 |  1.5MB/s
+  name: 11|2|🌀6-MY |  2.0MB/s
   network: ws
-  port: 8443
-  server: 45.205.0.22
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸18 |  1.3MB/s
-  network: ws
-  port: 8443
-  server: 188.42.145.9
-  servername: lax1.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀14-CN |  1.9MB/s
-  network: ws
-  port: 21036
-  server: 212.192.12.56
+  port: 25228
+  server: cm.awslcn.info
   tls: false
   type: vmess
-  uuid: f3273718-a30d-4a75-8921-e73f0415e277
-  ws-opts:
-    path: /
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸20 |  1.9MB/s
+  name: 11|2|🇬🇧2 |  5.1MB/s
   network: ws
-  port: 8443
-  server: 185.238.228.41
-  servername: lax1.ibgfw.top
-  tls: true
+  port: 25240
+  server: cm1.awslcn.info
+  tls: false
   type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    headers:
-      Host: lax1.ibgfw.top
-    path: /xrenvws
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇬🇧3 |  5.1MB/s
+  name: 11|2|🇯🇵3 |  6.0MB/s
   network: ws
-  port: 443
-  server: 188.114.97.79
-  servername: linde06.indiavideo.sbs
-  tls: true
+  port: 25277
+  server: cu.awslcn.info
+  tls: false
   type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇬🇧4 |  2.6MB/s
-  network: ws
-  port: '443'
-  server: 188.114.97.7
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸23 |  3.3MB/s
+  name: 11|2|🇺🇸6 |  1.5MB/s
   network: ws
   port: '443'
   server: us10-04.852224.ggff.net
@@ -760,29 +599,74 @@ proxies:
     path: /SNwNdunw28lVztopw90eoXel
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸24 |  3.7MB/s
+  name: 11|2|🇸🇬4 |  6.3MB/s
   network: ws
-  port: '443'
-  server: us10-09.852224.ggff.net
-  tls: true
+  port: 25243
+  server: sg1.awslcn.info
+  tls: false
   type: vmess
-  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-  ws-opts:
-    path: /SNwNdunw28lVztopw90eoXel
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇫🇷10 |  5.2MB/s
+  name: 11|2|🌀11-VN |  3.2MB/s
   network: ws
-  port: 443
-  server: 172.67.220.83
-  servername: linja05.hwcar.sbs
-  tls: true
+  port: 25285
+  server: cu.awslcn.info
+  tls: false
   type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    headers:
-      Host: linja05.hwcar.sbs
-    path: /linkws
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🌀13-MY |  4.1MB/s
+  network: ws
+  port: 25258
+  server: cm.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵7 |  6.1MB/s
+  network: ws
+  port: 25279
+  server: cu.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🌀17-GR |  6.0MB/s
+  network: ws
+  port: 25242
+  server: hk2.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇮🇳1 |  6.1MB/s
+  network: ws
+  port: 25216
+  server: cm.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🌀18-GR |  5.4MB/s
+  network: ws
+  port: 25242
+  server: hk1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: 11,17|香港|@ripaojiedian
