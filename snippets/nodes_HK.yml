@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰10 |  4.4MB/s
-  network: ws
-  port: 443
-  server: www.visa.com.tw
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
-  ws-opts:
-    headers:
-      Host: hk.insbot.filegear-sg.me
-    path: /aa
-- alterId: 0
-  cipher: auto
   name: 11,17|香港|@ripaojiedian
   network: tcp
   port: '10295'
