@@ -237,15 +237,29 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸25 |  2.7MB/s
+  name: 11|1|🇺🇸21 |  5.8MB/s
   network: ws
-  port: '8443'
-  server: 156.238.18.68
+  port: 443
+  server: 104.25.252.185
+  servername: server1-2.99887766.best
   tls: true
   type: vmess
-  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
+  uuid: fd3916e7-4cff-488d-bcd6-61642335d5b7
   ws-opts:
-    path: /?maps.app.goo.gl/K3hM5xrwZV7bQVBa7?ed=2560
+    headers:
+      Host: server1-2.99887766.best
+    path: /zsd8o7i4ay28739qtgfwa
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸24 |  5.8MB/s
+  network: ws
+  port: '443'
+  server: 104.25.252.185
+  tls: true
+  type: vmess
+  uuid: fd3916e7-4cff-488d-bcd6-61642335d5b7
+  ws-opts:
+    path: /zsd8o7i4ay28739qtgfwa
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
