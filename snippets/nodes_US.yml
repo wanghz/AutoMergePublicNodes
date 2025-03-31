@@ -237,6 +237,17 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11|1|🇺🇸25 |  2.7MB/s
+  network: ws
+  port: '8443'
+  server: 156.238.18.68
+  tls: true
+  type: vmess
+  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
+  ws-opts:
+    path: /?maps.app.goo.gl/K3hM5xrwZV7bQVBa7?ed=2560
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 11,16,17|美国|@ripaojiedian
   network: ws
