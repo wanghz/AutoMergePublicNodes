@@ -11,6 +11,19 @@ proxies:
   uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
 - alterId: 0
   cipher: auto
+  name: 11|1|🇯🇵12 |  6.1MB/s
+  network: ws
+  port: 3774
+  server: v9.emovpn.buzz
+  tls: false
+  type: vmess
+  uuid: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
+  ws-opts:
+    headers:
+      Host: v9.emovpn.buzz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 11,17|日本A|@ripaojiedian
   network: kcp
   port: '58490'

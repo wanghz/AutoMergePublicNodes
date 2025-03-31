@@ -528,164 +528,6 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸1 |  1.2MB/s
-  network: ws
-  port: '8443'
-  server: 194.59.5.221
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    path: /xrenvws
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸2 |  1.0MB/s
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸4 |  1.0MB/s
-  network: ws
-  port: '8443'
-  server: 14.102.229.82
-  tls: true
-  type: vmess
-  uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e
-  ws-opts:
-    path: /xrenvws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸7 |  2.8MB/s
-  network: ws
-  port: 21027
-  server: 134.195.211.116
-  tls: false
-  type: vmess
-  uuid: f17c76c1-2c3b-4791-b2a7-15435b81ed3a
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀7-TH |  6.2MB/s
-  network: ws
-  port: 25289
-  server: cm.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀8-GR |  6.3MB/s
-  network: ws
-  port: 25242
-  server: hk1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬5 |  6.3MB/s
-  network: ws
-  port: 25245
-  server: sg1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀11-GR |  6.3MB/s
-  network: ws
-  port: 25244
-  server: hk1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬6 |  2.3MB/s
-  network: ws
-  port: 25243
-  server: sg1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀17-VN |  6.2MB/s
-  network: ws
-  port: 25285
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸25 |  1.0MB/s
-  network: ws
-  port: 3903
-  server: v53.emovpn.buzz
-  tls: false
-  type: vmess
-  uuid: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
-  ws-opts:
-    headers:
-      Host: v53.emovpn.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀21-MY |  1.9MB/s
-  network: ws
-  port: 25228
-  server: cm.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇩🇪4 |  4.9MB/s
-  network: ws
-  port: 25241
-  server: cm.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇮🇳4 |  6.0MB/s
-  network: ws
-  port: 25216
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀25-MY |  4.0MB/s
-  network: ws
-  port: 25258
-  server: cm.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
   name: 11,17|日本|@ripaojiedian
   network: tcp
   port: '29206'
@@ -694,6 +536,59 @@ proxies:
   tls: false
   type: vmess
   uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇫🇷3 |  4.4MB/s
+  network: ws
+  port: 443
+  server: 172.67.220.10
+  tls: true
+  type: vmess
+  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+  ws-opts:
+    headers:
+      Host: linja05.hwcar.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇩🇪7 |  5.3MB/s
+  network: ws
+  port: 443
+  server: 172.67.71.217
+  servername: 1t3chx0.zed23.web1337.net
+  tls: true
+  type: vmess
+  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
+  ws-opts:
+    headers:
+      Host: 1t3chx0.zed23.web1337.net
+    path: /fixedfloati.cfd/linkwsd
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵12 |  6.1MB/s
+  network: ws
+  port: 3774
+  server: v9.emovpn.buzz
+  tls: false
+  type: vmess
+  uuid: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
+  ws-opts:
+    headers:
+      Host: v9.emovpn.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇫🇷8 |  3.5MB/s
+  network: ws
+  port: 443
+  server: 104.21.94.64
+  tls: true
+  type: vmess
+  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+  ws-opts:
+    headers:
+      Host: linja05.hwcar.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
