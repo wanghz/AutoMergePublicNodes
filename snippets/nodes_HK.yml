@@ -1,13 +1,82 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇭🇰9 |  1.6MB/s
-  network: tcp
-  port: 10032
-  server: v2-hk4-zf.netcar.live
+  name: 11|1|🇭🇰4 |  5.6MB/s
+  network: ws
+  port: 2052
+  server: ms.rtxconfigz.xyz
   tls: false
   type: vmess
-  uuid: 21ddbca6-a333-4aa1-9431-33725df1e85e
+  uuid: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰7 |  1.8MB/s
+  network: ws
+  port: 2052
+  server: 20.189.122.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
+  ws-opts:
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰8 |  5.2MB/s
+  network: tcp
+  port: 320
+  server: pilaobanpengyou.netcar.live
+  tls: false
+  type: vmess
+  uuid: 84834668-5a2c-4677-8aa2-ceb85a4c2361
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港3|@ripaojiedian
+  network: tcp
+  port: '10032'
+  server: v2-hk1-zx.netcar.live
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bfd93c5c-abc7-416a-a205-372d3db979a4
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港5|@ripaojiedian
+  network: tcp
+  port: '41002'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|香港6|@ripaojiedian
+  network: ws
+  port: '8443'
+  server: hk.ggpdx.ggff.net
+  servername: hk.ggpdx.ggff.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 0c08b87c-67d7-401e-93dc-7bcda12e795b
+  ws-opts:
+    headers:
+      Host: hk.ggpdx.ggff.net
+    path: 0c08b87c-67d7-401e-93dc-7bcda12e795b-vm
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港9|@ripaojiedian
+  network: tcp
+  port: '4136'
+  server: ac9d3c3c-su2dc0-sv9ymy-dezg.d.volczijie.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 952f0a9a-097d-11f0-aa52-f23c93136cb3
 - alterId: 0
   cipher: auto
   name: 11,17|香港A|@ripaojiedian
@@ -18,24 +87,44 @@ proxies:
   tls: false
   type: vmess
   uuid: 3949be3c-f862-4081-afca-9979bd189648
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港|@ripaojiedian
+  password: MQ6J7FHRWL2EBDKX
+  port: 15015
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇯🇵 日本|@ripaojiedian
+  name: 16|🇯🇵 日本4|@ripaojiedian
   password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-  port: 29206
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  port: 36001
+  server: v2-hk2-zf2.netcar.live
   skip-cert-verify: false
-  sni: 10.elk3b3nwfy.xyz
+  sni: 7.qzhm8l42g1.xyz
   tfo: false
   tls: false
   type: vmess
-  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
-- cipher: chacha20-ietf
+  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港5|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
+  name: 16|🇭🇰 香港4|@ripaojiedian
+  password: HU1AA5DVZP3V8PZD
+  port: 15004
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港8|@ripaojiedian
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 4ec7af9f9f.m.ctrip.com
+    mode: http
+  port: 10001
+  server: south.inmysecretlife.xyz
   tfo: false
   type: ss

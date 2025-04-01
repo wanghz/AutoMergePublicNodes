@@ -237,46 +237,13 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸21 |  5.8MB/s
-  network: ws
-  port: 443
-  server: 104.25.252.185
-  servername: server1-2.99887766.best
-  tls: true
-  type: vmess
-  uuid: fd3916e7-4cff-488d-bcd6-61642335d5b7
-  ws-opts:
-    headers:
-      Host: server1-2.99887766.best
-    path: /zsd8o7i4ay28739qtgfwa
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸24 |  5.8MB/s
-  network: ws
-  port: '443'
-  server: 104.25.252.185
-  tls: true
-  type: vmess
-  uuid: fd3916e7-4cff-488d-bcd6-61642335d5b7
-  ws-opts:
-    path: /zsd8o7i4ay28739qtgfwa
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|美国|@ripaojiedian
-  network: ws
-  port: '8136'
-  server: v49.emovpn.buzz
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
+  name: 11|1|🇺🇸20 |  4.6MB/s
+  network: tcp
+  port: 34013
+  server: v2-us2-zf2.netcar.live
   tls: false
   type: vmess
-  uuid: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
-  ws-opts:
-    headers:
-      Host: v49.emovpn.buzz
-    path: /
+  uuid: 986f52fb-2dc7-4b53-b38c-2dfc19814974
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
@@ -345,3 +312,27 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    mode: http
+  port: 8776
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    mode: http
+  port: 8771
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
