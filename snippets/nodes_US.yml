@@ -235,11 +235,24 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸8 |  2.1MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: da339ed4-5245-3d02-b0bc-1e0b2cf98aa1
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸18 |  1.9MB/s
+  name: 11|2|🇺🇸19 |  1.6MB/s
   network: tcp
-  port: 35001
+  port: '35001'
   server: 120.198.71.216
   tls: false
   type: vmess

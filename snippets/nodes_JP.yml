@@ -1,14 +1,4 @@
 proxies:
-- alterId: 1
-  cipher: auto
-  name: 11|2|🇯🇵16 |  5.3MB/s
-  network: tcp
-  port: 28788
-  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  servername: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
