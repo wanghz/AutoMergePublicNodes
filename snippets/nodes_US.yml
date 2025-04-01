@@ -237,15 +237,6 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸20 |  4.6MB/s
-  network: tcp
-  port: 34013
-  server: v2-us2-zf2.netcar.live
-  tls: false
-  type: vmess
-  uuid: 986f52fb-2dc7-4b53-b38c-2dfc19814974
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080

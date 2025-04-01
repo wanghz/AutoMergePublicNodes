@@ -1,37 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇭🇰4 |  5.6MB/s
-  network: ws
-  port: 2052
-  server: ms.rtxconfigz.xyz
-  tls: false
-  type: vmess
-  uuid: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰7 |  1.8MB/s
-  network: ws
-  port: 2052
-  server: 20.189.122.198
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
-  ws-opts:
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰8 |  5.2MB/s
-  network: tcp
-  port: 320
-  server: pilaobanpengyou.netcar.live
-  tls: false
-  type: vmess
-  uuid: 84834668-5a2c-4677-8aa2-ceb85a4c2361
-- alterId: 0
-  cipher: auto
   name: 11,17|香港3|@ripaojiedian
   network: tcp
   port: '10032'
