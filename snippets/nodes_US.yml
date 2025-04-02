@@ -237,6 +237,15 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11|1|🇺🇸24 |  3.3MB/s
+  network: tcp
+  port: '34013'
+  server: v2-us2-zx.netcar.live
+  tls: false
+  type: vmess
+  uuid: 9a037058-73a1-4fc3-973f-c73b1f612d81
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 11,16,17|美国3|@ripaojiedian
   network: ws
@@ -252,15 +261,6 @@ proxies:
     headers:
       Host: hax.hy.cloudns.ch
     path: d79261b1-b706-49f6-b39d-af2a0b8ebac5-vm
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸27 |  5.9MB/s
-  network: tcp
-  port: 34013
-  server: v2-us2-zx.netcar.live
-  tls: false
-  type: vmess
-  uuid: 9a037058-73a1-4fc3-973f-c73b1f612d81
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...

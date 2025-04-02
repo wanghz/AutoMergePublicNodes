@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇭🇰4 |  6.2MB/s
+  name: 11|1|🇭🇰3 |  6.2MB/s
   network: tcp
   port: 10032
   server: v2-hk4-zf.netcar.live
