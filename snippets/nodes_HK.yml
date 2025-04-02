@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇭🇰3 |  6.2MB/s
-  network: tcp
-  port: 10032
-  server: v2-hk4-zf.netcar.live
-  tls: false
-  type: vmess
-  uuid: 21ddbca6-a333-4aa1-9431-33725df1e85e
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 11,16,17|香港|@ripaojiedian
   network: ws

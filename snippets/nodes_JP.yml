@@ -1,14 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵10 |  1.1MB/s
-  network: tcp
-  port: 40125
-  server: 120.198.71.214
-  servername: ''
-  tls: false
+  name: 11|1|🇯🇵1 |  1.2MB/s
+  network: ws
+  port: 443
+  server: ip4-jp1.vp1000.net
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 926028df-ece0-42b1-9aaf-d43093ba4a0c
+  ws-opts:
+    headers:
+      Host: ip4-jp1.vp1000.net
+    path: /pulicpaylfastpDisney
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
