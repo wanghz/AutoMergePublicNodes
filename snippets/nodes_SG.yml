@@ -7,18 +7,9 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬4 |  1.2MB/s
+  name: 11|2|🇸🇬1 |  1.1MB/s
   network: tcp
-  port: 3683
-  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇸🇬7 |  1.1MB/s
-  network: tcp
-  port: 3683
+  port: '3683'
   server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
   tls: false
   type: vmess

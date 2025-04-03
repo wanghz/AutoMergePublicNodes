@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇹🇼2 |  1.1MB/s
-  network: tcp
-  port: 27228
-  server: 45.121.50.116
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d4d8fb8-c73c-4474-e301-dcb9570943ca
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 11,16,17|台湾|@ripaojiedian
   network: ws
