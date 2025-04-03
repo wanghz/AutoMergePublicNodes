@@ -528,13 +528,31 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬1 |  1.1MB/s
-  network: tcp
-  port: '3683'
-  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+  name: 11|1|🇺🇸1 |  3.3MB/s
+  network: ws
+  port: 8443
+  server: lon1-dash.890699.xyz
+  servername: lon1-dash.890699.xyz
+  tls: true
+  type: vmess
+  uuid: 41963e6b-295d-45a0-b6cc-38fbdd3e3f75
+  ws-opts:
+    headers:
+      Host: lon1-sub.890699.xyz
+    path: /lon1-sub.890699.xyz
+- alterId: 2
+  cipher: auto
+  name: 11|1|🇨🇦7 |  5.7MB/s
+  network: ws
+  port: 30825
+  server: v25.heduian.link
   tls: false
   type: vmess
-  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: 11,17|香港2|@ripaojiedian
