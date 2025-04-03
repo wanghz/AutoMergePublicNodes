@@ -526,28 +526,53 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇨🇦4 |  1.7MB/s
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬8 |  1.7MB/s
+  name: 11|1|🇹🇼2 |  1.1MB/s
   network: tcp
-  port: '3683'
+  port: 27228
+  server: 45.121.50.116
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d4d8fb8-c73c-4474-e301-dcb9570943ca
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬4 |  1.2MB/s
+  network: tcp
+  port: 3683
   server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
   tls: false
   type: vmess
   uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵3 |  1.4MB/s
+  network: tcp
+  port: 40125
+  server: 120.198.71.214
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬7 |  1.1MB/s
+  network: tcp
+  port: 3683
+  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇩🇪7 |  1.6MB/s
+  network: tcp
+  port: 23173
+  server: 144.76.231.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c2dafb9-222c-481c-9695-1ebe4bc0b692
 - alterId: 0
   cipher: auto
   name: 11,17|香港2|@ripaojiedian
