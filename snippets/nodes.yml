@@ -526,20 +526,65 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸2 |  5.3MB/s
+  name: 11|2|🇮🇳1 |  5.9MB/s
   network: ws
-  port: 2087
-  server: lon1-dash.890699.xyz
-  servername: lon1-dash.890699.xyz
-  tls: true
+  port: 23611
+  server: 11.mamamajd.site
+  tls: false
   type: vmess
-  uuid: 41963e6b-295d-45a0-b6cc-38fbdd3e3f75
+  uuid: 55555e72-2632-397d-9b59-953d54e2b0b7
   ws-opts:
     headers:
-      Host: lon1-dash.890699.xyz
-    path: /lon1-sub.890699.xyz
+      Host: 11.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇫🇷2 |  4.7MB/s
+  network: ws
+  port: 30837
+  server: v37.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇮🇹1 |  5.4MB/s
+  network: ws
+  port: 30805
+  server: v5.heduian.link
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇸🇬11 |  1.0MB/s
+  network: tcp
+  port: '3683'
+  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港5|@ripaojiedian
+  network: tcp
+  port: '41002'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -557,66 +602,6 @@ proxies:
     headers:
       Host: oracleipv4.till.nyc.mn
     path: /123
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇫🇷2 |  5.2MB/s
-  network: ws
-  port: 443
-  server: 172.67.136.233
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: az05.beyondy.cfd
-    path: /link
-- alterId: 2
-  cipher: auto
-  name: 11|1|🇮🇹1 |  1.8MB/s
-  network: ws
-  port: 30805
-  server: v5.heduian.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸28 |  2.7MB/s
-  network: ws
-  port: 443
-  server: 104.18.149.75
-  tls: true
-  type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-  ws-opts:
-    headers:
-      Host: us.insbot.filegear-sg.me
-    path: /aa
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇸🇬4 |  1.3MB/s
-  network: tcp
-  port: 3683
-  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11,17|香港5|@ripaojiedian
-  network: tcp
-  port: '41002'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,17|日本4|@ripaojiedian

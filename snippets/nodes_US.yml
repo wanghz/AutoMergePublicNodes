@@ -237,33 +237,6 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸2 |  5.3MB/s
-  network: ws
-  port: 2087
-  server: lon1-dash.890699.xyz
-  servername: lon1-dash.890699.xyz
-  tls: true
-  type: vmess
-  uuid: 41963e6b-295d-45a0-b6cc-38fbdd3e3f75
-  ws-opts:
-    headers:
-      Host: lon1-dash.890699.xyz
-    path: /lon1-sub.890699.xyz
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸28 |  2.7MB/s
-  network: ws
-  port: 443
-  server: 104.18.149.75
-  tls: true
-  type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-  ws-opts:
-    headers:
-      Host: us.insbot.filegear-sg.me
-    path: /aa
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
