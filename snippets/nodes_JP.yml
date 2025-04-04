@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,17|日本4|@ripaojiedian
-  network: tcp
-  port: '28588'
-  server: pqcaqxvt.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 11,16,17|日本2|@ripaojiedian
   network: ws
@@ -26,6 +16,16 @@ proxies:
     headers:
       Host: oracleipv4.till.nyc.mn
     path: /123
+- alterId: 0
+  cipher: auto
+  name: 11,17|日本4|@ripaojiedian
+  network: tcp
+  port: '28588'
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
