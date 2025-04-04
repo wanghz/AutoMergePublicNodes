@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,17|香港2|@ripaojiedian
-  network: tcp
-  port: '18279'
-  server: 103.30.76.96
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 05ad1fb1-fb21-47c2-b036-22d163eef3a7
-- alterId: 0
-  cipher: auto
   name: 11,17|香港5|@ripaojiedian
   network: tcp
   port: '41002'
@@ -19,32 +9,34 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港|@ripaojiedian
-  password: 9b0ea2c9-c013-4b13-9ba6-fceae06e69f4
-  port: 19873
-  server: rk1.nynode0.cc
+  password: 2EJ0PUVXQ58KR0VG
+  port: 15012
+  server: 156.245.190.21
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港2|@ripaojiedian
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 5f981bce46.m.ctrip.com
+    mode: http
+  port: 10001
+  server: south.inmysecretlife.xyz
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇯🇵 日本3|@ripaojiedian
-  password: '!!str 74260700211203800'
-  port: 443
-  server: powerful-grackle.shiner427.skin
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  port: 28588
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
   skip-cert-verify: false
-  sni: powerful-grackle.shiner427.skin
   tfo: false
   tls: false
-  type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港3|@ripaojiedian
-  password: f203200f-f6a4-49d8-893e-6559804d79ae
-  port: 50103
-  server: bgp-xdd.blue-bgp.xyz
-  tfo: false
-  type: ss
+  type: vmess
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
