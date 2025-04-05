@@ -237,6 +237,47 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11|1|🇺🇸26 |  5.6MB/s
+  network: ws
+  port: 2087
+  server: 172.67.189.27
+  servername: lon2-sub.930.pp.ua
+  tls: true
+  type: vmess
+  uuid: bc86f949-7152-4367-92f5-7a11eacf9c9b
+  ws-opts:
+    headers:
+      Host: lon2-sub.930.pp.ua
+    path: /lon2-sub.930.pp.ua
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸28 |  1.5MB/s
+  network: ws
+  port: 2053
+  server: 104.21.57.38
+  servername: ny2-sub.930.pp.ua
+  tls: true
+  type: vmess
+  uuid: f082eeca-e068-45f9-d1bf-46e9de9bdf57
+  ws-opts:
+    headers:
+      Host: ny2-sub.930.pp.ua
+    path: /ny2-sub.930.pp.ua
+- alterId: 2
+  cipher: auto
+  name: 11|1|🇺🇸29 |  5.2MB/s
+  network: ws
+  port: 30829
+  server: v29.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
