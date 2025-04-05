@@ -237,16 +237,6 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸14 |  5.6MB/s
-  network: ws
-  port: 5210
-  server: 7f93c487-sub0g0-sv11pd-1g8k0.losa.plebai.net
-  tls: false
-  type: vmess
-  uuid: d4018e28-e328-11ed-98a7-f23c913c8d2b
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
