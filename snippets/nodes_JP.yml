@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,17|日本8|@ripaojiedian
-  network: tcp
-  port: '33184'
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 65639009-9ea3-4b5b-8f6e-bba5ef17e350
-- alterId: 0
-  cipher: auto
   name: 11,17|日本7|@ripaojiedian
   network: tcp
   port: '4151'
@@ -19,6 +9,16 @@ proxies:
   tls: false
   type: vmess
   uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11,17|日本8|@ripaojiedian
+  network: tcp
+  port: '33184'
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 65639009-9ea3-4b5b-8f6e-bba5ef17e350
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian

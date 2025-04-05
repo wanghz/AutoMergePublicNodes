@@ -526,16 +526,32 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11,17|日本8|@ripaojiedian
-  network: tcp
-  port: '33184'
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  servername: ''
+  name: 11|2|🇩🇪1 |  3.8MB/s
+  network: ws
+  port: 23616
+  server: 16.mamamajd.site
   tls: false
   type: vmess
-  uuid: 65639009-9ea3-4b5b-8f6e-bba5ef17e350
+  uuid: 8a083bdc-3c6c-3fd6-9738-c75b3445e075
+  ws-opts:
+    headers:
+      Host: 16.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇨🇦1 |  4.1MB/s
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: 11,17|香港|@ripaojiedian
@@ -566,6 +582,16 @@ proxies:
   tls: false
   type: vmess
   uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11,17|日本8|@ripaojiedian
+  network: tcp
+  port: '33184'
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 65639009-9ea3-4b5b-8f6e-bba5ef17e350
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
