@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 11|2|🇨🇦10 |  2.7MB/s
+  name: 11|2|🇨🇦4 |  2.6MB/s
   network: ws
   port: 30825
   server: v25.heduian.link
@@ -9,4 +9,6 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
+    headers:
+      Host: baidu.com
     path: /oooo
