@@ -235,6 +235,25 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸7 |  5.8MB/s
+  network: ws
+  port: 14555
+  server: 2.58.87.221
+  tls: true
+  type: vmess
+  uuid: 6c764a03-bb1a-4bc6-baca-452453fce1ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸36 |  1.4MB/s
+  network: tcp
+  port: 5228
+  server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

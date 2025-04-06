@@ -526,69 +526,40 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇭🇰1 |  4.5MB/s
-  network: ws
-  port: 80
-  server: 4ac87188-suk9s0-t7qex7-1supq.hk3.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇭🇰2 |  1.3MB/s
-  network: ws
-  port: 80
-  server: 687032bd-sucv40-sxlqds-1qs82.hk.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c6d1142-dc2b-11ee-88c7-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵11 |  1.3MB/s
+  name: 11|2|🇺🇸7 |  5.8MB/s
+  network: ws
+  port: 14555
+  server: 2.58.87.221
+  tls: true
+  type: vmess
+  uuid: 6c764a03-bb1a-4bc6-baca-452453fce1ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸36 |  1.4MB/s
   network: tcp
-  port: 3684
-  server: 1cd9d58d-sudhc0-sv0ksy-1l5c.d.volczijie.com
+  port: 5228
+  server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
   tls: false
   type: vmess
-  uuid: 4aecd339-9094-11ef-96ff-f23c9313b177
-- alterId: 2
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+- alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰6 |  2.3MB/s
+  name: 11|2|🇷🇺5 |  4.3MB/s
   network: ws
-  port: 80
-  server: 7c780c82-sucv40-suruu8-8bem.hk3.p5pv.com
+  port: 22000
+  server: 176.32.39.240
   servername: ''
   tls: false
   type: vmess
-  uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
+  uuid: e95cd8fe-a64f-4fbb-9fec-efb700940564
   ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵16 |  4.1MB/s
-  network: tcp
-  port: 4151
-  server: 2c6d0633-sudhc0-sya9qt-5mq6.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 7171af52-8586-11ef-86d0-f23c932f2c32
 - alterId: 2
   cipher: auto
-  name: 11|2|🇨🇦2 |  5.4MB/s
+  name: 11|2|🇨🇦4 |  5.4MB/s
   network: ws
   port: 30825
   server: v25.heduian.link
@@ -599,24 +570,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰11 |  6.3MB/s
-  network: tcp
-  port: 26010
-  server: ppy-hkv1.02ijp4uos1.download
-  tls: false
-  type: vmess
-  uuid: ffc323ce-efe2-3b60-a1d1-f4f5497bf2d7
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇹🇼6 |  1.4MB/s
-  network: tcp
-  port: 3690
-  server: 6ec77a24-sudhc0-sv0ksy-1l5c.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 4aecd339-9094-11ef-96ff-f23c9313b177
 - alterId: 0
   cipher: auto
   name: 11,17|香港6|@ripaojiedian
