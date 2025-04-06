@@ -235,6 +235,57 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸3 |  4.9MB/s
+  network: ws
+  port: 2087
+  server: lon2-dash.930.pp.ua
+  servername: lon2-dash.930.pp.ua
+  tls: true
+  type: vmess
+  uuid: bc86f949-7152-4367-92f5-7a11eacf9c9b
+  ws-opts:
+    headers:
+      Host: lon2-sub.930.pp.ua
+    path: /lon2-sub.930.pp.ua
+- alterId: 2
+  cipher: auto
+  name: 11|1|🇺🇸8 |  5.5MB/s
+  network: ws
+  port: 22643
+  server: 119.188.66.248
+  servername: zxjp-c.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸11 |  2.4MB/s
+  network: ws
+  port: 2096
+  server: lon2-dash.930.pp.ua
+  servername: lon2-dash.930.pp.ua
+  tls: true
+  type: vmess
+  uuid: bc86f949-7152-4367-92f5-7a11eacf9c9b
+  ws-opts:
+    headers:
+      Host: lon2-sub.930.pp.ua
+    path: /lon2-sub.930.pp.ua
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸29 |  5.4MB/s
+  network: tcp
+  port: 5228
+  server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

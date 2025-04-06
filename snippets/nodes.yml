@@ -528,13 +528,118 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬4 |  1.5MB/s
-  network: tcp
-  port: 35542
-  server: 120.232.153.40
+  name: 11|1|🇺🇸3 |  4.9MB/s
+  network: ws
+  port: 2087
+  server: lon2-dash.930.pp.ua
+  servername: lon2-dash.930.pp.ua
+  tls: true
+  type: vmess
+  uuid: bc86f949-7152-4367-92f5-7a11eacf9c9b
+  ws-opts:
+    headers:
+      Host: lon2-sub.930.pp.ua
+    path: /lon2-sub.930.pp.ua
+- alterId: 2
+  cipher: auto
+  name: 11|1|🇺🇸8 |  5.5MB/s
+  network: ws
+  port: 22643
+  server: 119.188.66.248
+  servername: zxjp-c.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸11 |  2.4MB/s
+  network: ws
+  port: 2096
+  server: lon2-dash.930.pp.ua
+  servername: lon2-dash.930.pp.ua
+  tls: true
+  type: vmess
+  uuid: bc86f949-7152-4367-92f5-7a11eacf9c9b
+  ws-opts:
+    headers:
+      Host: lon2-sub.930.pp.ua
+    path: /lon2-sub.930.pp.ua
+- alterId: 2
+  cipher: auto
+  name: 11|1|🇭🇰4 |  1.5MB/s
+  network: ws
+  port: 80
+  server: 7c780c82-sucv40-suruu8-8bem.hk3.p5pv.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰6 |  2.1MB/s
+  network: tcp
+  port: 4138
+  server: 1e42c0d0-sudhc0-svtnto-ckzn.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: cbb15894-f6ad-11ef-afd8-f23c9313b177
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇹🇼19 |  2.5MB/s
+  network: tcp
+  port: 3687
+  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇧🇷2 |  1.3MB/s
+  network: ws
+  port: 80
+  server: 104.18.23.68
+  tls: false
+  type: vmess
+  uuid: bd9c1aea-240a-463a-83ee-e7b3a6a4ac7a
+  ws-opts:
+    headers:
+      Host: 375175914186712025032911325872796.s15.chibaba.filegear-sg.me
+    path: /s15.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬9 |  3.7MB/s
+  network: tcp
+  port: 4135
+  server: 637b7bc9-sudhc0-svibx4-1s4a.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 337cb930-073d-11ee-8120-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬10 |  1.4MB/s
+  network: tcp
+  port: 4137
+  server: fd89b2da-sudhc0-svibx4-1s4a.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 337cb930-073d-11ee-8120-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸29 |  5.4MB/s
+  network: tcp
+  port: 5228
+  server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
 - alterId: 0
   cipher: auto
   name: 11,17|香港6|@ripaojiedian
