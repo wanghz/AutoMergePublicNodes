@@ -235,40 +235,16 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸26 |  5.6MB/s
-  network: ws
-  port: 2087
-  server: 172.67.189.27
-  servername: lon2-sub.930.pp.ua
-  tls: true
-  type: vmess
-  uuid: bc86f949-7152-4367-92f5-7a11eacf9c9b
-  ws-opts:
-    headers:
-      Host: lon2-sub.930.pp.ua
-    path: /lon2-sub.930.pp.ua
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸28 |  1.5MB/s
-  network: ws
-  port: 2053
-  server: 104.21.57.38
-  servername: ny2-sub.930.pp.ua
-  tls: true
-  type: vmess
-  uuid: f082eeca-e068-45f9-d1bf-46e9de9bdf57
-  ws-opts:
-    headers:
-      Host: ny2-sub.930.pp.ua
-    path: /ny2-sub.930.pp.ua
 - alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸29 |  5.2MB/s
+  client-fingerprint: chrome
+  name: 11,16,17|美国3|@ripaojiedian
   network: ws
-  port: 30829
-  server: v29.heduian.link
+  port: '30807'
+  server: v7.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -350,7 +326,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504031266665-b2qPz9YET8.download.microsoft.com
+    host: 202504031266665-2FO2jW0pPK.download.microsoft.com
     mode: http
   port: 8776
   server: cn01.efan8867801.xyz
@@ -362,48 +338,9 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504031266665-b2qPz9YET8.download.microsoft.com
+    host: 202504031266665-2FO2jW0pPK.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 16|🇺🇸 美国3|@ripaojiedian
-  network: ws
-  password: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  port: 443
-  server: us2a.88888007.xyz
-  skip-cert-verify: false
-  sni: us2a.88888007.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: us2a.88888007.xyz
-    path: /92024db4-eadf-4cd1-b7e5-87d047d353f0
-- client-fingerprint: chrome
-  name: 16|🇺🇸 美国4|@ripaojiedian
-  network: ws
-  password: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  port: 443
-  server: us3a.88888007.xyz
-  skip-cert-verify: false
-  sni: us3a.88888007.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: us3a.88888007.xyz
-    path: /92024db4-eadf-4cd1-b7e5-87d047d353f0
-- client-fingerprint: chrome
-  name: 16|🇺🇸 美国6|@ripaojiedian
-  network: ws
-  password: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  port: 443
-  server: us4a.88888007.xyz
-  skip-cert-verify: false
-  sni: us4a.88888007.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: us4a.88888007.xyz
-    path: /92024db4-eadf-4cd1-b7e5-87d047d353f0
