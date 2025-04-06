@@ -528,48 +528,13 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸7 |  5.8MB/s
-  network: ws
-  port: 14555
-  server: 2.58.87.221
-  tls: true
-  type: vmess
-  uuid: 6c764a03-bb1a-4bc6-baca-452453fce1ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸36 |  1.4MB/s
+  name: 11|1|🇸🇬4 |  1.5MB/s
   network: tcp
-  port: 5228
-  server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
+  port: 35542
+  server: 120.232.153.40
   tls: false
   type: vmess
-  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇷🇺5 |  4.3MB/s
-  network: ws
-  port: 22000
-  server: 176.32.39.240
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e95cd8fe-a64f-4fbb-9fec-efb700940564
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇨🇦4 |  5.4MB/s
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,17|香港6|@ripaojiedian

@@ -7,6 +7,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 11|1|🇸🇬4 |  1.5MB/s
+  network: tcp
+  port: 35542
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: 11,17|新加坡|@ripaojiedian
   network: tcp
   port: '4135'
