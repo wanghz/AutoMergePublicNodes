@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|13|日本4|@ripaojiedian
+  name: 11,17|日本4|@ripaojiedian
   network: tcp
-  port: '4151'
-  server: 36fed4c6-sumqo0-swo13r-3im.c.volczijie.com
+  port: '31842'
+  server: 45.159.50.212
   servername: ''
   tls: false
   type: vmess
-  uuid: 647b46f6-2ba4-11ee-af1f-f23c93136cb3
+  uuid: 570e52c1-be15-4c79-a9e7-bab82555a034
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
@@ -45,13 +45,3 @@ proxies:
   server: 35.72.13.55
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 17|日本4|@ripaojiedian
-  network: tcp
-  port: '31842'
-  server: 45.159.50.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 570e52c1-be15-4c79-a9e7-bab82555a034

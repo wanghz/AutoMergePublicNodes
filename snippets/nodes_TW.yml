@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 17|台湾|@ripaojiedian
+  name: 11,17|台湾|@ripaojiedian
   network: tcp
   port: '3690'
   server: 58acaca7-sumqo0-tbfl8f-xcf.b.fosant.com

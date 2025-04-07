@@ -526,152 +526,87 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸1 |  5.6MB/s
-  network: ws
-  port: 8880
-  server: a9ef9b55-sueps0-sxrtmf-1kww5.se.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 56b7180c-2545-11ee-b973-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇷🇺1 |  5.8MB/s
+  name: 11|2|🇫🇷1 |  4.4MB/s
   network: ws
   port: 443
-  server: cg1c09.waimaoglobaldirect.cc
+  server: 158.180.228.226
   servername: ''
   tls: true
   type: vmess
-  uuid: 47a269a8-4c98-4a51-b633-521d8da9cd57
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
   ws-opts:
     headers:
-      Host: cg1c09.waimaoglobaldirect.cc
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸8 |  5.6MB/s
-  network: ws
-  port: 8443
-  server: 1743919941.tencentapp.cn
-  servername: 1743919978.speed.laxha.cccp.freefly.pp.ua
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    headers:
-      Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇩🇪4 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 172.67.71.217
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
-  ws-opts:
-    headers:
-      Host: 1t3chx0.zed23.web1337.net
-    path: /fixedfloati.cfd/linkwsd
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸22 |  5.7MB/s
-  network: ws
-  port: 2096
-  server: 1743919941.tencentapp.cn
-  servername: 1743919978.speed.adl.cccp.freefly.pp.ua
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸29 |  2.4MB/s
-  network: ws
-  port: 2096
-  server: 141.101.120.195
-  servername: 1743919978.speed.adl.cccp.freefly.pp.ua
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    headers:
-      Host: 1743919978.speed.adl.cccp.freefly.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇦🇺2 |  2.5MB/s
-  network: ws
-  port: 443
-  server: cg1d08.waimaoglobaldirect.cc
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 47a269a8-4c98-4a51-b633-521d8da9cd57
-  ws-opts:
-    headers:
-      Host: cg1d08.waimaoglobaldirect.cc
-    path: /api/v1/graphql
+      Host: beyonddsz.cfd
+    path: /linkws
 - alterId: 64
   cipher: auto
-  name: 11|2|🇺🇸39 |  5.6MB/s
+  name: 11|2|🇺🇸31 |  5.2MB/s
   network: tcp
   port: 52143
   server: 142.4.104.33
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰8 |  4.4MB/s
-  network: ws
-  port: 80
-  server: 2ef0c521-sueps0-swy8qd-18ug9.hgc1.tcpbbr.net
+  name: 11,17|台湾|@ripaojiedian
+  network: tcp
+  port: '3690'
+  server: 58acaca7-sumqo0-tbfl8f-xcf.b.fosant.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 62e4530e-b6b8-11eb-a0fc-f23c913c8d2b
+  uuid: 3219f740-4024-11ef-bfd4-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸14 |  1.4MB/s
+  network: ws
+  port: 2096
+  server: 1743919941.tencentapp.cn
+  servername: 1743919978.speed.adl.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
   ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸46 |  5.7MB/s
-  network: ws
-  port: 443
-  server: cg1d02.waimaoglobaldirect.cc
-  servername: ''
-  tls: true
+  name: 11|2|🇺🇸22 |  5.5MB/s
+  network: tcp
+  port: 5228
+  server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
+  tls: false
   type: vmess
-  uuid: 47a269a8-4c98-4a51-b633-521d8da9cd57
-  ws-opts:
-    headers:
-      Host: cg1d02.waimaoglobaldirect.cc
-    path: /api/v1/graphql
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸49 |  5.7MB/s
+  name: 11|2|🇺🇸28 |  1.1MB/s
   network: ws
-  port: 8880
-  server: 95f858a9-sueps0-t8gc2u-fde3.se.plebai.net
+  port: 22643
+  server: 119.188.66.248
+  servername: zxjp-c.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇷🇺1 |  4.2MB/s
+  network: ws
+  port: '25230'
+  server: cm1.awslcn.info
   servername: ''
   tls: false
   type: vmess
-  uuid: 8bf87ef6-47e1-11ea-b241-f23c913c8d2b
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: cm1.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
@@ -702,34 +637,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|13|香港6|@ripaojiedian
+  name: 11,17|日本4|@ripaojiedian
   network: tcp
-  port: '32977'
-  server: 120.232.153.41
+  port: '31842'
+  server: 45.159.50.212
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|13|香港7|@ripaojiedian
-  network: tcp
-  port: '42550'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|13|日本4|@ripaojiedian
-  network: tcp
-  port: '4151'
-  server: 36fed4c6-sumqo0-swo13r-3im.c.volczijie.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 647b46f6-2ba4-11ee-af1f-f23c93136cb3
+  uuid: 570e52c1-be15-4c79-a9e7-bab82555a034
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -737,6 +652,23 @@ proxies:
   network: ws
   port: '30828'
   server: v28.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|美国5|@ripaojiedian
+  network: ws
+  port: '30807'
+  server: v7.heduian.link
   servername: ''
   skip-cert-verify: false
   tfo: false
@@ -757,37 +689,6 @@ proxies:
   tls: false
   type: vmess
   uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|美国5|@ripaojiedian
-  network: ws
-  port: '30807'
-  server: v7.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|12,13|俄罗斯|@ripaojiedian
-  network: ws
-  port: '25230'
-  server: cm1.awslcn.info
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -1068,23 +969,3 @@ proxies:
   protocol-param: OTI5MDI6cEZXR09R
   server: 3.link-hub.click
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: 17|台湾|@ripaojiedian
-  network: tcp
-  port: '3690'
-  server: 58acaca7-sumqo0-tbfl8f-xcf.b.fosant.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3219f740-4024-11ef-bfd4-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 17|日本4|@ripaojiedian
-  network: tcp
-  port: '31842'
-  server: 45.159.50.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 570e52c1-be15-4c79-a9e7-bab82555a034
