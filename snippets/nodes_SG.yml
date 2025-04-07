@@ -5,14 +5,6 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡2|@ripaojiedian
-  password: 921ee115-d40f-4151-9535-b4e37511f944
-  port: 30005
-  server: 156.224.79.232
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
