@@ -237,34 +237,25 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸51 |  5.8MB/s
-  network: tcp
-  port: '5228'
-  server: 65aa431e-sucv40-tcop2n-tl32.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸36 |  5.7MB/s
+  name: 11|1|🇺🇸2 |  6.0MB/s
   network: ws
-  port: 8443
-  server: 104.18.118.195
-  servername: 1743919978.speed.zjgza.cccp.freefly.pp.ua
+  port: 2096
+  server: ny2-dash.930.pp.ua
+  servername: ny2-dash.930.pp.ua
   tls: true
   type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  uuid: f082eeca-e068-45f9-d1bf-46e9de9bdf57
   ws-opts:
     headers:
-      Host: 1743919978.speed.zjgza.cccp.freefly.pp.ua
-    path: /
+      Host: ny2-sub.930.pp.ua
+    path: /ny2-sub.930.pp.ua
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸54 |  3.9MB/s
+  name: 11|1|🇺🇸8 |  2.4MB/s
   network: ws
   port: 2053
-  server: 1744007541.tencentapp.cn
-  servername: 1744007578.speed.zjgza.cccp.freefly.pp.ua
+  server: 141.101.120.64
+  servername: ''
   tls: true
   type: vmess
   uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
@@ -272,19 +263,47 @@ proxies:
     headers:
       Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸55 |  5.8MB/s
+  name: 11|1|🇺🇸19 |  5.4MB/s
   network: ws
-  port: 22643
-  server: 119.188.66.248
-  servername: zxjp-c.tkong.cc
+  port: 2096
+  server: 104.18.119.222
+  servername: ''
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
   ws-opts:
     headers:
-      Host: zxjp-c.tkong.cc
+      Host: 1743256978.speed.adl.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸30 |  1.7MB/s
+  network: ws
+  port: 443
+  server: QWe.852224.GGFF.NEt
+  servername: QWe.852224.GGFF.NEt
+  tls: true
+  type: vmess
+  uuid: cd0e795a-4f26-4f8c-9981-ed8b7dcb6126
+  ws-opts:
+    headers:
+      Host: qwe.852224.ggff.net
+    path: /SpXidaRA9PbqU8RhisheV
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸42 |  3.6MB/s
+  network: ws
+  port: 2053
+  server: 141.101.120.41
+  servername: 1744007578.speed.zjgza.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua
     path: /
 - alterId: 2
   cipher: auto

@@ -1,22 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰4 |  2.3MB/s
-  network: tcp
-  port: 4138
-  server: 113437c7-submo0-su9xu5-1phl.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰13 |  4.5MB/s
-  network: tcp
-  port: 4136
-  server: 285c04c5-suh6o0-sv6d5y-ddgs.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: c870fe5a-0729-11f0-8cf9-f23c93136cb3
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
