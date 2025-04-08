@@ -1,13 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵1 |  5.7MB/s
-  network: tcp
-  port: 30251
-  server: 34.97.245.204
-  tls: false
+  name: 11|0|🇯🇵6 |  1.1MB/s
+  network: ws
+  port: 11184
+  server: 175.215.154.208
+  servername: oracle2ipv4.till.nyc.mn
+  tls: true
   type: vmess
-  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
+  uuid: 0ee75dd1-5e59-4615-a6a8-6fe7aa0b6f17
+  ws-opts:
+    headers:
+      Host: oracle2ipv4.till.nyc.mn
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,17|日本2|@ripaojiedian

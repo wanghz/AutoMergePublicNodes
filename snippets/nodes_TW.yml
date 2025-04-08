@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇹🇼2 |  6.1MB/s
-  network: tcp
-  port: 3687
-  server: 8608dac0-suh6o0-sv6d5y-ddgs.a.fosant.com
-  tls: false
-  type: vmess
-  uuid: c870fe5a-0729-11f0-8cf9-f23c93136cb3
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 11,16,17|台湾2|@ripaojiedian
   network: ws
