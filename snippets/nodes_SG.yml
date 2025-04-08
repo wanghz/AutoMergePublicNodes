@@ -7,6 +7,18 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 11|2|🇸🇬1 |  4.7MB/s
+  network: ws
+  port: 80
+  server: fbf248.de15-5483-d16b.sbs
+  servername: sg02s.de15-5483-d16b.sbs
+  tls: false
+  type: vmess
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 11,16,17|新加坡|@ripaojiedian
   network: ws

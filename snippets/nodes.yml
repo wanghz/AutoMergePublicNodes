@@ -528,33 +528,55 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|🇭🇰4 |  2.1MB/s
+  name: 11|2|🇸🇬1 |  4.7MB/s
   network: ws
-  port: 23002
-  server: 212.192.12.154
-  servername: ''
+  port: 80
+  server: fbf248.de15-5483-d16b.sbs
+  servername: sg02s.de15-5483-d16b.sbs
   tls: false
   type: vmess
-  uuid: 361d4055-e74d-4b39-a6b4-ef2030b134ef
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|0|🌀4- |  5.5MB/s
+  name: 11|2|🇺🇸18 |  4.7MB/s
   network: ws
-  port: 8443
-  server: 1744007541.tencentapp.cn
-  servername: 1744007578.speed.adl.cccp.freefly.pp.ua
+  port: '8443'
+  server: 104.18.118.195
   tls: true
   type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
   ws-opts:
-    headers:
-      Host: 1744007578.speed.adl.cccp.freefly.pp.ua
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸25 |  5.3MB/s
+  name: 11|2|🇫🇷9 |  1.8MB/s
+  network: ws
+  port: 443
+  server: 152.67.251.232
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇫🇷3 |  1.2MB/s
+  network: ws
+  port: '443'
+  server: 152.67.251.232
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸27 |  5.6MB/s
   network: ws
   port: 2053
   server: 141.101.120.41
@@ -568,17 +590,119 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|0|🇯🇵6 |  1.1MB/s
+  name: 11|2|🇺🇸29 |  5.9MB/s
   network: ws
-  port: 11184
-  server: 175.215.154.208
-  servername: oracle2ipv4.till.nyc.mn
+  port: 2096
+  server: ny2-dash.930.pp.ua
+  servername: ny2-dash.930.pp.ua
   tls: true
   type: vmess
-  uuid: 0ee75dd1-5e59-4615-a6a8-6fe7aa0b6f17
+  uuid: f082eeca-e068-45f9-d1bf-46e9de9bdf57
   ws-opts:
     headers:
-      Host: oracle2ipv4.till.nyc.mn
+      Host: ny2-sub.930.pp.ua
+    path: /ny2-sub.930.pp.ua
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸30 |  5.8MB/s
+  network: ws
+  port: '2053'
+  server: 1744007541.tencentapp.cn
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸31 |  7.2MB/s
+  network: ws
+  port: 20006
+  server: 45.147.201.231
+  tls: false
+  type: vmess
+  uuid: a953aa9c-aa68-4182-a676-68b5b17d3a6e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸34 |  5.7MB/s
+  network: ws
+  port: 2053
+  server: 1744007541.tencentapp.cn
+  servername: 1744007578.speed.zjgza.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🌀11- |  5.1MB/s
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: 11|2|🌀13- |  1.8MB/s
+  network: ws
+  port: '30825'
+  server: v25.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸46 |  2.4MB/s
+  network: ws
+  port: 2096
+  server: 104.18.119.222
+  servername: 1743256978.speed.adl.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      Host: 1743256978.speed.adl.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇫🇷8 |  6.1MB/s
+  network: ws
+  port: 443
+  server: 172.67.154.84
+  servername: irvideo.cfd
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸58 |  4.7MB/s
+  network: ws
+  port: 8443
+  server: 1744007541.tencentapp.cn
+  servername: 1744007578.speed.adl.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1744007578.speed.adl.cccp.freefly.pp.ua
     path: /
 - alterId: 2
   cipher: auto
