@@ -1,14 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,17|香港2|@ripaojiedian
+  name: 11|1|🇭🇰4 |  2.3MB/s
   network: tcp
-  port: '41002'
-  server: 120.232.153.40
-  servername: ''
+  port: 4138
+  server: 113437c7-submo0-su9xu5-1phl.c.volczijie.com
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰13 |  4.5MB/s
+  network: tcp
+  port: 4136
+  server: 285c04c5-suh6o0-sv6d5y-ddgs.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: c870fe5a-0729-11f0-8cf9-f23c93136cb3
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -26,6 +34,36 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港6|@ripaojiedian
+  network: tcp
+  port: '30251'
+  server: 35.220.230.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
+- alterId: 64
+  cipher: auto
+  name: 11,17|香港7|@ripaojiedian
+  network: tcp
+  port: '50002'
+  server: 47.104.186.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港8|@ripaojiedian
+  network: tcp
+  port: '31998'
+  server: 120.234.102.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港|@ripaojiedian
@@ -34,17 +72,14 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16|🇺🇸 美国4|@ripaojiedian
-  port: 14100
-  server: dxv4.pai50288.uk
-  skip-cert-verify: false
+  name: 16|🇭🇰 香港2|@ripaojiedian
+  password: c46ba905-31de-4090-8153-ec7d2e063079
+  port: 30001
+  server: 45.207.157.83
   tfo: false
-  tls: false
-  type: vmess
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港3|@ripaojiedian
@@ -64,3 +99,14 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 3.link-hub.click
   type: ssr
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国3|@ripaojiedian
+  port: 14100
+  server: dxv4.pai50288.uk
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
