@@ -237,18 +237,21 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸18 |  4.7MB/s
+  name: 11|1|🇺🇸25 |  5.2MB/s
   network: ws
-  port: '8443'
-  server: 104.18.118.195
+  port: 2053
+  server: 1744007541.tencentapp.cn
+  servername: 1744007578.speed.zjgza.cccp.freefly.pp.ua
   tls: true
   type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
   ws-opts:
+    headers:
+      Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸27 |  5.6MB/s
+  name: 11|1|🇺🇸27 |  5.0MB/s
   network: ws
   port: 2053
   server: 141.101.120.41
@@ -262,81 +265,43 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸29 |  5.9MB/s
+  name: 11|1|🇺🇸30 |  3.1MB/s
   network: ws
-  port: 2096
-  server: ny2-dash.930.pp.ua
-  servername: ny2-dash.930.pp.ua
+  port: 443
+  server: QWe.852224.GGFF.NEt
+  servername: qwe.852224.ggff.net
   tls: true
   type: vmess
-  uuid: f082eeca-e068-45f9-d1bf-46e9de9bdf57
+  uuid: cd0e795a-4f26-4f8c-9981-ed8b7dcb6126
   ws-opts:
     headers:
-      Host: ny2-sub.930.pp.ua
-    path: /ny2-sub.930.pp.ua
+      Host: QWe.852224.GGFF.NEt
+    path: /SpXidaRA9PbqU8RhisheV
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸30 |  5.8MB/s
+  name: 11|1|🇺🇸46 |  5.9MB/s
   network: ws
-  port: '2053'
-  server: 1744007541.tencentapp.cn
-  tls: true
-  type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸31 |  7.2MB/s
-  network: ws
-  port: 20006
-  server: 45.147.201.231
+  port: 2086
+  server: 170.114.45.51
   tls: false
   type: vmess
-  uuid: a953aa9c-aa68-4182-a676-68b5b17d3a6e
+  uuid: 0b5914c3-9284-44fa-b181-093e2943b9c1
   ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸34 |  5.7MB/s
+  name: 11|1|🇺🇸57 |  1.2MB/s
   network: ws
-  port: 2053
-  server: 1744007541.tencentapp.cn
-  servername: 1744007578.speed.zjgza.cccp.freefly.pp.ua
-  tls: true
+  port: 2086
+  server: 170.114.45.52
+  tls: false
   type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  uuid: 0b5914c3-9284-44fa-b181-093e2943b9c1
   ws-opts:
     headers:
-      Host: 1744007578.speed.zjgza.cccp.freefly.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸46 |  2.4MB/s
-  network: ws
-  port: 2096
-  server: 104.18.119.222
-  servername: 1743256978.speed.adl.cccp.freefly.pp.ua
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    headers:
-      Host: 1743256978.speed.adl.cccp.freefly.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸58 |  4.7MB/s
-  network: ws
-  port: 8443
-  server: 1744007541.tencentapp.cn
-  servername: 1744007578.speed.adl.cccp.freefly.pp.ua
-  tls: true
-  type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
-  ws-opts:
-    headers:
-      Host: 1744007578.speed.adl.cccp.freefly.pp.ua
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
     path: /
 - alterId: 2
   cipher: auto
@@ -355,16 +320,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11,17|美国3|@ripaojiedian
-  network: tcp
-  port: '14100'
-  server: dxv4.pai50288.uk
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
@@ -439,7 +394,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504031266665-L1JNrfsrAR.download.microsoft.com
+    host: 202504031266665-eSGnD05gdd.download.microsoft.com
     mode: http
   port: 8776
   server: cn01.efan8867801.xyz
