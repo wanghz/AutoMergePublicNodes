@@ -16,18 +16,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|1|🌀4-CN |  1.4MB/s
-  network: ws
-  port: 23003
-  server: 212.192.12.154
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a7d0261f-4ede-467d-a587-c6328e57128b
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 广东省移动 7
   network: ws
   port: '20401'
