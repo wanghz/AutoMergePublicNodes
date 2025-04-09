@@ -7,7 +7,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬5 |  5.4MB/s
+  name: 11|1|🇸🇬4 |  1.7MB/s
   network: ws
   port: 80
   server: fbf248.de15-5483-d16b.sbs
