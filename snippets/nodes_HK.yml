@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇭🇰3 |  3.6MB/s
+  name: 11|1|🇭🇰7 |  1.2MB/s
   network: ws
   port: 23008
   server: 212.192.12.154

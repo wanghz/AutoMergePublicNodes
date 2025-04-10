@@ -528,11 +528,70 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬5 |  2.1MB/s
+  name: 11|1|🇸🇬1 |  5.0MB/s
+  network: ws
+  port: '80'
+  server: fbf248.de15-5483-d16b.sbs
+  tls: false
+  type: vmess
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸6 |  6.0MB/s
+  network: ws
+  port: 2053
+  server: 172.67.213.166
+  servername: rak2-sub.932.pp.ua
+  tls: true
+  type: vmess
+  uuid: afb837ad-79e7-4438-96d1-b8f7077999aa
+  ws-opts:
+    headers:
+      Host: rak2-sub.932.pp.ua
+    path: /rak2-sub.932.pp.ua
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵2 |  2.0MB/s
+  network: tcp
+  port: 17233
+  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🌀1-SE |  4.0MB/s
+  network: ws
+  port: 8443
+  server: tehran.farsonline24.ir
+  servername: tehran.farsonline24.ir
+  tls: true
+  type: vmess
+  uuid: ac2f061b-7007-4f75-a659-96b1fcc399ee
+  ws-opts:
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  name: 11|1|🌀2-SE |  1.3MB/s
+  network: ws
+  port: 8443
+  server: Support.itn24.ir
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f589e78d-9bf4-4334-bee3-15a3fb7ea945
+  ws-opts:
+    headers:
+      Host: Support.itn24.ir
+    path: /🆔@M3HDIO1
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬2 |  5.2MB/s
   network: ws
   port: 80
   server: fbf248.de15-5483-d16b.sbs
-  servername: sg02s.de15-5483-d16b.sbs
   tls: false
   type: vmess
   uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
@@ -542,25 +601,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵1 |  4.3MB/s
-  network: tcp
-  port: 17233
-  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇯🇵2 |  5.3MB/s
-  network: tcp
-  port: 17233
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰3 |  3.6MB/s
+  name: 11|1|🇭🇰7 |  1.2MB/s
   network: ws
   port: 23008
   server: 212.192.12.154
@@ -572,25 +613,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸20 |  4.7MB/s
+  name: 11|1|🇯🇵5 |  6.3MB/s
   network: tcp
-  port: 5229
-  server: 405b7d32-suk9s0-tcmdts-1mmu6.cu.plebai.net
+  port: 17233
+  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬3 |  3.9MB/s
-  network: tcp
-  port: 17231
-  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇸🇬4 |  3.1MB/s
+  name: 11|1|🇸🇬3 |  1.6MB/s
   network: tcp
   port: 17231
   server: 03d929ef-suk9s0-tcmdts-1mmu6.cm5.p5pv.com
@@ -599,18 +631,23 @@ proxies:
   uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 11|1|🌀13-CZ |  5.6MB/s
-  network: tcp
-  port: 180
-  server: 89.18.56.249
-  tls: false
+  name: 11|1|🇺🇸27 |  5.8MB/s
+  network: ws
+  port: 2083
+  server: 104.21.23.210
+  servername: rak2-sub.932.pp.ua
+  tls: true
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: afb837ad-79e7-4438-96d1-b8f7077999aa
+  ws-opts:
+    headers:
+      Host: rak2-sub.932.pp.ua
+    path: /rak2-sub.932.pp.ua
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵7 |  2.1MB/s
+  name: 11|1|🇯🇵7 |  2.2MB/s
   network: tcp
-  port: '17233'
+  port: 17233
   server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
   tls: false
   type: vmess
