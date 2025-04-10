@@ -16,16 +16,16 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11,17|香港7|@ripaojiedian
+  name: 11,17|香港6|@ripaojiedian
   network: tcp
-  port: '50002'
-  server: 47.104.186.133
+  port: '4136'
+  server: 156494db-sukw00-sw1b1x-4550.d.volczijie.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
 - alterId: 0
   cipher: auto
   name: 11,17|香港8|@ripaojiedian
@@ -44,19 +44,14 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16|🇬🇧 英国2|@ripaojiedian
-  password: '!!str 74260698218909408'
-  port: 443
-  server: electric-mallard.shiner427.skin
-  skip-cert-verify: false
-  sni: electric-mallard.shiner427.skin
+  name: 16|🇭🇰 香港2|@ripaojiedian
+  password: d316fca3-e4ca-4774-8230-24a8fb9f99f6
+  port: 26912
+  server: 120.234.255.106
   tfo: false
-  tls: false
-  type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港3|@ripaojiedian
@@ -76,19 +71,16 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 3.link-hub.click
   type: ssr
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港9|@ripaojiedian
-  password: ed0ca0bd-3aa3-4d3a-81b0-eadcd1083a4d
-  port: 46602
-  server: xg-jd.huidu51.com
+  name: 16|🇺🇸 美国|@ripaojiedian 2
+  password: 573ae74e-5eea-467a-abc1-fdc65b8aa4fa
+  port: 3695
+  server: 2b1a2730-sukw00-sw1b1x-4550.b.fosant.com
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
   tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港10|@ripaojiedian
-  password: MeSiyHQ1G3
-  port: 31396
-  server: 27.106.101.214
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
