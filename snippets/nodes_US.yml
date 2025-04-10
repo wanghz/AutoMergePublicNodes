@@ -237,58 +237,13 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11,17|美国|@ripaojiedian
+  name: 11|1|🇺🇸20 |  4.7MB/s
   network: tcp
-  port: '3695'
-  server: 2b1a2730-sukw00-sw1b1x-4550.b.fosant.com
-  servername: ''
+  port: 5229
+  server: 405b7d32-suk9s0-tcmdts-1mmu6.cu.plebai.net
   tls: false
   type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸6 |  4.4MB/s
-  network: ws
-  port: 1280
-  server: f1fa7ef0-suk9s0-swtza9-1q91p.se.plebai.net
-  tls: false
-  type: vmess
-  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸27 |  5.4MB/s
-  network: ws
-  port: 80
-  server: 6fe34a9c-suk9s0-sve5if-z93q.lza.plebai.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|1|🇺🇸31 |  1.1MB/s
-  network: ws
-  port: 22643
-  server: 119.188.66.248
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸41 |  3.2MB/s
-  network: tcp
-  port: 3695
-  server: 6e00d410-sukw00-svxrt2-63bp.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -306,6 +261,16 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11,17|美国|@ripaojiedian
+  network: tcp
+  port: '3695'
+  server: 2b1a2730-sukw00-sw1b1x-4550.b.fosant.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...

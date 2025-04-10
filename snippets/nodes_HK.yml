@@ -1,4 +1,16 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰3 |  3.6MB/s
+  network: ws
+  port: 23008
+  server: 212.192.12.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2dfca8d6-065c-4a6b-8039-d66268751451
+  ws-opts:
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
