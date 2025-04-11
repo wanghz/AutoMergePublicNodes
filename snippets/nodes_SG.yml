@@ -7,28 +7,39 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬1 |  1.4MB/s
-  network: tcp
-  port: 17231
-  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11,17|新加坡|@ripaojiedian
-  network: tcp
-  port: '3681'
-  server: d131cc2e-sukw00-sw1b1x-4550.c.volczijie.com
+  name: 11|0|🇸🇬4 |  5.0MB/s
+  network: ws
+  port: 80
+  server: fbf248.de15-5483-d16b.sbs
   servername: ''
   tls: false
   type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
+  ws-opts:
+    headers:
+      Host: sg02s.de15-5483-d16b.sbs
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇸🇬 新加坡|@ripaojiedian
+  password: '!!str 1234'
+  port: 1234
+  server: 54.255.247.220
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇸🇬 新加坡2|@ripaojiedian
+  password: cdc48a7a-b618-45af-a831-5afbd686b02f
+  port: 13203
+  server: gg21.hangfengjiasu.com
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.78.247.197
+  server: 13.125.238.108
   tfo: false
   type: ss

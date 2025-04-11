@@ -528,33 +528,142 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🌀1-SE |  1.1MB/s
+  name: 11|0|🇺🇸5 |  2.1MB/s
   network: ws
-  port: 8443
-  server: manager.onetwothree123.ir
-  servername: manager.onetwothree123.ir
+  port: 443
+  server: us10-09.852224.ggff.net
+  servername: ''
   tls: true
   type: vmess
-  uuid: b3a26392-9981-4c46-bf0f-ac24d84de1f7
+  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
   ws-opts:
     headers:
-      Host: manager.onetwothree123.ir
-    path: /🆔@M3HDIO1
-- alterId: 0
+      Host: us10-09.852224.ggff.net
+    path: /SNwNdunw28lVztopw90eoXel
+- alterId: 2
   cipher: auto
-  name: 11|2|🇸🇬1 |  1.4MB/s
-  network: tcp
-  port: 17231
-  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
+  name: 11|0|🇫🇷1 |  4.9MB/s
+  network: ws
+  port: 30837
+  server: v37.heduian.link
   tls: false
   type: vmess
-  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: 11|0|🇺🇸32 |  1.3MB/s
+  network: ws
+  port: 22643
+  server: 119.188.66.248
+  servername: zxjp-c.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸8 |  4.6MB/s
+  name: 11|0|🇺🇸11 |  5.8MB/s
+  network: tcp
+  port: 5228
+  server: 8d3d7f83-suk9s0-sv6oiy-1p1b.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇰🇷6 |  5.2MB/s
+  network: tcp
+  port: 17232
+  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇺🇸18 |  5.1MB/s
   network: ws
-  port: 2083
-  server: 104.21.23.210
+  port: 2087
+  server: 172.67.163.102
+  servername: ny1-sub.931.pp.ua
+  tls: true
+  type: vmess
+  uuid: 7c8317bd-290a-4a33-987e-613037c1b2dd
+  ws-opts:
+    headers:
+      Host: ny1-sub.931.pp.ua
+    path: /ny1-sub.931.pp.ua
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇯🇵4 |  5.7MB/s
+  network: tcp
+  port: 17233
+  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇭🇰8 |  1.2MB/s
+  network: tcp
+  port: 46345
+  server: 120.198.71.214
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇯🇵6 |  3.9MB/s
+  network: tcp
+  port: 17233
+  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇯🇵8 |  5.9MB/s
+  network: tcp
+  port: 17233
+  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|0|🌀11-ID |  2.6MB/s
+  network: tcp
+  port: 17234
+  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇺🇸36 |  4.2MB/s
+  network: ws
+  port: 443
+  server: cloudgetservice.mcloudservice.site
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1e537ee8-dc44-4c5b-8810-c41b4ae2e460
+  ws-opts:
+    headers:
+      Host: MaxNEtvip-usa1.MAXnEtcLOUDsERvICe.COM
+    path: /linkws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇺🇸38 |  4.9MB/s
+  network: ws
+  port: 2053
+  server: 172.67.213.166
   servername: rak2-sub.932.pp.ua
   tls: true
   type: vmess
@@ -565,85 +674,41 @@ proxies:
     path: /rak2-sub.932.pp.ua
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵1 |  6.2MB/s
-  network: tcp
-  port: 17233
-  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀3-SE |  3.4MB/s
+  name: 11|0|🇺🇸43 |  5.9MB/s
   network: ws
-  port: 8443
-  server: mehrnews.twn24.ir
-  servername: mehrnews.twn24.ir
+  port: 443
+  server: sanjose05.852224.ggff.net
+  servername: sanjose05.852224.ggff.net
   tls: true
   type: vmess
-  uuid: f0baa770-0100-4ed2-aa60-b6bdd512cbb9
+  uuid: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
   ws-opts:
-    path: /🆔@M3HDIO1
+    headers:
+      Host: sanjose05.852224.ggff.net
+    path: /YfB29GXf4cThJQeJb
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸15 |  4.0MB/s
-  network: tcp
-  port: 5228
-  server: 8d3d7f83-suk9s0-sv6oiy-1p1b.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵3 |  1.7MB/s
-  network: tcp
-  port: 17233
-  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸21 |  5.5MB/s
-  network: tcp
-  port: 5229
-  server: 405b7d32-suk9s0-tcmdts-1mmu6.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵4 |  6.1MB/s
-  network: tcp
-  port: 17233
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇳🇱2 |  3.1MB/s
-  network: tcp
-  port: 5009
-  server: 89.23.103.242
+  name: 11|0|🇸🇬4 |  5.0MB/s
+  network: ws
+  port: 80
+  server: fbf248.de15-5483-d16b.sbs
   servername: ''
   tls: false
   type: vmess
-  uuid: 9ef6a6ce-5654-4751-a45a-80546bc346ea
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇩🇪8 |  5.8MB/s
-  network: ws
-  port: 2053
-  server: 172.67.159.56
-  servername: fk2-1.890617.xyz
-  tls: true
-  type: vmess
-  uuid: feddc326-da70-4fab-95a9-8f98be6da633
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
   ws-opts:
     headers:
-      Host: fk2-1.890617.xyz
-    path: /fk2-1
+      Host: sg02s.de15-5483-d16b.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇺🇸44 |  5.4MB/s
+  network: tcp
+  port: 5229
+  server: 4466f722-sum4g0-szbau2-2d9v.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 554d0110-ce64-11ef-973a-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -663,34 +728,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,17|香港6|@ripaojiedian
+  name: 11,17|日本3|@ripaojiedian
   network: tcp
-  port: '4136'
-  server: 156494db-sukw00-sw1b1x-4550.d.volczijie.com
+  port: '45402'
+  server: 112.65.92.20
   servername: ''
   tls: false
   type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11,17|香港8|@ripaojiedian
-  network: tcp
-  port: '31998'
-  server: 120.234.102.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,17|台湾2|@ripaojiedian
-  network: tcp
-  port: '50040'
-  server: hk.zijieyunti.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: feb7005d-af1e-45ae-93a7-d782000210c8
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -710,14 +755,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,17|新加坡|@ripaojiedian
+  name: 11,17|韩国4|@ripaojiedian
   network: tcp
-  port: '3681'
-  server: d131cc2e-sukw00-sw1b1x-4550.c.volczijie.com
+  port: '45245'
+  server: ye.fxlcn.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -737,14 +782,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,17|美国|@ripaojiedian
+  name: 11,17|美国3|@ripaojiedian
   network: tcp
-  port: '3695'
-  server: 2b1a2730-sukw00-sw1b1x-4550.b.fosant.com
+  port: '45269'
+  server: 120.232.17.9
   servername: ''
   tls: false
   type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -911,7 +956,7 @@ proxies:
   name: 16|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.79.172.127
+  server: 43.207.139.21
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -922,12 +967,12 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
-  password: d316fca3-e4ca-4774-8230-24a8fb9f99f6
-  port: 26912
-  server: 120.234.255.106
+  password: 1601e3c29c8db1a88942cf0cad731bf3
+  port: 3306
+  server: 129.226.58.228
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -949,19 +994,22 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 3.link-hub.click
   type: ssr
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16|🇺🇸 美国|@ripaojiedian 2
-  password: 573ae74e-5eea-467a-abc1-fdc65b8aa4fa
-  port: 3695
-  server: 2b1a2730-sukw00-sw1b1x-4550.b.fosant.com
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
+  name: 16|🇭🇰 香港6|@ripaojiedian
+  password: cdc48a7a-b618-45af-a831-5afbd686b02f
+  port: 12202
+  server: gg21.hangfengjiasu.com
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港7|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾|@ripaojiedian
@@ -984,7 +1032,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504031266665-c4zHT87iGG.download.microsoft.com
+    host: 202504031266665-eDq1Iqw40p.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -992,10 +1040,53 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16|🇯🇵 日本3|@ripaojiedian
-  password: 2cb27b35-25da-458c-9545-dff29bf7b12d
-  port: 38726
-  server: gy.tangu.win
+  name: 16|🇯🇵 日本2|@ripaojiedian
+  password: '1234'
+  port: 1234
+  server: 54.199.242.76
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国3|@ripaojiedian
+  port: 45269
+  server: 120.232.17.9
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇰🇷 韩国2|@ripaojiedian
+  password: '1234'
+  port: 1234
+  server: 43.203.237.206
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 16|🇰🇷 韩国3|@ripaojiedian
+  password: 1601e3c29c8db1a88942cf0cad731bf3
+  port: 3306
+  server: 43.131.255.175
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇸🇬 新加坡|@ripaojiedian
+  password: '1234'
+  port: 1234
+  server: 54.255.247.220
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇸🇬 新加坡2|@ripaojiedian
+  password: cdc48a7a-b618-45af-a831-5afbd686b02f
+  port: 13203
+  server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -1004,7 +1095,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504031266665-c4zHT87iGG.download.microsoft.com
+    host: 202504031266665-eDq1Iqw40p.download.microsoft.com
     mode: http
   port: 8776
   server: cn01.efan8867801.xyz
@@ -1015,7 +1106,7 @@ proxies:
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.13.121.24
+  server: 54.92.121.89
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1023,7 +1114,7 @@ proxies:
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.78.247.197
+  server: 13.125.238.108
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1031,15 +1122,15 @@ proxies:
   name: 16|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.39.252.80
+  server: 13.124.253.164
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 16|🇬🇧 英国|@ripaojiedian
-  password: 751U3T5PPAVWVMR2
-  port: 19002
-  server: 206.245.211.12
+  name: 16|🇹🇭 泰国|@ripaojiedian
+  password: 1601e3c29c8db1a88942cf0cad731bf3
+  port: 3306
+  server: 43.128.212.180
   tfo: false
   type: ss
 - cipher: rc4-md5
