@@ -1,16 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵2 |  3.6MB/s
-  network: tcp
-  port: 17233
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵10 |  2.1MB/s
+  name: 11|0|🇯🇵1 |  6.1MB/s
   network: tcp
   port: 17233
   server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
@@ -19,7 +10,16 @@ proxies:
   uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵12 |  5.0MB/s
+  name: 11|0|🇯🇵6 |  5.7MB/s
+  network: tcp
+  port: 17233
+  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇯🇵7 |  2.3MB/s
   network: tcp
   port: 17233
   server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
