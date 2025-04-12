@@ -528,208 +528,25 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇫🇷1 |  5.6MB/s
-  network: ws
-  port: 12886
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸3 |  1.4MB/s
+  name: 11|1|🇸🇬1 |  4.8MB/s
   network: tcp
-  port: 27773
-  server: 5.180.30.146
-  servername: ''
+  port: 17231
+  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: b2347239-dd15-40b3-b683-50cc2ff19ae7
+  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸5 |  1.3MB/s
-  network: ws
-  port: 8083
-  server: dcd6b19c-sunz40-t78iw5-e7db.se.plebai.net
-  tls: false
-  type: vmess
-  uuid: 213e222c-8e0f-11ef-8dc4-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇩🇪2 |  5.7MB/s
+  name: 11|1|🇯🇵1 |  1.7MB/s
   network: tcp
-  port: 33157
-  server: 116.203.14.117
-  servername: ''
+  port: 27750
+  server: 5.253.41.147
   tls: false
   type: vmess
-  uuid: d61ef6c6-b70a-4f05-8df6-14b37ec8720a
+  uuid: 4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8
 - alterId: 0
   cipher: auto
-  name: 11|2|🌀2-ID |  5.8MB/s
-  network: tcp
-  port: 31850
-  server: 70.153.192.8
-  tls: false
-  type: vmess
-  uuid: 76251400-f090-4c09-941e-e9c51face911
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬2 |  5.8MB/s
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰2 |  6.2MB/s
-  network: ws
-  port: 12884
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇨🇦1 |  5.4MB/s
-  network: ws
-  port: 12897
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇸🇬4 |  6.3MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: ab28a512-215f-34b4-a9bf-ffa17fcc80c7
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀5-CY |  4.9MB/s
-  network: tcp
-  port: 28444
-  server: 45.12.133.43
-  tls: false
-  type: vmess
-  uuid: 1be8eddb-4f8c-45d0-b2a1-e538eb3abd39
-- alterId: 0
-  cipher: auto
-  h2-opts:
-    host:
-    - txui.supercopilot.top
-    path: /ecd7820d-941f-47ba-b821-aa33e77d1a4f
-  name: 11|2|🇺🇸15 |  1.8MB/s
-  network: h2
-  port: 443
-  server: txui.supercopilot.top
-  tls: true
-  type: vmess
-  uuid: ecd7820d-941f-47ba-b821-aa33e77d1a4f
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇫🇷4 |  5.7MB/s
-  network: ws
-  port: 12898
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇳🇱1 |  3.3MB/s
-  network: tcp
-  port: 30520
-  server: 45.8.145.145
-  tls: false
-  type: vmess
-  uuid: 3038024f-3a34-4228-b61c-d741b2fbec8f
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇩🇪7 |  2.6MB/s
-  network: ws
-  port: 443
-  server: 172.67.71.217
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e
-  ws-opts:
-    headers:
-      Host: 1t3chx0.zed23.web1337.net
-    path: /fixedfloati.cfd/linkwsd
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸23 |  1.4MB/s
-  network: ws
-  port: 8083
-  server: 8cf5cc50-sunz40-sumf02-155d9.se.plebai.net
-  tls: false
-  type: vmess
-  uuid: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇮🇳1 |  6.0MB/s
-  network: ws
-  port: 12887
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀8- |  5.1MB/s
-  network: ws
-  port: 20022
-  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
-  tls: false
-  type: vmess
-  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸26 |  5.4MB/s
+  name: 11|1|🇺🇸12 |  3.5MB/s
   network: tcp
   port: 5229
   server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
@@ -738,22 +555,50 @@ proxies:
   uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇷🇺3 |  3.5MB/s
+  name: 11|1|🌀3-ID |  1.2MB/s
   network: tcp
-  port: 20779
-  server: 45.12.114.15
+  port: 17234
+  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 9dc5bff8-bcbb-4703-b0fe-4f91ba517402
+  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
 - alterId: 0
   cipher: auto
-  name: 11|2|🇵🇱2 |  5.2MB/s
-  network: tcp
-  port: 38088
-  server: 2.56.125.101
+  name: 11|1|🇺🇸17 |  1.6MB/s
+  network: ws
+  port: 8083
+  server: dd26bf3b-sunz40-tavn57-1mtqy.se.plebai.net
   tls: false
   type: vmess
-  uuid: 1275ea18-bc9c-4bcb-b3fd-fee70272e143
+  uuid: e27137c8-5952-11ef-aa23-f23c9164ca5d
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬3 |  5.4MB/s
+  network: ws
+  port: 2053
+  server: cloudflare.182682.xyz
+  servername: sg1.pavo.eu.org
+  tls: true
+  type: vmess
+  uuid: cbd1d425-5379-4c44-82fc-5765d1d34dc9
+  ws-opts:
+    headers:
+      Host: sg1.pavo.eu.org
+    path: /sg1vmess
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇫🇷2 |  3.1MB/s
+  network: ws
+  port: 443
+  server: 8.219.206.22
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 11,17|美国2|@ripaojiedian
@@ -766,7 +611,34 @@ proxies:
   uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸44 |  2.6MB/s
+  name: 11|1|🇰🇷6 |  2.1MB/s
+  network: tcp
+  port: 17232
+  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵7 |  5.7MB/s
+  network: tcp
+  port: 17233
+  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇳🇱3 |  3.7MB/s
+  network: tcp
+  port: 30520
+  server: 45.8.145.145
+  tls: false
+  type: vmess
+  uuid: 3038024f-3a34-4228-b61c-d741b2fbec8f
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸28 |  5.8MB/s
   network: tcp
   port: 5229
   server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
@@ -775,82 +647,11 @@ proxies:
   uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|2|🌀11- |  2.5MB/s
-  network: tcp
-  port: 17233
-  server: 9cb8b51d-sunz40-svabg7-1td06.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸46 |  5.2MB/s
-  network: ws
-  port: 8083
-  server: 2ebc590b-suvds0-sv5llu-1ldl3.se.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇹🇼28 |  1.8MB/s
-  network: ws
-  port: 12888
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀13-MY |  1.4MB/s
-  network: ws
-  port: 12892
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇵🇱3 |  5.5MB/s
-  network: ws
-  port: 12896
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸50 |  1.2MB/s
-  network: ws
-  port: 8083
-  server: 2b72f3b0-sunz40-suqjqq-1pr35.se.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  ws-opts:
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇩🇪10 |  5.2MB/s
+  name: 11|1|🇩🇪6 |  4.2MB/s
   network: ws
   port: 32683
   server: 92.114.54.227
+  servername: digitalcloud.pro.jiahe.buzz
   tls: true
   type: vmess
   uuid: b4134d6a-945b-4355-b34b-a0899b02701e
@@ -858,137 +659,6 @@ proxies:
     headers:
       Host: digitalcloud.pro.jiahe.buzz
     path: /jh002
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸54 |  5.4MB/s
-  network: ws
-  port: 12885
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀15-VN |  1.1MB/s
-  network: ws
-  port: 12891
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵10 |  1.2MB/s
-  network: tcp
-  port: 27750
-  server: 5.253.41.147
-  tls: false
-  type: vmess
-  uuid: 4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰9 |  5.1MB/s
-  network: ws
-  port: 12890
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇨🇭4 |  4.9MB/s
-  network: tcp
-  port: 22324
-  server: 186.190.215.93
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸63 |  5.1MB/s
-  network: ws
-  port: 443
-  server: usa-sanjose-one.890614.filegear-sg.me
-  servername: usa-sanjose-one.890614.filegear-sg.me
-  tls: true
-  type: vmess
-  uuid: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
-  ws-opts:
-    headers:
-      Host: usa-sanjose-one.890614.filegear-sg.me
-    path: /YfB29GXf4cThJQeJb
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀17- |  1.6MB/s
-  network: tcp
-  port: 47211
-  server: 84.247.149.77
-  tls: false
-  type: vmess
-  uuid: fb674260-1c21-4f99-8bd0-3d1d341c6771
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇨🇦4 |  5.0MB/s
-  network: tcp
-  port: 27699
-  server: 91.194.11.118
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c23b127b-af87-43bb-aa1e-ce42374a2b53
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|美国|@ripaojiedian
-  network: ws
-  port: '30808'
-  server: v8.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀18-ID |  1.8MB/s
-  network: tcp
-  port: '17234'
-  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇫🇷5 |  2.6MB/s
-  network: ws
-  port: 443
-  server: 172.67.204.19
-  servername: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -1042,6 +712,23 @@ proxies:
   ws-opts:
     headers:
       Host: ocbc.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|美国|@ripaojiedian
+  network: ws
+  port: '30808'
+  server: v8.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
     path: /oooo
 - alterId: 2
   cipher: auto

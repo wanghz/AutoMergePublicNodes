@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇹🇼28 |  1.8MB/s
-  network: ws
-  port: 12888
-  server: gtm1.ktmwan.net
-  tls: false
-  type: vmess
-  uuid: 1bfc69ad-1855-4dfe-b169-886d7156e0f3
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾3|@ripaojiedian
