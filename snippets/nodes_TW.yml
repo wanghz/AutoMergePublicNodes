@@ -1,12 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇹🇼 台湾|@ripaojiedian
-  password: a45fdc60-57c7-4053-b13a-1383b6dd732d
-  port: 47564
-  server: gy.666666222.shop
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾3|@ripaojiedian

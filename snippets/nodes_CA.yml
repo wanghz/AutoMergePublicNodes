@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇨🇦2 |  2.4MB/s
+  network: tcp
+  port: 27699
+  server: 91.194.11.118
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c23b127b-af87-43bb-aa1e-ce42374a2b53

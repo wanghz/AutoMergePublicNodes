@@ -1,4 +1,23 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰2 |  1.3MB/s
+  network: tcp
+  port: 15228
+  server: c195c7ba-sum4g0-swnfyy-18y1l.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: 96c5f18c-9390-11eb-86a4-f23c913c8d2b
+- alterId: 64
+  cipher: auto
+  name: 11,17|香港7|@ripaojiedian
+  network: tcp
+  port: '43121'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -40,17 +59,14 @@ proxies:
   server: 111.29.57.125
   tfo: false
   type: ss
-- cipher: rc4-md5
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港5|@ripaojiedian
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40239
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 3.link-hub.click
-  type: ssr
+  password: 2ce1d935-d35e-4e45-8198-e9e9deca73d7
+  port: 45630
+  server: gy.tangu.win
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港6|@ripaojiedian
@@ -59,11 +75,14 @@ proxies:
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
-- cipher: chacha20-ietf
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港7|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.182.191
+  name: 16|🇺🇸 美国2|@ripaojiedian
+  port: 5229
+  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
