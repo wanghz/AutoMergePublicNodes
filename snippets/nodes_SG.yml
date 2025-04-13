@@ -5,16 +5,6 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇸🇬3 |  3.6MB/s
-  network: tcp
-  port: 44396
-  server: 84.247.148.192
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3ca35e0a-e430-43fe-9c12-2e2eea70f873
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡|@ripaojiedian

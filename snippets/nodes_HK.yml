@@ -1,4 +1,25 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰9 |  1.4MB/s
+  network: ws
+  port: 23010
+  server: 212.192.12.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0bcdb99f-50eb-48f7-afb3-66992607c652
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰10 |  2.0MB/s
+  network: tcp
+  port: 34652
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
