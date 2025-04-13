@@ -7,22 +7,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬2 |  4.0MB/s
+  name: 11|1|🇸🇬3 |  3.6MB/s
   network: tcp
-  port: 17231
-  server: 03d929ef-suk9s0-tcmdts-1mmu6.cm5.p5pv.com
+  port: 44396
+  server: 84.247.148.192
+  servername: ''
   tls: false
   type: vmess
-  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬4 |  5.8MB/s
-  network: tcp
-  port: 17231
-  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  uuid: 3ca35e0a-e430-43fe-9c12-2e2eea70f873
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡|@ripaojiedian
@@ -39,11 +31,19 @@ proxies:
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇸🇬 新加坡3|@ripaojiedian
+  password: d192a833-b118-4b46-8e54-12cf5025d4cd
+  port: 33461
+  server: gsyd.aicheetah.lol
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.194.243.103
+  server: 54.255.246.167
   tfo: false
   type: ss

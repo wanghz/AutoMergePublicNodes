@@ -237,17 +237,50 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11,17|美国2|@ripaojiedian
-  network: tcp
-  port: '5229'
-  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
+  name: 11|1|🇺🇸6 |  1.4MB/s
+  network: ws
+  port: 20010
+  server: 45.147.201.231
   servername: ''
+  tls: false
+  type: vmess
+  uuid: 401026f3-4907-4285-bc0f-08c1eab30ed8
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸7 |  1.8MB/s
+  network: ws
+  port: 443
+  server: us10-09.852224.ggff.net
+  tls: true
+  type: vmess
+  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+  ws-opts:
+    headers:
+      Host: us10-09.852224.ggff.net
+    path: /SNwNdunw28lVztopw90eoXel
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸13 |  5.0MB/s
+  network: tcp
+  port: '5228'
+  server: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸18 |  4.7MB/s
+  network: tcp
+  port: 5229
+  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
   tls: false
   type: vmess
   uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸19 |  4.8MB/s
+  name: 11|1|🇺🇸32 |  3.2MB/s
   network: tcp
   port: '5229'
   server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
@@ -256,22 +289,56 @@ proxies:
   uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸16 |  5.5MB/s
+  name: 11|1|🇺🇸57 |  1.3MB/s
+  network: ws
+  port: 443
+  server: usa-sanjose-one.890614.filegear-sg.me
+  servername: usa-sanjose-one.890614.filegear-sg.me
+  tls: true
+  type: vmess
+  uuid: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+  ws-opts:
+    headers:
+      Host: usa-sanjose-one.890614.filegear-sg.me
+    path: /YfB29GXf4cThJQeJb
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸31 |  5.8MB/s
+  network: ws
+  port: '443'
+  server: cloudgetservice.mcloudservice.site
+  tls: true
+  type: vmess
+  uuid: 3cf58606-5f2a-4609-9abd-404f633bd7e0
+  ws-opts:
+    path: /linkws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸51 |  5.2MB/s
   network: tcp
-  port: 5229
+  port: '5229'
   server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
   tls: false
   type: vmess
   uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸20 |  2.1MB/s
+  name: 11|1|🇺🇸41 |  1.6MB/s
   network: tcp
-  port: 5228
-  server: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
+  port: 5229
+  server: 42317099-supts0-sxw44d-1re2s.cu.plebai.net
   tls: false
   type: vmess
-  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
+  uuid: a6a3c7fc-0de8-11ef-ba67-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸52 |  1.2MB/s
+  network: tcp
+  port: 42259
+  server: 120.198.71.216
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -374,3 +441,23 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国2|@ripaojiedian
+  password: d192a833-b118-4b46-8e54-12cf5025d4cd
+  port: 55601
+  server: gsyd.aicheetah.lol
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国4|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504031266665-FaUpQWXZDf.download.microsoft.com
+    mode: http
+  port: 8775
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss

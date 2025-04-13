@@ -1,66 +1,22 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵1 |  3.1MB/s
-  network: tcp
-  port: 17233
-  server: d7481a66-sunz40-taklwz-12bd.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵2 |  4.8MB/s
-  network: tcp
-  port: 17233
-  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵3 |  5.7MB/s
-  network: tcp
-  port: 17233
-  server: f547c7cf-sunz40-t49lki-1ejce.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵6 |  4.3MB/s
-  network: tcp
-  port: 17233
-  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵8 |  5.6MB/s
-  network: tcp
-  port: 17233
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11,17|日本|@ripaojiedian
-  network: tcp
-  port: '22253'
-  server: hn3x.newbee8.me
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1824af53-6021-4866-a6f9-1bad166dc2c2
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504031266665-FaUpQWXZDf.download.microsoft.com
+    mode: http
+  port: 8765
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
-  password: '!!str 1234'
-  port: 1234
-  server: 54.199.242.76
+  password: d192a833-b118-4b46-8e54-12cf5025d4cd
+  port: 27534
+  server: gdlt.aicheetah.lol
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -76,6 +32,6 @@ proxies:
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.199.198.40
+  server: 47.129.241.217
   tfo: false
   type: ss

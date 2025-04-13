@@ -16,6 +16,22 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 46003
+  server: cloudgd.coemn.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: cloudgd.coemn.com
+    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 11,17|香港7|@ripaojiedian
@@ -26,6 +42,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港5|@ripaojiedian
+  network: ws
+  port: '46003'
+  server: cloudgd.coemn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港|@ripaojiedian
@@ -52,28 +82,28 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港5|@ripaojiedian
-  password: 2ce1d935-d35e-4e45-8198-e9e9deca73d7
-  port: 45630
-  server: gy.tangu.win
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 16|🇭🇰 香港6|@ripaojiedian
   password: cdc48a7a-b618-45af-a831-5afbd686b02f
   port: 12202
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇺🇸 美国2|@ripaojiedian
-  port: 5229
-  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
+  name: 16|🇭🇰 香港7|@ripaojiedian
+  port: 43121
+  server: 183.236.51.38
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港8|@ripaojiedian
+  password: d192a833-b118-4b46-8e54-12cf5025d4cd
+  port: 57314
+  server: gdyd.aicheetah.lol
+  tfo: false
+  type: ss
