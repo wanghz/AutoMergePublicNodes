@@ -5,7 +5,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504131296640-OW0JYD5Wra.download.microsoft.com
+    host: 202504140137024-Zlzv0ZMcwk.download.microsoft.com
     mode: http
   port: 8765
   server: cn01.efan8867801.xyz
@@ -32,6 +32,6 @@ proxies:
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.241.217
+  server: 54.191.46.142
   tfo: false
   type: ss
