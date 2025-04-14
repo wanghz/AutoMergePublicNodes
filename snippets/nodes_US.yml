@@ -237,7 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸6 |  5.6MB/s
+  name: 11|2|🇺🇸3 |  4.5MB/s
   network: ws
   port: 7612
   server: f05013d4-surog0-svbm2l-1t8q3.lza.plebai.net
@@ -250,30 +250,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸13 |  5.6MB/s
-  network: ws
-  port: 7612
-  server: 64.32.13.244
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7e64224c-4c10-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸25 |  4.4MB/s
+  name: 11|2|🇺🇸4 |  5.6MB/s
   network: tcp
   port: 5229
-  server: 4e7ddab6-supts0-ubpxvf-1fq8c.cu.plebai.net
+  server: 03f17bde-supts0-tfvcxz-1nq4g.cu.plebai.net
   tls: false
   type: vmess
-  uuid: 0b092b52-0d9e-11ee-92a0-f23c91cfbbc9
+  uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸26 |  4.8MB/s
+  name: 11|2|🇺🇸19 |  4.2MB/s
   network: tcp
   port: 5229
   server: e18f3df9-surog0-t2cl3c-14ubl.cu.plebai.net
@@ -282,7 +268,16 @@ proxies:
   uuid: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸31 |  4.9MB/s
+  name: 11|2|🇺🇸27 |  4.1MB/s
+  network: tcp
+  port: 5229
+  server: 7a40b936-supts0-swbd0b-716s.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸34 |  5.4MB/s
   network: ws
   port: 7612
   server: ac9c2713-surog0-tb016b-1m7l4.lza.plebai.net
@@ -295,7 +290,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸41 |  1.6MB/s
+  name: 11|2|🇺🇸38 |  2.8MB/s
   network: ws
   port: 8443
   server: 156.238.18.68
@@ -309,7 +304,44 @@ proxies:
     path: /?maps.app.goo.gl/K3hM5xrwZV7bQVBa7?ed=2560
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸47 |  5.6MB/s
+  name: 11|2|🇺🇸42 |  3.6MB/s
+  network: ws
+  port: 14555
+  server: 2.58.87.221
+  servername: 2.58.87.221
+  tls: true
+  type: vmess
+  uuid: 6c764a03-bb1a-4bc6-baca-452453fce1ae
+  ws-opts:
+    headers:
+      Host: 2.58.87.221
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸45 |  4.9MB/s
+  network: tcp
+  port: 5228
+  server: b4fd1bd2-surog0-tc9wl2-py5w.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸51 |  5.3MB/s
+  network: ws
+  port: 7612
+  server: 64.32.13.244
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7e64224c-4c10-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸52 |  5.6MB/s
   network: ws
   port: 7612
   server: 6d1c9bd9-surog0-sy0g8x-1cc8s.lza.plebai.net
@@ -320,15 +352,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸59 |  3.6MB/s
-  network: tcp
-  port: 5228
-  server: 312b7317-surog0-svbm2l-1t8q3.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 775baa4a-d75b-11ef-a11a-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
