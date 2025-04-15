@@ -1,32 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇭🇰1 |  1.9MB/s
+  name: 11|1|🇭🇰11 |  2.3MB/s
   network: tcp
   port: 15229
   server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
   tls: false
   type: vmess
   uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰6 |  5.0MB/s
-  network: tcp
-  port: 30251
-  server: 35.220.230.251
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰12 |  1.5MB/s
-  network: tcp
-  port: '15229'
-  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

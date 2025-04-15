@@ -1,13 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵2 |  1.5MB/s
+  name: 11|1|🇯🇵2 |  2.0MB/s
   network: tcp
   port: 17233
-  server: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
+  server: 5ed696c1-sutj40-t907cr-1c1mr.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 3a3ef54c-eb42-11ed-9bf0-f23c91369f2d
+  uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵3 |  1.9MB/s
+  network: tcp
+  port: 17233
+  server: 76c85625-sutj40-t1k53r-1jm8i.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵5 |  1.0MB/s
+  network: tcp
+  port: 17233
+  server: 50ec05bc-sutj40-tdcdb7-1k27l.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
 - alterId: 0
   cipher: auto
   name: 11,17|日本4|@ripaojiedian
@@ -20,7 +38,7 @@ proxies:
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵9 |  2.0MB/s
+  name: 11|1|🇯🇵12 |  1.2MB/s
   network: tcp
   port: 17233
   server: 929e4f8a-sutj40-sutgau-1r62f.cm5.p5pv.com
@@ -43,7 +61,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504140137024-1okR63OMuX.download.microsoft.com
+    host: 202503181464410-2u2bwvJ6Hf.download.microsoft.com
     mode: http
   port: 8765
   server: cn01.efan8867801.xyz
