@@ -1,13 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰2 |  1.6MB/s
+  name: 11|0|🇭🇰5 |  3.3MB/s
   network: tcp
   port: 15229
-  server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
+  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
   tls: false
   type: vmess
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇭🇰10 |  3.9MB/s
+  network: ws
+  port: 23011
+  server: 212.192.12.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 337db17e-a3b1-4dec-96d2-acc302f5d858
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇭🇰15 |  2.7MB/s
+  network: tcp
+  port: 15229
+  server: b2bb1a46-surog0-t2cl3c-14ubl.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -45,8 +66,8 @@ proxies:
   cipher: auto
   name: 11,17|香港7|@ripaojiedian
   network: tcp
-  port: '43121'
-  server: 183.236.51.38
+  port: '36609'
+  server: 120.232.153.40
   servername: ''
   tls: false
   type: vmess
@@ -73,12 +94,12 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
-  password: 1601e3c29c8db1a88942cf0cad731bf3
-  port: 3306
-  server: 129.226.58.228
+  password: be443689-bc64-49ff-85a5-8eecaa2235d3
+  port: 41049
+  server: hk2.fgmcx.top
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -97,22 +118,16 @@ proxies:
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港7|@ripaojiedian
-  port: 43121
-  server: 183.236.51.38
+  name: 16|🇺🇸 美国2|@ripaojiedian
+  password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93
+  port: 23903
+  server: usz1.fgmcx.top
   skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
   tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港8|@ripaojiedian
-  password: d192a833-b118-4b46-8e54-12cf5025d4cd
-  port: 57314
-  server: gdyd.aicheetah.lol
-  tfo: false
-  type: ss
+  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
