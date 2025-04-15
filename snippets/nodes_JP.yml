@@ -1,23 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|0|🇯🇵13 |  6.1MB/s
+  name: 11|2|🇯🇵2 |  2.2MB/s
   network: tcp
   port: 17233
   server: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 3a3ef54c-eb42-11ed-9bf0-f23c91369f2d
-- alterId: 0
-  cipher: auto
-  name: 11,17|日本2|@ripaojiedian
-  network: tcp
-  port: '23919'
-  server: hzz9.fgmcx.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - alterId: 0
   cipher: auto
   name: 11,17|日本4|@ripaojiedian
@@ -28,13 +18,32 @@ proxies:
   tls: false
   type: vmess
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵11 |  3.3MB/s
+  network: tcp
+  port: 17233
+  server: 929e4f8a-sutj40-sutgau-1r62f.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11,17|日本2|@ripaojiedian
+  network: tcp
+  port: '23919'
+  server: hzz9.fgmcx.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504140137024-c4W9JRrQAZ.download.microsoft.com
+    host: 202504140137024-w6DDrFgxZZ.download.microsoft.com
     mode: http
   port: 8765
   server: cn01.efan8867801.xyz

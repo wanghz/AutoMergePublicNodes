@@ -1,34 +1,40 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|0|🇭🇰5 |  3.3MB/s
+  name: 11|2|🇭🇰2 |  2.4MB/s
   network: tcp
   port: 15229
-  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
+  server: 4c16178d-surog0-t26vr3-1likw.cm.plebai.net
   tls: false
   type: vmess
-  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-- alterId: 0
+  uuid: a23c20fc-3e66-11ef-b1d2-f23c91cfbbc9
+- alterId: 64
   cipher: auto
-  name: 11|0|🇭🇰10 |  3.9MB/s
-  network: ws
-  port: 23011
-  server: 212.192.12.154
-  servername: ''
+  name: 11|2|🇭🇰3 |  3.8MB/s
+  network: tcp
+  port: 59082
+  server: 120.232.153.40
   tls: false
   type: vmess
-  uuid: 337db17e-a3b1-4dec-96d2-acc302f5d858
-  ws-opts:
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|0|🇭🇰15 |  2.7MB/s
+  name: 11|2|🇭🇰5 |  1.2MB/s
   network: tcp
   port: 15229
   server: b2bb1a46-surog0-t2cl3c-14ubl.cm.plebai.net
   tls: false
   type: vmess
   uuid: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰8 |  3.0MB/s
+  network: tcp
+  port: 15229
+  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
