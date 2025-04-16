@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,17|新加坡|@ripaojiedian
@@ -22,6 +28,6 @@ proxies:
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 57.180.253.62
+  server: 3.36.96.166
   tfo: false
   type: ss

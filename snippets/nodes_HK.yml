@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰11 |  2.3MB/s
-  network: tcp
-  port: 15229
-  server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -65,6 +56,16 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港6|@ripaojiedian
+  network: tcp
+  port: '15229'
+  server: 614ea2b0-sux8g0-td95qh-1isea.cm.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港|@ripaojiedian
