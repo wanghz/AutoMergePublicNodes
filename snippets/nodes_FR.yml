@@ -1,18 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇫🇷4 |  1.1MB/s
+  name: 11|2|🇫🇷3 |  2.8MB/s
   network: tcp
   port: 17235
-  server: 87ab6ec1-sux8g0-susn3i-1lkt0.cm5.p5pv.com
+  server: a842afb9-sutj40-suyhjm-1hhyy.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇫🇷 法国|@ripaojiedian
-  password: be443689-bc64-49ff-85a5-8eecaa2235d3
-  port: 41068
-  server: zz5.fgmcx.top
-  tfo: false
-  type: ss
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
