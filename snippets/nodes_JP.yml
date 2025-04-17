@@ -43,7 +43,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504161119105-ZoJ7RWX63r.download.microsoft.com
+    host: 202504161119105-iVU0NhGmal.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
