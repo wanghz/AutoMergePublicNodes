@@ -7,16 +7,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,17|新加坡|@ripaojiedian
-  network: tcp
-  port: '23910'
-  server: hzz9.fgmcx.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
-- alterId: 0
-  cipher: auto
   name: 11,17|新加坡3|@ripaojiedian
   network: tcp
   port: '17231'
@@ -25,6 +15,16 @@ proxies:
   tls: false
   type: vmess
   uuid: a203d80e-10fe-11ef-88a6-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11,17|新加坡|@ripaojiedian
+  network: tcp
+  port: '23910'
+  server: hzz9.fgmcx.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
