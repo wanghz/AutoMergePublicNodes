@@ -1,4 +1,17 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 11|1|🇹🇼2 |  2.3MB/s
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: d0d003b8-ad44-37a7-82bf-ad911a23b4df
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
