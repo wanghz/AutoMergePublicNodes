@@ -1,18 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰6 |  2.2MB/s
-  network: ws
-  port: 443
-  server: 104.17.137.127
-  servername: hk.niskakowski.ggff.net
-  tls: true
+  name: 11|1|🇭🇰1 |  2.4MB/s
+  network: tcp
+  port: 30251
+  server: 35.220.230.251
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
-  ws-opts:
-    headers:
-      Host: hk.niskakowski.ggff.net
-    path: /aa
+  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰5 |  5.4MB/s
+  network: tcp
+  port: 15229
+  server: 789602b4-sux8g0-t8b7ls-qtx6.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: b35f5984-a0b4-11ea-82ef-f23c9164ca5d
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
