@@ -1,13 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇭🇰1 |  4.1MB/s
-  network: tcp
-  port: 15229
-  server: 614ea2b0-sux8g0-td95qh-1isea.cm.plebai.net
-  tls: false
+  name: 11|2|🇭🇰6 |  2.2MB/s
+  network: ws
+  port: 443
+  server: 104.17.137.127
+  servername: hk.niskakowski.ggff.net
+  tls: true
   type: vmess
-  uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+  uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
+  ws-opts:
+    headers:
+      Host: hk.niskakowski.ggff.net
+    path: /aa
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -25,15 +30,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰5 |  1.7MB/s
-  network: tcp
-  port: 15229
-  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
 - alterId: 0
   cipher: auto
   name: 11,17|香港5|@ripaojiedian

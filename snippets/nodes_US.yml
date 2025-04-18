@@ -237,102 +237,67 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸2 |  5.1MB/s
-  network: tcp
-  port: '5229'
-  server: 0ecc8d37-sux8g0-swbudg-1mzwj.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: a203d80e-10fe-11ef-88a6-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸24 |  5.1MB/s
-  network: tcp
-  port: '5228'
-  server: ba91e0a1-sutj40-t1k53r-1jm8i.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸4 |  3.0MB/s
-  network: ws
-  port: 443
-  server: d3fgkhtpi57foq.cloudfront.net
-  servername: d3fgkhtpi57foq.cloudfront.net
-  tls: true
-  type: vmess
-  uuid: 2d6a51f1-6c41-4443-87fc-a2d32130942b
-  ws-opts:
-    headers:
-      Host: d3fgkhtpi57foq.cloudfront.net
-    path: /c02
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸11 |  3.3MB/s
+  name: 11|2|🇺🇸18 |  3.3MB/s
   network: tcp
   port: 5228
-  server: 7bd0fd61-suz340-tau0mq-1i41w.cu.plebai.net
+  server: a0bc30e2-sux8g0-sv74ec-1t7c2.cu.plebai.net
   tls: false
   type: vmess
-  uuid: d13637bd-0e24-11ed-9d0b-f23c91cfbbc9
+  uuid: a087871c-d185-11ef-bdb9-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸14 |  5.8MB/s
-  network: ws
-  port: 2086
-  server: 170.114.45.51
-  tls: false
-  type: vmess
-  uuid: 87306175-4286-43f2-be9f-49fffc4ee7b3
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸16 |  5.6MB/s
-  network: tcp
-  port: 22702
-  server: 185.189.32.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 483a1cce-af9b-4416-d7c6-10b9b63be66f
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸66 |  5.6MB/s
-  network: tcp
-  port: 5228
-  server: cd04809b-sux8g0-t3f7qr-141tv.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸21 |  5.3MB/s
+  name: 11|2|🇺🇸16 |  2.2MB/s
   network: tcp
   port: '5229'
+  server: 2e93912d-sutj40-sutgau-1r62f.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸15 |  5.6MB/s
+  network: tcp
+  port: 5229
+  server: 74f77c00-sutj40-t5qufl-8n27.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸21 |  1.9MB/s
+  network: tcp
+  port: 5228
+  server: 7daa6f3a-sux8g0-tavf3m-18imv.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 9a846cd4-7a86-11ed-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸33 |  2.2MB/s
+  network: tcp
+  port: 5229
   server: 2c2227e1-sutj40-t907cr-1c1mr.cu.plebai.net
   tls: false
   type: vmess
   uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸25 |  1.8MB/s
-  network: tcp
-  port: 5228
-  server: 2042c623-suz340-sw30na-2vfx.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 7d74be30-1102-11ec-a0fc-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸71 |  5.2MB/s
+  name: 11|2|🇺🇸45 |  2.5MB/s
   network: tcp
   port: '5228'
-  server: a0bc30e2-sux8g0-sv74ec-1t7c2.cu.plebai.net
+  server: 157.148.96.92
   tls: false
   type: vmess
-  uuid: a087871c-d185-11ef-bdb9-f23c91cfbbc9
+  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸42 |  2.3MB/s
+  network: tcp
+  port: '5228'
+  server: 76328141-sv2sg0-t98e4q-1m2as.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: e44b79fa-ec06-11ee-aecd-f23c9164ca5d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -350,78 +315,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸60 |  4.2MB/s
-  network: tcp
-  port: 5228
-  server: 76328141-sv2sg0-t98e4q-1m2as.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: e44b79fa-ec06-11ee-aecd-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸43 |  5.0MB/s
-  network: tcp
-  port: 5228
-  server: 3b6ec92e-sux8g0-swffb5-1s6xm.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 2b634c80-fd7e-11ef-9f25-f23c9164ca5d
-- alterId: 64
-  cipher: auto
-  name: 11|1|🇺🇸44 |  6.2MB/s
-  network: tcp
-  port: 44015
-  server: 120.198.71.219
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸46 |  3.7MB/s
-  network: tcp
-  port: 5229
-  server: f5f98477-sutj40-tdcdb7-1k27l.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸47 |  4.8MB/s
-  network: tcp
-  port: 5228
-  server: 157.148.96.92
-  tls: false
-  type: vmess
-  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸51 |  5.6MB/s
-  network: tcp
-  port: 5228
-  server: fea38a5e-sum4g0-sv6oiy-1p1b.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸54 |  3.8MB/s
-  network: tcp
-  port: 5229
-  server: 74f77c00-sutj40-t5qufl-8n27.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸55 |  4.3MB/s
-  network: tcp
-  port: 5229
-  server: 8f34e685-suz340-svvaj9-fa3p.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 905fcd78-866c-81e1-3cb8-1beb59d661ab
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
