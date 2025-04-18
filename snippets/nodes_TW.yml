@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,17|台湾|@ripaojiedian
+  network: tcp
+  port: '45078'
+  server: haa.dashuai.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9a1322b0-9c6e-433c-8fb3-d7690b3093f2
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 11,16|🇹🇼 台湾2|@ripaojiedian
   network: ws
@@ -29,11 +39,3 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 16|🇹🇼 台湾|@ripaojiedian
-  password: OP8PXXDOW0GFSBO2
-  port: 21005
-  server: 150.116.11.9
-  tfo: false
-  type: ss
