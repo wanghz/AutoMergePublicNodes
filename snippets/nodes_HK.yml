@@ -1,19 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰4 |  3.5MB/s
-  network: ws
-  port: 23017
-  server: 212.192.12.154
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7d24c37d-f5de-4267-8b0e-dec5b8983549
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰6 |  5.4MB/s
+  name: 11|2|🇭🇰2 |  2.4MB/s
   network: tcp
   port: 15229
   server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
@@ -30,6 +18,15 @@ proxies:
   tls: false
   type: vmess
   uuid: b70f5316-cc87-11ed-ab19-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰13 |  1.2MB/s
+  network: tcp
+  port: 15228
+  server: e3e46c14-sv0xs0-sy4an7-1o20w.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: d70a9508-5477-11ef-bf61-f23c913c8d2b
 - alterId: 0
   cipher: auto
   name: 11,17|香港4|@ripaojiedian
