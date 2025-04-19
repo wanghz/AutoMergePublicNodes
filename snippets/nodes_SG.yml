@@ -7,16 +7,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,17|新加坡2|@ripaojiedian
-  network: tcp
-  port: '41902'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 11,16,17|新加坡|@ripaojiedian
   network: ws
@@ -32,6 +22,16 @@ proxies:
     headers:
       Host: www.bing.com
     path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 11,17|新加坡2|@ripaojiedian
+  network: tcp
+  port: '41902'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
