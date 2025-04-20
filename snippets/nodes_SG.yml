@@ -17,7 +17,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 865f0d89-ebf5-465b-ae3f-2bd2b7f56bfa
+  uuid: 4c7929b7-281f-4d86-ad24-d766904482e6
   ws-opts:
     headers:
       Host: www.bing.com
@@ -37,6 +37,6 @@ proxies:
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.38.94.160
+  server: 34.217.76.113
   tfo: false
   type: ss

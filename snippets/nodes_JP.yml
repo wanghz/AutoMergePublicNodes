@@ -1,21 +1,21 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
   client-fingerprint: chrome
   name: 11,16,17|日本2|@ripaojiedian
   network: ws
-  port: '8004'
-  server: 59.42.247.189
+  port: '30806'
+  server: v6.heduian.link
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ef19de03-2788-44ef-a0bd-d698657e0bb9
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: /nmkj
+      Host: ocbc.com
+    path: /oooo
 - alterId: 64
   cipher: auto
   name: 11,17|日本3|@ripaojiedian
@@ -32,7 +32,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504182189466-KXW6ZXTh3H.download.microsoft.com
+    host: 202504182189466-8od2bG05Pm.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -43,6 +43,6 @@ proxies:
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.51.236
+  server: 13.124.153.152
   tfo: false
   type: ss
