@@ -7,13 +7,22 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬1 |  5.7MB/s
+  name: 11|1|🇸🇬1 |  6.3MB/s
   network: tcp
   port: 17231
   server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬2 |  3.5MB/s
+  network: tcp
+  port: 17231
+  server: d0012c0c-sux8g0-sycaxv-14au8.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 44811728-ebd8-11ec-adf5-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   name: 11,17|新加坡2|@ripaojiedian
