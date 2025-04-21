@@ -237,17 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸14 |  2.5MB/s
-  network: ws
-  port: 23077
-  server: 45.147.201.231
-  tls: false
-  type: vmess
-  uuid: f90b800d-2b37-424e-afc8-4ecb2a64b64f
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸43 |  5.8MB/s
+  name: 11|1|🇺🇸27 |  5.2MB/s
   network: ws
   port: 80
   server: www.wn03.cc
