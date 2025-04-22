@@ -1,23 +1,46 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰1 |  1.7MB/s
+  name: 11|2|🇭🇰1 |  1.8MB/s
   network: tcp
   port: 15229
-  server: 19c5d8c7-sva740-t4cl3u-1mpen.cm.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: da1c411e-479f-11ee-9749-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰4 |  2.8MB/s
-  network: tcp
-  port: 15229
-  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+  server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
   tls: false
   type: vmess
   uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰2 |  2.6MB/s
+  network: ws
+  port: 80
+  server: a9b5ab57-sv2sg0-sv75lj-1swf9.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰3 |  5.2MB/s
+  network: ws
+  port: 80
+  server: 7ad6c2a6-sv6hs0-swe9sq-9jj.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 7ef80274-d51f-5247-480a-f269a7c36b39
+  ws-opts:
+    headers:
+      Host: 7ad6c2a6-sv6hs0-swe9sq-9jj.hk.p5pv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰5 |  1.4MB/s
+  network: tcp
+  port: 32919
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,17|香港5|@ripaojiedian
