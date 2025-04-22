@@ -237,6 +237,19 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11|1|🇺🇸5 |  5.1MB/s
+  network: ws
+  port: 80
+  server: www.wn03.cc
+  tls: false
+  type: vmess
+  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  ws-opts:
+    headers:
+      Host: us.freeyyds.dpdns.org
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
   name: 11,17|美国|@ripaojiedian
   network: tcp
   port: '44015'
@@ -245,16 +258,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11,17|美国4|@ripaojiedian
-  network: tcp
-  port: '45251'
-  server: 112.65.92.20
+  client-fingerprint: chrome
+  name: 11,16,17|美国3|@ripaojiedian
+  network: ws
+  port: '30807'
+  server: v7.heduian.link
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
@@ -329,17 +349,9 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504182189466-8od2bG05Pm.download.microsoft.com
+    host: 202504212352625-1jaHlWfGGj.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇺🇸 美国3|@ripaojiedian
-  password: '!!str 1234'
-  port: 1234
-  server: 97.107.140.236
   tfo: false
   type: ss
