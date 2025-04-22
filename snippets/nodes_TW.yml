@@ -3,7 +3,7 @@ proxies:
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾|@ripaojiedian
   password: a77288b8-3a1b-4f1a-af4e-d721ccb92297
-  port: 15375
+  port: 41681
   server: sx.75886993.xyz
   tfo: false
   type: ss

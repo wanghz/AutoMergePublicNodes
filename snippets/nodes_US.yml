@@ -237,17 +237,18 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸5 |  5.1MB/s
+  name: 11|2|🇺🇸47 |  4.7MB/s
   network: ws
-  port: 80
-  server: www.wn03.cc
-  tls: false
+  port: 8443
+  server: skk.moe
+  servername: digitaloceanus.lzj520hxw.dpdns.org
+  tls: true
   type: vmess
-  uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  uuid: ba516af9-329e-4c5c-8ff6-dc59f563269e
   ws-opts:
     headers:
-      Host: us.freeyyds.dpdns.org
-    path: /rongseven?ed=2048
+      Host: digitaloceanus.lzj520hxw.dpdns.org
+    path: ba516af9-329e-4c5c-8ff6-dc59f563269e-vm
 - alterId: 0
   cipher: auto
   name: 11,17|美国|@ripaojiedian
@@ -349,7 +350,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504212352625-1jaHlWfGGj.download.microsoft.com
+    host: 202504212352625-mSKdydjLdf.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz

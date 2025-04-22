@@ -1,44 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇭🇰3 |  4.5MB/s
+  name: 11|2|🇭🇰1 |  1.7MB/s
   network: tcp
-  port: 19901
-  server: xg.dashuai.cyou
+  port: 15229
+  server: 19c5d8c7-sva740-t4cl3u-1mpen.cm.plebai.net
   servername: ''
   tls: false
   type: vmess
-  uuid: 0c1b0cfa-dcc0-4978-8db5-e8dbe1b6a424
+  uuid: da1c411e-479f-11ee-9749-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|1|🇭🇰5 |  4.0MB/s
-  network: tcp
-  port: 15229
-  server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰8 |  2.5MB/s
-  network: tcp
-  port: 15229
-  server: 789602b4-sux8g0-t8b7ls-qtx6.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: b35f5984-a0b4-11ea-82ef-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰9 |  5.5MB/s
-  network: tcp
-  port: 15229
-  server: 6aceadab-sv0xs0-sv1gez-1tk5u.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: e3217bc2-061f-11f0-90e2-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰10 |  4.1MB/s
+  name: 11|2|🇭🇰4 |  2.8MB/s
   network: tcp
   port: 15229
   server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
@@ -129,3 +102,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港9|@ripaojiedian
+  password: 91a41f4e02dc
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hkkh11v1.xpmc.cc
+    mode: websocket
+    mux: true
+    path: /utvbnrzejpmt
+    skip-cert-verify: false
+    tls: true
+  port: 31402
+  server: hkkh11v1.xpmc.cc
+  tfo: false
+  type: ss
