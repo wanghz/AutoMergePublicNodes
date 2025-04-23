@@ -237,44 +237,128 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸14 |  1.3MB/s
+  name: 11|2|🇺🇸11 |  3.4MB/s
   network: ws
-  port: 443
-  server: 66.179.48.117
-  servername: usargo.lzj520hxw.dpdns.org
-  tls: true
+  port: 2086
+  server: csgo.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 00a9a559-8bb0-425e-bc97-c9885a575455
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
   ws-opts:
     headers:
-      Host: usargo.lzj520hxw.dpdns.org
-    path: /lzjjjjjjjjjjjjjjjjjjjjjjj666-vm?ed=2048
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸14 |  4.8MB/s
+  network: ws
+  port: 2086
+  server: 141.193.213.167
+  servername: ustoucjjnid18sj6us.lovebaipiao.com
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸25 |  2.0MB/s
+  network: ws
+  port: 80
+  server: 104.21.86.44
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
+  ws-opts:
+    headers:
+      Host: 10xcbnm.he2022.filegear-sg.me
+    path: /mRHRtQZulPWRIwOavJd
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸29 |  5.6MB/s
+  network: ws
+  port: 2086
+  server: 170.114.45.53
+  servername: ustoucjjnid18sj6us.lovebaipiao.com
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸31 |  5.2MB/s
+  network: ws
+  port: '54309'
+  server: nl.ipv4.v2rayflash.top
+  tls: false
+  type: vmess
+  uuid: 065211cb-053f-4ada-98f5-5c1cc006fa12
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸33 |  4.7MB/s
+  network: ws
+  port: 443
+  server: 3sdfgvcxxx.938.pp.ua
+  servername: 3sdfgvcxxx.938.pp.ua
+  tls: true
+  type: vmess
+  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
+  ws-opts:
+    headers:
+      Host: 3sdfgvcxxx.938.pp.ua
+    path: /P879mtCoHQqaWO67qEaMINZ1
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸46 |  4.4MB/s
+  name: 11|2|🇺🇸34 |  5.3MB/s
   network: ws
-  port: 30808
+  port: '30808'
   server: v8.heduian.link
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
-    headers:
-      Host: baidu.com
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸50 |  3.9MB/s
+  name: 11|2|🇺🇸48 |  5.7MB/s
   network: ws
-  port: 443
-  server: www.racknerd.com
-  tls: true
+  port: 2086
+  server: 170.114.45.53
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 247be9aa-0741-48a1-a69e-61fdaf5290c3
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
   ws-opts:
     headers:
-      Host: haxargo.lzj520hxw.dpdns.org
-    path: /vmess-argo?ed=2048
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸49 |  5.5MB/s
+  network: ws
+  port: 2086
+  server: 170.114.45.52
+  servername: ustoucjjnid18sj6us.lovebaipiao.com
+  tls: false
+  type: vmess
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸58 |  4.5MB/s
+  network: ws
+  port: 54309
+  server: 31.58.51.127
+  tls: false
+  type: vmess
+  uuid: 065211cb-053f-4ada-98f5-5c1cc006fa12
+  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: 11,17|美国|@ripaojiedian
@@ -376,7 +460,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504212352625-mSKdydjLdf.download.microsoft.com
+    host: 202504221857755-wjQtxZzCYu.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
