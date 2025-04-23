@@ -1,16 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵13 |  5.4MB/s
-  network: ws
-  port: 2086
-  server: cdn2.bpcdn.cc
-  servername: cae3mg9qsg55eo5lhq.lovebaipiao.com
+  name: 11|1|🇯🇵4 |  4.4MB/s
+  network: tcp
+  port: 17233
+  server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    path: /
+  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
 - alterId: 64
   cipher: auto
   name: 11,17|日本3|@ripaojiedian

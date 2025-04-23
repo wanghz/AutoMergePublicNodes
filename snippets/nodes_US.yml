@@ -237,70 +237,48 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸11 |  3.4MB/s
+  name: 11|1|🇺🇸1 |  5.8MB/s
   network: ws
-  port: 2086
-  server: csgo.com
-  servername: ''
-  tls: false
+  port: 443
+  server: d2860d7d-07ee-a0db-ef7b-54808db00b03.890601.pp.ua
+  tls: true
   type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
   ws-opts:
     headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
+      Host: D2860d7d-07ee-A0Db-EF7B-54808dB00b03.890601.pP.UA
+    path: /h7Rcu0y30lhjdVjJ3gc4aj
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸14 |  4.8MB/s
+  name: 11|1|🇺🇸25 |  2.1MB/s
   network: ws
-  port: 2086
-  server: 141.193.213.167
-  servername: ustoucjjnid18sj6us.lovebaipiao.com
-  tls: false
+  port: 443
+  server: 1wweerttt.131.pp.ua
+  servername: 1wweerttt.131.pp.ua
+  tls: true
   type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸25 |  2.0MB/s
-  network: ws
-  port: 80
-  server: 104.21.86.44
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
   ws-opts:
     headers:
-      Host: 10xcbnm.he2022.filegear-sg.me
-    path: /mRHRtQZulPWRIwOavJd
+      Host: 1WWeeRtTt.131.PP.ua
+    path: /h7Rcu0y30lhjdVjJ3gc4aj
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸29 |  5.6MB/s
+  name: 11|1|🇺🇸53 |  1.6MB/s
   network: ws
-  port: 2086
-  server: 170.114.45.53
-  servername: ustoucjjnid18sj6us.lovebaipiao.com
-  tls: false
+  port: 443
+  server: 2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua
+  servername: 2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua
+  tls: true
   type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
   ws-opts:
-    path: /
+    headers:
+      Host: 2E21CEDc-fA8B-4020-8Ce0-390e7287D276.890603.Pp.uA
+    path: /h7Rcu0y30lhjdVjJ3gc4aj
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸31 |  5.2MB/s
-  network: ws
-  port: '54309'
-  server: nl.ipv4.v2rayflash.top
-  tls: false
-  type: vmess
-  uuid: 065211cb-053f-4ada-98f5-5c1cc006fa12
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸33 |  4.7MB/s
+  name: 11|1|🇺🇸37 |  5.8MB/s
   network: ws
   port: 443
   server: 3sdfgvcxxx.938.pp.ua
@@ -312,9 +290,23 @@ proxies:
     headers:
       Host: 3sdfgvcxxx.938.pp.ua
     path: /P879mtCoHQqaWO67qEaMINZ1
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸45 |  4.8MB/s
+  network: ws
+  port: 443
+  server: 9x.938.pp.ua
+  servername: 9x.938.pp.ua
+  tls: true
+  type: vmess
+  uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
+  ws-opts:
+    headers:
+      Host: 9x.938.pp.ua
+    path: /DAxJddOdTd5pVam9w
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸34 |  5.3MB/s
+  name: 11|1|🇺🇸50 |  1.4MB/s
   network: ws
   port: '30808'
   server: v8.heduian.link
@@ -323,42 +315,19 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     path: /oooo
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸48 |  5.7MB/s
+  name: 11|1|🇺🇸51 |  5.1MB/s
   network: ws
-  port: 2086
-  server: 170.114.45.53
-  servername: ''
+  port: 30808
+  server: v8.heduian.link
   tls: false
   type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: ustoucjjnid18sj6us.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸49 |  5.5MB/s
-  network: ws
-  port: 2086
-  server: 170.114.45.52
-  servername: ustoucjjnid18sj6us.lovebaipiao.com
-  tls: false
-  type: vmess
-  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸58 |  4.5MB/s
-  network: ws
-  port: 54309
-  server: 31.58.51.127
-  tls: false
-  type: vmess
-  uuid: 065211cb-053f-4ada-98f5-5c1cc006fa12
-  ws-opts: {}
+      Host: baidu.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: 11,17|美国|@ripaojiedian
