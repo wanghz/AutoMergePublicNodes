@@ -1,22 +1,100 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰8 |  1.9MB/s
-  network: tcp
-  port: '15229'
-  server: ce36ce73-sva740-sveyey-44k4.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰7 |  1.1MB/s
+  name: 11|2|🇭🇰1 |  1.8MB/s
   network: tcp
   port: 15229
-  server: 789602b4-sux8g0-t8b7ls-qtx6.cm.plebai.net
+  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
   tls: false
   type: vmess
-  uuid: b35f5984-a0b4-11ea-82ef-f23c9164ca5d
+  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰6 |  1.0MB/s
+  network: ws
+  port: 80
+  server: 75a5d1ab-sv2sg0-svr00o-1oxz4.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 75a5d1ab-sv2sg0-svr00o-1oxz4.hk.p5pv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰8 |  2.7MB/s
+  network: tcp
+  port: 15229
+  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰11 |  2.9MB/s
+  network: tcp
+  port: 15229
+  server: 723cdaa4-sv8cg0-tcw58g-1p0be.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰12 |  1.2MB/s
+  network: ws
+  port: 80
+  server: d77542fa-sv2sg0-t5cryd-4w8.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
+  ws-opts:
+    headers:
+      Host: d77542fa-sv2sg0-t5cryd-4w8.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰13 |  1.6MB/s
+  network: ws
+  port: 80
+  server: bcda8de7-sv2sg0-t7uztx-1q41p.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 3cc92f96-9f36-11ee-9144-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰14 |  2.1MB/s
+  network: ws
+  port: 80
+  server: bfd41561-sv2sg0-t5wcb1-13x18.hgc1.tcpbbr.net
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: bfd41561-sv2sg0-t5wcb1-13x18.hgc1.tcpbbr.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰15 |  1.9MB/s
+  network: ws
+  port: 80
+  server: bf0c2e8d-sv4n40-szeqpq-sbt2.hk3.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: b88ebf3a-b6b7-11ea-82ef-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: bf0c2e8d-sv4n40-szeqpq-sbt2.hk3.p5pv.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,17|香港5|@ripaojiedian

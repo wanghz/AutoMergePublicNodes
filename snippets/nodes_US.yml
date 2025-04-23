@@ -237,7 +237,20 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸33 |  5.8MB/s
+  name: 11|2|🇺🇸1 |  5.7MB/s
+  network: ws
+  port: 2083
+  server: 205.233.181.174
+  tls: true
+  type: vmess
+  uuid: 2db2bf5b-18ec-4479-dbd7-50e0e08a4f07
+  ws-opts:
+    headers:
+      Host: mass3.890602.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸43 |  1.5MB/s
   network: ws
   port: 443
   server: 7fa54343-7c0a-45c9.2031.pp.ua
@@ -251,7 +264,7 @@ proxies:
     path: /usYhm60UxQ8YJFJxz
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸9 |  3.6MB/s
+  name: 11|2|🇺🇸18 |  5.6MB/s
   network: ws
   port: 443
   server: 9uyiopsdfh.iran.pp.ua
@@ -263,43 +276,18 @@ proxies:
     headers:
       Host: 9uyiopsdfh.iran.pp.ua
     path: /DAxJddOdTd5pVam9w
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸19 |  1.0MB/s
-  network: ws
-  port: 30829
-  server: v29.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v29.heduian.link
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸23 |  5.1MB/s
-  network: ws
-  port: '30829'
-  server: v29.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸26 |  1.8MB/s
+  name: 11|2|🇺🇸28 |  1.9MB/s
   network: ws
   port: 443
-  server: 2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua
-  servername: 2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua
+  server: 1wWEeRTTt.131.pP.ua
   tls: true
   type: vmess
   uuid: 5453ae26-250d-4e79-b4ec-016baf806865
   ws-opts:
     headers:
-      Host: 2E21CEDc-fA8B-4020-8Ce0-390e7287D276.890603.Pp.uA
+      Host: 1wweerttt.131.pp.ua
     path: /h7Rcu0y30lhjdVjJ3gc4aj
 - alterId: 0
   cipher: auto

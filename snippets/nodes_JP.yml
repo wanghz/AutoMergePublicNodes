@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵4 |  5.9MB/s
+  name: 11|2|🇯🇵2 |  4.9MB/s
   network: tcp
   port: 17233
   server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
@@ -10,7 +10,7 @@ proxies:
   uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵11 |  2.5MB/s
+  name: 11|2|🇯🇵10 |  5.4MB/s
   network: tcp
   port: 17233
   server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
