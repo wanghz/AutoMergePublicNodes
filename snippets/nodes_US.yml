@@ -235,22 +235,36 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸1 |  5.7MB/s
+  name: 11|2|🇺🇸3 |  1.3MB/s
   network: ws
-  port: 2083
-  server: 205.233.181.174
-  tls: true
+  port: 30808
+  server: v8.heduian.link
+  tls: false
   type: vmess
-  uuid: 2db2bf5b-18ec-4479-dbd7-50e0e08a4f07
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: mass3.890602.xyz
-    path: /
+      Host: baidu.com
+    path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸43 |  1.5MB/s
+  name: 11|2|🇺🇸11 |  1.3MB/s
+  network: ws
+  port: 443
+  server: 2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua
+  servername: 2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua
+  tls: true
+  type: vmess
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+  ws-opts:
+    headers:
+      Host: 2E21CEDc-fA8B-4020-8Ce0-390e7287D276.890603.Pp.uA
+    path: /h7Rcu0y30lhjdVjJ3gc4aj
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸41 |  2.2MB/s
   network: ws
   port: 443
   server: 7fa54343-7c0a-45c9.2031.pp.ua
@@ -264,31 +278,55 @@ proxies:
     path: /usYhm60UxQ8YJFJxz
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸18 |  5.6MB/s
+  name: 11|2|🇺🇸46 |  6.1MB/s
   network: ws
   port: 443
   server: 9uyiopsdfh.iran.pp.ua
-  servername: 9uyiopsdfh.iran.pp.ua
+  servername: ''
   tls: true
   type: vmess
   uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
   ws-opts:
-    headers:
-      Host: 9uyiopsdfh.iran.pp.ua
     path: /DAxJddOdTd5pVam9w
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸28 |  1.9MB/s
+  name: 11|2|🇺🇸49 |  2.1MB/s
   network: ws
   port: 443
-  server: 1wWEeRTTt.131.pP.ua
+  server: d2860d7d-07ee-a0db-ef7b-54808db00b03.890601.pp.ua
   tls: true
   type: vmess
   uuid: 5453ae26-250d-4e79-b4ec-016baf806865
   ws-opts:
     headers:
-      Host: 1wweerttt.131.pp.ua
+      Host: D2860d7d-07ee-A0Db-EF7B-54808dB00b03.890601.pP.UA
     path: /h7Rcu0y30lhjdVjJ3gc4aj
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸54 |  5.3MB/s
+  network: ws
+  port: 30829
+  server: v29.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸60 |  2.6MB/s
+  network: ws
+  port: 8443
+  server: 199.34.228.161
+  tls: true
+  type: vmess
+  uuid: 3a1c628b-806d-461b-c28d-44b3bdff5220
+  ws-opts:
+    headers:
+      Host: mass2.890602.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,17|美国|@ripaojiedian
@@ -390,7 +428,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504221857755-wjQtxZzCYu.download.microsoft.com
+    host: 202504231516596-2ovXmdP1DN.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
