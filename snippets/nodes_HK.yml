@@ -1,22 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰1 |  1.9MB/s
+  name: 11|2|🇭🇰8 |  3.0MB/s
   network: tcp
-  port: 15229
-  server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
+  port: '15229'
+  server: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
   tls: false
   type: vmess
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰12 |  2.1MB/s
+  name: 11|2|🇭🇰7 |  1.2MB/s
   network: tcp
   port: 15229
-  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+  server: 723cdaa4-sv8cg0-tcw58g-1p0be.cm.plebai.net
   tls: false
   type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
 - alterId: 0
   cipher: auto
   name: 11,17|香港5|@ripaojiedian
