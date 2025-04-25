@@ -5,6 +5,25 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,17|新加坡3|@ripaojiedian
+  network: tcp
+  port: '17231'
+  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇸🇬10 |  1.5MB/s
+  network: tcp
+  port: 54652
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -24,19 +43,36 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,17|新加坡3|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,16,17|新加坡2|@ripaojiedian
+  network: ws
+  port: '16618'
+  server: t.cnmjcn.cyou
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f197ce3e-1819-4383-9fd3-538f67f468f9
+  ws-opts:
+    headers:
+      Host: 29e93b27f148c30de05ffa9b65b7201c.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,17|新加坡4|@ripaojiedian
   network: tcp
-  port: '17231'
-  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  port: '4135'
+  server: 180e94b7-sv59c0-t6vkd1-6tmd.d.volczijie.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+  uuid: d385d6b2-cc15-11ee-89bc-f23c93141fad
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.207.139.84
+  server: 44.247.228.17
   tfo: false
   type: ss

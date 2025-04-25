@@ -1,10 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇹🇼2 |  1.1MB/s
-  network: tcp
-  port: 3687
-  server: 4664f9a4-submo0-sv7alj-ctxx.a.fosant.com
-  tls: false
-  type: vmess
-  uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
+proxies: []

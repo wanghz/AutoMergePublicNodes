@@ -1,13 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰3 |  1.1MB/s
+  name: 11|0|🇭🇰5 |  2.0MB/s
   network: tcp
-  port: 15229
+  port: '15229'
   server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
   tls: false
   type: vmess
   uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇭🇰14 |  1.2MB/s
+  network: tcp
+  port: 15229
+  server: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港3|@ripaojiedian
+  network: tcp
+  port: '57888'
+  server: 47.83.137.220
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b68f8c35-935e-444f-8944-291bf15a56a5
 - alterId: 0
   cipher: auto
   name: 11,17|香港5|@ripaojiedian
@@ -32,16 +51,6 @@ proxies:
   cipher: auto
   name: 11,17|香港7|@ripaojiedian
   network: tcp
-  port: '36609'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,17|香港8|@ripaojiedian
-  network: tcp
   port: '42375'
   server: 120.198.71.214
   servername: ''
@@ -50,7 +59,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,17|香港10|@ripaojiedian
+  name: 11,17|香港8|@ripaojiedian
   network: kcp
   port: '52059'
   server: 8.218.228.45
@@ -73,7 +82,7 @@ proxies:
     path: /dl_media
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港3|@ripaojiedian
+  name: 16|🇭🇰 香港2|@ripaojiedian
   password: 91a41f4e02dc
   plugin: v2ray-plugin
   plugin-opts:
@@ -83,7 +92,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 53925
+  port: 19789
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -91,7 +100,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国|@ripaojiedian
-  password: 64abf593-eeb7-4785-9323-d6f40e9a79d4
+  password: ff832dd3-18a9-441f-bae0-24e8b98dc96b
   port: 44015
   server: 120.198.71.219
   skip-cert-verify: false
