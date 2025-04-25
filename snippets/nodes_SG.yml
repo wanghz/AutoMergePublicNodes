@@ -5,6 +5,16 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,17|新加坡3|@ripaojiedian
+  network: tcp
+  port: '17231'
+  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -39,16 +49,6 @@ proxies:
     headers:
       Host: 29e93b27f148c30de05ffa9b65b7201c.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11,17|新加坡3|@ripaojiedian
-  network: tcp
-  port: '17231'
-  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
 - alterId: 0
   cipher: auto
   name: 11,17|新加坡4|@ripaojiedian

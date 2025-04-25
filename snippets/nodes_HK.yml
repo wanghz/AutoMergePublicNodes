@@ -1,17 +1,7 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇭🇰2 |  1.1MB/s
-  network: ws
-  port: 8080
-  server: 578e2eb9-svc1s0-t28b6o-ef48.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰6 |  1.2MB/s
+  name: 11|1|🇭🇰3 |  3.7MB/s
   network: tcp
   port: 15229
   server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
@@ -20,16 +10,13 @@ proxies:
   uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰9 |  1.4MB/s
-  network: ws
-  port: 23023
-  server: 212.192.12.154
-  servername: ''
+  name: 11|1|🇭🇰4 |  1.3MB/s
+  network: tcp
+  port: 15229
+  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
   tls: false
   type: vmess
-  uuid: 018474eb-864a-4fb6-9ee7-bcc51fb7e986
-  ws-opts:
-    path: /
+  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
 - alterId: 0
   cipher: auto
   name: 11,17|香港3|@ripaojiedian
