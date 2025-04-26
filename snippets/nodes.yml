@@ -528,84 +528,21 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸14 |  3.8MB/s
+  name: 11|2|🇺🇸49 |  4.9MB/s
   network: ws
   port: 443
-  server: u8.huvicloud.com
-  servername: u8.huvicloud.com
+  server: xc011-2.meiziba5566.com
+  servername: xc011-2.meiziba5566.com
   tls: true
   type: vmess
-  uuid: 6796611b-260e-4d63-9016-20c27b12e420
+  uuid: 42576a04-5a4d-4c7e-fcb4-a8582ab46031
   ws-opts:
     headers:
-      Host: u8.huvicloud.com
-    path: /6796611b-260e-4d63-9016-20c27b12e420
+      Host: xc011-2.meiziba5566.com
+    path: /xc1234
 - alterId: 0
   cipher: auto
-  name: 11|0|🌀3-ID |  1.4MB/s
-  network: tcp
-  port: 17234
-  server: 7ab33995-svdwg0-swy6li-tni2.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇫🇷1 |  1.1MB/s
-  network: ws
-  port: 443
-  server: 8.219.206.22
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇺🇸25 |  5.2MB/s
-  network: tcp
-  port: 5228
-  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alterId: 2
-  cipher: auto
-  name: 11|0|🇺🇸29 |  2.4MB/s
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|0|🇺🇸30 |  3.1MB/s
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇺🇸31 |  5.4MB/s
-  network: tcp
-  port: 5229
-  server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇺🇸32 |  5.7MB/s
+  name: 11|2|🇺🇸2 |  5.7MB/s
   network: tcp
   port: 5228
   server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
@@ -614,30 +551,132 @@ proxies:
   uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸56 |  5.4MB/s
-  network: ws
-  port: 443
-  server: u2.huvicloud.com
-  servername: u2.huvicloud.com
-  tls: true
-  type: vmess
-  uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488
-  ws-opts:
-    headers:
-      Host: u2.huvicloud.com
-    path: /c6ec090c-db51-4ad7-9cd4-9c827e52ea40
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇯🇵8 |  2.7MB/s
+  name: 11|2|🇫🇮1 |  1.1MB/s
   network: tcp
-  port: 4151
-  server: 4b2f25cf-sudhc0-sva30v-au6.c.volczijie.com
+  port: 53401
+  server: 85.117.231.19
+  servername: ''
   tls: false
   type: vmess
-  uuid: 1b609740-eec2-11ef-8543-f23c93136cb3
+  uuid: c463d2d1-987b-4aed-a552-3deecb474a05
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇮🇳1 |  4.4MB/s
+  network: tcp
+  port: 10002
+  server: 45.79.121.243
+  tls: false
+  type: vmess
+  uuid: 3699fa73-ac5c-41ca-8d6e-fe4cb70c7e02
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸6 |  5.2MB/s
+  network: ws
+  port: 443
+  server: xc125-1.meiziba5566.com
+  servername: xc125-1.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 6b95d340-30a5-47bd-ac53-49584e5d4ddf
+  ws-opts:
+    headers:
+      Host: xc125-1.meiziba5566.com
+    path: /6b95d340
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸16 |  4.5MB/s
+  network: ws
+  port: 443
+  server: hk2.rtmp.online
+  tls: true
+  type: vmess
+  uuid: 1d7dc43f-ee28-4e2f-a104-8bfb9b2c70b8
+  ws-opts:
+    headers:
+      Host: hk2.rtmp.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸17 |  4.2MB/s
+  network: ws
+  port: 443
+  server: gs03-1.guoshi1520.com
+  servername: gs03-1.guoshi1520.com
+  tls: true
+  type: vmess
+  uuid: 82ff6d30-2920-4ebd-b95c-b016ede1a841
+  ws-opts:
+    path: /82ff6d30
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸22 |  5.9MB/s
+  network: tcp
+  port: 5229
+  server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸23 |  5.5MB/s
+  network: ws
+  port: 443
+  server: xcmg19.dtkj0328.com
+  servername: xcmg19.dtkj0328.com
+  tls: true
+  type: vmess
+  uuid: bc94f742-0e7b-4cf8-e897-6214f9bec8da
+  ws-opts:
+    path: /xcmg1234
 - alterId: 2
   cipher: auto
-  name: 11|0|🇺🇸48 |  3.1MB/s
+  name: 11|2|🇭🇰6 |  2.4MB/s
+  network: ws
+  port: 80
+  server: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸26 |  5.6MB/s
+  network: tcp
+  port: 5229
+  server: 6faf81e8-svdwg0-t1bnjq-1krtb.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸27 |  5.3MB/s
+  network: ws
+  port: 443
+  server: yymg12.haibo168.com
+  servername: yymg12.haibo168.com
+  tls: true
+  type: vmess
+  uuid: 555dc227-b8a9-4c41-eb2b-b6f9e5bdc168
+  ws-opts:
+    headers:
+      Host: yymg12.haibo168.com
+    path: /yymg1234
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸29 |  2.1MB/s
+  network: tcp
+  port: 23564
+  server: 142.171.118.132
+  tls: false
+  type: vmess
+  uuid: 28cf94d4-46cc-4151-b94e-1073a4594dc5
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸32 |  1.0MB/s
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -651,31 +690,66 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸49 |  4.3MB/s
-  network: ws
-  port: 443
-  server: xcf029.facai2024.com
-  servername: ''
-  tls: true
+  name: 11|2|🇺🇸36 |  5.7MB/s
+  network: tcp
+  port: 5228
+  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
+  tls: false
   type: vmess
-  uuid: 9ce4526a-c500-4c66-99b0-048e4b6b5663
-  ws-opts:
-    headers:
-      Host: xcf029.facai2024.com
-    path: /9ce4526a
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸57 |  3.9MB/s
+  name: 11|2|🇺🇸42 |  5.0MB/s
   network: ws
   port: 443
-  server: u7.huvicloud.com
+  server: xcf046.facai2024.com
+  servername: xcf046.facai2024.com
   tls: true
   type: vmess
-  uuid: 7216ba26-d2bc-48f7-8b44-3b91c30cb6ab
+  uuid: c47d5728-8d15-4e07-b5ac-9acff953b12b
   ws-opts:
     headers:
-      Host: u7.huvicloud.com
-    path: /7216ba26-d2bc-48f7-8b44-3b91c30cb6ab
+      Host: xcf046.facai2024.com
+    path: /c47d5728
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰9 |  1.0MB/s
+  network: ws
+  port: 80
+  server: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸46 |  1.4MB/s
+  network: ws
+  port: 443
+  server: codepen.io
+  servername: fastclubcloud.alpha-panel.ir
+  tls: true
+  type: vmess
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+  ws-opts:
+    path: /1WWeeRtTt.131.PP.ua/h7Rcu0y30lhjdVjJ3gc4aj
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸48 |  4.8MB/s
+  network: ws
+  port: 443
+  server: gs03-1.guoshi1520.com
+  tls: true
+  type: vmess
+  uuid: 82ff6d30-2920-4ebd-b95c-b016ede1a841
+  ws-opts:
+    headers:
+      Host: gs03-1.guoshi1520.com
+    path: /82ff6d30
 - alterId: 0
   cipher: auto
   name: 11,17|香港5|@ripaojiedian

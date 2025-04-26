@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|0|🇯🇵8 |  2.7MB/s
-  network: tcp
-  port: 4151
-  server: 4b2f25cf-sudhc0-sva30v-au6.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 1b609740-eec2-11ef-8543-f23c93136cb3
-- alterId: 0
-  cipher: auto
   name: 11,17|日本5|@ripaojiedian
   network: kcp
   port: '53893'

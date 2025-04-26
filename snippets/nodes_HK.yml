@@ -1,4 +1,32 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰6 |  2.4MB/s
+  network: ws
+  port: 80
+  server: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰9 |  1.0MB/s
+  network: ws
+  port: 80
+  server: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,17|香港5|@ripaojiedian
