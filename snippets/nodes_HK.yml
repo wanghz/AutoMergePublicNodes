@@ -1,24 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇭🇰4 |  1.1MB/s
-  network: tcp
-  port: 4136
-  server: 02c32b60-sudhc0-sva30v-au6.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 1b609740-eec2-11ef-8543-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰9 |  1.4MB/s
-  network: tcp
-  port: 15229
-  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-- alterId: 0
-  cipher: auto
   name: 11,17|香港5|@ripaojiedian
   network: tcp
   port: '41291'
