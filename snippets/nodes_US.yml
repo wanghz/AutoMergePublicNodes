@@ -237,7 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸15 |  5.8MB/s
+  name: 11|1|🇺🇸12 |  2.5MB/s
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
@@ -251,91 +251,36 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸7 |  3.3MB/s
-  network: ws
-  port: 443
-  server: xc147-2.meiziba5566.com
-  servername: xc147-2.meiziba5566.com
-  tls: true
-  type: vmess
-  uuid: c26f81db-422e-48e5-8324-0970dde4553f
-  ws-opts:
-    headers:
-      Host: xc147-2.meiziba5566.com
-    path: /c26f81db
-- alterId: 2
-  cipher: auto
-  name: 11|1|🇺🇸12 |  5.6MB/s
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸13 |  5.6MB/s
-  network: tcp
-  port: 5229
-  server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸14 |  1.1MB/s
-  network: ws
-  port: 443
-  server: codepen.io
-  servername: fastclubcloud.alpha-panel.ir
-  tls: true
-  type: vmess
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
-  ws-opts:
-    path: /1WWeeRtTt.131.PP.ua/h7Rcu0y30lhjdVjJ3gc4aj
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸20 |  4.9MB/s
-  network: tcp
-  port: 5229
-  server: 6faf81e8-svdwg0-t1bnjq-1krtb.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸26 |  1.1MB/s
+  name: 11|1|🇺🇸8 |  3.6MB/s
   network: ws
   port: '443'
-  server: xc011-2.meiziba5566.com
+  server: yymg02.haibo168.com
   tls: true
   type: vmess
-  uuid: 42576a04-5a4d-4c7e-fcb4-a8582ab46031
+  uuid: e85aa4fe-5812-4356-e10e-b05840a6920d
   ws-opts:
-    path: /xc1234
+    path: /yymg1234
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸27 |  5.7MB/s
+  name: 11|1|🇺🇸30 |  5.9MB/s
   network: tcp
-  port: 23602
-  server: 38.102.235.36
+  port: '5228'
+  server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
   tls: false
   type: vmess
-  uuid: 18b3b300-7bc4-4ee6-8806-dbde3bba84ac
-- alterId: 2
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸30 |  4.8MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  tls: true
+  name: 11|1|🇺🇸21 |  5.2MB/s
+  network: tcp
+  port: 5229
+  server: 73618903-svhls0-t1bnjq-1krtb.cu.plebai.net
+  tls: false
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸31 |  5.8MB/s
+  name: 11|1|🇺🇸22 |  1.7MB/s
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -349,51 +294,51 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸35 |  2.4MB/s
-  network: ws
-  port: 443
-  server: yymg02.haibo168.com
-  servername: yymg02.haibo168.com
-  tls: true
-  type: vmess
-  uuid: e85aa4fe-5812-4356-e10e-b05840a6920d
-  ws-opts:
-    headers:
-      Host: yymg02.haibo168.com
-    path: /yymg1234
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸40 |  1.0MB/s
-  network: ws
-  port: '443'
-  server: xc147-2.meiziba5566.com
-  tls: true
-  type: vmess
-  uuid: c26f81db-422e-48e5-8324-0970dde4553f
-  ws-opts:
-    path: /c26f81db
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸51 |  3.6MB/s
+  name: 11|1|🇺🇸23 |  5.5MB/s
   network: tcp
-  port: '5228'
-  server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
+  port: 5229
+  server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  name: 11|1|🇺🇸28 |  5.8MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸40 |  5.9MB/s
+  network: tcp
+  port: 5228
+  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
   tls: false
   type: vmess
   uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸53 |  1.8MB/s
+  name: 11|1|🇺🇸34 |  3.1MB/s
   network: ws
-  port: 22642
+  port: 22641
   server: tk.hzlt.tkddns.xyz
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸42 |  4.9MB/s
+  network: tcp
+  port: 5229
+  server: fb79be22-svfr40-t1bnjq-1krtb.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
   name: 11,17|美国|@ripaojiedian
