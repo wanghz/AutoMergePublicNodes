@@ -7,32 +7,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|0|🇸🇬4 |  2.6MB/s
-  network: ws
-  port: 43050
-  server: 152.69.220.94
-  servername: a.ziqiu1060.ggff.net
-  tls: true
-  type: vmess
-  uuid: 28ca0567-754e-46fc-e774-b19c787975f7
-  ws-opts:
-    headers:
-      Host: a.ziqiu1060.ggff.net
-    path: /dsfsdf
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇸🇬6 |  1.5MB/s
-  network: ws
-  port: '21369'
-  server: a.886968.xyz
-  tls: true
-  type: vmess
-  uuid: 151187b1-c8f3-4c32-ac72-3679e264a7a3
-  ws-opts:
-    path: /wfdef
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇸🇬8 |  3.5MB/s
+  name: 11|1|🇸🇬4 |  6.2MB/s
   network: tcp
   port: 17231
   server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
@@ -40,6 +15,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬5 |  1.2MB/s
+  network: ws
+  port: 21369
+  server: a.886968.xyz
+  servername: a.886968.xyz
+  tls: true
+  type: vmess
+  uuid: 151187b1-c8f3-4c32-ac72-3679e264a7a3
+  ws-opts:
+    headers:
+      Host: a.886968.xyz
+    path: /wfdef
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
