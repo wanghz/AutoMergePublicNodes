@@ -7,7 +7,21 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬3 |  6.2MB/s
+  name: 11|2|🇸🇬1 |  5.8MB/s
+  network: ws
+  port: 443
+  server: 172.67.213.110
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: sgfqkqmltcy.site
+    path: /rbqqvws
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇸🇬5 |  6.3MB/s
   network: tcp
   port: 17231
   server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
@@ -31,28 +45,11 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|新加坡2|@ripaojiedian
-  network: ws
-  port: '43050'
-  server: a.ziqiu1060.ggff.net
-  servername: a.ziqiu1060.ggff.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 28ca0567-754e-46fc-e774-b19c787975f7
-  ws-opts:
-    headers:
-      Host: a.ziqiu1060.ggff.net
-    path: /dsfsdf
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.125.152.108
+  server: 13.212.96.232
   tfo: false
   type: ss

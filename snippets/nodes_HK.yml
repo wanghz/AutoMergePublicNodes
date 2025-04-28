@@ -1,15 +1,21 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 11|1|🇭🇰1 |  1.9MB/s
+  client-fingerprint: chrome
+  name: 11,16,17|香港3|@ripaojiedian
   network: ws
-  port: 80
-  server: 49c660d6-sucv40-svb30a-150lf.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
+  port: '8102'
+  server: 3e1c8931-svhls0-t4yfev-1rz31.wtt5.p5pv.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 3035b36e-679f-11ed-87fd-f23c9164ca5d
-  ws-opts: {}
+  uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,17|香港5|@ripaojiedian
@@ -30,16 +36,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,17|香港7|@ripaojiedian
-  network: kcp
-  port: '52059'
-  server: 8.218.228.45
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 888ce5e9-6e3a-4b5c-bcb7-ce1125c02d79
 - client-fingerprint: chrome
   name: 16|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -65,7 +61,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 23274
+  port: 24682
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -73,12 +69,20 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国|@ripaojiedian
-  password: 1b97e412-8bf8-4521-b9d6-8ca529f8cbc9
+  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
   port: 44015
   server: 120.198.71.219
   skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
+  sni: k12.tudou211.com
   tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港7|@ripaojiedian
+  password: T1D1e8wJWN6EeHCae4F+cA==
+  port: 2525
+  server: 45.196.234.180
+  tfo: false
+  type: ss
