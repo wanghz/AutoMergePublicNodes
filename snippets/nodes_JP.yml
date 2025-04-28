@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵10 |  1.7MB/s
-  network: tcp
-  port: '17233'
-  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 11,16,17|日本3|@ripaojiedian
   network: ws
