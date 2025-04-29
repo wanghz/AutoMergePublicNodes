@@ -1,14 +1,14 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|0|🇨🇦2 |  5.5MB/s
+  name: 11|1|🇨🇦2 |  3.0MB/s
   network: ws
-  port: 30825
-  server: v25.heduian.link
+  port: 16641
+  server: t.cnmjcn.cyou
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 46dce50f-cb9a-45d0-99f8-0107ea567bf2
   ws-opts:
     headers:
-      Host: v25.heduian.link
-    path: /oooo
+      Host: bba63bf2557b0311d6adf64bf4d56c8b.mobgslb.tbcache.com
+    path: /
