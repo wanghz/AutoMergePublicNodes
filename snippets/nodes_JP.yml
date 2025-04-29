@@ -1,7 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵6 |  4.2MB/s
+  name: 11|1|🇯🇵2 |  4.1MB/s
+  network: tcp
+  port: 17233
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵3 |  6.0MB/s
+  network: tcp
+  port: 17233
+  server: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵5 |  2.1MB/s
+  network: tcp
+  port: 17233
+  server: 1ff869eb-svjgg0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵6 |  6.0MB/s
   network: tcp
   port: 17233
   server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
@@ -10,13 +37,35 @@ proxies:
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵14 |  5.7MB/s
+  name: 11|1|🇯🇵7 |  4.1MB/s
   network: tcp
   port: 17233
   server: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵9 |  1.5MB/s
+  network: ws
+  port: 35243
+  server: jp3.vip2.g2.moonbase.life
+  tls: true
+  type: vmess
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  ws-opts:
+    path: /home
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵12 |  1.8MB/s
+  network: ws
+  port: 35244
+  server: jp4.vip2.g2.moonbase.life
+  tls: true
+  type: vmess
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  ws-opts:
+    path: /home
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

@@ -237,16 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸16 |  2.3MB/s
-  network: tcp
-  port: 5228
-  server: 6a483e32-svfr40-t28b6o-ef48.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸40 |  5.2MB/s
+  name: 11|1|🇺🇸17 |  4.5MB/s
   network: tcp
   port: '5228'
   server: 1449f183-svhls0-t28b6o-ef48.cu.plebai.net
@@ -255,25 +246,16 @@ proxies:
   uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸18 |  3.9MB/s
-  network: tcp
-  port: 5229
-  server: 73618903-svhls0-t1bnjq-1krtb.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸70 |  5.3MB/s
+  name: 11|1|🇺🇸22 |  1.1MB/s
   network: tcp
   port: 5228
-  server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
+  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
   tls: false
   type: vmess
   uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸31 |  5.4MB/s
+  name: 11|1|🇺🇸24 |  2.7MB/s
   network: ws
   port: 2053
   server: 141.101.121.127
@@ -286,78 +268,64 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸34 |  3.9MB/s
+  name: 11|1|🇺🇸32 |  5.5MB/s
   network: tcp
-  port: 5229
-  server: fb79be22-svfr40-t1bnjq-1krtb.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸63 |  1.7MB/s
-  network: tcp
-  port: 5228
-  server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
+  port: '5228'
+  server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
   tls: false
   type: vmess
   uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸45 |  4.2MB/s
-  network: ws
-  port: 443
-  server: yymg18.haibo168.com
-  servername: yymg18.haibo168.com
-  tls: true
+  name: 11|1|🇺🇸76 |  5.4MB/s
+  network: tcp
+  port: 5228
+  server: 6a483e32-svfr40-t28b6o-ef48.cu.plebai.net
+  tls: false
   type: vmess
-  uuid: 5fc5106c-2ada-4481-a5df-608d66f7eda0
-  ws-opts:
-    headers:
-      Host: yymg18.haibo168.com
-    path: /yymg1234
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸57 |  4.4MB/s
+  name: 11|1|🇺🇸38 |  5.4MB/s
   network: tcp
   port: 5229
-  server: 6faf81e8-svdwg0-t1bnjq-1krtb.cu.plebai.net
+  server: 73618903-svhls0-t1bnjq-1krtb.cu.plebai.net
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 2
-  cipher: auto
-  name: 11|1|🇺🇸62 |  2.8MB/s
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸64 |  4.4MB/s
-  network: ws
-  port: 2052
-  server: 104.17.213.241
+  name: 11|1|🇺🇸41 |  5.7MB/s
+  network: tcp
+  port: 5228
+  server: c6147365-svjgg0-t28b6o-ef48.cu.plebai.net
   tls: false
   type: vmess
-  uuid: 3e2baf6a-65f1-319a-add3-039029c97372
-  ws-opts:
-    headers:
-      Host: 100-98-75-157.s2.db-link01.top
-    path: /dabai.in104.21.188.174
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸69 |  5.8MB/s
+  name: 11|1|🇺🇸47 |  5.5MB/s
+  network: tcp
+  port: 5229
+  server: 0fad9e0f-svlb40-t1bnjq-1krtb.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸53 |  5.1MB/s
   network: tcp
   port: 5229
   server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸73 |  4.6MB/s
+  network: tcp
+  port: 5229
+  server: fb79be22-svfr40-t1bnjq-1krtb.cu.plebai.net
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
