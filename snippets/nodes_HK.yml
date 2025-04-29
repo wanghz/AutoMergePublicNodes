@@ -1,59 +1,28 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 11|2|🇭🇰2 |  2.5MB/s
+  name: 11|0|🇭🇰15 |  4.0MB/s
   network: ws
   port: 80
-  server: e3c0610d-sv0xs0-svewl8-xu74.hk.p5pv.com
+  server: c3d8620b-sva740-sve1ir-zfm.hk.p5pv.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
+  uuid: 88711fa6-2958-11ef-abff-f23c913c8d2b
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 2
   cipher: auto
-  name: 11|2|🇭🇰4 |  2.0MB/s
+  name: 11|0|🇭🇰16 |  6.2MB/s
   network: ws
   port: 80
-  server: baeb9e1b-sv6hs0-svewl8-xu74.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: baeb9e1b-sv6hs0-svewl8-xu74.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇭🇰7 |  1.9MB/s
-  network: ws
-  port: 80
-  server: 1.65.204.127
+  server: 9ff162bc-sv8cg0-sve1ir-zfm.hk.p5pv.com
   servername: ''
   tls: false
   type: vmess
-  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|香港3|@ripaojiedian
-  network: ws
-  port: '8102'
-  server: 3e1c8931-svhls0-t4yfev-1rz31.wtt5.p5pv.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
+  uuid: 88711fa6-2958-11ef-abff-f23c913c8d2b
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -103,28 +72,28 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 24682
+  port: 50676
   server: hkkh11v1.xpmc.cc
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港3|@ripaojiedian
+  password: 92uGfGQsAPq+HoB43r4u5b8lioGZrD/YTrvMUFbjgD8=
+  port: 56999
+  server: 175.178.13.108
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国|@ripaojiedian
-  password: f57f01e6-9bb1-4277-a5cb-75ad0ce1fa11
+  password: 7eccaecb-10ea-460f-975a-77a9cdc1fea7
   port: 44015
   server: 120.198.71.219
   skip-cert-verify: false
-  sni: k12.tudou211.com
+  sni: q08m.vgraxiw73s.hasyaf.cn
   tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港7|@ripaojiedian
-  password: T1D1e8wJWN6EeHCae4F+cA==
-  port: 2525
-  server: 45.196.234.180
-  tfo: false
-  type: ss
