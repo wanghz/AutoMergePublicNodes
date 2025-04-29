@@ -1,14 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇨🇦2 |  3.0MB/s
-  network: ws
-  port: 16641
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: 46dce50f-cb9a-45d0-99f8-0107ea567bf2
-  ws-opts:
-    headers:
-      Host: bba63bf2557b0311d6adf64bf4d56c8b.mobgslb.tbcache.com
-    path: /
+proxies: []
