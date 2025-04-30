@@ -1,59 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵1 |  6.2MB/s
+  name: 11|2|🇯🇵3 |  5.0MB/s
   network: tcp
   port: 17233
-  server: 2c7f0fc0-svlb40-t1bnjq-1krtb.cm5.p5pv.com
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵2 |  1.3MB/s
-  network: ws
-  port: 35244
-  server: 120.253.242.194
-  servername: jp4.vip2.g2.moonbase.life
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    headers:
-      Host: jp4.vip2.g2.moonbase.life
-    path: /home
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵5 |  2.0MB/s
+  name: 11|2|🇯🇵8 |  3.8MB/s
   network: tcp
   port: 17233
-  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
+  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵12 |  5.6MB/s
-  network: tcp
-  port: 17233
-  server: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵15 |  1.7MB/s
-  network: ws
-  port: 35213
-  server: jp3.g2.moonbase.life
-  servername: web.xcjs.info
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    headers:
-      Host: web.xcjs.info
-    path: /home
 - alterId: 0
   cipher: auto
   name: 11,17|日本5|@ripaojiedian
