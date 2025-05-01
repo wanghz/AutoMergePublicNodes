@@ -1,6 +1,151 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|2|🇯🇵2 |  1.6MB/s
+  network: tcp
+  port: 17233
+  server: 76c85625-sutj40-t1k53r-1jm8i.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵5 |  1.2MB/s
+  network: tcp
+  port: 17233
+  server: 50ec05bc-sutj40-tdcdb7-1k27l.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵6 |  1.7MB/s
+  network: tcp
+  port: 17233
+  server: 34c2d074-svn5s0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵7 |  1.8MB/s
+  network: tcp
+  port: 17233
+  server: fe15251f-sunz40-tbpkla-1otc2.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 0114339c-488d-11ee-8792-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵8 |  1.8MB/s
+  network: tcp
+  port: 17233
+  server: c8668876-sutj40-sydwhg-1s2ks.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: a664d16a-4e47-11ef-9d7e-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵10 |  1.8MB/s
+  network: tcp
+  port: 17233
+  server: 2c7f0fc0-svlb40-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵11 |  1.7MB/s
+  network: tcp
+  port: 17233
+  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵12 |  1.3MB/s
+  network: tcp
+  port: 17233
+  server: 1ff869eb-svjgg0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵14 |  1.3MB/s
+  network: tcp
+  port: 17233
+  server: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵15 |  1.7MB/s
+  network: tcp
+  port: 17233
+  server: a842afb9-sutj40-suyhjm-1hhyy.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵20 |  1.6MB/s
+  network: tcp
+  port: 17233
+  server: 17bf3bb4-svjgg0-swy6li-tni2.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵22 |  1.0MB/s
+  network: tcp
+  port: 17233
+  server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵24 |  1.3MB/s
+  network: tcp
+  port: 17233
+  server: 7ab33995-svdwg0-swy6li-tni2.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵25 |  1.0MB/s
+  network: tcp
+  port: 17233
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵27 |  1.2MB/s
+  network: tcp
+  port: 17233
+  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵28 |  1.1MB/s
+  network: tcp
+  port: 17233
+  server: 9e6c9676-sv6hs0-sv7acf-1qw0q.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: d4fe3d0c-9043-11ef-8dc4-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
   name: 11,17|日本5|@ripaojiedian
   network: kcp
   port: '53893'
@@ -15,7 +160,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504291524969-6n5EJXeCf0.download.microsoft.com
+    host: 202504301450290-B3cnEnRz1z.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -33,7 +178,7 @@ proxies:
     path: /udjsamdxq
     skip-cert-verify: false
     tls: true
-  port: 15991
+  port: 56611
   server: 103.140.136.242
   tfo: false
   type: ss
@@ -50,6 +195,6 @@ proxies:
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.51.140
+  server: 47.129.143.102
   tfo: false
   type: ss
