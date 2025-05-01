@@ -1,105 +1,49 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵2 |  2.8MB/s
+  name: 11|3|🇯🇵1 |  1.7MB/s
   network: tcp
-  port: 17233
-  server: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
+  port: 3684
+  server: 884b8b44-sudhc0-svm3vt-czv5.d.volczijie.com
   tls: false
   type: vmess
-  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
+  uuid: 82efba2c-f420-11ef-9529-f23c93141fad
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵4 |  1.7MB/s
+  name: 11|3|🇯🇵3 |  6.1MB/s
   network: tcp
-  port: 17233
-  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
+  port: 11555
+  server: 167.88.182.219
   tls: false
   type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  uuid: c4968b1c-d71b-44be-f31e-ac231a2e828d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵9 |  2.0MB/s
+  name: 11|3|🇯🇵14 |  1.2MB/s
   network: tcp
-  port: 17233
-  server: d132cd1e-svfr40-swy6li-tni2.cm5.p5pv.com
+  port: 3684
+  server: a29b45ed-submo0-syap8d-dbk8.d.volczijie.com
   tls: false
   type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  uuid: 45845d5e-0605-11f0-8cf9-f23c93136cb3
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵10 |  1.9MB/s
+  name: 11|3|🇯🇵18 |  1.8MB/s
   network: tcp
-  port: 17233
-  server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
+  port: 3684
+  server: 3370784f-submo0-sv7alj-ctxx.d.volczijie.com
   tls: false
   type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵11 |  2.0MB/s
+  name: 11|3|🇯🇵19 |  3.4MB/s
   network: tcp
-  port: 17233
-  server: 1ff869eb-svjgg0-t1bnjq-1krtb.cm5.p5pv.com
+  port: 11667
+  server: 167.88.182.219
   tls: false
   type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 1
-  cipher: auto
-  name: 11|2|🇯🇵12 |  2.3MB/s
-  network: tcp
-  port: 21583
-  server: jp01-alt-vm0.entry.srthdw.art
-  servername: jp01-alt-vm0.entry.srthdw.art
-  tls: true
-  type: vmess
-  uuid: c4b2e7ea-1a0e-316f-8e28-0717cc087534
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵15 |  1.4MB/s
-  network: tcp
-  port: 17233
-  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵20 |  2.0MB/s
-  network: tcp
-  port: 17233
-  server: 86b5ac0e-svlb40-swy6li-tni2.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵21 |  2.1MB/s
-  network: tcp
-  port: 17233
-  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵23 |  2.3MB/s
-  network: tcp
-  port: 17233
-  server: 7ab33995-svdwg0-swy6li-tni2.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵27 |  2.2MB/s
-  network: tcp
-  port: 17233
-  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+  uuid: d4096144-32f1-424e-9b67-940186f35395
 - alterId: 0
   cipher: auto
   name: 11,17|日本5|@ripaojiedian

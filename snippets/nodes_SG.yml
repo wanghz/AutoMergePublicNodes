@@ -7,25 +7,25 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬1 |  1.4MB/s
+  name: 11|3|🇸🇬1 |  1.1MB/s
   network: tcp
-  port: 17231
-  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
+  port: 4135
+  server: 180e94b7-sv59c0-t6vkd1-6tmd.d.volczijie.com
   tls: false
   type: vmess
-  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
+  uuid: d385d6b2-cc15-11ee-89bc-f23c93141fad
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬2 |  2.6MB/s
+  name: 11|3|🇸🇬2 |  1.4MB/s
   network: tcp
-  port: 17231
-  server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
+  port: 4135
+  server: 3370784f-submo0-sv7alj-ctxx.d.volczijie.com
   tls: false
   type: vmess
-  uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
+  uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬4 |  2.3MB/s
+  name: 11|3|🇸🇬3 |  4.8MB/s
   network: ws
   port: 443
   server: 172.67.213.110
@@ -39,94 +39,67 @@ proxies:
     path: /rbqqvws
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬5 |  1.5MB/s
+  name: 11|3|🇸🇬4 |  1.4MB/s
   network: tcp
-  port: 17231
-  server: 17bf3bb4-svjgg0-swy6li-tni2.cm5.p5pv.com
+  port: 3681
+  server: d0f55eaf-submo0-t0t1z3-1qgn.c.volczijie.com
   tls: false
   type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  uuid: 564b440a-700f-11ee-a90c-f23c9313b177
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬6 |  1.7MB/s
+  name: 11|3|🇸🇬5 |  2.0MB/s
   network: tcp
-  port: 17231
-  server: d0012c0c-sux8g0-sycaxv-14au8.cm5.p5pv.com
+  port: 3683
+  server: 0a0ca27f-su7b40-tf38me-cum1.b.fosant.com
   tls: false
   type: vmess
-  uuid: 44811728-ebd8-11ec-adf5-f23c91cfbbc9
+  uuid: 03010754-faf0-11ef-a7c4-f23c9313b177
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬7 |  1.6MB/s
+  name: 11|3|🇸🇬6 |  3.2MB/s
   network: tcp
-  port: 17231
-  server: 260017e6-svn5s0-swy6li-tni2.cm5.p5pv.com
+  port: 4135
+  server: db462a5d-sudhc0-syoixd-bm0y.d.volczijie.com
   tls: false
   type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  uuid: fb8812ae-dcb5-11ef-a57d-f23c9313b177
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬8 |  1.6MB/s
+  name: 11|3|🇸🇬8 |  1.1MB/s
   network: tcp
-  port: 17231
-  server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
+  port: 4137
+  server: d0f55eaf-submo0-t0t1z3-1qgn.c.volczijie.com
   tls: false
   type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  uuid: 564b440a-700f-11ee-a90c-f23c9313b177
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬9 |  2.8MB/s
+  name: 11|3|🇸🇬9 |  1.5MB/s
   network: tcp
-  port: 17231
-  server: d132cd1e-svfr40-swy6li-tni2.cm5.p5pv.com
+  port: 4135
+  server: 156494db-sukw00-sw1b1x-4550.d.volczijie.com
   tls: false
   type: vmess
-  uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬10 |  2.7MB/s
+  name: 11|3|🇸🇬10 |  1.1MB/s
   network: tcp
-  port: 17231
-  server: cd5a3a1e-sv8cg0-tcw58g-1p0be.cm5.p5pv.com
+  port: 4137
+  server: 1e34b97e-submo0-sv7alj-ctxx.c.volczijie.com
   tls: false
   type: vmess
-  uuid: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬11 |  1.7MB/s
+  name: 11|3|🇸🇬12 |  3.1MB/s
   network: tcp
-  port: 17231
-  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
+  port: 4137
+  server: a38c20dc-sudhc0-svm3vt-czv5.c.volczijie.com
   tls: false
   type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬12 |  4.0MB/s
-  network: tcp
-  port: 17231
-  server: b6b6a529-suk9s0-sxv16d-1k09w.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 8de795d2-a06f-11ed-8edf-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬13 |  1.8MB/s
-  network: tcp
-  port: 17231
-  server: 9e083647-sv2sg0-t35mzx-1pp0x.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬14 |  3.0MB/s
-  network: tcp
-  port: 17231
-  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
+  uuid: 82efba2c-f420-11ef-9529-f23c93141fad
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

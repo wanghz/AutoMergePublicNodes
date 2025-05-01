@@ -1,6 +1,42 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|3|🇹🇼3 |  3.5MB/s
+  network: tcp
+  port: 3690
+  server: 3ffa084b-sukw00-sw1e10-7yd9.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇹🇼6 |  6.2MB/s
+  network: tcp
+  port: 3687
+  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇹🇼16 |  5.6MB/s
+  network: tcp
+  port: 3687
+  server: 4664f9a4-submo0-sv7alj-ctxx.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: 4e84400e-f4bc-11ef-81b7-f23c932f2c32
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇹🇼18 |  1.1MB/s
+  network: tcp
+  port: 3687
+  server: 846f3279-submo0-syap8d-dbk8.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: 45845d5e-0605-11f0-8cf9-f23c93136cb3
+- alterId: 0
+  cipher: auto
   name: 11,17|台湾|@ripaojiedian
   network: tcp
   port: '14100'
