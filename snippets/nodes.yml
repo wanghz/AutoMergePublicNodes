@@ -1149,15 +1149,6 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11|13|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 41291
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11,17|香港6|@ripaojiedian
