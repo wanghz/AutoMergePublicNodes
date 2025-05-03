@@ -31,19 +31,21 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡3|@ripaojiedian
-  password: 21e251c3-139c-4b81-b352-3b60734029e9
-  port: 35501
-  server: gw.liangyuandianwan.com
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,17|新加坡2|@ripaojiedian
+  network: tcp
+  port: '11060'
+  server: 43.156.102.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5cdd371e-cc4e-4ea2-91a8-c755f00f67a0
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.202.0.189
+  server: 52.195.211.35
   tfo: false
   type: ss

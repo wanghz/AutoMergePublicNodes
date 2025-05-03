@@ -92,6 +92,40 @@ proxies:
   uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|日本3|@ripaojiedian
+  network: ws
+  port: '35246'
+  server: jp6.vip2.g2.moonbase.life
+  servername: web.xcjs.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|日本6|@ripaojiedian
+  network: ws
+  port: '35216'
+  server: jp6.g2.moonbase.life
+  servername: web.xcjs.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
+- alterId: 0
+  cipher: auto
   name: 11,17|日本5|@ripaojiedian
   network: kcp
   port: '53893'
@@ -106,41 +140,46 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505011468829-RVBML1Fkrz.download.microsoft.com
+    host: 202505021570819-FCRBaKydrI.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本3|@ripaojiedian
-  password: 887306f3-af8c-472e-b6e0-e7dcf970a4f0
-  port: 44721
-  server: jsyd.piaomiaoxu.net
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
-  password: a0bf094b3357
+  password: 937f6b6168b6
   plugin: v2ray-plugin
   plugin-opts:
-    host: jp5v1.8vote.cn
+    host: wt8v1.kvote.cn
     mode: websocket
     mux: true
-    path: /wrzepkmejgru
+    path: /oqhygtklyhwi
     skip-cert-verify: false
     tls: true
   port: 443
-  server: 137.220.142.140
+  server: 103.137.62.194
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 443
+  server: 18.183.158.211
+  skip-cert-verify: false
+  sni: tr.koxok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koxok.us.kg
+    path: /?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.180.136.120
+  server: 13.114.102.184
   tfo: false
   type: ss

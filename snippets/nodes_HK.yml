@@ -67,12 +67,12 @@ proxies:
   tls: false
   type: vmess
   uuid: bf140bc0-3f68-11ee-953a-f23c9164ca5d
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11,17|香港6|@ripaojiedian
+  name: 11,17|香港5|@ripaojiedian
   network: tcp
-  port: '42375'
-  server: 120.198.71.214
+  port: '59082'
+  server: 120.232.153.40
   servername: ''
   tls: false
   type: vmess
@@ -102,7 +102,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 55649
+  port: 13540
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -118,11 +118,11 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国|@ripaojiedian
-  password: VMhGp5wEIyCDf90T
+  password: a35b44a9-d941-4c1d-96ac-7a9f6607edb7
   port: 44015
   server: 120.198.71.219
   skip-cert-verify: false
-  sni: hk06.run.place
+  sni: q08m.vgraxiw73s.hasyaf.cn
   tfo: false
   tls: false
   type: vmess
