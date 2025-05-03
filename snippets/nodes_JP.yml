@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵1 |  2.3MB/s
+  name: 11|2|🇯🇵1 |  2.3MB/s
   network: tcp
   port: 17233
   server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
@@ -10,7 +10,7 @@ proxies:
   uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵5 |  2.8MB/s
+  name: 11|2|🇯🇵5 |  2.8MB/s
   network: tcp
   port: 17233
   server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
@@ -19,7 +19,7 @@ proxies:
   uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵8 |  2.3MB/s
+  name: 11|2|🇯🇵8 |  2.3MB/s
   network: tcp
   port: 17233
   server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
@@ -28,7 +28,7 @@ proxies:
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵10 |  2.6MB/s
+  name: 11|2|🇯🇵10 |  2.6MB/s
   network: tcp
   port: 17233
   server: 50ec05bc-sutj40-tdcdb7-1k27l.cm5.p5pv.com
@@ -37,7 +37,7 @@ proxies:
   uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵11 |  2.1MB/s
+  name: 11|2|🇯🇵11 |  2.1MB/s
   network: tcp
   port: 3684
   server: 02c32b60-sudhc0-sva30v-au6.d.volczijie.com
@@ -46,7 +46,7 @@ proxies:
   uuid: 1b609740-eec2-11ef-8543-f23c93136cb3
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵12 |  1.1MB/s
+  name: 11|2|🇯🇵12 |  1.1MB/s
   network: tcp
   port: 4151
   server: 4b2f25cf-sudhc0-sva30v-au6.c.volczijie.com
@@ -55,7 +55,7 @@ proxies:
   uuid: 1b609740-eec2-11ef-8543-f23c93136cb3
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵18 |  2.6MB/s
+  name: 11|2|🇯🇵18 |  2.6MB/s
   network: tcp
   port: 17233
   server: 1ff869eb-svjgg0-t1bnjq-1krtb.cm5.p5pv.com
@@ -64,7 +64,7 @@ proxies:
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵20 |  3.3MB/s
+  name: 11|2|🇯🇵20 |  3.3MB/s
   network: tcp
   port: 17233
   server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
@@ -73,7 +73,7 @@ proxies:
   uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
 - alterId: 64
   cipher: auto
-  name: 11|3|🇯🇵28 |  1.1MB/s
+  name: 11|2|🇯🇵28 |  1.1MB/s
   network: tcp
   port: 32980
   server: 120.198.71.214
@@ -82,7 +82,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵32 |  3.4MB/s
+  name: 11|2|🇯🇵32 |  3.4MB/s
   network: tcp
   port: 17233
   server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
