@@ -77,6 +77,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,17|香港6|@ripaojiedian
+  network: tcp
+  port: '36609'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   name: 16|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -102,28 +112,20 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 13540
+  port: 35716
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港3|@ripaojiedian
-  password: 92uGfGQsAPq+HoB43r4u5b8lioGZrD/YTrvMUFbjgD8=
-  port: 56999
-  server: 175.178.13.108
-  tfo: false
-  type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇺🇸 美国|@ripaojiedian
-  password: a35b44a9-d941-4c1d-96ac-7a9f6607edb7
-  port: 44015
-  server: 120.198.71.219
+  name: 16|🇸🇬 新加坡2|@ripaojiedian
+  password: b97634b9-0583-4931-bfbc-ee5a67a72797
+  port: 27401
+  server: 183.2.150.90
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   tfo: false
   tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: trojan
+  uuid: 7234ac18-c61d-3d60-a866-057af106620c

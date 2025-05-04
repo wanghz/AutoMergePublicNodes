@@ -126,6 +126,23 @@ proxies:
     path: /home
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|日本7|@ripaojiedian
+  network: ws
+  port: '443'
+  server: cg1c10.waimaoglobaldirect.cc
+  servername: cg1c10.waimaoglobaldirect.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 3493e94c-1769-43d8-8308-f87b460adc65
+  ws-opts:
+    headers:
+      Host: cg1c10.waimaoglobaldirect.cc
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
   name: 11,17|日本5|@ripaojiedian
   network: kcp
   port: '53893'
@@ -140,7 +157,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505021570819-FCRBaKydrI.download.microsoft.com
+    host: 202505031478387-JTJCh1T1ju.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -149,17 +166,17 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
-  password: 937f6b6168b6
+  password: 45c5e017fe5d
   plugin: v2ray-plugin
   plugin-opts:
-    host: wt8v1.kvote.cn
+    host: jpxx01v9.yiyi.design
     mode: websocket
     mux: true
-    path: /oqhygtklyhwi
+    path: /aqhncbnk
     skip-cert-verify: false
     tls: true
-  port: 443
-  server: 103.137.62.194
+  port: 30410
+  server: 104.233.168.10
   tfo: false
   type: ss
 - client-fingerprint: chrome
@@ -180,6 +197,6 @@ proxies:
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.114.102.184
+  server: 54.149.159.158
   tfo: false
   type: ss

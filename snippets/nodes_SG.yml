@@ -31,21 +31,11 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11,17|新加坡2|@ripaojiedian
-  network: tcp
-  port: '11060'
-  server: 43.156.102.65
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5cdd371e-cc4e-4ea2-91a8-c755f00f67a0
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.195.211.35
+  server: 18.179.178.170
   tfo: false
   type: ss
