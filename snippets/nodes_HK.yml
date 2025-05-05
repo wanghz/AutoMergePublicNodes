@@ -100,32 +100,24 @@ proxies:
     headers:
       Host: vt-bana2-cn-11.ghpgwqswodgzv.com
     path: /dl_media
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港2|@ripaojiedian
-  password: 91a41f4e02dc
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hkkh11v1.xpmc.cc
-    mode: websocket
-    mux: true
-    path: /utvbnrzejpmt
-    skip-cert-verify: false
-    tls: true
-  port: 35716
-  server: hkkh11v1.xpmc.cc
-  tfo: false
-  type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡2|@ripaojiedian
-  password: b97634b9-0583-4931-bfbc-ee5a67a72797
+  password: 07300b55-b834-41d8-a13a-fc6c65ffdfdf
   port: 27401
-  server: 183.2.150.90
+  server: 125.94.45.119
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   tfo: false
   tls: false
   type: trojan
-  uuid: 7234ac18-c61d-3d60-a866-057af106620c
+  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港3|@ripaojiedian
+  password: W7fIo8Gp6TLb1YHZNH1fu5
+  port: 39008
+  server: 62.60.231.81
+  tfo: false
+  type: ss

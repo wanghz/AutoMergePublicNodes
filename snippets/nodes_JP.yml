@@ -95,8 +95,8 @@ proxies:
   client-fingerprint: chrome
   name: 11,16,17|日本3|@ripaojiedian
   network: ws
-  port: '35246'
-  server: jp6.vip2.g2.moonbase.life
+  port: '35215'
+  server: jp5.g2.moonbase.life
   servername: web.xcjs.info
   skip-cert-verify: false
   tfo: false
@@ -110,7 +110,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|日本6|@ripaojiedian
+  name: 11,16,17|日本4|@ripaojiedian
   network: ws
   port: '35216'
   server: jp6.g2.moonbase.life
@@ -124,23 +124,6 @@ proxies:
     headers:
       Host: web.xcjs.info
     path: /home
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|日本7|@ripaojiedian
-  network: ws
-  port: '443'
-  server: cg1c10.waimaoglobaldirect.cc
-  servername: cg1c10.waimaoglobaldirect.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 3493e94c-1769-43d8-8308-f87b460adc65
-  ws-opts:
-    headers:
-      Host: cg1c10.waimaoglobaldirect.cc
-    path: /api/v1/graphql
 - alterId: 0
   cipher: auto
   name: 11,17|日本5|@ripaojiedian
@@ -157,7 +140,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505031478387-JTJCh1T1ju.download.microsoft.com
+    host: 202505041454917-UsWiINM30i.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -171,7 +154,7 @@ proxies:
   plugin-opts:
     host: jpxx01v9.yiyi.design
     mode: websocket
-    mux: true
+    mux: false
     path: /aqhncbnk
     skip-cert-verify: false
     tls: true
@@ -179,24 +162,11 @@ proxies:
   server: 104.233.168.10
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 16|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  password: ouo
-  port: 443
-  server: 18.183.158.211
-  skip-cert-verify: false
-  sni: tr.koxok.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koxok.us.kg
-    path: /?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.149.159.158
+  server: 57.180.41.89
   tfo: false
   type: ss
