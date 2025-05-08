@@ -25,11 +25,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|新加坡2|@ripaojiedian
+  name: 11,16,17|新加坡3|@ripaojiedian
   network: ws
-  port: '35111'
-  server: sg1.g2.moonbase.life
-  servername: sg1.g2.moonbase.life
+  port: '35146'
+  server: sg6.vip2.g2.moonbase.life
+  servername: web.xcjs.info
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -37,13 +37,13 @@ proxies:
   uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
   ws-opts:
     headers:
-      Host: sg1.g2.moonbase.life
+      Host: web.xcjs.info
     path: /home
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 16|🇰🇷 韩国特殊|@ripaojiedian
+  name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 18.183.225.74
+  server: 18.183.184.244
   tfo: false
   type: ss
