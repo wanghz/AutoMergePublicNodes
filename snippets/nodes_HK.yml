@@ -1,4 +1,84 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 11|3|🇭🇰3 |  2.0MB/s|Youtube
+  network: ws
+  port: 80
+  server: 7b4c7e3d-sv6hs0-sx3ahl-167vg.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 98a7e79a-0400-11ec-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 7b4c7e3d-sv6hs0-sx3ahl-167vg.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|3|🇭🇰4 |  4.5MB/s
+  network: ws
+  port: 80
+  server: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|3|🇭🇰5 |  6.2MB/s|16%|Youtube
+  network: ws
+  port: 80
+  server: 8cfe64c3-sv0xs0-t3xh55-1mqr5.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 8ffa3bfc-5db3-11ee-8014-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 8cfe64c3-sv0xs0-t3xh55-1mqr5.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|3|🇭🇰6 |  1.7MB/s|16%|Netflix|Y...
+  network: ws
+  port: 80
+  server: 983d301d-sv2sg0-t802lu-1p9qc.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 37e9a0f8-8ade-11ee-b03a-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 983d301d-sv2sg0-t802lu-1p9qc.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|3|🇭🇰7 |  1.6MB/s|16%|Netflix|Y...
+  network: ws
+  port: 80
+  server: 4fdb9910-sv0xs0-t2p691-1s4hc.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 4fdb9910-sv0xs0-t2p691-1s4hc.hk.p5pv.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 11,17|香港3|@ripaojiedian
+  network: tcp
+  port: '35921'
+  server: 120.198.71.216
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -15,16 +95,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 64
-  cipher: auto
-  name: 11,17|香港3|@ripaojiedian
-  network: tcp
-  port: '35921'
-  server: 120.198.71.216
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,17|香港5|@ripaojiedian
