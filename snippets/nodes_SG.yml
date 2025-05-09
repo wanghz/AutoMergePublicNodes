@@ -24,14 +24,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|新加坡3|@ripaojiedian
+  name: 11,17|新加坡3|@ripaojiedian
   network: ws
   port: '35146'
   server: sg6.vip2.g2.moonbase.life
   servername: web.xcjs.info
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
@@ -44,6 +41,6 @@ proxies:
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 18.183.184.244
+  server: 52.27.142.2
   tfo: false
   type: ss
