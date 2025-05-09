@@ -235,29 +235,33 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇺🇸14 |  4.2MB/s|56%|Openai|G...
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  tls: true
-  type: vmess
-  uuid: 96e44a22-4f5c-48f9-99d9-f2c1985dd5b9
-  ws-opts:
-    headers:
-      Host: Usa-Vp-192.blazEcloudMAin.SitE
-    path: /linkvkws
 - alterId: 2
   cipher: auto
-  name: 11|3|🇺🇸37 |  2.6MB/s|Openai
+  name: 11|2|🇺🇸65 |  1.1MB/s|Openai|Gemin...
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
+  port: '30808'
+  server: v8.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v8.heduian.link
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸73 |  1.4MB/s|Openai|Gemin...
+  network: ws
+  port: 443
+  server: 5.10.244.72
+  servername: digitaloceanus.lzj520hxw.dpdns.org
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
+  uuid: 9e43aec6-ba4d-4597-9344-4f6fcbd5c8a6
+  ws-opts:
+    headers:
+      Host: digitaloceanus.lzj520hxw.dpdns.org
+    path: /vmess-argo?ed=2048
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -294,7 +298,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11|13|🇺🇸 美国5|@ripaojiedian
+  name: 11|12|🇺🇸 美国5|@ripaojiedian
   network: tcp
   port: 46759
   server: 120.198.71.216
