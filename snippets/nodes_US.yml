@@ -235,48 +235,46 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|3|🇺🇸8 |  2.1MB/s|40%|Netflix|O...
+  name: 11|2|🇺🇸24 |  4.3MB/s|31%|Openai|G...
   network: ws
-  port: '443'
-  server: 104.16.0.0
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
   tls: true
   type: vmess
-  uuid: 01f75b6a-935f-466c-ba3d-9f561d9bf191
-  ws-opts:
-    headers:
-      Host: attendance-determine-hunt-studying.trycloudflare.com
-    path: /01f75b6a-935f-466c-ba3d-9f561d9bf191-vm
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸21 |  1.3MB/s|56%|Openai|G...
+  name: 11|2|🇺🇸37 |  1.0MB/s|32%|Youtube|...
   network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
+  port: '80'
+  server: 104.21.32.242
+  tls: false
+  type: vmess
+  uuid: 0a28b420-4f7c-43ad-a29e-80068ce08263
+  ws-opts:
+    headers:
+      Host: m11sdfg.890604.dpdns.org
+    path: /lhU8ShsoPZlulnnYPb86csp
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸46 |  5.9MB/s|31%|Openai
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
   tls: true
   type: vmess
-  uuid: a7b0ae1e-5376-4441-abc4-45db4093e889
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: MaxNEtvip-usa1.MAXnEtcLOUDsERvICe.COM
-    path: /linkws
+      Host: zxjp-c.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸60 |  5.8MB/s|56%|Openai|G...
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  tls: true
-  type: vmess
-  uuid: 96e44a22-4f5c-48f9-99d9-f2c1985dd5b9
-  ws-opts:
-    headers:
-      Host: Usa-Vp-192.blazEcloudMAin.SitE
-    path: /linkvkws
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇺🇸66 |  3.8MB/s|0%|Openai
+  name: 11|2|🇺🇸49 |  5.2MB/s|0%|Openai
   network: ws
   port: '443'
   server: xc132.meiziba5566.com
@@ -288,6 +286,58 @@ proxies:
     headers:
       Host: xc132.meiziba5566.com
     path: /28b33c85
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸72 |  1.1MB/s|32%|Youtube|...
+  network: ws
+  port: 80
+  server: m11sdfg.890604.dpdns.org
+  servername: m11sdfg.890604.dpdns.org
+  tls: false
+  type: vmess
+  uuid: 0a28b420-4f7c-43ad-a29e-80068ce08263
+  ws-opts:
+    headers:
+      Host: m11sdfg.890604.dpdns.org
+    path: /lhU8ShsoPZlulnnYPb86csp
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸69 |  2.0MB/s|31%|Openai
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸74 |  4.0MB/s|32%|Openai
+  network: ws
+  port: 443
+  server: m8uuujiddvb.457.pp.ua
+  servername: m8uuujiddvb.457.pp.ua
+  tls: true
+  type: vmess
+  uuid: b30a50bc-0f63-422d-bbd6-8c790c0abb4d
+  ws-opts:
+    headers:
+      Host: m8uuujiddvb.457.pp.ua
+    path: /OhijtPrXs2pASR866TVMXPAl
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸75 |  1.5MB/s|31%|Openai|G...
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
