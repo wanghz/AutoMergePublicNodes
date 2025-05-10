@@ -237,11 +237,10 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸68 |  6.0MB/s|40%|Netflix|...
+  name: 11|3|🇺🇸8 |  2.1MB/s|40%|Netflix|O...
   network: ws
-  port: 443
+  port: '443'
   server: 104.16.0.0
-  servername: attendance-determine-hunt-studying.trycloudflare.com
   tls: true
   type: vmess
   uuid: 01f75b6a-935f-466c-ba3d-9f561d9bf191
@@ -251,7 +250,7 @@ proxies:
     path: /01f75b6a-935f-466c-ba3d-9f561d9bf191-vm
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸45 |  5.9MB/s|56%|Openai|G...
+  name: 11|3|🇺🇸21 |  1.3MB/s|56%|Openai|G...
   network: ws
   port: 443
   server: cloudgetservice.mcloudservice.site
@@ -264,17 +263,31 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸130 |  1.0MB/s|32%|Youtube...
+  name: 11|3|🇺🇸60 |  5.8MB/s|56%|Openai|G...
   network: ws
-  port: 80
-  server: m11sdfg.890604.dpdns.org
-  tls: false
+  port: 443
+  server: cloudgetservice.mcloudservice.site
+  tls: true
   type: vmess
-  uuid: 0a28b420-4f7c-43ad-a29e-80068ce08263
+  uuid: 96e44a22-4f5c-48f9-99d9-f2c1985dd5b9
   ws-opts:
     headers:
-      Host: m11sdfg.890604.dpdns.org
-    path: /lhU8ShsoPZlulnnYPb86csp
+      Host: Usa-Vp-192.blazEcloudMAin.SitE
+    path: /linkvkws
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇺🇸66 |  3.8MB/s|0%|Openai
+  network: ws
+  port: '443'
+  server: xc132.meiziba5566.com
+  servername: xc132.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 28b33c85-3e14-4323-ed50-d6e4d4d773a8
+  ws-opts:
+    headers:
+      Host: xc132.meiziba5566.com
+    path: /28b33c85
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

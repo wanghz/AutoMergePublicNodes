@@ -1,14 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇫🇷5 |  4.8MB/s|38%|Openai
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  tls: true
-  type: vmess
-  uuid: cbe129db-24fa-4bb5-99de-03a6e7b1604c
-  ws-opts:
-    headers:
-      Host: MaxNEtVipAp-fr1.maXnEtServICES.onliNe
-    path: /linkws
+proxies: []

@@ -528,25 +528,10 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇰🇷2 |  5.5MB/s|63%|Youtube|O...
+  name: 11|3|🇺🇸8 |  2.1MB/s|40%|Netflix|O...
   network: ws
-  port: 2087
-  server: lv4.789900.xyz
-  servername: lv4.789900.xyz
-  tls: true
-  type: vmess
-  uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
-  ws-opts:
-    headers:
-      Host: lv4.789900.xyz
-    path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸68 |  6.0MB/s|40%|Netflix|...
-  network: ws
-  port: 443
+  port: '443'
   server: 104.16.0.0
-  servername: attendance-determine-hunt-studying.trycloudflare.com
   tls: true
   type: vmess
   uuid: 01f75b6a-935f-466c-ba3d-9f561d9bf191
@@ -556,7 +541,7 @@ proxies:
     path: /01f75b6a-935f-466c-ba3d-9f561d9bf191-vm
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸45 |  5.9MB/s|56%|Openai|G...
+  name: 11|3|🇺🇸21 |  1.3MB/s|56%|Openai|G...
   network: ws
   port: 443
   server: cloudgetservice.mcloudservice.site
@@ -569,46 +554,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 11|2|🇧🇷1 |  2.9MB/s|Youtube|Opena...
-  network: ws
-  port: '80'
-  server: 141.101.113.248
-  tls: false
-  type: vmess
-  uuid: 4a154623-62d5-4425-8a4e-362996f32737
-  ws-opts:
-    headers:
-      Host: 334641367528752025050919021593286.s15.chibaba.filegear-sg.me
-    path: /s15.html
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇧🇷2 |  1.1MB/s|63%|Youtube|O...
-  network: ws
-  port: 80
-  server: 104.25.168.0
-  tls: false
-  type: vmess
-  uuid: e7170564-e148-4ebf-be03-8837ee6a3825
-  ws-opts:
-    headers:
-      Host: 450152594128872025050915044367911.s15.chibaba.filegear-sg.me
-    path: /s15.html
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇫🇷5 |  4.8MB/s|38%|Openai
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  tls: true
-  type: vmess
-  uuid: cbe129db-24fa-4bb5-99de-03a6e7b1604c
-  ws-opts:
-    headers:
-      Host: MaxNEtVipAp-fr1.maXnEtServICES.onliNe
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇩🇪14 |  3.6MB/s|45%|Openai
+  name: 11|3|🇩🇪5 |  5.3MB/s|45%|Openai
   network: ws
   port: '443'
   server: cloudgetservice.mcloudservice.site
@@ -622,7 +568,7 @@ proxies:
     path: /linkws
 - alterId: 2
   cipher: auto
-  name: 11|2|🌀7-CY |  3.3MB/s|46%|Youtube...
+  name: 11|3|🌀4-CY |  2.5MB/s|46%|Openai
   network: ws
   port: 30837
   server: v37.heduian.link
@@ -631,57 +577,59 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇮🇹1 |  4.5MB/s|46%|Openai
-  network: ws
-  port: 30805
-  server: v5.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|2|🇧🇷3 |  5.2MB/s|62%|Youtube|O...
+  name: 11|3|🇺🇸60 |  5.8MB/s|56%|Openai|G...
   network: ws
   port: 443
-  server: 45.202.113.20
-  servername: br.lzj520hxw.dpdns.org
+  server: cloudgetservice.mcloudservice.site
   tls: true
   type: vmess
-  uuid: 399ad8b0-5b80-4137-9a04-7ea413e377d5
+  uuid: 96e44a22-4f5c-48f9-99d9-f2c1985dd5b9
   ws-opts:
     headers:
-      Host: br.lzj520hxw.dpdns.org
-    path: /vmess-argo
+      Host: Usa-Vp-192.blazEcloudMAin.SitE
+    path: /linkvkws
 - alterId: 0
   cipher: auto
-  name: 11|2|🇧🇷4 |  1.9MB/s|63%|Youtube|O...
+  name: 11|3|🇰🇷1 |  2.9MB/s|63%|Youtube|O...
   network: ws
-  port: 80
-  server: 104.17.93.66
-  tls: false
+  port: 2087
+  server: lv4.789900.xyz
+  tls: true
   type: vmess
-  uuid: 0ad4e581-231b-4676-ad75-d8d2db103795
+  uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
   ws-opts:
     headers:
-      Host: 861917686588512025050915051233013.s15.chibaba.filegear-sg.me
-    path: /s15.html
+      Host: lv4.789900.xyz
+    path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸130 |  1.0MB/s|32%|Youtube...
+  name: 11|3|🇺🇸66 |  3.8MB/s|0%|Openai
   network: ws
-  port: 80
-  server: m11sdfg.890604.dpdns.org
-  tls: false
+  port: '443'
+  server: xc132.meiziba5566.com
+  servername: xc132.meiziba5566.com
+  tls: true
   type: vmess
-  uuid: 0a28b420-4f7c-43ad-a29e-80068ce08263
+  uuid: 28b33c85-3e14-4323-ed50-d6e4d4d773a8
   ws-opts:
     headers:
-      Host: m11sdfg.890604.dpdns.org
-    path: /lhU8ShsoPZlulnnYPb86csp
+      Host: xc132.meiziba5566.com
+    path: /28b33c85
+- alterId: 64
+  cipher: auto
+  name: 11|3|🇯🇵3 |  5.6MB/s|51%|Youtube|O...
+  network: ws
+  port: 1443
+  server: sslvpn.51job.com
+  tls: true
+  type: vmess
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  ws-opts:
+    headers:
+      Host: centos7
+    path: /634c5c4f9782
 - alterId: 64
   cipher: auto
   name: 11,17|香港3|@ripaojiedian
