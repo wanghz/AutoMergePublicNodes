@@ -235,57 +235,107 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇺🇸58 |  5.2MB/s|0%|Openai
+  network: ws
+  port: '443'
+  server: xc132.meiziba5566.com
+  servername: xc132.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 28b33c85-3e14-4323-ed50-d6e4d4d773a8
+  ws-opts:
+    headers:
+      Host: xc132.meiziba5566.com
+    path: /28b33c85
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇺🇸10 |  5.7MB/s|15%|Openai
+  network: ws
+  port: 2087
+  server: 104.21.64.1
+  tls: true
+  type: vmess
+  uuid: 0245c2d4-0ad1-4f0f-eb9c-fbd5f1c47be7
+  ws-opts:
+    headers:
+      Host: rak2.890603.xyz
+    path: /
 - alterId: 2
   cipher: auto
-  name: 11|3|🇺🇸36 |  3.7MB/s|31%|Openai|G...
+  name: 11|3|🇺🇸15 |  1.7MB/s|31%|Openai
   network: ws
-  port: 22641
+  port: 22643
   server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇺🇸54 |  1.5MB/s|Openai
+  network: ws
+  port: 80
+  server: C1swEw.777159.XYZ
+  tls: false
+  type: vmess
+  uuid: cad5a49f-14e5-4a05-aae9-c5df8fad394f
+  ws-opts:
+    headers:
+      Host: c1swew.777159.xyz
+    path: /TjUzWyRmR4P2fGqXENw4Z4
+- alterId: 2
+  cipher: auto
+  name: 11|3|🇺🇸60 |  2.5MB/s|31%|Openai
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
+      Host: zxjp-c.tkong.cc
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸37 |  2.0MB/s|Openai
+  name: 11|3|🇺🇸65 |  2.3MB/s|40%|Netflix|...
   network: ws
-  port: 443
-  server: 5.10.244.72
-  servername: digitaloceanus.lzj520hxw.dpdns.org
+  port: '443'
+  server: 104.16.0.0
   tls: true
   type: vmess
-  uuid: 9e43aec6-ba4d-4597-9344-4f6fcbd5c8a6
+  uuid: 01f75b6a-935f-466c-ba3d-9f561d9bf191
   ws-opts:
     headers:
-      Host: digitaloceanus.lzj520hxw.dpdns.org
-    path: /vmess-argo?ed=2048
-- alterId: 0
+      Host: attendance-determine-hunt-studying.trycloudflare.com
+    path: /01f75b6a-935f-466c-ba3d-9f561d9bf191-vm
+- alterId: 2
   cipher: auto
-  name: 11|3|🇺🇸76 |  5.8MB/s|Openai
+  name: 11|3|🇺🇸90 |  5.9MB/s|31%|Openai
   network: ws
-  port: 2096
-  server: 104.21.64.1
-  servername: rak2.852224.xyz
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
   tls: true
   type: vmess
-  uuid: 0245c2d4-0ad1-4f0f-eb9c-fbd5f1c47be7
-  ws-opts:
-    path: /
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸79 |  5.6MB/s|31%|Openai
+  name: 11|3|🇺🇸143 |  3.1MB/s|6%|Openai|G...
   network: ws
-  port: 23083
-  server: 45.147.201.231
-  tls: false
+  port: 10509
+  server: ssm.pimax.com
+  servername: ssm.pimax.com
+  tls: true
   type: vmess
-  uuid: 961f2763-bb5a-40ce-99b2-36779b0f7300
+  uuid: 68876abb-0e56-4beb-b959-34a4bc57a6a2
   ws-opts:
-    path: /
+    headers:
+      Host: ssm.pimax.com
+    path: /fkgevws
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -322,10 +372,11 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11|13|🇺🇸 美国5|@ripaojiedian
+  name: 11,17|美国5|@ripaojiedian
   network: tcp
-  port: 46759
+  port: '46759'
   server: 120.198.71.216
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -403,7 +454,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505081193439-fXcPpumg6a.download.microsoft.com
+    host: 202505081193439-ADTUVtshPJ.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
