@@ -1,4 +1,32 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰4 |  3.0MB/s|16%|Disney|Yo...
+  network: ws
+  port: 80
+  server: 71735d9f-sv2sg0-t71mow-4cl7.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 7c129766-8656-11ea-8fc9-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 71735d9f-sv2sg0-t71mow-4cl7.hk.p5pv.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰5 |  2.2MB/s|0%
+  network: ws
+  port: 1081
+  server: hk-cn-01.yumeifang.cn
+  servername: hk-cn-01.yumeifang.cn
+  tls: true
+  type: vmess
+  uuid: df9b788f-929a-4349-970a-8cbbe12d6ae8
+  ws-opts:
+    headers:
+      Host: wamxoa.com
+    path: /asdd
 - alterId: 64
   cipher: auto
   name: 11,17|香港3|@ripaojiedian
@@ -54,28 +82,22 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 54259
+  port: 52013
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- alterId: 64
+- alpn:
+  - h3
+  alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国5|@ripaojiedian
-  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
+  password: bpb-trojan
   port: 46759
   server: 120.198.71.216
   skip-cert-verify: false
-  sni: 45.32.28.232
+  sni: skwygx.top
   tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港4|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.182.191
-  tfo: false
-  type: ss
