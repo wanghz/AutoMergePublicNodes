@@ -1,32 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 11|3|🇭🇰4 |  3.0MB/s|16%|Disney|Yo...
-  network: ws
-  port: 80
-  server: 71735d9f-sv2sg0-t71mow-4cl7.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 7c129766-8656-11ea-8fc9-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 71735d9f-sv2sg0-t71mow-4cl7.hk.p5pv.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰5 |  2.2MB/s|0%
-  network: ws
-  port: 1081
-  server: hk-cn-01.yumeifang.cn
-  servername: hk-cn-01.yumeifang.cn
-  tls: true
-  type: vmess
-  uuid: df9b788f-929a-4349-970a-8cbbe12d6ae8
-  ws-opts:
-    headers:
-      Host: wamxoa.com
-    path: /asdd
 - alterId: 64
   cipher: auto
   name: 11,17|香港3|@ripaojiedian
