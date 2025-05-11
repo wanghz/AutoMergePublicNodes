@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 11|2|🇭🇰4 |  3.0MB/s|16%|Disney|Yo...
+  name: 11|3|🇭🇰4 |  3.0MB/s|16%|Disney|Yo...
   network: ws
   port: 80
   server: 71735d9f-sv2sg0-t71mow-4cl7.hk.p5pv.com
@@ -15,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰5 |  2.2MB/s|0%
+  name: 11|3|🇭🇰5 |  2.2MB/s|0%
   network: ws
   port: 1081
   server: hk-cn-01.yumeifang.cn
