@@ -1,14 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇨🇦1 |  5.6MB/s|29%|Youtube|O...
-  network: ws
-  port: 2083
-  server: cloudgetservice.mcloudservice.site
-  tls: true
-  type: vmess
-  uuid: 698d9a5b-59dc-4ea6-b404-cd9e967fc54c
-  ws-opts:
-    headers:
-      Host: CanaDa-138.blAzecAnAdA.SITe
-    path: /linkvkws
+proxies: []
