@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵1 |  5.5MB/s|10%|Youtube|O...
+  name: 11|3|🇯🇵1 |  5.5MB/s|10%|Youtube|O...
   network: tcp
   port: 17233
   server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
@@ -10,7 +10,7 @@ proxies:
   uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵2 |  3.5MB/s|10%|Disney|Yo...
+  name: 11|3|🇯🇵2 |  3.5MB/s|10%|Disney|Yo...
   network: tcp
   port: 17233
   server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com

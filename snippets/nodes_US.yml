@@ -237,7 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸17 |  4.3MB/s|31%|Openai
+  name: 11|3|🇺🇸17 |  4.3MB/s|31%|Openai
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
@@ -247,7 +247,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸56 |  1.7MB/s|32%|Openai
+  name: 11|3|🇺🇸56 |  1.7MB/s|32%|Openai
   network: ws
   port: 80
   server: FfFgTYY.7282728.XyZ
@@ -258,7 +258,7 @@ proxies:
     path: /NiNQyrcaIIJ3WqRcOEICAwmfH7
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸58 |  5.8MB/s|15%|Openai|G...
+  name: 11|3|🇺🇸58 |  5.8MB/s|15%|Openai|G...
   network: tcp
   port: 50009
   server: 142.4.116.177

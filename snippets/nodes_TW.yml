@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇹🇼1 |  6.2MB/s|0%|Netflix|Di...
+  name: 11|3|🇹🇼1 |  6.2MB/s|0%|Netflix|Di...
   network: ws
   port: 80
   server: 85ef02dd-b03e-94d5-61f4-bb5a8d5f491f.castlepeakhospital.moe
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇹🇼2 |  2.5MB/s|0%|Netflix|Di...
+  name: 11|3|🇹🇼2 |  2.5MB/s|0%|Netflix|Di...
   network: ws
   port: 80
   server: 205928ec-61f8-1f90-8438-1b912b849b80.castlepeakhospital.moe
