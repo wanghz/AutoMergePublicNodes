@@ -1,13 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇨🇦14 |  5.6MB/s|29%|Youtube|...
-  network: ws
-  port: 2083
-  server: 172.66.168.209
-  servername: CanaDa-138.blAzecAnAdA.SITe
-  tls: true
-  type: vmess
-  uuid: 698d9a5b-59dc-4ea6-b404-cd9e967fc54c
-  ws-opts:
-    path: /linkvkws
+proxies: []
