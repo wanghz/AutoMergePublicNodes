@@ -528,66 +528,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|3|🌀1-ID |  1.6MB/s|41%|Youtube...
-  network: tcp
-  port: '17234'
-  server: 2a668e37-surog0-sxm4ot-zn8y.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇯🇵1 |  5.5MB/s|10%|Youtube|O...
-  network: tcp
-  port: 17233
-  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇨🇦1 |  3.5MB/s|29%|Youtube|O...
-  network: ws
-  port: 2083
-  server: 172.66.168.209
-  servername: CanaDa-138.blAzecAnAdA.SITe
-  tls: true
-  type: vmess
-  uuid: 698d9a5b-59dc-4ea6-b404-cd9e967fc54c
-  ws-opts:
-    path: /linkvkws
-- alterId: 2
-  cipher: auto
-  name: 11|3|🇺🇸17 |  4.3MB/s|31%|Openai
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇯🇵2 |  3.5MB/s|10%|Disney|Yo...
-  network: tcp
-  port: 17233
-  server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
-  servername: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
-- alterId: 64
-  cipher: auto
-  name: 11|3|🌀4-CN |  1.1MB/s|0%|Netflix
-  network: tcp
-  port: 41554
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇺🇸56 |  1.7MB/s|32%|Openai
+  name: 11|2|🇺🇸40 |  2.4MB/s|32%|Openai
   network: ws
   port: 80
   server: FfFgTYY.7282728.XyZ
@@ -598,47 +539,75 @@ proxies:
     path: /NiNQyrcaIIJ3WqRcOEICAwmfH7
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸58 |  5.8MB/s|15%|Openai|G...
-  network: tcp
-  port: 50009
-  server: 142.4.116.177
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|3|🌀6-ID |  5.0MB/s|41%|Youtube...
-  network: tcp
-  port: 17234
-  server: 1e69d086-sux8g0-t9eu8q-tlhh.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇹🇼1 |  6.2MB/s|0%|Netflix|Di...
+  name: 11|2|🇺🇸49 |  4.2MB/s|32%|Openai
   network: ws
   port: 80
-  server: 85ef02dd-b03e-94d5-61f4-bb5a8d5f491f.castlepeakhospital.moe
+  server: 172.67.138.187
   tls: false
   type: vmess
-  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
+  uuid: 3d4ad187-b554-4300-bf71-d26c71962504
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
+      Host: fffgtyy.7282728.xyz
+    path: /NiNQyrcaIIJ3WqRcOEICAwmfH7
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵2 |  5.8MB/s|10%|Disney|Yo...
+  network: tcp
+  port: 17233
+  server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+  servername: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵3 |  3.7MB/s|10%|Disney|Yo...
+  network: tcp
+  port: 17233
+  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇨🇦14 |  5.6MB/s|29%|Youtube|...
+  network: ws
+  port: 2083
+  server: 172.66.168.209
+  servername: CanaDa-138.blAzecAnAdA.SITe
+  tls: true
+  type: vmess
+  uuid: 698d9a5b-59dc-4ea6-b404-cd9e967fc54c
+  ws-opts:
+    path: /linkvkws
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸97 |  3.4MB/s|34%|Netflix|...
+  network: ws
+  port: 2096
+  server: 141.101.120.253
+  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|3|🇹🇼2 |  2.5MB/s|0%|Netflix|Di...
+  name: 11|2|🇭🇰4 |  1.6MB/s|16%|Netflix|D...
   network: ws
-  port: 80
-  server: 205928ec-61f8-1f90-8438-1b912b849b80.castlepeakhospital.moe
+  port: 8080
+  server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
+  servername: broadcastlv.chat.bilibili.com
   tls: false
   type: vmess
-  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
+  uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
+      Host: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
     path: /
 - alterId: 64
   cipher: auto

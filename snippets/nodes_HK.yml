@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰4 |  1.6MB/s|16%|Netflix|D...
+  network: ws
+  port: 8080
+  server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,17|香港3|@ripaojiedian

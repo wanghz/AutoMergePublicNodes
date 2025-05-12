@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|3|🇨🇦1 |  3.5MB/s|29%|Youtube|O...
+  name: 11|2|🇨🇦14 |  5.6MB/s|29%|Youtube|...
   network: ws
   port: 2083
   server: 172.66.168.209
