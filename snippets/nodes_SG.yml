@@ -25,8 +25,8 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
-  password: awsps0501
+  password: yijian0503
   port: 443
-  server: 43.203.235.15
+  server: 3.36.122.17
   tfo: false
   type: ss

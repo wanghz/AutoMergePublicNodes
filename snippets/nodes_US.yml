@@ -235,19 +235,85 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸16 |  4.5MB/s|29%|Openai
+  network: ws
+  port: 80
+  server: 172.67.170.51
+  tls: false
+  type: vmess
+  uuid: ced307a2-af2c-4113-bebc-fb888c702b7d
+  ws-opts:
+    headers:
+      Host: m4frt.999182.xyz
+    path: /PEQ7CoA1VrBwsbnEcmJLxC
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸17 |  4.0MB/s|29%
+  network: ws
+  port: 80
+  server: FfFgTYY.7282728.XyZ
+  tls: false
+  type: vmess
+  uuid: 3d4ad187-b554-4300-bf71-d26c71962504
+  ws-opts:
+    headers:
+      Host: FfFgTYY.7282728.XyZ
+    path: /NiNQyrcaIIJ3WqRcOEICAwmfH7
 - alterId: 2
   cipher: auto
-  name: 11|3|🇺🇸39 |  1.0MB/s|31%|Openai
+  name: 11|1|🇺🇸18 |  2.8MB/s|29%|Openai
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: tk.hzlt.tkddns.xyz
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|美国4|@ripaojiedian
+  network: ws
+  port: '22642'
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-b.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|1|🇺🇸25 |  5.7MB/s|29%|Openai
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 11|1|🇺🇸52 |  6.0MB/s|29%|Openai
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
     path: /
 - alterId: 2
   cipher: auto
@@ -266,23 +332,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|美国4|@ripaojiedian
-  network: ws
-  port: '22642'
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-b.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
 - alterId: 64
   cipher: auto
   name: 11,17|美国5|@ripaojiedian
@@ -367,7 +416,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505081193439-w4OKhrzhsF.download.microsoft.com
+    host: 202505121278853-EprnOgosvY.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz

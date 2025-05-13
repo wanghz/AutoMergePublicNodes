@@ -1,73 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰3 |  1.5MB/s|16%|Netflix|Y...
-  network: ws
-  port: 8080
-  server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
-  tls: false
-  type: vmess
-  uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰4 |  3.7MB/s|16%|Youtube|O...
-  network: ws
-  port: 8080
-  server: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 0e4ec84a-a324-11ef-81b0-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰5 |  1.6MB/s|16%|Youtube|O...
-  network: ws
-  port: 8080
-  server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰6 |  1.4MB/s|16%|Youtube|O...
-  network: ws
-  port: 8080
-  server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: f61628aa-3d18-11ec-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰7 |  1.7MB/s|16%|Youtube|O...
-  network: ws
-  port: 8080
-  server: 3bbaf7e8-sw1z40-t525pa-ach1.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 3bbaf7e8-sw1z40-t525pa-ach1.hgc1.tcpbbr.net
-    path: /
 - alterId: 64
   cipher: auto
   name: 11,17|香港3|@ripaojiedian
@@ -78,6 +9,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|香港4|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 1566b24a-sw7j40-sxt412-1qrx5.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f524c600-db8f-11ee-819e-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,17|香港5|@ripaojiedian
@@ -123,21 +71,19 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 52013
+  port: 45508
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- alpn:
-  - h3
-  alterId: 64
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国5|@ripaojiedian
-  password: a5DnyYNIexIzS2Xg3YYlg9Ol0SgEpyCj5ZCSBanD88eOpwOC4aEzDyTjY0nxBDjzSaACSTqSE223C83
+  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
   port: 46759
   server: 120.198.71.216
   skip-cert-verify: false
-  sni: phooey.starspace.link
+  sni: data.sub-zrj.com
   tfo: false
   tls: false
   type: vmess
