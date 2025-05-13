@@ -1,4 +1,36 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵2 |  6.0MB/s|11%|Disney|Yo...
+  network: tcp
+  port: '17233'
+  server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+  servername: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
+- alterId: 64
+  cipher: auto
+  name: 11|1|🇯🇵3 |  2.6MB/s|54%|Youtube|O...
+  network: ws
+  port: 1443
+  server: sslvpn.51job.com
+  tls: true
+  type: vmess
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  ws-opts:
+    headers:
+      Host: centos7
+    path: /634c5c4f9782
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵4 |  2.1MB/s|11%|Youtube|O...
+  network: tcp
+  port: 17233
+  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
 - alterId: 64
   cipher: auto
   name: 11,17|日本3|@ripaojiedian
