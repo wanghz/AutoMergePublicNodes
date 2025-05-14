@@ -1,22 +1,54 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰1 |  2.7MB/s|15%|Netflix|D...
-  network: tcp
-  port: 4138
-  server: 64523f3e-sukw00-svxrt2-63bp.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3
 - alterId: 2
   cipher: auto
-  name: 11|2|🇭🇰4 |  2.6MB/s|15%|Netflix|D...
+  name: 11|2|🇭🇰1 |  1.4MB/s|15%|Netflix|Y...
   network: ws
   port: 80
-  server: f49bcb46-sv2sg0-sw1w5j-1a3sy.hk.p5pv.com
+  server: d5542df0-sv0xs0-sw2c3o-1thts.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
   tls: false
   type: vmess
-  uuid: b93c66cc-00ed-11ec-8673-f23c9164ca5d
+  uuid: cb96c846-fd6d-11ef-a910-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: d5542df0-sv0xs0-sw2c3o-1thts.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰2 |  1.4MB/s|15%|Netflix|Y...
+  network: ws
+  port: 80
+  server: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰3 |  2.5MB/s|15%|Youtube|O...
+  network: ws
+  port: 80
+  server: 75a5d1ab-sv2sg0-svr00o-1oxz4.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰4 |  3.5MB/s|15%|Youtube
+  network: ws
+  port: 80
+  server: aa1d3b0f-sv0xs0-svr00o-1oxz4.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
