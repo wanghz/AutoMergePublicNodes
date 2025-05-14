@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵2 |  4.4MB/s|11%|Disney|Yo...
-  network: tcp
-  port: 4151
-  server: 64523f3e-sukw00-svxrt2-63bp.c.volczijie.com
-  tls: false
-  type: vmess
-  uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3
 - alterId: 64
   cipher: auto
   name: 11,17|日本3|@ripaojiedian

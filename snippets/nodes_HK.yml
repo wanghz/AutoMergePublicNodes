@@ -1,13 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰4 |  5.3MB/s|15%|Netflix|D...
+  name: 11|2|🇭🇰1 |  2.7MB/s|15%|Netflix|D...
   network: tcp
   port: 4138
   server: 64523f3e-sukw00-svxrt2-63bp.c.volczijie.com
   tls: false
   type: vmess
   uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰4 |  2.6MB/s|15%|Netflix|D...
+  network: ws
+  port: 80
+  server: f49bcb46-sv2sg0-sw1w5j-1a3sy.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: b93c66cc-00ed-11ec-8673-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,17|香港|@ripaojiedian

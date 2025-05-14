@@ -235,83 +235,72 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸22 |  1.3MB/s|50%|Openai
-  network: ws
-  port: 443
-  server: 1wweerttt.131.pp.ua
-  tls: true
-  type: vmess
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
-  ws-opts:
-    headers:
-      Host: 1wweerttt.131.pp.ua
-    path: /h7Rcu0y30lhjdVjJ3gc4aj
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸62 |  1.0MB/s|50%|Openai
-  network: ws
-  port: '443'
-  server: d2860d7d-07ee-a0db-ef7b-54808db00b03.890601.pp.ua
-  servername: d2860d7d-07ee-a0db-ef7b-54808db00b03.890601.pp.ua
-  tls: true
-  type: vmess
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
-  ws-opts:
-    headers:
-      Host: d2860d7d-07ee-a0db-ef7b-54808db00b03.890601.pp.ua
-    path: /h7Rcu0y30lhjdVjJ3gc4aj
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸51 |  1.3MB/s|Openai|Gemin...
+  name: 11|2|🇺🇸92 |  1.7MB/s|29%|Openai
   network: ws
-  port: 30808
-  server: v8.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸52 |  5.9MB/s|29%|Openai
-  network: ws
-  port: 22643
+  port: 22641
   server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
+  servername: tk.hzlt.tkddns.xyz
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: zxjp-c.tkong.cc
+      Host: zxjp-a.tkong.cc
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸80 |  2.7MB/s|32%|Netflix|...
-  network: ws
-  port: 2096
-  server: 141.101.120.253
-  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
-  tls: true
-  type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
-  ws-opts:
-    headers:
-      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸92 |  4.6MB/s|25%|Openai|G...
-  network: ws
-  port: 30807
-  server: v7.heduian.link
+  name: 11|2|🇺🇸35 |  4.7MB/s|0%|Openai|Ge...
+  network: http
+  port: 47006
+  server: 141.11.122.27
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 364a033d-99bf-4610-d552-8516e63aaac5
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸39 |  4.2MB/s|29%|Openai
+  network: ws
+  port: 80
+  server: 172.67.170.51
+  tls: false
+  type: vmess
+  uuid: ced307a2-af2c-4113-bebc-fb888c702b7d
   ws-opts:
-    path: /oooo
+    path: /PEQ7CoA1VrBwsbnEcmJLxC
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸42 |  2.1MB/s|61%|Openai|G...
+  network: http
+  port: 55839
+  server: 38.54.25.204
+  tls: false
+  type: vmess
+  uuid: b7675d66-cddb-4a69-edd6-c0c83290f72e
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸44 |  3.6MB/s|29%|Openai
+  network: ws
+  port: 22641
+  server: 52.80.232.93
+  servername: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸107 |  2.8MB/s|0%|Openai|G...
+  network: tcp
+  port: 45105
+  server: sd.needss.top
+  tls: false
+  type: vmess
+  uuid: 3d71ebda-fd94-4619-9823-e1fbed0c736f
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
