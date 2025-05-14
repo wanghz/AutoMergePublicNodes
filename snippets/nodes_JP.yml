@@ -1,23 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵2 |  1.1MB/s|11%|Disney|Yo...
+  name: 11|2|🇯🇵2 |  4.4MB/s|11%|Disney|Yo...
   network: tcp
-  port: '17233'
-  server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
-  servername: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+  port: 4151
+  server: 64523f3e-sukw00-svxrt2-63bp.c.volczijie.com
   tls: false
   type: vmess
-  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵3 |  3.5MB/s|11%|Disney|Yo...
-  network: tcp
-  port: 17233
-  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
+  uuid: 92b2a3d4-f353-11ef-b714-f23c93136cb3
 - alterId: 64
   cipher: auto
   name: 11,17|日本3|@ripaojiedian
