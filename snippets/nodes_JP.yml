@@ -1,11 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵3 |  3.2MB/s|11%|Disney|Yo...
+  name: 11|2|🇯🇵2 |  1.1MB/s|11%|Disney|Yo...
   network: tcp
-  port: 17233
+  port: '17233'
   server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
   servername: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵3 |  3.5MB/s|11%|Disney|Yo...
+  network: tcp
+  port: 17233
+  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
@@ -31,11 +40,21 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 248802b7-69c9-4a81-bfbc-181fcb62ef97
+  uuid: ebb3b22f-1485-40a3-aa37-ea7e444c2327
   ws-opts:
     headers:
       Host: www.bing.com
     path: /nmkj
+- alterId: 0
+  cipher: auto
+  name: 11,17|日本6|@ripaojiedian
+  network: tcp
+  port: '13883'
+  server: 45.159.50.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e6d8237f-4bbf-4a62-af4f-b0844120e0b4
 - alterId: 0
   cipher: auto
   name: 11,17|日本5|@ripaojiedian
@@ -52,7 +71,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505121278853-EprnOgosvY.download.microsoft.com
+    host: 202505121278853-KpcJWnTsUP.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -61,16 +80,16 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
-  password: 2724722447ea
+  password: 130961f0a8a6
   plugin: v2ray-plugin
   plugin-opts:
     host: jp06v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /nreuudyxqo
+    path: /bpqzubxyzm
     skip-cert-verify: false
     tls: true
-  port: 57626
+  port: 39770
   server: 103.140.136.242
   tfo: false
   type: ss
@@ -79,6 +98,6 @@ proxies:
   name: 16|🇯🇵 日本特殊|@ripaojiedian
   password: yijian0503
   port: 443
-  server: 43.202.68.234
+  server: 47.129.101.96
   tfo: false
   type: ss

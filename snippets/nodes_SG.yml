@@ -22,11 +22,28 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|新加坡2|@ripaojiedian
+  network: ws
+  port: '46019'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇸🇬 狮城特殊|@ripaojiedian
   password: yijian0503
   port: 443
-  server: 3.36.122.17
+  server: 47.128.78.62
   tfo: false
   type: ss
