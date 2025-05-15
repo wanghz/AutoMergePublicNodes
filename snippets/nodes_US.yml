@@ -237,7 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸21 |  1.3MB/s|0%
+  name: 11|3|🇺🇸12 |  1.1MB/s|0%|Openai
   network: ws
   port: '443'
   server: ljm005-2.facai202408.com
@@ -251,11 +251,10 @@ proxies:
     path: /b95bf0d8-
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸27 |  3.8MB/s|0%|Openai
+  name: 11|3|🇺🇸15 |  1.2MB/s|0%|Openai
   network: ws
   port: '443'
   server: wcw004-3.facai2024.com
-  servername: wcw004-3.facai2024.com
   tls: true
   type: vmess
   uuid: 09390803-92ae-4146-eaa8-0a01db85f766
@@ -263,29 +262,45 @@ proxies:
     headers:
       Host: wcw004-3.facai2024.com
     path: /09390803
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸49 |  4.8MB/s|32%|Netflix|...
+  name: 11|3|🇺🇸62 |  3.0MB/s|29%|Openai
   network: ws
-  port: 2096
-  server: 141.101.120.253
-  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
   tls: true
   type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|3|🇺🇸121 |  4.4MB/s|29%|Openai
+  network: ws
+  port: 22643
+  server: 54.223.46.105
+  servername: zxjp-c.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸65 |  2.5MB/s|61%|Openai|G...
-  network: http
-  port: 55839
-  server: 38.54.25.204
+  name: 11|3|🇺🇸124 |  1.1MB/s|29%
+  network: ws
+  port: 20029
+  server: 45.147.201.231
   tls: false
   type: vmess
-  uuid: b7675d66-cddb-4a69-edd6-c0c83290f72e
+  uuid: 6d579896-40eb-400c-89b4-4eef10f2e7a6
+  ws-opts:
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

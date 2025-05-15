@@ -1,14 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰2 |  4.0MB/s|15%|Disney|Yo...
+  name: 11|3|🇭🇰7 |  4.3MB/s|15%|Netflix|D...
   network: ws
   port: 8080
-  server: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
+  server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
   tls: false
   type: vmess
-  uuid: a5a81a34-f257-11ef-ba82-f23c913c8d2b
+  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
   ws-opts:
+    headers:
+      Host: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
     path: /
 - alterId: 64
   cipher: auto
