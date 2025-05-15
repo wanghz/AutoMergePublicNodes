@@ -1,68 +1,55 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰1 |  1.4MB/s|15%|Netflix|Y...
+  name: 11|2|🇭🇰4 |  3.1MB/s|15%|Netflix|D...
   network: ws
-  port: 80
-  server: d5542df0-sv0xs0-sw2c3o-1thts.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
+  port: '8080'
+  server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
   tls: false
   type: vmess
-  uuid: cb96c846-fd6d-11ef-a910-f23c9164ca5d
+  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
   ws-opts:
     headers:
-      Host: d5542df0-sv0xs0-sw2c3o-1thts.hk.p5pv.com
+      Host: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰2 |  1.4MB/s|15%|Netflix|Y...
+  name: 11|2|🇭🇰5 |  2.5MB/s|15%|Youtube|O...
   network: ws
-  port: 80
-  server: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
+  port: 8080
+  server: a9c5b237-swd340-t7a4xd-1ln9e.hgc1.tcpbbr.net
   tls: false
   type: vmess
-  uuid: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇭🇰3 |  2.5MB/s|15%|Youtube|O...
-  network: ws
-  port: 80
-  server: 75a5d1ab-sv2sg0-svr00o-1oxz4.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇭🇰4 |  3.5MB/s|15%|Youtube
-  network: ws
-  port: 80
-  server: aa1d3b0f-sv0xs0-svr00o-1oxz4.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
+  uuid: e35ea0a0-0634-11f0-8eb0-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,17|香港|@ripaojiedian
-  network: tcp
-  port: '56152'
-  server: 120.232.153.40
-  servername: ''
+  name: 11|2|🇭🇰6 |  4.3MB/s|15%|Disney|Yo...
+  network: ws
+  port: 8080
+  server: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: a5a81a34-f257-11ef-ba82-f23c913c8d2b
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰8 |  1.0MB/s|15%|Netflix|Y...
+  network: ws
+  port: 80
+  server: 77ad9e87-sv0xs0-t46she-5ifr.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 77ad9e87-sv0xs0-t46she-5ifr.hk.p5pv.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,17|香港3|@ripaojiedian
@@ -102,27 +89,17 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11,17|香港6|@ripaojiedian
-  network: tcp
-  port: '36609'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 16|🇯🇵 日本6|@ripaojiedian
-  password: 65c14581-e479-41b1-b343-44699f115b1d
-  port: 13883
-  server: 45.159.50.57
+  name: 16|🇸🇬 新加坡3|@ripaojiedian
+  password: 4GA1yNVbxOmx5deR3oj6CgKcHxL1aOSN
+  port: 8123
+  server: mortify.koreanbbq.link
   skip-cert-verify: false
-  sni: mmbiz1.redapricotcloud.com
+  sni: mortify.koreanbbq.link
   tfo: false
   tls: false
-  type: vmess
-  uuid: e6d8237f-4bbf-4a62-af4f-b0844120e0b4
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
@@ -135,7 +112,15 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 37441
+  port: 31785
   server: hkkh11v1.xpmc.cc
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港6|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.183.61
   tfo: false
   type: ss
