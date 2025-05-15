@@ -1,33 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰4 |  3.1MB/s|15%|Netflix|D...
-  network: ws
-  port: '8080'
-  server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
-  tls: false
-  type: vmess
-  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰5 |  2.5MB/s|15%|Youtube|O...
-  network: ws
-  port: 8080
-  server: a9c5b237-swd340-t7a4xd-1ln9e.hgc1.tcpbbr.net
-  tls: false
-  type: vmess
-  uuid: e35ea0a0-0634-11f0-8eb0-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰6 |  4.3MB/s|15%|Disney|Yo...
+  name: 11|2|🇭🇰2 |  4.0MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: cc424de4-swd340-swp3f3-1teuc.hgc1.tcpbbr.net
@@ -35,20 +9,6 @@ proxies:
   type: vmess
   uuid: a5a81a34-f257-11ef-ba82-f23c913c8d2b
   ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇭🇰8 |  1.0MB/s|15%|Netflix|Y...
-  network: ws
-  port: 80
-  server: 77ad9e87-sv0xs0-t46she-5ifr.hk.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 77ad9e87-sv0xs0-t46she-5ifr.hk.p5pv.com
     path: /
 - alterId: 64
   cipher: auto

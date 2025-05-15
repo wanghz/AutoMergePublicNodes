@@ -1,23 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵1 |  2.6MB/s|11%|Youtube|O...
+  name: 11|2|🇯🇵1 |  1.1MB/s|Disney|Youtub...
   network: tcp
   port: 17233
   server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
-- alterId: 64
-  cipher: auto
-  name: 11,17|日本3|@ripaojiedian
-  network: tcp
-  port: '55002'
-  server: 183.237.84.53
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -35,6 +25,16 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 64
+  cipher: auto
+  name: 11,17|日本3|@ripaojiedian
+  network: tcp
+  port: '55002'
+  server: 183.237.84.53
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,17|日本5|@ripaojiedian
