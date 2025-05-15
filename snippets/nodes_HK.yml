@@ -1,16 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|3|🇭🇰7 |  4.3MB/s|15%|Netflix|D...
+  name: 11|2|🇭🇰2 |  3.6MB/s|Youtube|Opena...
   network: ws
   port: 8080
-  server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
+  server: a9c5b237-swd340-t7a4xd-1ln9e.hgc1.tcpbbr.net
   tls: false
   type: vmess
-  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
+  uuid: e35ea0a0-0634-11f0-8eb0-f23c9164ca5d
   ws-opts:
     headers:
-      Host: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
+      Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 64
   cipher: auto

@@ -526,53 +526,19 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇺🇸12 |  1.1MB/s|0%|Openai
-  network: ws
-  port: '443'
-  server: ljm005-2.facai202408.com
-  servername: ljm005-2.facai202408.com
-  tls: true
-  type: vmess
-  uuid: b95bf0d8-c748-40b8-e243-6479d879c3d5
-  ws-opts:
-    headers:
-      Host: ljm005-2.facai202408.com
-    path: /b95bf0d8-
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇺🇸15 |  1.2MB/s|0%|Openai
-  network: ws
-  port: '443'
-  server: wcw004-3.facai2024.com
-  tls: true
-  type: vmess
-  uuid: 09390803-92ae-4146-eaa8-0a01db85f766
-  ws-opts:
-    headers:
-      Host: wcw004-3.facai2024.com
-    path: /09390803
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|日本4|@ripaojiedian
-  network: ws
-  port: '46015'
-  server: 112.29.213.228
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
 - alterId: 2
   cipher: auto
-  name: 11|3|🇺🇸62 |  3.0MB/s|29%|Openai
+  name: 11|2|🇺🇸2 |  3.8MB/s|29%|Openai
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸3 |  3.0MB/s|29%|Openai
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -584,43 +550,84 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸121 |  4.4MB/s|29%|Openai
+  name: 11|2|🇺🇸51 |  2.9MB/s|14%|Openai
   network: ws
-  port: 22643
-  server: 54.223.46.105
-  servername: zxjp-c.tkong.cc
+  port: 2053
+  server: 104.21.16.1
+  servername: rak2d1.777269.xyz
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 996016f7-da89-45f1-b3b4-555bc799ed86
   ws-opts:
     headers:
-      Host: zxjp-c.tkong.cc
+      Host: rak2d1.777269.xyz
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸56 |  3.7MB/s|25%|Openai|G...
+  network: ws
+  port: 30807
+  server: v7.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇷🇺2 |  5.4MB/s|0%|Youtube
+  network: ws
+  port: 20022
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|3|🇭🇰7 |  4.3MB/s|15%|Netflix|D...
+  name: 11|2|🇭🇰2 |  3.6MB/s|Youtube|Opena...
   network: ws
   port: 8080
-  server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
+  server: a9c5b237-swd340-t7a4xd-1ln9e.hgc1.tcpbbr.net
   tls: false
   type: vmess
-  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
+  uuid: e35ea0a0-0634-11f0-8eb0-f23c9164ca5d
   ws-opts:
     headers:
-      Host: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
+      Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸124 |  1.1MB/s|29%
+  name: 11|2|🇺🇸62 |  4.4MB/s|14%|Openai
   network: ws
-  port: 20029
-  server: 45.147.201.231
-  tls: false
+  port: 2053
+  server: 104.21.80.1
+  tls: true
   type: vmess
-  uuid: 6d579896-40eb-400c-89b4-4eef10f2e7a6
+  uuid: 996016f7-da89-45f1-b3b4-555bc799ed86
   ws-opts:
+    headers:
+      Host: rak2d1.777269.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸74 |  5.7MB/s|32%|Openai
+  network: ws
+  port: '2096'
+  server: 141.101.120.253
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
     path: /
 - alterId: 64
   cipher: auto
@@ -669,6 +676,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|日本4|@ripaojiedian
+  network: ws
+  port: '46015'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
