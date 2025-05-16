@@ -235,46 +235,9 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 11|3|🇺🇸16 |  1.5MB/s|29%|Openai
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|3|🇺🇸28 |  2.8MB/s|29%|Openai
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸34 |  1.5MB/s|14%|Openai
-  network: ws
-  port: 2053
-  server: 104.21.16.1
-  servername: rak2d1.777269.xyz
-  tls: true
-  type: vmess
-  uuid: 996016f7-da89-45f1-b3b4-555bc799ed86
-  ws-opts:
-    headers:
-      Host: rak2d1.777269.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇺🇸35 |  1.0MB/s|14%|Openai
+  name: 11|2|🇺🇸13 |  2.8MB/s|14%|Openai
   network: ws
   port: 2053
   server: 104.21.80.1
@@ -287,7 +250,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸195 |  4.7MB/s|Netflix|Dis...
+  name: 11|2|🇺🇸78 |  2.4MB/s|20%|Disney|O...
   network: ws
   port: 443
   server: cloudgetservice.mcloudservice.site
@@ -298,6 +261,35 @@ proxies:
     headers:
       Host: mAxNEtVip-uSA-Vp4.nETKh3.sItE
     path: /linkws
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸81 |  3.0MB/s|25%|Openai|G...
+  network: ws
+  port: 30807
+  server: v7.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸82 |  2.9MB/s|61%|Openai|G...
+  network: http
+  port: 55839
+  server: 38.54.25.204
+  tls: false
+  type: vmess
+  uuid: b7675d66-cddb-4a69-edd6-c0c83290f72e
+- alterId: 64
+  cipher: auto
+  name: 11|2|🇺🇸105 |  1.5MB/s
+  network: tcp
+  port: 40392
+  server: 120.232.153.123
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
