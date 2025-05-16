@@ -235,18 +235,28 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 64
+- alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸44 |  1.1MB/s|Openai
-  network: tcp
-  port: 40392
-  server: 120.232.153.123
-  tls: false
+  name: 11|3|🇺🇸87 |  1.1MB/s|29%|Openai
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸155 |  5.2MB/s|32%
+  name: 11|3|🇺🇸88 |  5.8MB/s|61%|Openai|G...
+  network: http
+  port: 55839
+  server: 38.54.25.204
+  tls: false
+  type: vmess
+  uuid: b7675d66-cddb-4a69-edd6-c0c83290f72e
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇺🇸95 |  6.4MB/s|32%|Disney|O...
   network: ws
   port: 2096
   server: 141.101.120.253
@@ -258,6 +268,33 @@ proxies:
     headers:
       Host: 1746882891.speed.adl.cccp.freefly.pp.ua
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇺🇸97 |  1.1MB/s|32%|Openai
+  network: ws
+  port: '443'
+  server: 9x.938.pp.ua
+  servername: 9x.938.pp.ua
+  tls: true
+  type: vmess
+  uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
+  ws-opts:
+    headers:
+      Host: 9x.938.pp.ua
+    path: /DAxJddOdTd5pVam9w
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇺🇸118 |  4.0MB/s|50%|Openai
+  network: ws
+  port: 443
+  server: api.jquery.com
+  tls: true
+  type: vmess
+  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+  ws-opts:
+    headers:
+      Host: admin.kasrax.ir
+    path: /2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua/h7Rcu0y30lhjdVjJ3gc4aj
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

@@ -1,15 +1,15 @@
 proxies:
 - alterId: 0
-  cipher: auto
-  name: 11|1|🇫🇷8 |  3.1MB/s|100%|Openai
+  cipher: none
+  name: 11|3|🇫🇷4 |  5.2MB/s|26%|Netflix|O...
   network: ws
-  port: 443
-  server: 158.180.228.226
-  servername: beyonddsz.cfd
+  port: '2096'
+  server: fr.vmess.comnpmjs.com
+  servername: fr.vmess.comnpmjs.com
   tls: true
   type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  uuid: 708358a5-8c9a-55b8-a521-73b8d7b63d3b
   ws-opts:
     headers:
-      Host: beyonddsz.cfd
-    path: /linkws
+      Host: fr.vmess.comnpmjs.com
+    path: /vmess

@@ -5,24 +5,6 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇸🇬5 |  1.7MB/s|Youtube|Opena...
-  network: tcp
-  port: 30028
-  server: i.needss.top
-  tls: false
-  type: vmess
-  uuid: 61b159b3-860b-460b-a2e2-3c4ad3a42a23
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇸🇬6 |  2.5MB/s|Netflix|Disne...
-  network: tcp
-  port: 20015
-  server: i.needss.top
-  tls: false
-  type: vmess
-  uuid: 61b159b3-860b-460b-a2e2-3c4ad3a42a23
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

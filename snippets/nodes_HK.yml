@@ -1,6 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|香港8|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇭🇰4 |  3.0MB/s|16%|Disney|Yo...
+  network: ws
+  port: 8080
+  server: e6eb5fca-swexs0-sycpj3-18jxd.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: fcf7573c-faa4-11ef-8a67-f23c913c8d2b
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
   name: 11,17|香港|@ripaojiedian
   network: tcp
   port: '25635'
@@ -39,23 +67,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|香港8|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
