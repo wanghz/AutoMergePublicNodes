@@ -528,9 +528,23 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸19 |  4.6MB/s|51%|Gemini
+  name: 11|3|🌀3-TH |  3.2MB/s|55%|Openai
   network: ws
-  port: '2082'
+  port: 443
+  server: 5.10.247.159
+  servername: th.lzj520hxw.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
+  ws-opts:
+    headers:
+      Host: th.lzj520hxw.dpdns.org
+    path: /lzjjj
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇺🇸136 |  4.0MB/s|51%|Openai|...
+  network: ws
+  port: 2082
   server: 172.67.214.33
   tls: false
   type: vmess
@@ -539,33 +553,6 @@ proxies:
     headers:
       Host: cs.flha.ru
     path: /
-- alterId: 2
-  cipher: auto
-  name: 11|3|🇺🇸70 |  2.3MB/s|29%|Openai
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-a.tkong.cc
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: tk.hzlt.tkddns.xyz
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11|3|🇯🇵2 |  1.5MB/s|54%|Youtube|O...
-  network: ws
-  port: 1443
-  server: sslvpn.51job.com
-  tls: true
-  type: vmess
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  ws-opts:
-    headers:
-      Host: centos7
-    path: /634c5c4f9782
 - alterId: 64
   cipher: auto
   name: 11,17|香港3|@ripaojiedian
