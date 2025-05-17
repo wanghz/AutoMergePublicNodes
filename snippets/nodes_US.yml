@@ -237,7 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸37 |  5.3MB/s|Openai|Gemin...
+  name: 11|3|🇺🇸19 |  4.6MB/s|51%|Gemini
   network: ws
   port: '2082'
   server: 172.67.214.33
@@ -248,29 +248,20 @@ proxies:
     headers:
       Host: cs.flha.ru
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸49 |  5.8MB/s|32%|Netflix|...
+  name: 11|3|🇺🇸70 |  2.3MB/s|29%|Openai
   network: ws
-  port: 2096
-  server: 141.101.120.253
-  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-a.tkong.cc
   tls: true
   type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
+      Host: tk.hzlt.tkddns.xyz
     path: /
-- alterId: 64
-  cipher: auto
-  name: 11|1|🇺🇸127 |  2.9MB/s|17%
-  network: tcp
-  port: 40392
-  server: 120.232.153.123
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

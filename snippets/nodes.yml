@@ -528,7 +528,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸37 |  5.3MB/s|Openai|Gemin...
+  name: 11|3|🇺🇸19 |  4.6MB/s|51%|Gemini
   network: ws
   port: '2082'
   server: 172.67.214.33
@@ -539,65 +539,33 @@ proxies:
     headers:
       Host: cs.flha.ru
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸49 |  5.8MB/s|32%|Netflix|...
+  name: 11|3|🇺🇸70 |  2.3MB/s|29%|Openai
   network: ws
-  port: 2096
-  server: 141.101.120.253
-  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-a.tkong.cc
   tls: true
   type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
+      Host: tk.hzlt.tkddns.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇰🇷3 |  5.6MB/s|61%|Youtube|O...
-  network: ws
-  port: 2096
-  server: 193.122.119.152
-  servername: dv4.789900.xyz
-  tls: true
-  type: vmess
-  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
-  ws-opts:
-    headers:
-      Host: dv4.789900.xyz
-    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: vmess-grpc
-  name: 11|1|🇩🇪8 |  3.2MB/s|0%|Youtube|Op...
-  network: grpc
-  port: '443'
-  server: de.vmess.comnpmjs.com
-  servername: de.vmess.comnpmjs.com
-  tls: true
-  type: vmess
-  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
-- alterId: 0
-  cipher: auto
-  name: 11,17|日本4|@ripaojiedian
-  network: tcp
-  port: '33184'
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e
 - alterId: 64
   cipher: auto
-  name: 11|1|🇺🇸127 |  2.9MB/s|17%
-  network: tcp
-  port: 40392
-  server: 120.232.153.123
-  tls: false
+  name: 11|3|🇯🇵2 |  1.5MB/s|54%|Youtube|O...
+  network: ws
+  port: 1443
+  server: sslvpn.51job.com
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  ws-opts:
+    headers:
+      Host: centos7
+    path: /634c5c4f9782
 - alterId: 64
   cipher: auto
   name: 11,17|香港3|@ripaojiedian
@@ -648,6 +616,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,17|日本4|@ripaojiedian
+  network: tcp
+  port: '33184'
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
