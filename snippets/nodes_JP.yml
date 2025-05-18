@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11,17|日本3|@ripaojiedian
+  name: 11,17|日本4|@ripaojiedian
   network: tcp
   port: '55002'
   server: 183.237.84.53
@@ -9,16 +9,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,17|日本4|@ripaojiedian
-  network: tcp
-  port: '33184'
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e
 - alterId: 0
   cipher: auto
   name: 11,17|日本5|@ripaojiedian
@@ -53,7 +43,7 @@ proxies:
     path: /ozasebsz
     skip-cert-verify: false
     tls: true
-  port: 20774
+  port: 26545
   server: 103.140.136.76
   tfo: false
   type: ss

@@ -1,4 +1,21 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|香港8|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,17|香港3|@ripaojiedian
@@ -9,16 +26,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
   name: 11,17|香港4|@ripaojiedian
   network: tcp
-  port: '43302'
-  server: 183.236.51.38
+  port: '19019'
+  server: 45.89.233.67
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 802e1632-9c29-4f2d-821f-96a35daeed3b
 - alterId: 0
   cipher: auto
   name: 11,17|香港6|@ripaojiedian
@@ -29,16 +46,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 268fe594-cd35-4038-8bc1-1086ada27fe8
-- alterId: 64
+- alterId: 2
   cipher: auto
-  name: 11,17|香港7|@ripaojiedian
-  network: tcp
-  port: '41554'
-  server: 183.236.51.38
+  client-fingerprint: chrome
+  name: 11,16,17|香港7|@ripaojiedian
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港|@ripaojiedian
@@ -59,19 +83,19 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 55051
+  port: 33706
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡2|@ripaojiedian
-  password: 9f19a22d-60d0-4cf8-935d-ebcff8546054
-  port: 54652
-  server: 183.236.51.38
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  port: 55002
+  server: 183.237.84.53
   skip-cert-verify: false
-  sni: mmbiz1.redapricotcloud.com
+  sni: hk-13-568.flztjc.net
   tfo: false
   tls: false
   type: vmess
