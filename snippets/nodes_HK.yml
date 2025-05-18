@@ -1,13 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|3|🇭🇰1 |  4.5MB/s|37%|Youtube
-  network: http
-  port: 3000
-  server: 18.162.203.189
+  client-fingerprint: chrome
+  name: 11,16,17|香港8|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc
+  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,17|香港3|@ripaojiedian
@@ -55,23 +63,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|香港8|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港|@ripaojiedian
