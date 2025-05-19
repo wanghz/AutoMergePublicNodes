@@ -1,14 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|香港8|@ripaojiedian
+  name: 11|1|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
-  port: '8080'
+  port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
@@ -30,12 +26,12 @@ proxies:
   cipher: auto
   name: 11,17|香港4|@ripaojiedian
   network: tcp
-  port: '19019'
-  server: 45.89.233.67
+  port: '13651'
+  server: 103.30.76.66
   servername: ''
   tls: false
   type: vmess
-  uuid: 802e1632-9c29-4f2d-821f-96a35daeed3b
+  uuid: 6831c9ce-4ca8-42c0-8181-fb1055710ccc
 - alterId: 0
   cipher: auto
   name: 11,17|香港6|@ripaojiedian
@@ -63,6 +59,16 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港8|@ripaojiedian
+  network: tcp
+  port: '29714'
+  server: 45.196.234.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 26312aa7-13a8-40c9-9c37-da0cdfc2d225
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港|@ripaojiedian
@@ -83,20 +89,20 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 33706
+  port: 48113
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇯🇵 日本4|@ripaojiedian
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 55002
-  server: 183.237.84.53
+  name: 16|🇸🇬 新加坡3|@ripaojiedian
+  password: ffea316f-7e81-4f8c-b122-1673abe353ed
+  port: 42881
+  server: 120.232.220.45
   skip-cert-verify: false
-  sni: hk-13-568.flztjc.net
+  sni: q08m.vgraxiw73s.hasyaf.cn
   tfo: false
   tls: false
-  type: vmess
+  type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

@@ -7,7 +7,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 11|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|1|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -31,11 +31,3 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡2|@ripaojiedian
-  password: O363WP68J33COIEX
-  port: 16009
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
