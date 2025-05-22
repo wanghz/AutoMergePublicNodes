@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -38,7 +38,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505181740997-cBGZl5Y2Ww.download.microsoft.com
+    host: 202505181740997-taeEBdiw05.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -47,13 +47,13 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
-  password: e8eee0bb8dd5
+  password: 902f0dd09e67
   plugin: v2ray-plugin
   plugin-opts:
     host: jp1v9.8vote.cn
     mode: websocket
     mux: true
-    path: /nbbvdndo
+    path: /xurjxxhsafoe
     skip-cert-verify: false
     tls: true
   port: 443
@@ -63,8 +63,8 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇯🇵 日本6|@ripaojiedian
-  password: LZOFZ0UDURPEQJ9G
-  port: 18014
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+  password: U5FEGLIAB03XG50C
+  port: 18007
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -32,6 +32,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 8080
+  server: f1643d53-swo740-sy5642-1mish.hgc1.tcpbbr.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -69,7 +85,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 38585
+  port: 36463
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -77,20 +93,28 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡2|@ripaojiedian
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+  password: bbe100f7-3b61-4602-8dc6-795239682ade
   port: 49121
   server: 183.236.51.38
   skip-cert-verify: false
-  sni: hk-13-568.flztjc.net
+  sni: mmbiz1.redapricotcloud.com
   tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港8|@ripaojiedian
+  password: f87772ed-cef9-444a-a8e8-bcf299c850ec
+  port: 23331
+  server: link.karleynetwork.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港9|@ripaojiedian
   password: asd123456
   port: 8388
-  server: 103.149.182.61
+  server: 154.197.26.237
   tfo: false
   type: ss
