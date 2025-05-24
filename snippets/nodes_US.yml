@@ -47,7 +47,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,18|🇺🇸_US_美国 #7'
+  name: '3|🇺🇸_US_美国 #4'
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -57,7 +57,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,18|🇺🇸_US_美国 #8'
+  name: '3|🇺🇸_US_美国 #5'
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -67,7 +67,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,18|🇺🇸_US_美国 #9'
+  name: '3|🇺🇸_US_美国 #6'
   network: ws
   port: 8080
   server: russia.com
