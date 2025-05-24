@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
 - alterId: 64
   cipher: auto
   name: 11|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
@@ -41,3 +35,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇸🇬 新加坡3|@ripaojiedian
+  password: T0M1F1VR9AJON3NW
+  port: 16015
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
