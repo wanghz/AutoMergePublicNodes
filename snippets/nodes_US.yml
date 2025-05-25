@@ -237,7 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 2
   cipher: auto
-  name: 11|3|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|2|🇺🇸62 |  3.3MB/s|Openai|Gemin...
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -373,7 +373,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505181740997-M92JaDnDCb.download.microsoft.com
+    host: 202505181740997-Xs0YNCRtNb.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz

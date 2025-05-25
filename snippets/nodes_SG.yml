@@ -7,7 +7,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 11|3|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -44,8 +44,8 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡3|@ripaojiedian
-  password: T0M1F1VR9AJON3NW
-  port: 16015
+  password: 0JR5J197C0KDI6O5
+  port: 16002
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
