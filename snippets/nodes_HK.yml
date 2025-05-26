@@ -1,54 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
-  network: ws
-  port: 8080
-  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
-  tls: false
-  type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11,17|香港3|@ripaojiedian
-  network: tcp
-  port: '35921'
-  server: 120.198.71.216
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,17|香港4|@ripaojiedian
-  network: tcp
-  port: '19504'
-  server: 43.247.135.192
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|香港7|@ripaojiedian
-  network: ws
-  port: '30809'
-  server: v9.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港|@ripaojiedian
@@ -86,3 +36,40 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16,17|香港7|@ripaojiedian
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 64
+  cipher: auto
+  name: 17|香港3|@ripaojiedian
+  network: tcp
+  port: '35921'
+  server: 120.198.71.216
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 17|香港4|@ripaojiedian
+  network: tcp
+  port: '19504'
+  server: 43.247.135.192
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
