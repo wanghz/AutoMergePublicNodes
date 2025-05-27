@@ -267,6 +267,33 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
+  name: 11,17|美国4|@ripaojiedian
+  network: tcp
+  port: '41597'
+  server: 120.232.153.41
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|美国5|@ripaojiedian
+  network: ws
+  port: '30828'
+  server: 111.26.109.79
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -339,7 +366,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505251086349-HhwPvtLlML.download.microsoft.com
+    host: 202505251086349-pXOu6bcj2Z.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz

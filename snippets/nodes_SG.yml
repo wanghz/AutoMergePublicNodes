@@ -44,24 +44,8 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡3|@ripaojiedian
-  password: 0JR5J197C0KDI6O5
-  port: 16002
+  password: 3IJTYIFVEXKSJ92G
+  port: 16015
   server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡4|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 18.140.199.169
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡5|@ripaojiedian
-  password: FXLEJQN4Y4G6ZUHJ
-  port: 16014
-  server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
