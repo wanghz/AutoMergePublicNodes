@@ -28,7 +28,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505251086349-WBHKQamx7o.download.microsoft.com
+    host: 202505250813455-9i84PIbLBb.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -46,15 +46,15 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 21755
+  port: 20091
   server: 43.226.17.8
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇯🇵 日本3|@ripaojiedian
-  password: FOCNS0YH4YSOUJTO
-  port: 18001
+  password: JAI3U4Q8S82OR7ZY
+  port: 18012
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss

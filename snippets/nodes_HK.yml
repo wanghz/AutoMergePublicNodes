@@ -49,26 +49,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3
-- alterId: 0
-  cipher: auto
-  name: 11,17|香港9|@ripaojiedian
-  network: tcp
-  port: '39919'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,17|香港V2|@ripaojiedian
-  network: kcp
-  port: '39253'
-  server: 47.76.92.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 16e7adc5-8a1e-44b1-8327-14f7367caaf8
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港|@ripaojiedian
@@ -89,13 +69,13 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 27599
+  port: 46583
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港3|@ripaojiedian
+  name: 16|🇭🇰 香港9|@ripaojiedian
   password: 4KGHWKCKQAJOVPHO
   port: 15003
   server: 8tv68qhq.slashdevslashnetslashtun.net
