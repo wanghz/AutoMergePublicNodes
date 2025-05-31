@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
