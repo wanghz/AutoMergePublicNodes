@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -14,7 +14,7 @@ proxies:
     path: /634c5c4f9782
 - alterId: 64
   cipher: auto
-  name: 11|3|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -23,7 +23,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|3|🌀4-TH |  2.6MB/s|55%|Netflix...
+  name: 11|2|🌀4-TH |  2.6MB/s|55%|Netflix...
   network: ws
   port: 443
   server: 38.47.96.30
@@ -36,7 +36,7 @@ proxies:
     path: /lzjjj
 - alterId: 2
   cipher: auto
-  name: 11|3|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|2|🇺🇸62 |  3.3MB/s|Openai|Gemin...
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -51,7 +51,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 11|3|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
+  name: 11|2|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -61,7 +61,7 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -74,7 +74,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11,17|香港3|@ripaojiedian
+  name: 11,17|新加坡2|@ripaojiedian
   network: tcp
   port: '49302'
   server: 183.236.51.38
@@ -109,26 +109,26 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
+- alterId: 64
   cipher: auto
   name: 11,17|香港9|@ripaojiedian
   network: tcp
-  port: '15229'
-  server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
+  port: '31209'
+  server: 120.232.153.40
   servername: ''
   tls: false
   type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,17|韩国3|@ripaojiedian
+  name: 11,17|日本3|@ripaojiedian
   network: tcp
-  port: '17232'
-  server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com
+  port: '17233'
+  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -180,40 +180,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|美国4|@ripaojiedian
-  network: ws
-  port: '22642'
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-b.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|美国6|@ripaojiedian
-  network: ws
-  port: '22641'
-  server: 120.236.198.165
-  servername: zxjp-a.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
-    path: /
 - alterId: 0
   cipher: auto
   name: 11,17|日本V2|@ripaojiedian
@@ -371,9 +337,9 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|tg频道:@ripaojiedian
-  password: qawszxc123
+  password: yijian0503
   port: 443
-  server: 47.129.170.255
+  server: 43.203.240.196
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -396,30 +362,30 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 36368
+  port: 34566
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇰🇷 韩国3|@ripaojiedian
+  name: 16|🇸🇬 新加坡2|@ripaojiedian
   password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
-  port: 17232
-  server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com
+  port: 49302
+  server: 183.236.51.38
   skip-cert-verify: false
   sni: usla.mjt000.com
   tfo: false
   tls: false
   type: vmess
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505250813455-t8Jl5DjrgW.download.microsoft.com
+    host: 202505160159024-hAiTvMCGlv.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -437,8 +403,16 @@ proxies:
     path: /lornlqecrjwe
     skip-cert-verify: false
     tls: true
-  port: 19363
+  port: 50494
   server: 43.226.17.17
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00
+  port: 32875
+  server: jg647hf446ghvw.gym0boy.com
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -449,20 +423,12 @@ proxies:
   server: 125.141.26.12
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 16|🇰🇷 韩国2|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡2|@ripaojiedian
-  password: NEYGNTEW7HUQHA1I
-  port: 16012
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 16|🇸🇬 新加坡3|@ripaojiedian
+  password: PIPLH14SPUJNGOS8
+  port: 16005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -471,10 +437,18 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505250813455-t8Jl5DjrgW.download.microsoft.com
+    host: 202505160159024-hAiTvMCGlv.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国4|@ripaojiedian
+  password: 26270a5c-cc66-4bb5-b058-c75d09d615e5
+  port: 54322
+  server: cm55-zz.moonwang.xyz
   tfo: false
   type: ss
 - cipher: aes-256-cfb
