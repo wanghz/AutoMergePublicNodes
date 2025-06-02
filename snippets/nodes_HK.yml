@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -69,7 +69,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 34566
+  port: 27693
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -86,3 +86,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港10|@ripaojiedian
+  password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00
+  port: 16100
+  server: jg647hf446ghvw.gym0boy.com
+  tfo: false
+  type: ss

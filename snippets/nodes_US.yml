@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 11|3|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|2|🇺🇸62 |  3.3MB/s|Openai|Gemin...
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -126,11 +126,11 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
-  password: 26270a5c-cc66-4bb5-b058-c75d09d615e5
-  port: 54322
-  server: cm55-zz.moonwang.xyz
+  password: 2Z11BX63H64YSEDM
+  port: 17005
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
