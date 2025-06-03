@@ -14,6 +14,16 @@ proxies:
     path: /634c5c4f9782
 - alterId: 0
   cipher: auto
+  name: 11,17|日本4|@ripaojiedian
+  network: tcp
+  port: '51036'
+  server: 206.237.127.188
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: af73136a-bbfa-4f95-a3e0-6c3005aa8ae1
+- alterId: 0
+  cipher: auto
   name: 11,17|日本V2|@ripaojiedian
   network: kcp
   port: '50951'
@@ -28,7 +38,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505282364048-MMi78MWpgU.download.microsoft.com
+    host: 202505282364048-i8kTAe6y0O.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -46,7 +56,7 @@ proxies:
     path: /lornlqecrjwe
     skip-cert-verify: false
     tls: true
-  port: 25356
+  port: 37859
   server: 43.226.17.17
   tfo: false
   type: ss
@@ -56,13 +66,5 @@ proxies:
   password: 6EZ5QKFX60AVSUYT
   port: 18008
   server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本4|@ripaojiedian
-  password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00
-  port: 32875
-  server: jg647hf446ghvw.gym0boy.com
   tfo: false
   type: ss
