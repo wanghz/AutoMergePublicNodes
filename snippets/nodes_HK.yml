@@ -1,58 +1,45 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
-  network: ws
-  port: 8080
-  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
-  tls: false
-  type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|香港|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: b959ad51-sxaf40-t323lh-1t0nn.hgc1.tcpbbr.net
-  servername: ''
+  name: 16|🇸🇬 新加坡5|@ripaojiedian
+  password: 905fcd78-866c-81e1-3cb8-1beb59d661ab
+  port: 27231
+  server: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
   skip-cert-verify: false
+  sni: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
   tfo: false
   tls: false
-  type: vmess
-  uuid: ba78226c-b772-11ef-ab53-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,17|香港6|@ripaojiedian
-  network: tcp
-  port: '50412'
-  server: 103.30.78.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 086124a3-0084-405b-aea4-39b69d3836f3
-- alterId: 0
-  cipher: auto
-  name: 11,17|香港5|@ripaojiedian
-  network: tcp
-  port: '43292'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
+  type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港2|@ripaojiedian
+  password: 91a41f4e02dc
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hkkh11v1.xpmc.cc
+    mode: websocket
+    mux: true
+    path: /utvbnrzejpmt
+    skip-cert-verify: false
+    tls: true
+  port: 56804
+  server: hkkh11v1.xpmc.cc
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港6|@ripaojiedian
+  password: GUSA917ZCX1WAKMT
+  port: 15016
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|香港7|@ripaojiedian
+  name: 16,17|香港7|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -68,40 +55,31 @@ proxies:
     path: /oooo
 - alterId: 64
   cipher: auto
-  name: 11,17|香港8|@ripaojiedian
+  name: 17|新加坡2|@ripaojiedian
   network: tcp
-  port: '31209'
-  server: 120.232.153.40
+  port: '49302'
+  server: 183.236.51.38
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港2|@ripaojiedian
-  password: 91a41f4e02dc
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hkkh11v1.xpmc.cc
-    mode: websocket
-    mux: true
-    path: /utvbnrzejpmt
-    skip-cert-verify: false
-    tls: true
-  port: 48345
-  server: hkkh11v1.xpmc.cc
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 17|香港5|@ripaojiedian
+  network: tcp
+  port: '33919'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡4|@ripaojiedian
-  password: bf109e1a-2b99-11ed-bb74-f23c9164ca5d
-  port: 59652
-  server: 183.236.51.38
-  skip-cert-verify: false
-  sni: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com
-  tfo: false
+  name: 17|香港8|@ripaojiedian
+  network: tcp
+  port: '31209'
+  server: 120.232.153.40
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

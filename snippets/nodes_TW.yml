@@ -5,9 +5,9 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 9097152:93638
+    host: 09499c8:182394
     mode: tls
   port: 2377
-  server: 60.249.28.136
+  server: 60.249.35.38
   tfo: false
   type: ss
