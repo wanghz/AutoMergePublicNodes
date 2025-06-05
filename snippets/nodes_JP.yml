@@ -1,11 +1,34 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  network: ws
+  port: 1443
+  server: sslvpn.51job.com
+  tls: true
+  type: vmess
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  ws-opts:
+    headers:
+      Host: centos7
+    path: /634c5c4f9782
+- alterId: 0
+  cipher: auto
+  name: 11,17|日本V2|@ripaojiedian
+  network: kcp
+  port: '50951'
+  server: 8.211.154.107
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505282364048-WX78G4MFft.download.microsoft.com
+    host: 202505282364048-k4BSs9rOoW.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -23,25 +46,27 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 37989
+  port: 43361
   server: 43.226.17.11
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 16|🇯🇵 日本4|@ripaojiedian
-  password: 6EZ5QKFX60AVSUYT
-  port: 18008
+  name: 16|🇯🇵 日本3|@ripaojiedian
+  password: 4VWFR9NJLC1NGM7Q
+  port: 18006
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 17|日本V2|@ripaojiedian
-  network: kcp
-  port: '50951'
-  server: 8.211.154.107
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)aa1c23d:49858
+    mode: tls
+  port: 2377
+  server: 221.215.48.116
+  tfo: false
+  type: ss
