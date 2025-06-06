@@ -28,7 +28,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505282364048-k4BSs9rOoW.download.microsoft.com
+    host: 202505282364048-Tbm8fXQu06.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -46,27 +46,15 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 43361
+  port: 59333
   server: 43.226.17.11
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本3|@ripaojiedian
-  password: 4VWFR9NJLC1NGM7Q
-  port: 18006
-  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16|🇯🇵 日本4|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)aa1c23d:49858
-    mode: tls
-  port: 2377
-  server: 221.215.48.116
+  name: 16|🇯🇵 日本3|@ripaojiedian
+  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  port: 19832
+  server: h.cm2.xiaomi-api.xyz
   tfo: false
   type: ss
