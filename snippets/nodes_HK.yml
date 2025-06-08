@@ -72,12 +72,12 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡6|@ripaojiedian
-  password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-  port: 27231
-  server: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com
-  skip-cert-verify: false
-  sni: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com
+  name: 16|🇰🇷 韩国|@ripaojiedian
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 203.156.253.12
+  skip-cert-verify: true
+  sni: www.yrtok.com
   tfo: false
   tls: false
   type: trojan
@@ -94,7 +94,7 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 37689
+  port: 54778
   server: 121.127.231.217
   tfo: false
   type: ss
