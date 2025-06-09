@@ -92,6 +92,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,17|香港4|@ripaojiedian
+  network: tcp
+  port: '27680'
+  server: 38.147.189.7
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1e17ef3c-b4a9-4430-ba37-3c986dba8f2f
 - alterId: 64
   cipher: auto
   name: 11,17|香港5|@ripaojiedian
@@ -354,9 +364,9 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|tg频道:@ripaojiedian
-  password: awsps0501
+  password: qawszxc123
   port: 443
-  server: 54.250.145.124
+  server: 13.229.50.252
   tfo: false
   type: ss
 - alterId: 64
@@ -384,7 +394,7 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 54778
+  port: 29755
   server: 121.127.231.217
   tfo: false
   type: ss
@@ -394,7 +404,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506070920094-XtwGcPhiXY.download.microsoft.com
+    host: 202506070920094-RCFIknio7m.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -412,16 +422,8 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 41952
+  port: 50058
   server: 43.226.17.11
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本3|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 35.76.107.8
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -438,9 +440,17 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506070920094-XtwGcPhiXY.download.microsoft.com
+    host: 202506070920094-RCFIknio7m.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 16|🇬🇧 英国|@ripaojiedian
+  password: cf44a1b7-6806-4412-aac9-5ceb838fb705
+  port: 23674
+  server: sdjhv3hjubds733.nertron.xyz
   tfo: false
   type: ss
