@@ -252,6 +252,7 @@ payload:
 - DOMAIN-SUFFIX,nytco.com
 - DOMAIN-SUFFIX,nytimes.com
 - DOMAIN-SUFFIX,nytimg.com
+- DOMAIN-SUFFIX,nytlog.com
 - DOMAIN-SUFFIX,nytstyle.com
 - DOMAIN-SUFFIX,ok.ru
 - DOMAIN-SUFFIX,okex.com
