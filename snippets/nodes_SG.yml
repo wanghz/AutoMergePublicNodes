@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|1|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|3|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -45,3 +45,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,17|新加坡4|@ripaojiedian
+  network: tcp
+  port: '56051'
+  server: 38.47.176.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44

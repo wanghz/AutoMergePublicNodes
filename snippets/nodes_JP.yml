@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|1|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -31,6 +31,23 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|日本4|@ripaojiedian
+  network: ws
+  port: '46015'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
   name: 11,17|日本V2|@ripaojiedian
   network: kcp
   port: '50951'
@@ -45,7 +62,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506070920094-qDwEcSPT9B.download.microsoft.com
+    host: 202506070920094-n6Kql0nGua.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -63,15 +80,7 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 33604
+  port: 59294
   server: 43.226.17.11
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本5|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 43.207.233.41
   tfo: false
   type: ss
