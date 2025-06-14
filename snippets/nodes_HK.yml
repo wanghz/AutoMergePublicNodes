@@ -39,19 +39,19 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇰🇷 韩国2|@ripaojiedian
+  name: 16|🇰🇷 韩国|@ripaojiedian
   password: 85f133142f04dbf6547da33895cfabb3
-  port: 18740
-  server: 45.94.68.130
-  skip-cert-verify: false
+  port: 39001
+  server: 203.156.253.12
+  skip-cert-verify: true
   sni: www.yrtok.com
   tfo: false
   tls: false
-  type: vmess
-  uuid: 0d90d331-6c70-4cb9-855b-c11bcfd227c4
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
@@ -64,23 +64,7 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 42519
+  port: 15056
   server: 121.127.231.229
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港2|@ripaojiedian 2
-  password: 08293b204707
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.pmxiaonan.xyz
-    mode: websocket
-    mux: true
-    path: /sclbvcgkp
-    skip-cert-verify: false
-    tls: true
-  port: 41174
-  server: 156.251.179.79
   tfo: false
   type: ss
