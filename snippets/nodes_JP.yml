@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -14,16 +14,6 @@ proxies:
     path: /634c5c4f9782
 - alterId: 0
   cipher: auto
-  name: 11,17|日本3|@ripaojiedian
-  network: tcp
-  port: '20452'
-  server: 140.227.28.92
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
-- alterId: 0
-  cipher: auto
   name: 11,17|日本4|@ripaojiedian
   network: tcp
   port: '41302'
@@ -34,21 +24,21 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,17|日本V2|@ripaojiedian
+  name: 11,17|日本v2|@ripaojiedian
   network: kcp
-  port: '50951'
-  server: 8.211.154.107
+  port: '36668'
+  server: 8.211.175.53
   servername: ''
   tls: false
   type: vmess
-  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
+  uuid: b798372a-54c8-4597-969e-8b00d2f76c09
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-yLzbxEkmoB.download.microsoft.com
+    host: 202506131022370-Bautep9ydo.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -57,16 +47,16 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
-  password: 8360adcea0b1
+  password: 264727317ef6
   plugin: v2ray-plugin
   plugin-opts:
-    host: kr6v1.dashengjs.net
+    host: kr9v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /bylnxldqaquw
+    path: /ylikhqxcjfeb
     skip-cert-verify: false
     tls: true
-  port: 443
-  server: 43.226.17.11
+  port: 30203
+  server: 121.0.97.29
   tfo: false
   type: ss
