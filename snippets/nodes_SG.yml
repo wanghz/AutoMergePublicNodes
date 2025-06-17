@@ -1,23 +1,30 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|1|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|3|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11,17|新加坡3|@ripaojiedian
-  network: tcp
-  port: '31209'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
+  client-fingerprint: chrome
+  name: 11,16,17|新加坡2|@ripaojiedian
+  network: ws
+  port: '8443'
+  server: 172.64.157.100
+  servername: transcripts-guys-singapore-fotos.trycloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 3da5d27f-08d0-4078-f890-cf950ecb1708
+  ws-opts:
+    headers:
+      Host: transcripts-guys-singapore-fotos.trycloudflare.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,17|新加坡|@ripaojiedian

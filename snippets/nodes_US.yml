@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|3|🇺🇸62 |  3.3MB/s|Openai|Gemin...
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -17,8 +17,8 @@ proxies:
   client-fingerprint: chrome
   name: 11,16,17|美国|@ripaojiedian
   network: ws
-  port: '30832'
-  server: v32.heduian.link
+  port: '30828'
+  server: v28.heduian.link
   servername: ''
   skip-cert-verify: false
   tfo: false
@@ -27,7 +27,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: baidu.com
+      Host: ocbc.com
     path: /oooo
 - alterId: 0
   cipher: auto
@@ -103,7 +103,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-Bautep9ydo.download.microsoft.com
+    host: 202506131022370-sV66FLy3Dk.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz

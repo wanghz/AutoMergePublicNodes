@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -16,22 +16,46 @@ proxies:
   cipher: auto
   name: 11,17|香港6|@ripaojiedian
   network: tcp
-  port: '20452'
-  server: 20.2.80.240
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
-- alterId: 0
-  cipher: auto
-  name: 11,17|香港7|@ripaojiedian
-  network: tcp
-  port: '46159'
-  server: 120.198.71.216
+  port: '36519'
+  server: 183.236.51.38
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|香港5|@ripaojiedian
+  network: ws
+  port: '8443'
+  server: 104.18.42.62
+  servername: hk2.huaweiwuu5.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 48469ac3-9fe7-4fb3-9320-6c8b0494c4f7
+  ws-opts:
+    headers:
+      Host: hk2.huaweiwuu5.xyz
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|香港7|@ripaojiedian
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: 11,17|香港v2|@ripaojiedian
@@ -42,32 +66,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cd9d6687-d1c0-49d9-89fa-2ac90940b17a
-- name: 16|🇭🇰 香港|@ripaojiedian
-  password: <password>
-  port: 8443
-  server: 2608d13f-sx6ps0-t1bnjq-1krtb.hkt.cdnhuawei.com
-  skip-cert-verify: false
-  sni: 2608d13f-sx6ps0-t1bnjq-1krtb.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港2|@ripaojiedian
-  password: 08293b204707
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.pmxiaonan.xyz
-    mode: websocket
-    mux: true
-    path: /sclbvcgkp
-    skip-cert-verify: false
-    tls: true
-  port: 20507
-  server: 156.251.179.238
-  tfo: false
-  type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国3|@ripaojiedian
@@ -80,3 +79,19 @@ proxies:
   tls: false
   type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港2|@ripaojiedian
+  password: 1450cecfb93f
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: kh36v1.pmxiaonan.xyz
+    mode: websocket
+    mux: true
+    path: /simieepvt
+    skip-cert-verify: false
+    tls: true
+  port: 15116
+  server: kh36v1.pmxiaonan.xyz
+  tfo: false
+  type: ss
