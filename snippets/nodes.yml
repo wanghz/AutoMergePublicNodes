@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -14,7 +14,7 @@ proxies:
     path: /634c5c4f9782
 - alterId: 64
   cipher: auto
-  name: 11|3|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -23,7 +23,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|3|🌀4-TH |  2.6MB/s|55%|Netflix...
+  name: 11|2|🌀4-TH |  2.6MB/s|55%|Netflix...
   network: ws
   port: 443
   server: 38.47.96.30
@@ -36,7 +36,7 @@ proxies:
     path: /lzjjj
 - alterId: 2
   cipher: auto
-  name: 11|3|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|2|🇺🇸62 |  3.3MB/s|Openai|Gemin...
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -51,7 +51,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 11|3|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
+  name: 11|2|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -61,7 +61,7 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -74,6 +74,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 11,17|香港|@ripaojiedian
+  network: tcp
+  port: '22359'
+  server: 38.147.188.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 36797754-bb59-4741-b085-86feb2ec547c
+- alterId: 0
+  cipher: auto
   name: 11,17|香港6|@ripaojiedian
   network: tcp
   port: '36519'
@@ -82,23 +92,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|香港5|@ripaojiedian
-  network: ws
-  port: '8443'
-  server: 104.18.42.62
-  servername: hk2.huaweiwuu5.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 48469ac3-9fe7-4fb3-9320-6c8b0494c4f7
-  ws-opts:
-    headers:
-      Host: hk2.huaweiwuu5.xyz
-    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -126,23 +119,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|新加坡2|@ripaojiedian
-  network: ws
-  port: '8443'
-  server: 172.64.157.100
-  servername: transcripts-guys-singapore-fotos.trycloudflare.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 3da5d27f-08d0-4078-f890-cf950ecb1708
-  ws-opts:
-    headers:
-      Host: transcripts-guys-singapore-fotos.trycloudflare.com
-    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -160,6 +136,57 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|美国4|@ripaojiedian
+  network: ws
+  port: '22642'
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-b.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|美国5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: OOoOOOooOp.222769.XYZ
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
+  ws-opts:
+    headers:
+      Host: ooooooooop.222769.xyz
+    path: /VaaSEfNLHdW3I98dxLkez
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|美国6|@ripaojiedian
+  network: ws
+  port: '80'
+  server: LllLLLllllLKJh.222560.xyZ
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
+  ws-opts:
+    headers:
+      Host: lllllllllllkjh.222560.xyz
+    path: /VaaSEfNLHdW3I98dxLkez
 - alterId: 0
   cipher: auto
   name: 11,17|香港v2|@ripaojiedian
@@ -349,7 +376,7 @@ proxies:
   name: 16|tg频道:@ripaojiedian
   password: qawszxc123
   port: 443
-  server: 54.179.251.40
+  server: 47.129.223.224
   tfo: false
   type: ss
 - alterId: 0
@@ -377,8 +404,16 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 15116
+  port: 14556
   server: kh36v1.pmxiaonan.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港5|@ripaojiedian
+  password: dwz1GtF7
+  port: 20406
+  server: 120.232.220.156
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -387,7 +422,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-sV66FLy3Dk.download.microsoft.com
+    host: 202506131022370-H9pCj24A70.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -396,17 +431,25 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
-  password: 8360adcea0b1
+  password: b44864e5b56d
   plugin: v2ray-plugin
   plugin-opts:
-    host: kr6v1.dashengjs.net
+    host: jplistv1.dashengjs.net
     mode: websocket
     mux: true
-    path: /bylnxldqaquw
+    path: /ooojkqzttghm
     skip-cert-verify: false
     tls: true
   port: 443
-  server: kr6v1.dashengjs.net
+  server: 163.61.206.64
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本5|@ripaojiedian
+  password: dwz1GtF7
+  port: 30232
+  server: 112.54.160.36
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -423,9 +466,17 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-sV66FLy3Dk.download.microsoft.com
+    host: 202506131022370-H9pCj24A70.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 16|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.25
   tfo: false
   type: ss
