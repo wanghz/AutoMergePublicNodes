@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -14,7 +14,7 @@ proxies:
     path: /634c5c4f9782
 - alterId: 64
   cipher: auto
-  name: 11|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|3|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -23,7 +23,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|2|🌀4-TH |  2.6MB/s|55%|Netflix...
+  name: 11|3|🌀4-TH |  2.6MB/s|55%|Netflix...
   network: ws
   port: 443
   server: 38.47.96.30
@@ -36,7 +36,7 @@ proxies:
     path: /lzjjj
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|3|🇺🇸62 |  3.3MB/s|Openai|Gemin...
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -51,7 +51,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 11|2|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
+  name: 11|3|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -61,7 +61,7 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -76,12 +76,12 @@ proxies:
   cipher: auto
   name: 11,17|香港|@ripaojiedian
   network: tcp
-  port: '22359'
-  server: 38.147.188.74
+  port: '22052'
+  server: 103.224.80.32
   servername: ''
   tls: false
   type: vmess
-  uuid: 36797754-bb59-4741-b085-86feb2ec547c
+  uuid: 8fb24cb8-7d4e-4108-87cc-579b31d5ffa6
 - alterId: 0
   cipher: auto
   name: 11,17|香港6|@ripaojiedian
@@ -141,52 +141,18 @@ proxies:
   client-fingerprint: chrome
   name: 11,16,17|美国4|@ripaojiedian
   network: ws
-  port: '22642'
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-b.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|美国5|@ripaojiedian
-  network: ws
-  port: '80'
-  server: OOoOOOooOp.222769.XYZ
+  port: '30828'
+  server: 111.26.109.79
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: ooooooooop.222769.xyz
-    path: /VaaSEfNLHdW3I98dxLkez
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,16,17|美国6|@ripaojiedian
-  network: ws
-  port: '80'
-  server: LllLLLllllLKJh.222560.xyZ
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
-  ws-opts:
-    headers:
-      Host: lllllllllllkjh.222560.xyz
-    path: /VaaSEfNLHdW3I98dxLkez
+      Host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: 11,17|香港v2|@ripaojiedian
@@ -376,7 +342,7 @@ proxies:
   name: 16|tg频道:@ripaojiedian
   password: qawszxc123
   port: 443
-  server: 47.129.223.224
+  server: 54.169.30.154
   tfo: false
   type: ss
 - alterId: 0
@@ -404,7 +370,7 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 14556
+  port: 26902
   server: kh36v1.pmxiaonan.xyz
   tfo: false
   type: ss
@@ -422,7 +388,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-H9pCj24A70.download.microsoft.com
+    host: 202506131022370-2YdmYEMC2J.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -452,12 +418,12 @@ proxies:
   server: 112.54.160.36
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇰🇷 韩国3|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 3.36.114.140
+  password: qwerREWQ@@
+  port: 5344
+  server: 125.141.26.14
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -466,7 +432,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-H9pCj24A70.download.microsoft.com
+    host: 202506131022370-2YdmYEMC2J.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
