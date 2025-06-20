@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -16,12 +16,12 @@ proxies:
   cipher: auto
   name: 11,17|日本4|@ripaojiedian
   network: tcp
-  port: '41302'
-  server: 183.236.51.38
+  port: '10331'
+  server: 45.159.50.131
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 0a75ed35-1138-4991-88a0-9b2a59702fce
 - alterId: 0
   cipher: auto
   name: 11,17|日本v2|@ripaojiedian
@@ -38,7 +38,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-2YdmYEMC2J.download.microsoft.com
+    host: 202506131022370-aYizjb0Fb6.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -47,17 +47,17 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
-  password: b44864e5b56d
+  password: 264727317ef6
   plugin: v2ray-plugin
   plugin-opts:
-    host: jplistv1.dashengjs.net
+    host: kr9v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /ooojkqzttghm
+    path: /ylikhqxcjfeb
     skip-cert-verify: false
     tls: true
-  port: 443
-  server: 163.61.206.64
+  port: 34808
+  server: kr9v1.3ci.xyz
   tfo: false
   type: ss
 - cipher: aes-256-gcm
