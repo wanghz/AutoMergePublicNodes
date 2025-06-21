@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|3|🇺🇸62 |  3.3MB/s|Openai|Gemin...
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -12,30 +12,30 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
+- alterId: 2
   cipher: auto
   client-fingerprint: chrome
   name: 11,16,17|美国|@ripaojiedian
   network: ws
-  port: '80'
-  server: SssssssW.222560.XYz
+  port: '30828'
+  server: 111.26.109.79
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 393b1061-d615-459a-8616-3f9447bdff5a
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: sssssssw.222560.xyz
-    path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
+      Host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 11,16,17|美国3|@ripaojiedian
   network: ws
   port: '80'
-  server: iIiiI8.222560.xYZ
+  server: dddddDDDDD4.222560.xyZ
   servername: ''
   skip-cert-verify: false
   tfo: false
@@ -44,7 +44,7 @@ proxies:
   uuid: 393b1061-d615-459a-8616-3f9447bdff5a
   ws-opts:
     headers:
-      Host: iiiii8.222560.xyz
+      Host: dddddddddd4.222560.xyz
     path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
 - alterId: 0
   cipher: auto
@@ -120,7 +120,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-aYizjb0Fb6.download.microsoft.com
+    host: 202506131022370-N03InetROm.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz

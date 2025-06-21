@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|3|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -10,14 +10,21 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,17|新加坡2|@ripaojiedian
-  network: tcp
-  port: '50152'
-  server: 120.232.153.40
+  client-fingerprint: chrome
+  name: 11,16,17|新加坡2|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 172.64.229.5
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 697343bc-9c91-47bb-a277-181ea7586313
+  ws-opts:
+    headers:
+      Host: xjp.yilex.icu
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,17|新加坡|@ripaojiedian
@@ -28,3 +35,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 5ddb4459-ce08-462b-b920-efc464f7e94e
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 16|🇸🇬 新加坡3|@ripaojiedian
+  password: fwjJxq
+  port: 29191
+  server: sgp05.htz.wtf
+  tfo: false
+  type: ss
