@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|🇺🇸62 |  3.3MB/s|Openai|Gemini
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -15,7 +15,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|美国|@ripaojiedian
+  name: '11,16,17|美国|@ripaojiedian #1'
   network: ws
   port: '30828'
   server: 111.26.109.79
@@ -32,7 +32,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|美国3|@ripaojiedian
+  name: '11,16,17|美国3|@ripaojiedian #1'
   network: ws
   port: '80'
   server: dddddDDDDD4.222560.xyZ

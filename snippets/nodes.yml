@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -14,7 +14,7 @@ proxies:
     path: /634c5c4f9782
 - alterId: 64
   cipher: auto
-  name: 11|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -23,7 +23,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|2|🌀4-TH |  2.6MB/s|55%|Netflix...
+  name: 11|🌀4-TH |  2.6MB/s|55%|Netflix|O...
   network: ws
   port: 443
   server: 38.47.96.30
@@ -36,7 +36,7 @@ proxies:
     path: /lzjjj
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|🇺🇸62 |  3.3MB/s|Openai|Gemini
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -51,7 +51,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 11|2|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
+  name: 11|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -61,7 +61,7 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -75,7 +75,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|香港7|@ripaojiedian
+  name: '11,16,17|香港7|@ripaojiedian #1'
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -92,7 +92,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|新加坡2|@ripaojiedian
+  name: '11,16,17|新加坡2|@ripaojiedian #1'
   network: ws
   port: '8080'
   server: 172.64.229.5
@@ -109,7 +109,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|美国|@ripaojiedian
+  name: '11,16,17|美国|@ripaojiedian #1'
   network: ws
   port: '30828'
   server: 111.26.109.79
@@ -126,7 +126,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|美国3|@ripaojiedian
+  name: '11,16,17|美国3|@ripaojiedian #1'
   network: ws
   port: '80'
   server: dddddDDDDD4.222560.xyZ
@@ -142,7 +142,7 @@ proxies:
     path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
 - alterId: 0
   cipher: auto
-  name: 11,17|台湾v2|@ripaojiedian
+  name: '11,17|台湾v2|@ripaojiedian #1'
   network: kcp
   port: '5663'
   server: 118.194.253.15
@@ -152,7 +152,7 @@ proxies:
   uuid: 986b3bc8-d0fb-4b60-b01f-28164e44cd48
 - alterId: 0
   cipher: auto
-  name: 11,17|日本v2|@ripaojiedian
+  name: '11,17|日本v2|@ripaojiedian #1'
   network: kcp
   port: '36668'
   server: 8.211.175.53
@@ -162,7 +162,7 @@ proxies:
   uuid: b798372a-54c8-4597-969e-8b00d2f76c09
 - alterId: 0
   cipher: auto
-  name: 11,17|新加坡|@ripaojiedian
+  name: '11,17|新加坡|@ripaojiedian #1'
   network: kcp
   port: '51713'
   server: 8.219.72.131
