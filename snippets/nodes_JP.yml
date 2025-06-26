@@ -12,16 +12,23 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: '11,17|日本4|@ripaojiedian #1'
-  network: tcp
-  port: '3684'
-  server: a29b45ed-submo0-syap8d-dbk8.d.volczijie.com
+  client-fingerprint: chrome
+  name: '11,16,17|日本3|@ripaojiedian #1'
+  network: ws
+  port: '30806'
+  server: v6.heduian.link
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 45845d5e-0605-11f0-8cf9-f23c93136cb3
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: '11,17|日本v2|@ripaojiedian #1'
@@ -38,7 +45,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506212021989-efqPqRoxds.download.microsoft.com
+    host: 202506212021989-UeZw4cuGiR.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -58,13 +65,5 @@ proxies:
     tls: true
   port: 443
   server: 163.61.207.182
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本3|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 52.195.2.22
   tfo: false
   type: ss

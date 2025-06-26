@@ -62,20 +62,20 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
-  password: 25ec467c78cb
+  password: ae29f32aa471
   plugin: v2ray-plugin
   plugin-opts:
-    host: hk6v1.dsjsapp.com
+    host: hkxwv1-5.dsjsapi.com
     mode: websocket
     mux: true
-    path: /iqgfyizn
+    path: /evoeqcpitmgg
     skip-cert-verify: false
     tls: true
   port: 443
-  server: 156.251.179.238
+  server: 121.127.231.200
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇰🇷 韩国2|@ripaojiedian
@@ -87,4 +87,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 105af49c-e4ee-4294-b7cc-abfe6a651cf5
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
