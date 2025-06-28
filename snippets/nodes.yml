@@ -91,14 +91,21 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '46210'
-  server: 43.247.135.170
+  client-fingerprint: chrome
+  name: '11,16,17|香港4|@ripaojiedian #1'
+  network: ws
+  port: '8080'
+  server: 977fb705-symkg0-t02swp-fa3p.hgc1.tcpbbr.net
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: d1eca706-1aae-42d3-bab0-69995d7b023d
+  uuid: 905fcd78-866c-81e1-3cb8-1beb59d661ab
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -121,18 +128,18 @@ proxies:
   client-fingerprint: chrome
   name: '11,16,17|美国3|@ripaojiedian #1'
   network: ws
-  port: '38003'
-  server: 38.11.18.221
-  servername: www.47720602.xyz
+  port: '80'
+  server: 104.21.57.206
+  servername: ''
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 3d9741da-c0e4-47cc-a5e0-f1af3d337dae
   ws-opts:
     headers:
-      Host: www.47720602.xyz
-    path: /path/262029062315
+      Host: sssssssssssdddfgt.4444926.xyz
+    path: /U2Z0FoBkgtZqfwAwY2SNm
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
@@ -310,46 +317,41 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|tg频道:@ripaojiedian
-  password: qawszxc123
+  password: awsps0501
   port: 443
-  server: 54.169.93.111
+  server: 54.178.52.87
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
-  password: d2bcd45faee2
+  password: f917888c6f39
   plugin: v2ray-plugin
   plugin-opts:
     host: hkxwv1-5.dsjsapi.com
     mode: websocket
     mux: true
-    path: /mupbpzjvwhcm
+    path: /rxoasyex
     skip-cert-verify: false
     tls: true
-  port: 995
+  port: 636
   server: 121.127.231.200
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16|🇰🇷 韩国|@ripaojiedian
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 203.156.253.12
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: d1eca706-1aae-42d3-bab0-69995d7b023d
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 16|🇹🇼 台湾|@ripaojiedian
-  password: dwz1GtF7
-  port: 30015
-  server: 120.233.128.98
+  name: 16|🇭🇰 香港3|@ripaojiedian
+  password: DWRHI0W4F0RELXHP
+  port: 15012
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港5|@ripaojiedian
+  password: 1FE8UX5KHGYBLYMU
+  port: 15015
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -358,7 +360,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-QKggt7Zpjp.download.microsoft.com
+    host: 202506261935105-W24XiAXvfE.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -367,33 +369,65 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
-  password: fbf9b0db0136
+  password: 1ad90a422096
   plugin: v2ray-plugin
   plugin-opts:
     host: kr6v1.dashengjs.net
     mode: websocket
     mux: true
-    path: /hvehrabivnnp
+    path: /jwuctcuhriiw
     skip-cert-verify: false
     tls: true
-  port: 995
-  server: 43.226.17.11
+  port: 636
+  server: 43.226.17.8
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇯🇵 日本3|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 43.206.224.12
+  password: Y5YXP5V1312FYBX8
+  port: 18010
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: chrome
+  name: 16|🇰🇷 韩国|@ripaojiedian
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 203.156.253.12
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: KAB2P3693PNXGL0D
+  port: 18008
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 16|🇰🇷 韩国2|@ripaojiedian
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡|@ripaojiedian
-  password: zcaarradsfasgfdcxx
-  port: 3551
-  server: nstku8v.ns.p36958.xyz
+  password: PTOLSTKKE7DWRV1I
+  port: 16002
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇸🇬 新加坡2|@ripaojiedian
+  password: LHYN1FM2G207U465
+  port: 16013
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -402,7 +436,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-QKggt7Zpjp.download.microsoft.com
+    host: 202506261935105-W24XiAXvfE.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
