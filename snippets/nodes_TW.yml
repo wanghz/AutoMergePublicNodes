@@ -9,3 +9,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 986b3bc8-d0fb-4b60-b01f-28164e44cd48
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇹🇼 台湾|@ripaojiedian
+  password: dwz1GtF7
+  port: 30015
+  server: 120.233.128.98
+  tfo: false
+  type: ss
