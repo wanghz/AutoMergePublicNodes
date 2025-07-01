@@ -1,21 +1,8 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
-  network: ws
-  port: 8080
-  server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
-  tls: false
-  type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: '11,16,17|香港|@ripaojiedian #1'
+  name: 16,17|香港|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -29,9 +16,46 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港2|@ripaojiedian
+  password: f917888c6f39
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hkxwv1-5.dsjsapi.com
+    mode: websocket
+    mux: true
+    path: /rxoasyex
+    skip-cert-verify: false
+    tls: true
+  port: 636
+  server: 121.127.231.213
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国4|@ripaojiedian
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 15821
+  server: 36.151.192.60
+  skip-cert-verify: true
+  sni: www.baidu.com
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港5|@ripaojiedian
+  password: ZMOmCcKew5oDwrnCg8OMXsOUwovChUlUwpbCn8Oyw67Dm186EsOUKgVVw6t1GsOrw6A=
+  port: 443
+  server: 156.226.173.104
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '11,17|香港3|@ripaojiedian #1'
+  name: 17|香港3|@ripaojiedian
   network: tcp
   port: '59149'
   server: 43.247.134.201
@@ -41,9 +65,9 @@ proxies:
   uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
 - alterId: 64
   cipher: auto
-  name: '11,17|香港4|@ripaojiedian #1'
+  name: 17|香港4|@ripaojiedian
   network: tcp
-  port: '46621'
+  port: '41911'
   server: 183.236.51.37
   servername: ''
   tls: false
@@ -51,7 +75,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11,17|香港v2|@ripaojiedian #1'
+  name: 17|香港v2|@ripaojiedian
   network: kcp
   port: '34833'
   server: 47.76.28.43
@@ -59,32 +83,3 @@ proxies:
   tls: false
   type: vmess
   uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港2|@ripaojiedian
-  password: 0b191076d18f
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /ugiibpkbca
-    skip-cert-verify: false
-    tls: true
-  port: 636
-  server: 156.251.179.136
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16|🇰🇷 韩国|@ripaojiedian
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 203.156.253.12
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: fc7b534b-9188-4d81-b804-55b4eb91cd6e
