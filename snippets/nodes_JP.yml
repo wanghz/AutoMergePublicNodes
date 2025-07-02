@@ -1,11 +1,24 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 11|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  network: ws
+  port: 1443
+  server: sslvpn.51job.com
+  tls: true
+  type: vmess
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  ws-opts:
+    headers:
+      Host: centos7
+    path: /634c5c4f9782
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-EWzC7QCi0k.download.microsoft.com
+    host: 202507020089439-ZZW4Z8jpet.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -14,16 +27,16 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
-  password: a9febce8f14c
+  password: 823e135ed103
   plugin: v2ray-plugin
   plugin-opts:
-    host: tw42v1.dsjsapp.com
+    host: jp7v1.lingjfjkm002.com
     mode: websocket
     mux: true
-    path: /jnqsuxfmnog
+    path: /dchlbvrbbotc
     skip-cert-verify: false
     tls: true
   port: 636
-  server: 111.246.1.198
+  server: 137.220.191.38
   tfo: false
   type: ss

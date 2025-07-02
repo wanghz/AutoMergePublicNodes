@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- alterId: 64
+  cipher: auto
+  name: 11|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  network: tcp
+  port: 49291
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
