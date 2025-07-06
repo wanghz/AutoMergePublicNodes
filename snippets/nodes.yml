@@ -305,7 +305,7 @@ proxies:
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 30495
   server: 36.151.251.60
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.baidu.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
@@ -326,7 +326,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-UXanxWSRH3.download.microsoft.com
+    host: 202507031938065-kCgyohOaHg.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -378,7 +378,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-UXanxWSRH3.download.microsoft.com
+    host: 202507031938065-kCgyohOaHg.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz

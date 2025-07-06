@@ -59,6 +59,6 @@ proxies:
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 30495
   server: 36.151.251.60
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.baidu.com
   type: trojan
