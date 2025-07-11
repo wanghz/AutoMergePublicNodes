@@ -74,31 +74,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,17|香港3|@ripaojiedian #1'
+  name: '11,17|香港|@ripaojiedian #1'
   network: tcp
-  port: '33291'
-  server: 103.224.80.103
+  port: '58236'
+  server: 103.224.80.92
   servername: ''
   tls: false
   type: vmess
-  uuid: e6925cbe-51b9-40e9-b57e-85b6f026499b
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|美国|@ripaojiedian #1'
-  network: ws
-  port: '30828'
-  server: 111.26.109.79
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
+  uuid: 829218e3-9f74-4303-88da-a9d84f0c7852
 - alterId: 0
   cipher: none
   name: '11,17|香港v2|@ripaojiedian #1'
@@ -266,19 +249,24 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|tg频道:@ripaojiedian
-  password: qawszxc123
+  password: awsps0501
   port: 443
-  server: 13.212.187.83
+  server: 54.168.210.205
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 16|🇭🇰 香港|@ripaojiedian
-  password: ELNP3E9X426OSUVK
-  port: 15006
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 16|🇺🇸 美国4|@ripaojiedian
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 34719
+  server: 36.151.192.26
+  skip-cert-verify: true
+  sni: www.baidu.com
   tfo: false
-  type: ss
+  tls: false
+  type: trojan
+  uuid: 829218e3-9f74-4303-88da-a9d84f0c7852
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
@@ -295,34 +283,13 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16|🇺🇸 美国4|@ripaojiedian
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 8657
-  server: 36.156.102.123
-  skip-cert-verify: true
-  sni: www.baidu.com
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: e6925cbe-51b9-40e9-b57e-85b6f026499b
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港7|@ripaojiedian
-  password: ZX9F8KK21O60YK9T
-  port: 15015
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-KILVHWQpc0.download.microsoft.com
+    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -344,12 +311,12 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 16|🇯🇵 日本5|@ripaojiedian
-  password: 0ANIPMQ8V4PH2BQO
-  port: 18002
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 16|🇰🇷 韩国|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -358,22 +325,9 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-KILVHWQpc0.download.microsoft.com
+    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 16|🇺🇸 美国5|@ripaojiedian
-  network: ws
-  password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  port: 2083
-  server: 194.53.53.249
-  skip-cert-verify: false
-  sni: vle.amclubdns.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vle.amclubdns.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan

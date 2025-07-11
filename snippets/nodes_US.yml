@@ -12,23 +12,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|美国|@ripaojiedian #1'
-  network: ws
-  port: '30828'
-  server: 111.26.109.79
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
@@ -103,22 +86,9 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507031938065-KILVHWQpc0.download.microsoft.com
+    host: 202507031938065-e8zxTxmqk7.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 16|🇺🇸 美国5|@ripaojiedian
-  network: ws
-  password: d6b8011a-c725-435a-9fec-bf6d3530392c
-  port: 2083
-  server: 194.53.53.249
-  skip-cert-verify: false
-  sni: vle.amclubdns.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vle.amclubdns.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
