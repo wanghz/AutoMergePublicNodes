@@ -33,12 +33,22 @@ proxies:
   cipher: auto
   name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
-  port: '30929'
-  server: 38.147.188.235
+  port: '31019'
+  server: ghikkdg2.mi0001.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 9094033c-c9ef-453e-bf72-cd067ca1821a
+  uuid: 2e0d1409-81fc-42bd-b37f-bd1910869e13
+- alterId: 0
+  cipher: auto
+  name: '11,17|香港7|@ripaojiedian #1'
+  network: tcp
+  port: '25740'
+  server: 43.247.134.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d70ca72a-2b50-4536-8abc-da48995dd902
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
@@ -77,4 +87,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 9094033c-c9ef-453e-bf72-cd067ca1821a
+  uuid: 803dfb35-0ae6-4540-9715-7182fc043187
