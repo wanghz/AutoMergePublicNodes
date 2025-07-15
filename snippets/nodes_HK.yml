@@ -29,29 +29,28 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
+- alterId: 64
   cipher: auto
   name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
-  port: '31019'
-  server: ghikkdg2.mi0001.xyz
+  port: '44404'
+  server: 183.236.97.101
   servername: ''
   tls: false
   type: vmess
-  uuid: 2e0d1409-81fc-42bd-b37f-bd1910869e13
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '11,17|香港7|@ripaojiedian #1'
+  name: 11|🇭🇰 香港7|@ripaojiedian
   network: tcp
-  port: '25740'
+  port: 25740
   server: 43.247.134.145
-  servername: ''
   tls: false
   type: vmess
   uuid: d70ca72a-2b50-4536-8abc-da48995dd902
 - alterId: 0
   cipher: auto
-  name: '11,17|香港v2|@ripaojiedian #1'
+  name: '11,17|香港v2|@ripaojiedian #2'
   network: kcp
   port: '63101'
   server: 47.76.160.154
@@ -87,4 +86,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 803dfb35-0ae6-4540-9715-7182fc043187
+  uuid: d70ca72a-2b50-4536-8abc-da48995dd902
