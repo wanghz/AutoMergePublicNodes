@@ -1,18 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|台湾|@ripaojiedian #1'
-  network: ws
-  port: '80'
-  server: twjxlnnoljxc2.jkhkgj.xyz
+  name: '11,17|台湾|@ripaojiedian #1'
+  network: tcp
+  port: '3687'
+  server: 8077092c-sznls0-t0wpqd-4cwg.77.iwskwai.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: 3cf79bca-41e3-47d5-ba67-87a69a1a9e59
-  ws-opts:
-    headers:
-      Host: file.dingtalk.com
-    path: /market/tw?ed=512
+  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
