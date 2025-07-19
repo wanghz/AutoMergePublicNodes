@@ -1,11 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: '11,17|台湾|@ripaojiedian #1'
-  network: tcp
-  port: '3687'
-  server: 8077092c-sznls0-t0wpqd-4cwg.77.iwskwai.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
+proxies: []
