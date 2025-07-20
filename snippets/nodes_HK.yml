@@ -31,21 +31,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|香港3|@ripaojiedian #1'
-  network: ws
-  port: '80'
-  server: 2112e4.7d79233c.shop
+  name: '11,17|香港3|@ripaojiedian #1'
+  network: tcp
+  port: '13584'
+  server: 38.147.189.50
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: 952797b6-21a0-4e66-9239-30ef5c0efcdf
-  ws-opts:
-    headers:
-      Host: hk01s.7d79233c.shop
-    path: /
+  uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
@@ -72,11 +65,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 32962
   server: 36.151.192.239
   skip-cert-verify: true
   sni: www.baidu.com
+  tfo: false
+  tls: false
   type: trojan
+  uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44
