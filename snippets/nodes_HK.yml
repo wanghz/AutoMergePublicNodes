@@ -17,28 +17,28 @@ proxies:
   client-fingerprint: chrome
   name: '11,16,17|香港|@ripaojiedian #1'
   network: ws
-  port: '30809'
-  server: v9.heduian.link
+  port: '80'
+  server: 8f8ecfe2-szt5s0-t19fr1-1tbzx.hk.p5pv.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 6b43d15a-e7bf-11ef-9862-f23c913c8d2b
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /oooo
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
-  port: '13584'
-  server: 38.147.189.50
+  port: '59056'
+  server: 38.147.188.53
   servername: ''
   tls: false
   type: vmess
-  uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44
+  uuid: d028918e-b508-456f-8139-d5022f91a36c
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
@@ -77,4 +77,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 0596d1ea-8de9-4005-b075-d679a27a7b44
+  uuid: d028918e-b508-456f-8139-d5022f91a36c
