@@ -12,16 +12,33 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '11,16,17|香港|@ripaojiedian #1'
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|香港|@ripaojiedian #1'
+  name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
-  port: '39804'
-  server: 103.224.80.50
+  port: '11200'
+  server: 43.247.135.254
   servername: ''
   tls: false
   type: vmess
-  uuid: 5ec8f9dc-5dad-4555-80a4-a5b1a75b71a3
+  uuid: 1edd0cbc-7fde-4c9d-9909-1fc0e2a8f6aa
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
@@ -32,19 +49,6 @@ proxies:
   tls: false
   type: vmess
   uuid: ba47c516-0c18-49d5-9548-6370c835e163
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16|🇺🇸 美国4|@ripaojiedian
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 32962
-  server: 36.151.251.7
-  skip-cert-verify: true
-  sni: www.baidu.com
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
@@ -61,3 +65,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国4|@ripaojiedian
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 32962
+  server: 36.151.251.7
+  skip-cert-verify: true
+  sni: www.baidu.com
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: b4d79a0a-2ddf-44f9-bc9a-e675ed4a3b01
