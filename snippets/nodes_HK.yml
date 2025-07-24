@@ -78,3 +78,11 @@ proxies:
   tls: false
   type: trojan
   uuid: b4d79a0a-2ddf-44f9-bc9a-e675ed4a3b01
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港6|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.183.154
+  tfo: false
+  type: ss
