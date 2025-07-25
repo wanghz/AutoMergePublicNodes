@@ -65,7 +65,7 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
@@ -77,12 +77,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: b4d79a0a-2ddf-44f9-bc9a-e675ed4a3b01
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港6|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.183.154
-  tfo: false
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
