@@ -28,5 +28,5 @@ ss://YWVzLTI1Ni1nY206ODIzZTEzNWVkMTAz@137.220.191.40:636#16%7C%F0%9F%87%AF%F0%9F
 trojan://2ba7e4d0-f2f9-456e-a43e-f5a724d7e367@jp006.421421.xyz:20230?allowInsecure=1&sni=www.alibaba.com&type=ws&host=www.alibaba.com&path=/#16%7C%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC5%7C%40ripaojiedian
 trojan://7248e825-887c-48b9-83bc-c26bc6392bf8@172.67.214.21:443?allowInsecure=0&sni=xXcdvFgt.191268.XYz&type=ws&host=xXcdvFgt.191268.XYz&path=/ctdmgeIg3NII3ibrzzKXJGy3S1#16%7C%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%7C%40ripaojiedian
 ss://cmM0LW1kNTplZmFuY2N5dW4=@cn01.efan8867801.xyz:8774#16%7C%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD2%7C%40ripaojiedian
-https://96rcCw.absslk.xyz/737d6ec11f3c473e128affa26aee63cf
-https://AqNJIu.mcsslk.xyz/a912a2f6c07944ba68bb990ccced0dcb
+https://x2OqiL.absslk.xyz/76f9107a273c1950bc3254765186a9c5
+https://SNmDoS.mcsslk.xyz/c93f870bd3a03fcedea6872522598b25
