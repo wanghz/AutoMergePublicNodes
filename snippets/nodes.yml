@@ -93,12 +93,39 @@ proxies:
   cipher: auto
   name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
-  port: '11745'
-  server: 38.147.188.250
+  port: '10701'
+  server: 43.247.135.176
   servername: ''
   tls: false
   type: vmess
-  uuid: aee65b36-ac1a-428b-8da3-dae88195e47f
+  uuid: b5fb2081-2d51-4a3a-93d7-b20e34c6c0af
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '11,16,17|香港6|@ripaojiedian #1'
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11,17|日本3|@ripaojiedian #1'
+  network: tcp
+  port: '10544'
+  server: 45.159.51.232
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fea0400c-9dab-4709-a149-9f3144e5a346
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
@@ -268,7 +295,7 @@ proxies:
   name: 16|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.203.107.212
+  server: 13.126.196.58
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -293,20 +320,20 @@ proxies:
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 443
-  server: 174.138.85.53
+  server: 165.22.3.117
   skip-cert-verify: true
   sni: www.baidu.com
   tfo: false
   tls: false
   type: trojan
-  uuid: aee65b36-ac1a-428b-8da3-dae88195e47f
+  uuid: fea0400c-9dab-4709-a149-9f3144e5a346
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-JtmNFkb3wi.download.microsoft.com
+    host: 202507282137611-8jv54zz1ja.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -329,19 +356,6 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 16|🇯🇵 日本5|@ripaojiedian
-  network: ws
-  password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367
-  port: 20230
-  server: jp006.421421.xyz
-  skip-cert-verify: true
-  sni: www.alibaba.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.alibaba.com
-    path: /
-- client-fingerprint: chrome
   name: 16|🇺🇸 美国|@ripaojiedian
   network: ws
   password: 7248e825-887c-48b9-83bc-c26bc6392bf8
@@ -360,7 +374,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-JtmNFkb3wi.download.microsoft.com
+    host: 202507282137611-8jv54zz1ja.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz

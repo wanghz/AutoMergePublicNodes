@@ -14,6 +14,16 @@ proxies:
     path: /634c5c4f9782
 - alterId: 0
   cipher: auto
+  name: '11,17|日本3|@ripaojiedian #1'
+  network: tcp
+  port: '10544'
+  server: 45.159.51.232
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fea0400c-9dab-4709-a149-9f3144e5a346
+- alterId: 0
+  cipher: auto
   name: '11,17|日本v2|@ripaojiedian #1'
   network: kcp
   port: '37257'
@@ -28,7 +38,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-JtmNFkb3wi.download.microsoft.com
+    host: 202507282137611-8jv54zz1ja.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -50,16 +60,3 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 16|🇯🇵 日本5|@ripaojiedian
-  network: ws
-  password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367
-  port: 20230
-  server: jp006.421421.xyz
-  skip-cert-verify: true
-  sni: www.alibaba.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.alibaba.com
-    path: /
