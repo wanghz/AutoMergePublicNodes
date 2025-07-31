@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 11|🇯🇵日本1 | ⬇️ 1.8MB/s|54%|Youtube...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -38,7 +38,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-8jv54zz1ja.download.microsoft.com
+    host: 202507282137611-HEnrNCdMfp.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz

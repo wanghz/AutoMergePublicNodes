@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 11|🇭🇰香港1 | ⬇️ 1.8MB/s|15%|Disney|...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -39,19 +39,19 @@ proxies:
   tls: false
   type: vmess
   uuid: b5fb2081-2d51-4a3a-93d7-b20e34c6c0af
-- alterId: 2
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '11,16,17|香港6|@ripaojiedian #1'
+  name: '11,16,17|香港5|@ripaojiedian #1'
   network: ws
   port: '80'
-  server: hkt.gotochinatown.net
+  server: 212f8cd0-t0bog0-t1nwsn-1la2q.hkt.tcpbbr.net
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b
+  uuid: 431026c8-7397-11ed-a8bf-f23c91cfbbc9
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -88,7 +88,7 @@ proxies:
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 443
-  server: 165.22.3.117
+  server: 104.248.68.184
   skip-cert-verify: true
   sni: www.baidu.com
   tfo: false

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 11|🇸🇬新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
   network: tcp
   port: 49291
   server: 183.236.51.38

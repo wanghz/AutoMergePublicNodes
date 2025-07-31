@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 11|🇯🇵日本1 | ⬇️ 1.8MB/s|54%|Youtube...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -14,7 +14,7 @@ proxies:
     path: /634c5c4f9782
 - alterId: 64
   cipher: auto
-  name: 11|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 11|🇸🇬新加坡1 | ⬇️ 1.0MB/s|0%|Netflix...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -23,7 +23,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+  name: 11|🌀其他4-TH | ⬇️ 2.6MB/s|55%|Netfl...
   network: ws
   port: 443
   server: 38.47.96.30
@@ -36,7 +36,7 @@ proxies:
     path: /lzjjj
 - alterId: 2
   cipher: auto
-  name: 11|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  name: 11|🇺🇸美国62 | ⬇️ 3.3MB/s|Openai|Gem...
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -51,7 +51,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 11|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 11|🇩🇪德国5 | ⬇️ 1.4MB/s|0%|Youtube|...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -61,7 +61,7 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: 11|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 11|🇭🇰香港1 | ⬇️ 1.8MB/s|15%|Disney|...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -99,19 +99,19 @@ proxies:
   tls: false
   type: vmess
   uuid: b5fb2081-2d51-4a3a-93d7-b20e34c6c0af
-- alterId: 2
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '11,16,17|香港6|@ripaojiedian #1'
+  name: '11,16,17|香港5|@ripaojiedian #1'
   network: ws
   port: '80'
-  server: hkt.gotochinatown.net
+  server: 212f8cd0-t0bog0-t1nwsn-1la2q.hkt.tcpbbr.net
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 9b604194-17b7-11ef-80b0-f23c913c8d2b
+  uuid: 431026c8-7397-11ed-a8bf-f23c91cfbbc9
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -295,7 +295,7 @@ proxies:
   name: 16|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.126.196.58
+  server: 13.201.33.249
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -320,7 +320,7 @@ proxies:
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 443
-  server: 165.22.3.117
+  server: 104.248.68.184
   skip-cert-verify: true
   sni: www.baidu.com
   tfo: false
@@ -333,7 +333,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-8jv54zz1ja.download.microsoft.com
+    host: 202507282137611-HEnrNCdMfp.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -355,6 +355,14 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 16|🇰🇷 韩国2|@ripaojiedian
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 16|🇺🇸 美国|@ripaojiedian
   network: ws
@@ -374,7 +382,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-8jv54zz1ja.download.microsoft.com
+    host: 202507282137611-HEnrNCdMfp.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
