@@ -14,16 +14,6 @@ proxies:
     path: /634c5c4f9782
 - alterId: 0
   cipher: auto
-  name: '11,17|日本3|@ripaojiedian #1'
-  network: tcp
-  port: '10544'
-  server: 45.159.51.232
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fea0400c-9dab-4709-a149-9f3144e5a346
-- alterId: 0
-  cipher: auto
   name: '11,17|日本v2|@ripaojiedian #1'
   network: kcp
   port: '37257'
@@ -38,7 +28,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-HEnrNCdMfp.download.microsoft.com
+    host: 202507282137611-LRhPcLDpCR.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
