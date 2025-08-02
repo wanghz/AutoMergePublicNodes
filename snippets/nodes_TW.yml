@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '11,17|台湾2|@ripaojiedian #1'
+  network: tcp
+  port: '3690'
+  server: 64657217-t0fds0-t0yugh-dnss.82.iwskwai.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 16955d72-1794-11f0-a035-f23c95b6f51d
 - name: 16|🇹🇼 台湾|@ripaojiedian
   password: test.+
   port: 30443

@@ -25,3 +25,13 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: '11,17|新加坡5|@ripaojiedian #1'
+  network: tcp
+  port: '3683'
+  server: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
