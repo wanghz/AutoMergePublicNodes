@@ -92,6 +92,23 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
+  name: '11,16,17|香港3|@ripaojiedian #1'
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
   name: '11,16,17|香港5|@ripaojiedian #1'
   network: ws
   port: '80'
@@ -101,48 +118,21 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 64617ed2-4823-11ef-9f2d-f23c9164ca5d
+  uuid: 6e313598-a088-11ea-a22e-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: hkt.gotochinatown.net
     path: /
 - alterId: 0
   cipher: auto
   name: '11,17|台湾2|@ripaojiedian #1'
   network: tcp
-  port: '3690'
-  server: 64657217-t0fds0-t0yugh-dnss.82.iwskwai.com
+  port: '3687'
+  server: 615c0f38-t0h8g0-tgxeiy-3kis.77.iwskwai.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 16955d72-1794-11f0-a035-f23c95b6f51d
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|新加坡4|@ripaojiedian #1'
-  network: ws
-  port: '30839'
-  server: v39.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: '11,17|新加坡5|@ripaojiedian #1'
-  network: tcp
-  port: '3683'
-  server: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+  uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
@@ -312,7 +302,7 @@ proxies:
   name: 16|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.189.166.94
+  server: 3.110.161.102
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -343,7 +333,7 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+  uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
 - name: 16|🇹🇼 台湾|@ripaojiedian
   password: test.+
   port: 30443
@@ -359,7 +349,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-ZRPR5o9z3b.download.microsoft.com
+    host: 202507282137611-Ykh074r9Rq.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -400,7 +390,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-ZRPR5o9z3b.download.microsoft.com
+    host: 202507282137611-Ykh074r9Rq.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz

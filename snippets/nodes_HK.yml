@@ -32,6 +32,23 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
+  name: '11,16,17|香港3|@ripaojiedian #1'
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
   name: '11,16,17|香港5|@ripaojiedian #1'
   network: ws
   port: '80'
@@ -41,10 +58,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 64617ed2-4823-11ef-9f2d-f23c9164ca5d
+  uuid: 6e313598-a088-11ea-a22e-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: hkt.gotochinatown.net
     path: /
 - alterId: 0
   cipher: auto
@@ -84,4 +101,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
+  uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
