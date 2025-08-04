@@ -67,12 +67,12 @@ proxies:
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
   network: kcp
-  port: '3423'
-  server: 8.217.129.229
+  port: '32791'
+  server: 47.243.95.92
   servername: ''
   tls: false
   type: vmess
-  uuid: 97a3cf03-66d6-4d65-aa3e-33eb6c709be7
+  uuid: 892ed9b7-70b2-48cb-8334-7c59e4e10daa
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
@@ -89,16 +89,19 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 347
-  server: 36.156.102.125
+  port: 443
+  server: 143.110.155.169
   skip-cert-verify: true
   sni: www.baidu.com
-  tfo: false
-  tls: false
   type: trojan
-  uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港7|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.183.154
+  tfo: false
+  type: ss
