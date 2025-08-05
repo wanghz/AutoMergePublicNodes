@@ -92,7 +92,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: '11,16,17|香港3|@ripaojiedian #1'
+  name: '11,16,17|香港7|@ripaojiedian #1'
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -101,27 +101,10 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
+  uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|香港5|@ripaojiedian #1'
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6e313598-a088-11ea-a22e-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
     path: /
 - alterId: 0
   cipher: auto
@@ -292,7 +275,7 @@ proxies:
   name: 16|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.234.32.160
+  server: 13.127.216.146
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -314,19 +297,11 @@ proxies:
 - client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 443
-  server: 143.110.155.169
+  port: 472
+  server: 36.156.102.125
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港7|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.183.154
-  tfo: false
-  type: ss
 - name: 16|🇹🇼 台湾|@ripaojiedian
   password: test.+
   port: 30443
@@ -342,7 +317,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-5Up7OUIi18.download.microsoft.com
+    host: 202507282137611-T3mfnF0MuU.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -383,9 +358,17 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-5Up7OUIi18.download.microsoft.com
+    host: 202507282137611-T3mfnF0MuU.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 16|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.20
   tfo: false
   type: ss
