@@ -72,7 +72,7 @@ proxies:
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 329
   server: 36.156.102.125
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.baidu.com
   tfo: false
   tls: false
