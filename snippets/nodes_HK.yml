@@ -31,16 +31,6 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '51527'
-  server: 38.147.188.109
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 861a3fbe-e925-4163-9c28-2413abd580af
-- alterId: 0
-  cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
   network: kcp
   port: '32791'
@@ -65,16 +55,11 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16|🇺🇸 美国3|@ripaojiedian
+- client-fingerprint: chrome
+  name: 16|🇺🇸 美国4|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 329
+  port: 472
   server: 36.156.102.125
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.baidu.com
-  tfo: false
-  tls: false
   type: trojan
-  uuid: 861a3fbe-e925-4163-9c28-2413abd580af
