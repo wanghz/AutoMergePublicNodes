@@ -93,12 +93,12 @@ proxies:
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
   network: kcp
-  port: '32791'
-  server: 47.243.95.92
+  port: '5225'
+  server: 47.243.135.47
   servername: ''
   tls: false
   type: vmess
-  uuid: 892ed9b7-70b2-48cb-8334-7c59e4e10daa
+  uuid: e64f666d-4b75-473b-9cc2-aaf6f0bf0e33
 - alterId: 0
   cipher: auto
   name: '11,17|日本v2|@ripaojiedian #1'
@@ -258,7 +258,7 @@ proxies:
   name: 16|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.130.58.99
+  server: 13.55.202.54
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -300,7 +300,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-9VmVbE7FgF.download.microsoft.com
+    host: 202507282137611-Ibej7QBdUa.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -341,9 +341,17 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-9VmVbE7FgF.download.microsoft.com
+    host: 202507282137611-Ibej7QBdUa.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 16|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.20
   tfo: false
   type: ss
