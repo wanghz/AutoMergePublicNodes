@@ -258,7 +258,7 @@ proxies:
   name: 16|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.55.202.54
+  server: 13.239.86.92
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -300,7 +300,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-Ibej7QBdUa.download.microsoft.com
+    host: 202507282137611-G2zNAjxjDH.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -341,17 +341,9 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-Ibej7QBdUa.download.microsoft.com
+    host: 202507282137611-G2zNAjxjDH.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 16|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.20
   tfo: false
   type: ss
