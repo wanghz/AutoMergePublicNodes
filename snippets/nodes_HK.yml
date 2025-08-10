@@ -55,11 +55,24 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 16|🇺🇸 美国4|@ripaojiedian
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '16|🇺🇸 美国4|@ripaojiedian #1'
   password: 253bc477d4e43c209f2d427272968280
-  port: 472
-  server: 36.156.102.125
-  skip-cert-verify: true
+  port: 33720
+  server: 23.236.68.99
+  skip-cert-verify: false
   sni: www.baidu.com
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0409e328-19f9-4305-9962-2f9f3ce9df1a
