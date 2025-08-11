@@ -14,16 +14,6 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|美国4|@ripaojiedian #1'
-  network: tcp
-  port: '33720'
-  server: 23.236.68.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0409e328-19f9-4305-9962-2f9f3ce9df1a
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -90,8 +80,7 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- client-fingerprint: chrome
-  name: 16|🇺🇸 美国|@ripaojiedian
+- name: 16|🇺🇸 美国|@ripaojiedian
   network: ws
   password: 7248e825-887c-48b9-83bc-c26bc6392bf8
   port: 443
@@ -104,14 +93,12 @@ proxies:
       Host: xXcdvFgt.191268.XYz
     path: /ctdmgeIg3NII3ibrzzKXJGy3S1
 - cipher: rc4-md5
-  client-fingerprint: chrome
   name: 16|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-ABbKq8VLBc.download.microsoft.com
+    host: 202507282137611-tUM6KYmbwV.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
-  tfo: false
   type: ss
