@@ -14,9 +14,9 @@ proxies:
     path: /634c5c4f9782
 - alterId: 2
   cipher: auto
-  name: '11,16,17|日本6|@ripaojiedian #1'
+  name: 11,16|🇯🇵 日本5|@ripaojiedian
   network: ws
-  port: '30806'
+  port: 30806
   server: v6.heduian.link
   servername: ''
   skip-cert-verify: false
@@ -29,7 +29,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|日本v2|@ripaojiedian #1'
+  name: '11,17|日本v2|@ripaojiedian #2'
   network: kcp
   port: '37257'
   server: 47.74.57.10
@@ -42,7 +42,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-tUM6KYmbwV.download.microsoft.com
+    host: 202507282137611-8jPSOxErXG.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -60,4 +60,10 @@ proxies:
     tls: true
   port: 636
   server: 137.220.191.40
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本6|@ripaojiedian
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 52.199.211.144
   type: ss

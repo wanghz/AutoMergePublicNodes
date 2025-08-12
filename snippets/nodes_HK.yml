@@ -29,12 +29,11 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: '11,16,17|香港3|@ripaojiedian #1'
+  name: 11|香港3|@ripaojiedian
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
   servername: ''
-  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
@@ -44,7 +43,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '11,16,17|香港7|@ripaojiedian #1'
+  name: 11,16,17|香港5|@ripaojiedian
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -52,7 +51,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 1c641c86-5078-11ef-a585-f23c9164ca5d
+  uuid: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -81,14 +80,10 @@ proxies:
   port: 636
   server: 103.103.245.158
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '16|🇲🇾 马来西亚|@ripaojiedian #1'
+- name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 10004
-  server: manager.gghbjnjbff.shop
-  skip-cert-verify: false
+  port: 22006
+  server: 36.156.102.67
+  skip-cert-verify: true
   sni: www.baidu.com
-  tls: false
-  type: vmess
-  uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae
+  type: trojan
