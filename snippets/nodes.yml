@@ -397,7 +397,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 16|🇹🇼 台湾|@ripaojiedian
+- name: 16|🇨🇳 台湾|@ripaojiedian
   password: test.+
   port: 30443
   server: cmhkb.ssv.vc
