@@ -29,21 +29,7 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: 11|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11,16,17|香港5|@ripaojiedian
+  name: '11,16,17|香港5|@ripaojiedian #1'
   network: ws
   port: '80'
   server: hkt.gotochinatown.net

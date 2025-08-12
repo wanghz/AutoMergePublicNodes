@@ -179,21 +179,7 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: 11|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11,16,17|香港5|@ripaojiedian
+  name: '11,16,17|香港5|@ripaojiedian #1'
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -208,11 +194,10 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 11,16|🇯🇵 日本5|@ripaojiedian
+  name: '11,16|🇯🇵 日本5|@ripaojiedian #1'
   network: ws
   port: 30806
   server: v6.heduian.link
-  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -221,16 +206,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|马来西亚|@ripaojiedian
-  network: tcp
-  port: '10004'
-  server: manager.gghbjnjbff.shop
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
