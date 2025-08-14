@@ -29,26 +29,9 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|香港3|@ripaojiedian #1'
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 0
   cipher: auto
-  name: '11,17|香港7|@ripaojiedian #1'
+  name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
   port: '44470'
   server: 43.247.135.176
