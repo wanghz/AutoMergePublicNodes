@@ -1,17 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 11|🇯🇵日本1 | ⬇️ 1.8MB/s|54%|Youtube...
-  network: ws
-  port: 1443
-  server: sslvpn.51job.com
-  tls: true
-  type: vmess
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  ws-opts:
-    headers:
-      Host: centos7
-    path: /634c5c4f9782
 - alterId: 0
   cipher: auto
   name: '11,17|日本v2|@ripaojiedian #1'
