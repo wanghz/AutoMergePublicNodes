@@ -2,6 +2,23 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: '11,16,17|新加坡3|@ripaojiedian #1'
+  network: ws
+  port: '49102'
+  server: free-relay.themars.top
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 631484bb-c085-4384-8c3a-d93db3d587ef
+  ws-opts:
+    headers:
+      Host: www.cctv.com
+    path: /cctv1.m3u8
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: '11,16,17|新加坡4|@ripaojiedian #1'
   network: ws
   port: '16618'

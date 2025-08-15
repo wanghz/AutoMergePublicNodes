@@ -1,6 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: '11,16,17|日本5|@ripaojiedian #1'
+  network: ws
+  port: '16617'
+  server: planb.mojcn.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0c0fdaa9-da2e-42c0-b38e-25d54ec1e6d4
+  ws-opts:
+    headers:
+      Host: b37048544d083a503188d38c53d6e4f2.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '11,17|日本v2|@ripaojiedian #1'
   network: kcp
   port: '37257'
@@ -15,7 +32,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-pwlP10l6s0.download.microsoft.com
+    host: 202507282137611-vye4FDfLUP.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -35,13 +52,5 @@ proxies:
     tls: true
   port: 636
   server: 137.220.191.40
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本5|@ripaojiedian
-  password: 628726b8-9371-4bdd-aab5-d864a492a492
-  port: 35782
-  server: t1.fttos.xyz
   tfo: false
   type: ss
