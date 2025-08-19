@@ -68,7 +68,7 @@ proxies:
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 22006
-  server: 36.156.102.67
+  server: 36.156.102.78
   skip-cert-verify: true
   sni: www.baidu.com
   tfo: false
