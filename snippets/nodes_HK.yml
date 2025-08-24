@@ -20,12 +20,22 @@ proxies:
   cipher: auto
   name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
-  port: '54653'
-  server: 38.147.189.44
+  port: '30397'
+  server: 43.247.135.17
   servername: ''
   tls: false
   type: vmess
-  uuid: 0ec9f34a-c975-459b-8974-da4891bc5097
+  uuid: 7364bf26-0eb6-40cc-b7e6-fb1a4b6bf69c
+- alterId: 64
+  cipher: auto
+  name: '11,17|香港5|@ripaojiedian #1'
+  network: tcp
+  port: '48383'
+  server: 183.240.245.241
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
@@ -52,24 +62,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 7177
+  port: 22006
   server: 36.150.215.141
   skip-cert-verify: true
   sni: v1-dy.ixigua.com
   tfo: false
   tls: false
   type: trojan
-  uuid: 0ec9f34a-c975-459b-8974-da4891bc5097
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港5|@ripaojiedian
-  password: 01721e43-5389-4f97-b21c-900abb2bda9e
-  port: 12011
-  server: awes35lesl.blhao0o.dpdns.org
-  tfo: false
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
