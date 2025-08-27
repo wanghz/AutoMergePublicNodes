@@ -311,15 +311,15 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- name: 16|🇺🇸 美国4|@ripaojiedian
-  server: 43.199.63.145
-  port: 5343
-  client-fingerprint: chrome
-  type: trojan
+- client-fingerprint: chrome
+  name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  sni: www.baidu.com
+  port: 5343
+  server: 43.199.63.145
+  server 43.199.63.145: null
   skip-cert-verify: true
-  true: 43.199.63.145
+  sni: www.baidu.com
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾|@ripaojiedian
