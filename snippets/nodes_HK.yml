@@ -18,6 +18,33 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
+  name: 11,17|香港3|@ripaojiedian
+  network: tcp
+  port: '31552'
+  server: 38.147.189.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|香港5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
   network: kcp
   port: '28590'
@@ -42,11 +69,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 5343
-  server: 43.199.63.145
+  port: 7177
+  server: 36.150.215.203
   skip-cert-verify: true
   sni: www.baidu.com
+  tfo: false
+  tls: false
   type: trojan
+  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1

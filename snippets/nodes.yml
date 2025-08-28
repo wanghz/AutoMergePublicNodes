@@ -108,6 +108,33 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
+  name: 11,17|香港3|@ripaojiedian
+  network: tcp
+  port: '31552'
+  server: 38.147.189.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,16,17|香港5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: '11,16,17|美国|@ripaojiedian #1'
   network: ws
@@ -311,36 +338,33 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 5343
-  server: 43.199.63.145
+  port: 7177
+  server: 36.150.215.203
   skip-cert-verify: true
   sni: www.baidu.com
+  tfo: false
+  tls: false
   type: trojan
+  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾|@ripaojiedian
-  password: 9c148944-7bca-4ed3-96a4-514d874226e8
-  port: 10149
-  server: 36.232.83.98
+  password: 72ba05a3-632e-490b-ad00-158578664c18
+  port: 10032
+  server: 125.230.12.246
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾2|@ripaojiedian
-  password: b12d7bef-dbe6-4eca-bc40-9a2333dcf918
-  port: 10105
-  server: 125.228.34.244
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇹🇼 台湾3|@ripaojiedian
-  password: ad14ac91-6101-4888-9d17-ca11150d823e
-  port: 10034
-  server: 1.165.98.202
+  password: befbdd4b-0cb5-42f1-9aad-7aae3ba11ed9
+  port: 10121
+  server: 125.229.88.58
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -349,7 +373,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-fU2HxC1HnE.download.microsoft.com
+    host: 202508150964186-1Vi6U9m87m.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -371,21 +395,13 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡3|@ripaojiedian
-  password: GhYEufnq9M9yvgAc1ylvfq
-  port: 18336
-  server: 165.22.61.177
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-fU2HxC1HnE.download.microsoft.com
+    host: 202508150964186-1Vi6U9m87m.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
