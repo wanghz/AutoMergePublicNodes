@@ -108,7 +108,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,17|香港3|@ripaojiedian
+  name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
   port: '31552'
   server: 38.147.189.37
@@ -119,7 +119,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|香港5|@ripaojiedian
+  name: '11,16,17|香港5|@ripaojiedian #1'
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
