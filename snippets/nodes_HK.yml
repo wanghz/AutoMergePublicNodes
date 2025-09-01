@@ -20,12 +20,22 @@ proxies:
   cipher: auto
   name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
-  port: '51571'
-  server: 38.147.188.96
+  port: '25013'
+  server: 38.147.188.160
   servername: ''
   tls: false
   type: vmess
-  uuid: 740ec514-d2bd-45bb-b410-7ea5a05cdd87
+  uuid: e90bfc71-1a0a-43e8-9272-6be036e9d88e
+- alterId: 64
+  cipher: auto
+  name: '11,17|香港5|@ripaojiedian #1'
+  network: tcp
+  port: '47272'
+  server: 183.240.245.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
@@ -52,7 +62,7 @@ proxies:
   server: 156.251.179.135
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
@@ -64,4 +74,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

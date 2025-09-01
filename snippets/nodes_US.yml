@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '11,17|美国|@ripaojiedian #1'
-  network: tcp
-  port: '443'
-  server: 165.140.216.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -83,7 +73,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-UsfARRoWJx.download.microsoft.com
+    host: 202508150964186-OTqy9HvgIK.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
