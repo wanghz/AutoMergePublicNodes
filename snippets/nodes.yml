@@ -16,22 +16,29 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: '11,17|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '25013'
-  server: 38.147.188.160
+  client-fingerprint: chrome
+  name: '11,16,17|香港5|@ripaojiedian #1'
+  network: ws
+  port: '80'
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: e90bfc71-1a0a-43e8-9272-6be036e9d88e
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+    path: /
 - alterId: 64
   cipher: auto
-  name: '11,17|香港5|@ripaojiedian #1'
+  name: '11,17|台湾2|@ripaojiedian #1'
   network: tcp
-  port: '47272'
-  server: 183.240.245.250
+  port: '50002'
+  server: 47.116.166.178
   servername: ''
   tls: false
   type: vmess
@@ -246,28 +253,28 @@ proxies:
   client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 7177
-  server: 36.150.215.203
+  port: 4317
+  server: xx.baku7.com
   skip-cert-verify: true
-  sni: www.baidu.com
+  sni: 23.45.86.28
   tfo: false
   tls: false
   type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾|@ripaojiedian
-  password: 34393fa0-a7d3-4c4a-bd18-c70764f73a6d
-  port: 10061
-  server: 118.170.208.178
+  password: 01721e43-5389-4f97-b21c-900abb2bda9e
+  port: 12008
+  server: awes35lesl.blhao0o.dpdns.org
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 16|🇹🇼 台湾2|@ripaojiedian
-  password: 5063e044-694e-400c-8db7-76223e86b6fb
-  port: 10097
-  server: 125.228.31.117
+  name: 16|🇹🇼 台湾3|@ripaojiedian
+  password: 60f661f4-579c-45c9-8156-e0db88911dc6
+  port: 10089
+  server: 125.228.180.215
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -276,7 +283,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-OTqy9HvgIK.download.microsoft.com
+    host: 202508150964186-YHuMkhj2A5.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -312,7 +319,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-OTqy9HvgIK.download.microsoft.com
+    host: 202508150964186-YHuMkhj2A5.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
