@@ -1,14 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: '11,17|台湾2|@ripaojiedian #1'
-  network: tcp
-  port: '50002'
-  server: 47.116.166.178
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾|@ripaojiedian
@@ -17,11 +7,13 @@ proxies:
   server: awes35lesl.blhao0o.dpdns.org
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇹🇼 台湾3|@ripaojiedian
-  password: 60f661f4-579c-45c9-8156-e0db88911dc6
-  port: 10089
-  server: 125.228.180.215
-  tfo: false
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 17|台湾2|@ripaojiedian
+  network: tcp
+  port: '50002'
+  server: 47.116.166.178
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
