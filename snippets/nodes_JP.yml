@@ -1,11 +1,21 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '11,17|日本v2|@ripaojiedian #1'
+  network: kcp
+  port: '34933'
+  server: 8.209.211.236
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-5McRC3HiAX.download.microsoft.com
+    host: 202509031722041-UfAvWCjqQ0.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -27,13 +37,3 @@ proxies:
   server: 137.220.142.150
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 17|日本v2|@ripaojiedian
-  network: kcp
-  port: '34933'
-  server: 8.209.211.236
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
