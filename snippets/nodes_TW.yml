@@ -1,14 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 11|台湾2|@ripaojiedian
-  network: tcp
-  port: '50002'
-  server: 47.116.166.178
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾2|@ripaojiedian
