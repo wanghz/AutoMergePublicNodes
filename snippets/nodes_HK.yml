@@ -35,16 +35,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,17|香港5|@ripaojiedian #1'
-  network: tcp
-  port: '28677'
-  server: 43.247.134.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9575b63-7410-4c76-88db-91c24a429ea8
-- alterId: 0
-  cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
   network: kcp
   port: '28590'
@@ -69,16 +59,11 @@ proxies:
   server: 156.251.179.135
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 4317
+  port: 47293
   server: xingxing.jiasu123.org
   skip-cert-verify: true
   sni: 23.45.86.28
-  tfo: false
-  tls: false
   type: trojan
-  uuid: f9575b63-7410-4c76-88db-91c24a429ea8
