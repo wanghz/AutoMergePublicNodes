@@ -239,7 +239,7 @@ proxies:
   name: 16|🇭🇰 香港5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 18.162.224.234
+  server: 18.163.165.61
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 16|🇨🇳 台湾|@ripaojiedian
@@ -281,7 +281,7 @@ proxies:
   name: 16|🇯🇵 日本5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 57.183.2.72
+  server: 3.115.20.29
   type: ss
 - cipher: rc4-md5
   name: 16|🇺🇸 美国2|@ripaojiedian
