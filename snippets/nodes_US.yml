@@ -68,14 +68,12 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: rc4-md5
-  client-fingerprint: chrome
   name: 16|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509031722041-9tGNGazmKT.download.microsoft.com
+    host: 202509031722041-NTzL1f4K0s.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
-  tfo: false
   type: ss
