@@ -1,12 +1,14 @@
 proxies:
 - alterId: 2
   cipher: auto
+  client-fingerprint: chrome
   name: '11,16,17|新加坡3|@ripaojiedian #1'
   network: ws
   port: '30839'
   server: v39.heduian.link
   servername: ''
   skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
