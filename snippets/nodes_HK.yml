@@ -62,8 +62,8 @@ proxies:
 - client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 18233
-  server: 13.231.37.82
+  port: 1823
+  server: xingxing.jiasu123.org
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
@@ -72,6 +72,6 @@ proxies:
   name: 16|🇭🇰 香港5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 43.198.113.57
+  server: 16.162.12.74
   tfo: false
   type: ss
