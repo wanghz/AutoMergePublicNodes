@@ -16,16 +16,23 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: '11,17|香港3|@ripaojiedian #1'
+  network: tcp
+  port: '40177'
+  server: 45.89.233.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb6f0b67-a6b5-461f-81f7-f2e50e4104bc
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|香港3|@ripaojiedian #1'
+  name: 11|香港3|@ripaojiedian
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
@@ -59,19 +66,32 @@ proxies:
   server: 156.251.179.135
   tfo: false
   type: ss
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 1823
   server: xingxing.jiasu123.org
   skip-cert-verify: true
   sni: 23.45.86.28
+  tfo: false
+  tls: false
   type: trojan
+  uuid: eb6f0b67-a6b5-461f-81f7-f2e50e4104bc
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 16.162.12.74
+  server: 54.46.125.88
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 16|🇭🇰 香港7|@ripaojiedian
+  password: RGl5M0p1UHhZSExJM3VwNGFsd3l1WHpmWTVheVRHVWM=
+  port: 50803
+  server: 8.138.9.184
   tfo: false
   type: ss
