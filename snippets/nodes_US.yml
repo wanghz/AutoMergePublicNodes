@@ -2,7 +2,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|美国|@ripaojiedian
+  name: '11,16,17|美国|@ripaojiedian #1'
   network: ws
   port: '30829'
   server: v29.heduian.link

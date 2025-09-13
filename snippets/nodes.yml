@@ -46,7 +46,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|美国|@ripaojiedian
+  name: '11,16,17|美国|@ripaojiedian #1'
   network: ws
   port: '30829'
   server: v29.heduian.link
@@ -63,7 +63,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|马来西亚|@ripaojiedian
+  name: '11,16,17|马来西亚|@ripaojiedian #1'
   network: ws
   port: '16622'
   server: t.cnmjcn.cyou
@@ -76,20 +76,6 @@ proxies:
   ws-opts:
     headers:
       Host: f604066249a784d694db65d3ebf5d60c.mobgslb.tbcache.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
     path: /
 - alterId: 0
   cipher: auto

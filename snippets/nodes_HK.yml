@@ -26,20 +26,6 @@ proxies:
   tls: false
   type: vmess
   uuid: eb6f0b67-a6b5-461f-81f7-f2e50e4104bc
-- alterId: 2
-  cipher: auto
-  name: 11|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
