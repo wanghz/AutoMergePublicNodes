@@ -1,21 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|美国|@ripaojiedian #1'
-  network: ws
-  port: '30829'
-  server: v29.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
@@ -84,13 +67,21 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国|@ripaojiedian
+  password: bb0fe0fa-ef19-4dfe-bd0a-92843756a148
+  port: 17713
+  server: shenzhen99.fkfkd.cn
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-rPSxwUwJgK.download.microsoft.com
+    host: 202509121565513-LUEpIR0Pwo.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
