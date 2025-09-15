@@ -57,8 +57,8 @@ proxies:
   client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 1823
-  server: xingxing.jiasu123.org
+  port: 13855
+  server: 36.156.102.77
   skip-cert-verify: true
   sni: 23.45.86.28
   tfo: false
@@ -70,13 +70,13 @@ proxies:
   name: 16|🇭🇰 香港5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 54.46.125.88
+  server: 16.162.87.199
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇭🇰 香港7|@ripaojiedian
-  password: cb9d4649-57e9-422b-9154-c53ca65a543c
+  password: 2cf69d5f-0293-4ddb-bbfc-145de8dfc570
   port: 4772
   server: shenzhen99.fkfkd.cn
   tfo: false
