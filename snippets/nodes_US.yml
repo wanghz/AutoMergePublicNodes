@@ -73,9 +73,19 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-hgGUWL4a7n.download.microsoft.com
+    host: 202509121565513-hDcp24etDx.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 17|美国|@ripaojiedian
+  network: tcp
+  port: '6506'
+  server: 193.124.24.247
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c53d41d1-7d56-43ce-9994-408780c6476a

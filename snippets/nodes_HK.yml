@@ -18,7 +18,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|香港3|@ripaojiedian #1'
+  name: 11|香港3|@ripaojiedian
   network: tcp
   port: '46981'
   server: 43.247.134.211
@@ -57,27 +57,29 @@ proxies:
   client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 13855
-  server: 36.156.102.77
+  port: 4317
+  server: xingxing.jiasu123.org
   skip-cert-verify: true
   sni: 23.45.86.28
   tfo: false
   tls: false
   type: trojan
-  uuid: 0f6e3f70-d64d-4825-aa04-1ead22e96b8b
+  uuid: c53d41d1-7d56-43ce-9994-408780c6476a
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 16.162.87.199
+  server: 43.199.87.121
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港7|@ripaojiedian
-  password: 2cf69d5f-0293-4ddb-bbfc-145de8dfc570
-  port: 4772
-  server: shenzhen99.fkfkd.cn
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: '17|香港3|@ripaojiedian #1'
+  network: tcp
+  port: '21201'
+  server: 149.104.15.178
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d

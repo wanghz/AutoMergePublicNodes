@@ -18,7 +18,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|香港3|@ripaojiedian #1'
+  name: 11|香港3|@ripaojiedian
   network: tcp
   port: '46981'
   server: 43.247.134.211
@@ -236,44 +236,36 @@ proxies:
   client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 13855
-  server: 36.156.102.77
+  port: 4317
+  server: xingxing.jiasu123.org
   skip-cert-verify: true
   sni: 23.45.86.28
   tfo: false
   tls: false
   type: trojan
-  uuid: 0f6e3f70-d64d-4825-aa04-1ead22e96b8b
+  uuid: c53d41d1-7d56-43ce-9994-408780c6476a
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 16.162.87.199
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港7|@ripaojiedian
-  password: 2cf69d5f-0293-4ddb-bbfc-145de8dfc570
-  port: 4772
-  server: shenzhen99.fkfkd.cn
+  server: 43.199.87.121
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾|@ripaojiedian
-  password: 981b2115-f9d3-4fea-a072-f9f3d3f980e6
-  port: 10043
-  server: 36.234.112.65
+  password: 4d296e8d-366b-4353-9e8b-513d83f36765
+  port: 10017
+  server: 118.170.223.243
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇹🇼 台湾2|@ripaojiedian
-  password: b2d5215f-22f4-456c-a724-789431f2b930
-  port: 10004
-  server: 118.170.235.179
+  password: d51c1aa9-1c96-44a4-b54c-46d0dec0578f
+  port: 10078
+  server: 36.234.94.86
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -282,7 +274,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-hgGUWL4a7n.download.microsoft.com
+    host: 202509121565513-hDcp24etDx.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -291,17 +283,17 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇯🇵 日本2|@ripaojiedian
-  password: 8a6ca14c0936
+  password: 8808e9f11454
   plugin: v2ray-plugin
   plugin-opts:
-    host: jpxw9v1.dashengjs.net
+    host: jp5v1.lingjfjkm002.com
     mode: websocket
     mux: false
-    path: /wrdfiatyd
+    path: /nvcnjrmkggoy
     skip-cert-verify: false
     tls: true
   port: 443
-  server: 137.220.142.150
+  server: 137.220.142.139
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -309,7 +301,7 @@ proxies:
   name: 16|🇯🇵 日本5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 57.181.174.7
+  server: 57.183.17.7
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -318,9 +310,29 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-hgGUWL4a7n.download.microsoft.com
+    host: 202509121565513-hDcp24etDx.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '17|香港3|@ripaojiedian #1'
+  network: tcp
+  port: '21201'
+  server: 149.104.15.178
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d
+- alterId: 0
+  cipher: auto
+  name: 17|美国|@ripaojiedian
+  network: tcp
+  port: '6506'
+  server: 193.124.24.247
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c53d41d1-7d56-43ce-9994-408780c6476a
