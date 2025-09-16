@@ -18,14 +18,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|香港3|@ripaojiedian
+  name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
-  port: '46981'
-  server: 43.247.134.211
+  port: '21201'
+  server: 149.104.15.178
   servername: ''
   tls: false
   type: vmess
-  uuid: 0f6e3f70-d64d-4825-aa04-1ead22e96b8b
+  uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
@@ -73,13 +73,3 @@ proxies:
   server: 43.199.87.121
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '17|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '21201'
-  server: 149.104.15.178
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e43b6c20-2f61-4e8c-a692-c737fa5cfa0d
