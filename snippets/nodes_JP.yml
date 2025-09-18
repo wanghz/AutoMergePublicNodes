@@ -42,6 +42,6 @@ proxies:
   name: 16|🇯🇵 日本5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 18.178.135.125
+  server: 13.230.37.83
   tfo: false
   type: ss

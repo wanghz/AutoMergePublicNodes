@@ -55,16 +55,6 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|美国|@ripaojiedian #1'
-  network: tcp
-  port: '6506'
-  server: 193.124.24.247
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c53d41d1-7d56-43ce-9994-408780c6476a
-- alterId: 0
-  cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
   network: kcp
   port: '28590'
@@ -251,25 +241,25 @@ proxies:
   server: 156.251.179.135
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
   port: 4317
-  server: xingxing.jiasu123.org
+  server: 153.121.76.9
   skip-cert-verify: true
-  sni: 23.45.86.28
+  sni: www.nintendogames.net
   tfo: false
   tls: false
   type: trojan
-  uuid: c53d41d1-7d56-43ce-9994-408780c6476a
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 54.46.92.199
+  server: 18.163.190.75
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -305,7 +295,7 @@ proxies:
   name: 16|🇯🇵 日本5|@ripaojiedian
   password: amazongreatvpn
   port: 16888
-  server: 18.178.135.125
+  server: 13.230.37.83
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -325,6 +315,6 @@ proxies:
   name: 16|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.116
+  server: 103.186.155.28
   tfo: false
   type: ss
