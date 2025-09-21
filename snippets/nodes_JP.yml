@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '11,17|日本5|@ripaojiedian #1'
+  network: tcp
+  port: '37925'
+  server: nnertn.vxzjv.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924
+- alterId: 0
+  cipher: auto
   name: '11,17|日本v2|@ripaojiedian #1'
   network: kcp
   port: '40916'
@@ -15,7 +25,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-QOZnRQnbPm.download.microsoft.com
+    host: 202509121565513-ZEnxwmeIFT.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -35,13 +45,5 @@ proxies:
     tls: true
   port: 443
   server: 137.220.142.139
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本5|@ripaojiedian
-  password: amazongreatvpn
-  port: 16888
-  server: 3.115.88.171
   tfo: false
   type: ss
