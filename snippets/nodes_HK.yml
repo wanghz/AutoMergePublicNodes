@@ -18,7 +18,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|香港3|@ripaojiedian #1'
+  name: 11|香港3|@ripaojiedian
   network: tcp
   port: '44601'
   server: 43.247.135.86
@@ -28,7 +28,7 @@ proxies:
   uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
 - alterId: 0
   cipher: auto
-  name: '11,17|香港v2|@ripaojiedian #1'
+  name: 11|香港v2|@ripaojiedian
   network: kcp
   port: '28590'
   server: 47.239.183.87
@@ -57,27 +57,31 @@ proxies:
   client-fingerprint: chrome
   name: 16|🇺🇸 美国4|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 3294
-  server: 160.16.72.33
+  port: 3296
+  server: 160.16.117.182
   skip-cert-verify: false
   sni: www.nintendogames.net
   tfo: false
   tls: false
   type: trojan
-  uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港5|@ripaojiedian
-  password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
-  port: 40000
-  server: hk.fastsoonlink.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港7|@ripaojiedian
-  password: e4469310-00fc-4527-8afa-71788b3bcef7
-  port: 35602
-  server: gw.liangyuandianwan.com
-  tfo: false
-  type: ss
+  uuid: 282bc2b9-8aaf-400a-86eb-1cf981a8a1da
+- alterId: 0
+  cipher: auto
+  name: '17|香港3|@ripaojiedian #1'
+  network: tcp
+  port: '57405'
+  server: 103.224.80.73
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 282bc2b9-8aaf-400a-86eb-1cf981a8a1da
+- alterId: 0
+  cipher: auto
+  name: '17|香港v2|@ripaojiedian #1'
+  network: kcp
+  port: '21523'
+  server: 47.242.215.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f6c894a3-f326-4807-9270-f236da4120c1
