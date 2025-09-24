@@ -43,6 +43,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 862d48d2-115b-432d-8115-f5aaa1a4b186
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '11,16|🇭🇰 香港HK|@ripaojiedian #1'
+  network: http
+  port: 24939
+  server: 38.147.188.112
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 928408df-3114-4b57-b852-f8d120ce056c
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -271,19 +284,6 @@ proxies:
   tls: false
   type: trojan
   uuid: 862d48d2-115b-432d-8115-f5aaa1a4b186
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港HK|@ripaojiedian
-  network: http
-  port: 24939
-  server: 38.147.188.112
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 928408df-3114-4b57-b852-f8d120ce056c
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
