@@ -26,20 +26,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
-- alterId: 0
-  cipher: auto
-  name: 11|日本4|@ripaojiedian
-  network: ws
-  port: '41315'
-  server: a.lyazzz.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e
-  ws-opts:
-    headers:
-      Host: img14.360buyimg.com
-    path: /obj
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome

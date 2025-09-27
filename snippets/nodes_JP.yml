@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|日本4|@ripaojiedian
-  network: ws
-  port: '41315'
-  server: a.lyazzz.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e
-  ws-opts:
-    headers:
-      Host: img14.360buyimg.com
-    path: /obj
-- alterId: 0
-  cipher: auto
   name: '11,17|日本v2|@ripaojiedian #1'
   network: kcp
   port: '5106'
