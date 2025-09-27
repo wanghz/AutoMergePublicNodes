@@ -1,14 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|日本4|@ripaojiedian #1'
+  name: 11|日本4|@ripaojiedian
   network: ws
   port: '41315'
   server: a.lyazzz.online
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e
