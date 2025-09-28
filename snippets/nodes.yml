@@ -18,31 +18,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|香港3|@ripaojiedian #1'
+  name: '11,17|日本|@ripaojiedian #1'
   network: tcp
-  port: '44601'
-  server: 43.247.135.86
+  port: '25980'
+  server: 45.159.51.189
   servername: ''
   tls: false
   type: vmess
-  uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|新加坡3|@ripaojiedian #1'
-  network: ws
-  port: '30839'
-  server: v39.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
+  uuid: 8e2c0dcf-b621-4513-8781-4c686f5d5b6d
 - alterId: 0
   cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
@@ -243,19 +226,7 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202509242154338-Zr8tJCX9sq.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
+  uuid: 8e2c0dcf-b621-4513-8781-4c686f5d5b6d
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇻🇳 越南|@ripaojiedian

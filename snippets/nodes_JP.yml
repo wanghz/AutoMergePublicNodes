@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '11,17|日本|@ripaojiedian #1'
+  network: tcp
+  port: '25980'
+  server: 45.159.51.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8e2c0dcf-b621-4513-8781-4c686f5d5b6d
+- alterId: 0
+  cipher: auto
   name: '11,17|日本v2|@ripaojiedian #1'
   network: kcp
   port: '5106'
@@ -9,15 +19,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 1cc84891-1657-4f71-97d0-287df565820e
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202509242154338-Zr8tJCX9sq.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss

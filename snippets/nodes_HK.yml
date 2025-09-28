@@ -18,16 +18,6 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '44601'
-  server: 43.247.135.86
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
-- alterId: 0
-  cipher: auto
   name: '11,17|香港v2|@ripaojiedian #1'
   network: kcp
   port: '5043'
@@ -64,4 +54,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
+  uuid: 8e2c0dcf-b621-4513-8781-4c686f5d5b6d
