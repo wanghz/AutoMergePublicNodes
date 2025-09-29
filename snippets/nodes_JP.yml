@@ -1,21 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '11,17|日本|@ripaojiedian #1'
-  network: tcp
-  port: '25980'
-  server: 45.159.51.189
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8e2c0dcf-b621-4513-8781-4c686f5d5b6d
-- alterId: 0
-  cipher: auto
   name: '11,17|日本v2|@ripaojiedian #1'
   network: kcp
-  port: '5106'
-  server: 47.74.14.30
+  port: '30391'
+  server: 54.168.151.169
   servername: ''
   tls: false
   type: vmess
-  uuid: 1cc84891-1657-4f71-97d0-287df565820e
+  uuid: c977388d-4550-4135-bbc6-0199daa76352

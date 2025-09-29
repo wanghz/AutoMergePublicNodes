@@ -45,13 +45,13 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇺🇸 美国2|@ripaojiedian
+  name: '16|🇮🇩 印度尼西亚|@ripaojiedian #1'
   password: 253bc477d4e43c209f2d427272968280
-  port: 3296
-  server: 160.16.117.182
+  port: 26144
+  server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: false
   sni: www.nintendogames.net
   tfo: false
   tls: false
-  type: trojan
-  uuid: 8e2c0dcf-b621-4513-8781-4c686f5d5b6d
+  type: vmess
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
