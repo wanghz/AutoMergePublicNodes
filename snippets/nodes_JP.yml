@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|日本v2|@ripaojiedian
+  name: '11,17|日本v2|@ripaojiedian #1'
   network: kcp
-  port: '30391'
-  server: 54.168.151.169
+  port: '20932'
+  server: 43.207.83.60
   servername: ''
   tls: false
   type: vmess
-  uuid: c977388d-4550-4135-bbc6-0199daa76352
+  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 16|🇯🇵 日本|@ripaojiedian
@@ -21,13 +21,3 @@ proxies:
   server: jp07.jd.kunlunpx.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '17|日本v2|@ripaojiedian #1'
-  network: kcp
-  port: '20932'
-  server: 43.207.83.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d

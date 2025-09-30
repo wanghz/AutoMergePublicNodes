@@ -19,7 +19,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|香港3|@ripaojiedian
+  name: '11,16,17|香港3|@ripaojiedian #1'
   network: ws
   port: '31469'
   server: 149.30.232.103
@@ -36,7 +36,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,16,17|香港5|@ripaojiedian
+  name: '11,16,17|香港5|@ripaojiedian #1'
   network: ws
   port: '80'
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
