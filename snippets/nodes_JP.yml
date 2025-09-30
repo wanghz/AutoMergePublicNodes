@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '11,17|日本v2|@ripaojiedian #1'
+  name: 11|日本v2|@ripaojiedian
   network: kcp
   port: '30391'
   server: 54.168.151.169
@@ -9,3 +9,25 @@ proxies:
   tls: false
   type: vmess
   uuid: c977388d-4550-4135-bbc6-0199daa76352
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本|@ripaojiedian
+  password: 722a54414ae6ee706ac9
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45572
+  server: jp07.jd.kunlunpx.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '17|日本v2|@ripaojiedian #1'
+  network: kcp
+  port: '20932'
+  server: 43.207.83.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
