@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 17|日本v2|@ripaojiedian
+  name: '11,17|日本v2|@ripaojiedian #1'
   network: kcp
   port: '20932'
   server: 43.207.83.60
