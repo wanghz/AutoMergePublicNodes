@@ -45,6 +45,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '11,17|新加坡3|@ripaojiedian #1'
+  network: tcp
+  port: '49513'
+  server: laeg.hsymanuscript.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
+- alterId: 0
+  cipher: auto
   name: 12|github.com/freefq - 印度  2
   network: ws
   port: 443
@@ -240,13 +250,3 @@ proxies:
   server: 103.186.154.15
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 17|新加坡3|@ripaojiedian
-  network: tcp
-  port: '49513'
-  server: laeg.hsymanuscript.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
