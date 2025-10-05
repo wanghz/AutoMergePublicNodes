@@ -223,12 +223,30 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c
+  uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本|@ripaojiedian
+  password: be0a39a72e
+  port: 28303
+  server: 670ead.gkzltp.xyz
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.198
+  server: 103.186.154.15
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 17|新加坡3|@ripaojiedian
+  network: tcp
+  port: '49513'
+  server: laeg.hsymanuscript.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
