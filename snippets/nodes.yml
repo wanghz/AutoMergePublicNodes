@@ -26,6 +26,23 @@ proxies:
   tls: false
   type: vmess
   uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '11,16,17|日本|@ripaojiedian #1'
+  network: ws
+  port: '30806'
+  server: v6.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: '11,17|新加坡3|@ripaojiedian #1'
@@ -222,6 +239,6 @@ proxies:
   name: 16|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.51
+  server: 103.186.155.233
   tfo: false
   type: ss
