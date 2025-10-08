@@ -1,11 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡3|@ripaojiedian
-  network: tcp
-  port: '49513'
-  server: laeg.hsymanuscript.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
+proxies: []

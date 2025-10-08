@@ -18,14 +18,24 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|香港3|@ripaojiedian
+  name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
-  port: '18366'
-  server: 43.247.134.213
+  port: '23203'
+  server: 103.224.80.27
   servername: ''
   tls: false
   type: vmess
-  uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c
+  uuid: 6990d803-ccc0-49fb-b73d-55c913bc7e85
+- alterId: 0
+  cipher: auto
+  name: '11,17|香港5|@ripaojiedian #1'
+  network: tcp
+  port: '10002'
+  server: 36.139.201.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -43,16 +53,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡3|@ripaojiedian
-  network: tcp
-  port: '49513'
-  server: laeg.hsymanuscript.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -242,23 +242,3 @@ proxies:
   server: 103.186.155.233
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '17|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '23203'
-  server: 103.224.80.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6990d803-ccc0-49fb-b73d-55c913bc7e85
-- alterId: 0
-  cipher: auto
-  name: 17|香港5|@ripaojiedian
-  network: tcp
-  port: '10002'
-  server: 36.139.201.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
