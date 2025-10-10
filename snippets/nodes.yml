@@ -20,12 +20,12 @@ proxies:
   cipher: auto
   name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
-  port: '34310'
-  server: 149.104.15.178
+  port: '55238'
+  server: 103.224.80.122
   servername: ''
   tls: false
   type: vmess
-  uuid: 114b2416-9c29-4a7c-81ea-2b14e7a5588c
+  uuid: f6771d73-462f-488e-8419-a133f34d051a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -43,16 +43,6 @@ proxies:
     headers:
       Host: www.baidu.com
     path: /cbf7f6acabd0dde4bef067580c126fed77a00de7
-- alterId: 0
-  cipher: auto
-  name: '11,17|香港7|@ripaojiedian #1'
-  network: tcp
-  port: '35436'
-  server: 103.30.78.138
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 084928cf-ed55-42e8-b686-b8e271dfb0ce
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -222,6 +212,19 @@ proxies:
   server: 34.245.185.129
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 16|🇺🇸 美国2|@ripaojiedian
+  password: 253bc477d4e43c209f2d427272968280
+  port: 6752
+  server: 36.156.102.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: f6771d73-462f-488e-8419-a133f34d051a
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
@@ -238,24 +241,19 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 16|🇺🇸 美国2|@ripaojiedian
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1572
-  server: 36.156.102.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  name: 16|🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
   tfo: false
-  tls: false
-  type: trojan
-  uuid: 084928cf-ed55-42e8-b686-b8e271dfb0ce
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.184
+  server: 103.186.154.182
   tfo: false
   type: ss
