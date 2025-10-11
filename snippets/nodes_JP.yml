@@ -16,3 +16,11 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: lINaALnHIiH4cSj8pJn6TQ==
+  port: 9443
+  server: 202.182.98.223
+  tfo: false
+  type: ss
