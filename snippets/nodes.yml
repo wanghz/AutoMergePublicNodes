@@ -18,16 +18,6 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|香港3|@ripaojiedian
-  network: tcp
-  port: '55238'
-  server: 103.224.80.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f6771d73-462f-488e-8419-a133f34d051a
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: '11,16,17|香港5|@ripaojiedian #1'
   network: ws
@@ -60,6 +50,23 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '11,16,17|新加坡3|@ripaojiedian #1'
+  network: ws
+  port: '443'
+  server: node4.rtxconfigz.com
+  servername: node4.rtxconfigz.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+  ws-opts:
+    headers:
+      Host: node4.rtxconfigz.com
+    path: /@Malinda6104
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -252,23 +259,6 @@ proxies:
   server: 202.182.98.223
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|新加坡3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: node4.rtxconfigz.com
-  servername: node4.rtxconfigz.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
-  ws-opts:
-    headers:
-      Host: node4.rtxconfigz.com
-    path: /@Malinda6104
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇻🇳 越南|@ripaojiedian
