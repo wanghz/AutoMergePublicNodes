@@ -18,14 +18,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|香港5|@ripaojiedian #1'
+  name: 11|香港5|@ripaojiedian
   network: ws
   port: '21791'
   server: kf5uhgscrdl73kmihv8c.appsworld.shop
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc
@@ -49,11 +46,26 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 16|🇺🇸 美国2|@ripaojiedian
   password: 253bc477d4e43c209f2d427272968280
-  port: 1572
-  server: 160.16.196.59
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  port: 2381
+  server: 36.156.102.84
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
+  tfo: false
+  tls: false
   type: trojan
+  uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
+- alterId: 0
+  cipher: auto
+  name: 17|香港3|@ripaojiedian
+  network: tcp
+  port: '30485'
+  server: 103.224.80.67
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
