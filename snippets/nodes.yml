@@ -18,14 +18,13 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|香港3|@ripaojiedian #1'
+  name: 11|🇭🇰 香港3|@ripaojiedian
   network: tcp
-  port: '30485'
-  server: 103.224.80.67
-  servername: ''
+  port: 41522
+  server: 43.247.135.17
   tls: false
   type: vmess
-  uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
+  uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -43,6 +42,16 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: '11,17|香港3|@ripaojiedian #1'
+  network: tcp
+  port: '30485'
+  server: 103.224.80.67
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -223,7 +232,15 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
+  uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 16|🇰🇷 韩国|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡3|@ripaojiedian
@@ -236,24 +253,11 @@ proxies:
   server: 5.44.249.43
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 16|🇺🇸 美国3|@ripaojiedian
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: false
-  sni: hsdgbuys.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 16|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.136
+  server: 103.186.154.27
   tfo: false
   type: ss
