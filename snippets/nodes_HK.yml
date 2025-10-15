@@ -46,7 +46,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国2|@ripaojiedian
-  password: e9368912c4ed6046dca6949229cbff02
+  password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
   server: 36.156.102.84
   skip-cert-verify: true
@@ -54,4 +54,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
+  uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
