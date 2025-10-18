@@ -18,14 +18,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: none
-  client-fingerprint: chrome
-  name: '11,16,17|香港3|@ripaojiedian #1'
+  name: 11|香港3|@ripaojiedian
   network: ws
   port: '41199'
   server: 38.55.106.62
   servername: hk-vmiss-n4.nebulacloud.win
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: e18650e9-264b-4bf7-bbce-d846642dcf26
@@ -35,7 +32,7 @@ proxies:
     path: /hk-vmiss-n4/getData
 - alterId: 0
   cipher: auto
-  name: '11,17|香港5|@ripaojiedian #1'
+  name: 11|香港5|@ripaojiedian
   network: tcp
   port: '38901'
   server: 103.224.80.42
@@ -211,27 +208,14 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 16|🇺🇸 美国2|@ripaojiedian
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2467
-  server: 160.16.106.144
+  server: 153.121.41.97
   skip-cert-verify: true
   sni: www.baidu.com
-  tfo: false
-  tls: false
   type: trojan
-  uuid: 230938d9-ae9d-49e7-b3cb-9f44168f89e8
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港7|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.183.154
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡3|@ripaojiedian
@@ -266,21 +250,5 @@ proxies:
     mode: tls
   port: 2377
   server: 5.44.249.42
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡6|@ripaojiedian
-  password: X2UQXuTGxwxE1ZMaTQwtxS
-  port: 60523
-  server: 174.138.29.1
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 16|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.234
   tfo: false
   type: ss

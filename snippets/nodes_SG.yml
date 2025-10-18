@@ -35,11 +35,3 @@ proxies:
   server: 5.44.249.42
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡6|@ripaojiedian
-  password: X2UQXuTGxwxE1ZMaTQwtxS
-  port: 60523
-  server: 174.138.29.1
-  tfo: false
-  type: ss
