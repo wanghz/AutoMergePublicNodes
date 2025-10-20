@@ -18,14 +18,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|香港3|@ripaojiedian
+  name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
-  port: '45939'
-  server: 103.224.80.118
+  port: '58509'
+  server: 43.247.134.213
   servername: ''
   tls: false
   type: vmess
-  uuid: 0ab56c46-8bee-42fe-9ec1-a2da8b264bb8
+  uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -215,13 +215,3 @@ proxies:
   server: 103.36.91.32
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '17|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '58509'
-  server: 43.247.134.213
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7f75e117-5cfe-40b9-b18f-d46fa6add969
