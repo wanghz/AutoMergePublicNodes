@@ -1,37 +1,9 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡3|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4a81070:6193
-    mode: tls
-  port: 2377
-  server: 5.44.249.42
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 16|🇸🇬 新加坡4|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: d4cbbb2:42774
-    mode: tls
-  port: 2377
-  server: 5.44.249.42
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇸🇬 新加坡5|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 874b20d:48331
-    mode: tls
-  port: 2377
-  server: 5.44.249.42
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
   tfo: false
   type: ss
