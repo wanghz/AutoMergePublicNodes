@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,17|美国4|@ripaojiedian
+  name: '11,17|美国4|@ripaojiedian #1'
   network: tcp
   port: '47083'
   server: 124.236.46.114
