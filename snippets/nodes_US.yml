@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|美国4|@ripaojiedian
+  name: '11,17|美国4|@ripaojiedian #1'
   network: tcp
-  port: '47083'
+  port: '47084'
   server: 124.236.46.114
   servername: ''
   tls: false
@@ -77,13 +77,3 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '17|美国4|@ripaojiedian #1'
-  network: tcp
-  port: '47084'
-  server: 124.236.46.114
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fd49381f-9fd8-4403-8698-48331a4d775d
