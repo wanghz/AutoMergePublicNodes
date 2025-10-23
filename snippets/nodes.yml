@@ -18,26 +18,6 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '42487'
-  server: 38.147.188.110
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f7ca451f-7adf-4af1-858a-196edb1af799
-- alterId: 0
-  cipher: auto
-  name: '11,17|美国4|@ripaojiedian #1'
-  network: tcp
-  port: '47084'
-  server: 124.236.46.114
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fd49381f-9fd8-4403-8698-48331a4d775d
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 印度  2
   network: ws
   port: 443
@@ -204,16 +184,19 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: '16|🇺🇸 美国4|@ripaojiedian #1'
-  password: BxceQaOe
-  port: 47084
-  server: 124.236.46.114
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  name: 16|🇭🇰 香港3|@ripaojiedian
+  password: 12b5538b-8a06-46d5-a8f3-f8726b50ec2e
+  port: 48301
+  server: 36.150.27.76
   tfo: false
-  tls: false
-  type: vmess
-  uuid: fd49381f-9fd8-4403-8698-48331a4d775d
+  type: ss
+- client-fingerprint: chrome
+  name: 16|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 22443
+  server: 36.156.102.115
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
