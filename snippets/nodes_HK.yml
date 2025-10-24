@@ -32,14 +32,6 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港3|@ripaojiedian
-  password: 12b5538b-8a06-46d5-a8f3-f8726b50ec2e
-  port: 48301
-  server: 36.150.27.76
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe

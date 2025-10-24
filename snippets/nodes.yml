@@ -165,7 +165,7 @@ proxies:
   name: 16|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.196.23.20
+  server: 18.170.77.155
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -184,14 +184,6 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 16|🇭🇰 香港3|@ripaojiedian
-  password: 12b5538b-8a06-46d5-a8f3-f8726b50ec2e
-  port: 48301
-  server: 36.150.27.76
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
@@ -200,3 +192,11 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 16|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.212
+  tfo: false
+  type: ss
