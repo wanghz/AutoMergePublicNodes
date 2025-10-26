@@ -20,12 +20,12 @@ proxies:
   cipher: auto
   name: '11,17|香港3|@ripaojiedian #1'
   network: tcp
-  port: '14994'
-  server: 103.224.80.100
+  port: '59516'
+  server: 43.247.134.213
   servername: ''
   tls: false
   type: vmess
-  uuid: 40731c98-9514-4e75-b78e-58311d214095
+  uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
@@ -45,13 +45,13 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 26876
-  server: 36.151.251.23
+  name: 16|🇺🇸 美国4|@ripaojiedian
+  password: 596de3c8-c1c4-4fe1-a7aa-7046b0f2af8a
+  port: 21864
+  server: 36.103.168.7
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: www.baidu.com
   tfo: false
   tls: false
   type: trojan
-  uuid: 40731c98-9514-4e75-b78e-58311d214095
+  uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
