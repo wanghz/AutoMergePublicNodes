@@ -28,7 +28,7 @@ proxies:
   uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
 - alterId: 0
   cipher: auto
-  name: '11,17|香港7|@ripaojiedian #1'
+  name: 11|香港7|@ripaojiedian
   network: tcp
   port: '10055'
   server: node2.mangging.com
@@ -185,7 +185,7 @@ proxies:
   name: 16|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.66.163.109
+  server: 3.9.17.198
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -214,6 +214,31 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   tfo: false
-  tls: true
+  tls: false
   type: trojan
-  uuid: 353d4c13-a756-46dd-ba6f-3dfecfeb37fc
+  uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '16,17|香港7|@ripaojiedian #1'
+  network: ws
+  port: '80'
+  server: 9438890c-t4whs0-t6blpv-1ldl3.hk.p5pv.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 16|🇸🇬 新加坡4|@ripaojiedian
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 26470
+  server: 113.99.143.139
+  tfo: false
+  type: ss
