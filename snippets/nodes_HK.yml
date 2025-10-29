@@ -18,28 +18,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|香港3|@ripaojiedian
+  name: '11,17|香港6|@ripaojiedian #1'
   network: tcp
-  port: '59516'
-  server: 43.247.134.213
+  port: '54804'
+  server: 43.247.135.64
   servername: ''
   tls: false
   type: vmess
-  uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
-- alterId: 2
-  cipher: auto
-  name: 11|香港7|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 9438890c-t4whs0-t6blpv-1ldl3.hk.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
@@ -68,14 +54,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
-- alterId: 0
-  cipher: auto
-  name: 17|香港6|@ripaojiedian
-  network: tcp
-  port: '54804'
-  server: 43.247.135.64
-  servername: ''
-  tls: false
-  type: vmess
   uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
