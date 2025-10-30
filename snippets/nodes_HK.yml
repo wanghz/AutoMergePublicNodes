@@ -16,6 +16,23 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '11,16,17|香港3|@ripaojiedian #1'
+  network: ws
+  port: '80'
+  server: 95811783-t02f40-t4nxvc-1p1b.hk.p5pv.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '11,17|香港6|@ripaojiedian #1'
@@ -42,23 +59,6 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 16,17|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 95811783-t02f40-t4nxvc-1p1b.hk.p5pv.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
