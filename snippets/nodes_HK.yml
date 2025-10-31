@@ -18,14 +18,11 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: '11,16,17|香港3|@ripaojiedian #1'
+  name: 11|香港3|@ripaojiedian
   network: ws
   port: '80'
   server: 95811783-t02f40-t4nxvc-1p1b.hk.p5pv.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
@@ -35,7 +32,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,17|香港6|@ripaojiedian #1'
+  name: 11|香港6|@ripaojiedian
   network: tcp
   port: '54804'
   server: 43.247.135.64
@@ -59,16 +56,11 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 13198
-  server: 36.150.215.236
+  port: 43567
+  server: 36.156.102.74
   skip-cert-verify: true
   sni: www.nintendogames.net
-  tfo: false
-  tls: false
   type: trojan
-  uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
