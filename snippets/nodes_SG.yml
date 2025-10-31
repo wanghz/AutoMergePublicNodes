@@ -1,15 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡5|@ripaojiedian
-  network: ws
-  port: '443'
-  server: cf.090227.xyz
-  servername: sgal.dagrate.eu.org
-  tls: true
-  type: vmess
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  ws-opts:
-    headers:
-      Host: sgal.dagrate.eu.org
-    path: /
+proxies: []

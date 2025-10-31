@@ -16,44 +16,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 11|香港3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 95811783-t02f40-t4nxvc-1p1b.hk.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|香港6|@ripaojiedian
-  network: tcp
-  port: '54804'
-  server: 43.247.135.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡5|@ripaojiedian
-  network: ws
-  port: '443'
-  server: cf.090227.xyz
-  servername: sgal.dagrate.eu.org
-  tls: true
-  type: vmess
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
-  ws-opts:
-    headers:
-      Host: sgal.dagrate.eu.org
-    path: /
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
