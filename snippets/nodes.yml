@@ -18,6 +18,16 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
+  name: '11,17|香港6|@ripaojiedian #1'
+  network: tcp
+  port: '11819'
+  server: 36.133.73.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: de32752c-0661-467e-82d3-35bc740a787f
+- alterId: 0
+  cipher: auto
   name: 12|github.com/freefq - 印度  2
   network: ws
   port: 443
@@ -196,14 +206,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: de32752c-0661-467e-82d3-35bc740a787f
-- alterId: 0
-  cipher: auto
-  name: 17|香港6|@ripaojiedian
-  network: tcp
-  port: '11819'
-  server: 36.133.73.36
-  servername: ''
-  tls: false
-  type: vmess
   uuid: de32752c-0661-467e-82d3-35bc740a787f
