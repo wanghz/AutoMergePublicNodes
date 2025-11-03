@@ -207,15 +207,11 @@ proxies:
   tls: false
   type: trojan
   uuid: de32752c-0661-467e-82d3-35bc740a787f
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 16|🇯🇵 日本4|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @ripaojiedian)e9e4816:99990
-    mode: tls
-  port: 2377
-  server: 54.64.148.82
+  name: 16|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.142
   tfo: false
   type: ss
