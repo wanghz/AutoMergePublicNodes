@@ -200,18 +200,20 @@ proxies:
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
   port: 53743
-  server: 36.151.251.47
+  server: 36.150.215.239
   skip-cert-verify: true
   sni: www.nintendogames.net
   tfo: false
   tls: false
   type: trojan
-  uuid: de32752c-0661-467e-82d3-35bc740a787f
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 16|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.142
-  tfo: false
-  type: ss
+  uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
+- alterId: 0
+  cipher: auto
+  name: 17|韩国|@ripaojiedian
+  network: tcp
+  port: '53115'
+  server: 45.94.68.117
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
