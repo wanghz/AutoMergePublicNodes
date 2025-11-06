@@ -45,13 +45,13 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇺🇸 美国3|@ripaojiedian
+  name: '16|🇻🇳 越南|@ripaojiedian #1'
   password: BxceQaOe
-  port: 9269
-  server: 36.150.215.245
-  skip-cert-verify: true
+  port: 23806
+  server: 103.197.185.149
+  skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tfo: false
   tls: false
-  type: trojan
-  uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
+  type: vmess
+  uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3

@@ -28,14 +28,34 @@ proxies:
   uuid: de32752c-0661-467e-82d3-35bc740a787f
 - alterId: 0
   cipher: auto
-  name: '11,17|韩国|@ripaojiedian #1'
+  name: '11,17|日本4|@ripaojiedian #1'
   network: tcp
-  port: '53115'
-  server: 45.94.68.117
+  port: '3304'
+  server: 61.224.65.235
   servername: ''
   tls: false
   type: vmess
-  uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
+  uuid: 1307688e-a7ca-325d-a8a2-eba4f3b1952c
+- alterId: 0
+  cipher: auto
+  name: '11,17|韩国|@ripaojiedian #1'
+  network: tcp
+  port: '80'
+  server: 152.70.92.69
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- alterId: 0
+  cipher: auto
+  name: '11,17|越南|@ripaojiedian #1'
+  network: tcp
+  port: '23806'
+  server: 103.197.185.149
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -207,13 +227,13 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 16|🇺🇸 美国3|@ripaojiedian
+  name: '16|🇻🇳 越南|@ripaojiedian #1'
   password: BxceQaOe
-  port: 9269
-  server: 36.150.215.245
-  skip-cert-verify: true
+  port: 23806
+  server: 103.197.185.149
+  skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tfo: false
   tls: false
-  type: trojan
-  uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
+  type: vmess
+  uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3

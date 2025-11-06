@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '11,17|日本4|@ripaojiedian #1'
+  network: tcp
+  port: '3304'
+  server: 61.224.65.235
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1307688e-a7ca-325d-a8a2-eba4f3b1952c
