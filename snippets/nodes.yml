@@ -28,14 +28,14 @@ proxies:
   uuid: de32752c-0661-467e-82d3-35bc740a787f
 - alterId: 0
   cipher: auto
-  name: 11|日本4|@ripaojiedian
+  name: '11,17|香港7|@ripaojiedian #1'
   network: tcp
-  port: '3304'
-  server: 61.224.65.235
+  port: '49509'
+  server: 36.150.27.76
   servername: ''
   tls: false
   type: vmess
-  uuid: 1307688e-a7ca-325d-a8a2-eba4f3b1952c
+  uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
 - alterId: 0
   cipher: auto
   name: '11,17|韩国|@ripaojiedian #1'
@@ -237,13 +237,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
-- alterId: 0
-  cipher: auto
-  name: 17|香港7|@ripaojiedian
-  network: tcp
-  port: '49509'
-  server: 36.150.27.76
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86

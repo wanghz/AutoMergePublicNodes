@@ -26,6 +26,16 @@ proxies:
   tls: false
   type: vmess
   uuid: de32752c-0661-467e-82d3-35bc740a787f
+- alterId: 0
+  cipher: auto
+  name: '11,17|香港7|@ripaojiedian #1'
+  network: tcp
+  port: '49509'
+  server: 36.150.27.76
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 16|🇭🇰 香港2|@ripaojiedian
@@ -55,13 +65,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
-- alterId: 0
-  cipher: auto
-  name: 17|香港7|@ripaojiedian
-  network: tcp
-  port: '49509'
-  server: 36.150.27.76
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
