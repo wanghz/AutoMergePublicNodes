@@ -28,36 +28,6 @@ proxies:
   uuid: aed41f1e-75e7-41ce-a2d4-38f65a6bbc86
 - alterId: 0
   cipher: auto
-  name: 11|香港6|@ripaojiedian
-  network: tcp
-  port: '11819'
-  server: 36.133.73.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: de32752c-0661-467e-82d3-35bc740a787f
-- alterId: 0
-  cipher: auto
-  name: 11|韩国|@ripaojiedian
-  network: tcp
-  port: '80'
-  server: 152.70.92.69
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
-- alterId: 0
-  cipher: auto
-  name: 11|越南|@ripaojiedian
-  network: tcp
-  port: '23806'
-  server: 103.197.185.149
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 841550b4-d4bf-4e3e-de9c-cff7baa47df3
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 印度  2
   network: ws
   port: 443
