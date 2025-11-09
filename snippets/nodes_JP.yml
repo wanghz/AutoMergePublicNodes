@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: 89d52514-f5a4-45c6-96ea-49e113e60129
+  port: 10007
+  server: 183.2.133.119
+  tfo: false
+  type: ss
