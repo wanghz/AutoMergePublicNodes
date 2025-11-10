@@ -18,7 +18,7 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: '11,17|香港6|@ripaojiedian #1'
+  name: 11|香港6|@ripaojiedian
   network: tcp
   port: '11210'
   server: 8.148.194.27
@@ -28,7 +28,7 @@ proxies:
   uuid: c74f0304-5b43-3772-852a-2b108c423d23
 - alterId: 2
   cipher: auto
-  name: '11,17|韩国|@ripaojiedian #1'
+  name: 11|韩国|@ripaojiedian
   network: tcp
   port: '11215'
   server: 8.148.248.105
@@ -204,7 +204,7 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 16|🇺🇸 美国3|@ripaojiedian
@@ -216,20 +216,14 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: c74f0304-5b43-3772-852a-2b108c423d23
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 16|🇯🇵 日本4|@ripaojiedian
-  password: 89d52514-f5a4-45c6-96ea-49e113e60129
-  port: 10007
-  server: 183.2.133.119
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 16|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.215
-  tfo: false
-  type: ss
+  uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
+- alterId: 0
+  cipher: auto
+  name: '17|香港6|@ripaojiedian #1'
+  network: tcp
+  port: '28034'
+  server: 175.29.22.101
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
