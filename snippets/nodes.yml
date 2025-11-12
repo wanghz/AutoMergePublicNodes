@@ -16,16 +16,6 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|韩国|@ripaojiedian
-  network: tcp
-  port: '27578'
-  server: 1.32.216.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3b3aff88-2ed2-4c68-bc0f-d1efe4131e2c
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 印度  2
   network: ws
   port: 443
