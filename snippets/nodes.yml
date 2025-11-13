@@ -16,6 +16,16 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
+  name: '11,17|日本4|@ripaojiedian #1'
+  network: tcp
+  port: '28016'
+  server: 175.29.22.101
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
+- alterId: 0
+  cipher: auto
   name: 12|github.com/freefq - 印度  2
   network: ws
   port: 443
@@ -178,10 +188,24 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- name: 16|🇺🇸 美国3|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 2173
-  server: 116.49.237.130
+  port: 19220
+  server: 36.150.215.243
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tls: false
   type: trojan
+  uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
+- cipher: chacha20-ietf
+  name: 16|🇭🇰 香港7|@ripaojiedian
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 31832-qOf3ahM8.download.microsoft.com
+    mode: http
+  port: 2000
+  server: oshk02.mynode.me
+  type: ss
