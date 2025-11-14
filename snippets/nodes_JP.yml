@@ -3,9 +3,9 @@ proxies:
   cipher: auto
   name: '11,17|日本4|@ripaojiedian #1'
   network: tcp
-  port: '28016'
-  server: 175.29.22.101
+  port: '47083'
+  server: 114.98.183.61
   servername: ''
   tls: false
   type: vmess
-  uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
+  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
