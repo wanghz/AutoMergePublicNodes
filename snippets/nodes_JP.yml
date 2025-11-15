@@ -1,16 +1,6 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|日本4|@ripaojiedian
-  network: tcp
-  port: '47083'
-  server: 114.98.183.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
 - cipher: chacha20-ietf-poly1305
-  name: '16|🇯🇵 日本4|@ripaojiedian #1'
+  name: 16|🇯🇵 日本4|@ripaojiedian
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
