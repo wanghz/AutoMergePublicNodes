@@ -16,7 +16,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: '11,17|香港7|@ripaojiedian #1'
+  name: 11|香港7|@ripaojiedian
   network: tcp
   port: '25007'
   server: onecat-jp.03ezhg0qsa.download
@@ -38,20 +38,16 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|🇺🇸 美国3|@ripaojiedian
+- name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 4094
-  server: 116.49.237.130
+  port: 4569
+  server: us.wyau.cn
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  tls: false
   type: trojan
-  uuid: b3fa070f-5511-48be-934b-f632f6b8a7c7
 - cipher: chacha20-ietf
   name: 16|🇭🇰 香港6|@ripaojiedian
   password: asd123456
   port: 8388
-  server: 103.149.182.158
+  server: 103.149.183.80
   type: ss
