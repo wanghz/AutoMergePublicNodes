@@ -14,16 +14,16 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|日本4|@ripaojiedian
+  name: '11,17|台湾|@ripaojiedian #1'
   network: tcp
-  port: '15003'
-  server: 178.157.57.166
+  port: '11223'
+  server: 8.138.145.90
   servername: ''
   tls: false
   type: vmess
-  uuid: edf4c847-3164-4d63-ab9b-c98acba96f1e
+  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -205,13 +205,3 @@ proxies:
   port: 8388
   server: 103.149.183.191
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 17|台湾|@ripaojiedian
-  network: tcp
-  port: '11223'
-  server: 8.138.145.90
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
