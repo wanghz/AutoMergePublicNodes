@@ -28,20 +28,10 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 16|🇺🇸 美国3|@ripaojiedian
+- name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
   port: 2773
   server: 18.162.123.55
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  tls: false
   type: trojan
-  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
-- cipher: chacha20-ietf
-  name: 16|🇭🇰 香港6|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.183.191
-  type: ss

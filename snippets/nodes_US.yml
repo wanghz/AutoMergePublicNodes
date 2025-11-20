@@ -67,3 +67,9 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: aes-128-gcm
+  name: 16|🇺🇸 美国4|@ripaojiedian
+  password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
+  port: 23344
+  server: 103.219.103.217
+  type: ss
