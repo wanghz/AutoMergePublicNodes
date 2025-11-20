@@ -1,11 +1,1 @@
-proxies:
-- alterId: 2
-  cipher: auto
-  name: 11|台湾|@ripaojiedian
-  network: tcp
-  port: '11223'
-  server: 8.138.145.90
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
+proxies: []
