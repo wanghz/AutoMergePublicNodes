@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '11,17|日本4|@ripaojiedian #1'
+  name: 11|日本4|@ripaojiedian
   network: tcp
   port: '3304'
   server: 113.57.36.148
@@ -9,3 +9,9 @@ proxies:
   tls: false
   type: vmess
   uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
+- cipher: chacha20-ietf-poly1305
+  name: '16|🇯🇵 日本4|@ripaojiedian #1'
+  password: cb794089-728d-4171-9b69-846abb413309
+  port: 39693
+  server: 118.253.180.20
+  type: ss

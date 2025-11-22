@@ -30,12 +30,12 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|🇺🇸 美国3|@ripaojiedian
+  name: 16|🇺🇸 美国4|@ripaojiedian
   password: BxceQaOe
-  port: 2773
-  server: 18.162.123.55
-  skip-cert-verify: true
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
-  type: trojan
-  uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
