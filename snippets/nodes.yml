@@ -14,6 +14,16 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 2
+  cipher: auto
+  name: '11,17|香港6|@ripaojiedian #1'
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: '11,17|美国4|@ripaojiedian #1'
@@ -215,16 +225,6 @@ proxies:
   protocol-param: 9347:AhttlGdymF
   server: glimmerdsds.sdl-sz.com
   type: ssr
-- alterId: 2
-  cipher: auto
-  name: 17|香港6|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   name: 17|5Y-w5rm-fEByaXBhb2ppZWRpYW4
   obfs: http_simple
