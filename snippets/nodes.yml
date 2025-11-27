@@ -14,26 +14,16 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 11|香港6|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 11|美国4|@ripaojiedian
+  name: '11,17|韩国|@ripaojiedian #1'
   network: tcp
-  port: '180'
-  server: 82.198.246.97
+  port: '80'
+  server: 152.70.92.69
   servername: ''
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -210,7 +200,7 @@ proxies:
   type: trojan
   uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
 - cipher: aes-256-cfb
-  name: '16|🇺🇸 美国4|@ripaojiedian #1'
+  name: 16|🇺🇸 美国4|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 107.23.148.46
@@ -221,13 +211,3 @@ proxies:
   port: 38388
   server: 103.186.154.184
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 17|韩国|@ripaojiedian
-  network: tcp
-  port: '80'
-  server: 152.70.92.69
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
