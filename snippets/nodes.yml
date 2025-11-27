@@ -1,29 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: '11,16,17|香港|@ripaojiedian #1'
-  network: ws
-  port: '30809'
-  server: v9.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: '11,17|韩国|@ripaojiedian #1'
-  network: tcp
-  port: '80'
-  server: 152.70.92.69
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -174,6 +149,21 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 16,17|香港|@ripaojiedian
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - cipher: aes-256-gcm
   name: 16|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
@@ -211,3 +201,13 @@ proxies:
   port: 38388
   server: 103.186.154.184
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 17|韩国|@ripaojiedian
+  network: tcp
+  port: '80'
+  server: 152.70.92.69
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
