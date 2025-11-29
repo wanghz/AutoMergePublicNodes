@@ -1,19 +1,15 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 16,17|香港|@ripaojiedian
-  network: ws
-  port: '30809'
-  server: v9.heduian.link
-  servername: ''
-  skip-cert-verify: false
+  name: 16|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 2173
+  server: 43.198.99.56
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   tls: false
-  type: vmess
+  type: trojan
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - cipher: aes-256-gcm
   name: 16|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
@@ -28,14 +24,19 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- alterId: 0
+- cipher: chacha20-ietf
+  name: 16|🇭🇰 香港6|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.182.86
+  type: ss
+- alterId: 2
   cipher: auto
-  name: 16|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 2173
-  server: 57.180.57.41
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  name: 17|香港|@ripaojiedian
+  network: tcp
+  port: '30809'
+  server: v9.hdacd.com
+  servername: ''
   tls: false
-  type: trojan
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
