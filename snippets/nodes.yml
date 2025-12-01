@@ -149,6 +149,17 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 1112
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: false
+  type: trojan
+  uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9
 - cipher: aes-256-gcm
   name: 16|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
@@ -163,22 +174,11 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 1112
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: trojan
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   name: 16|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.222
+  server: 103.186.155.228
   type: ss
 - alterId: 2
   cipher: auto
@@ -192,11 +192,11 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 17|新加坡4|@ripaojiedian
+  name: 17|香港6|@ripaojiedian
   network: tcp
-  port: '30812'
-  server: v12.hdacd.com
+  port: '31904'
+  server: 47.243.69.126
   servername: ''
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 22550b74-3ebf-49b5-ea36-3078b5d47ed9
