@@ -67,3 +67,13 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 17|美国4|@ripaojiedian
+  network: tcp
+  port: '11133'
+  server: 198.181.34.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 29b25bdf-9a83-4dde-90c7-77c51cd23724
