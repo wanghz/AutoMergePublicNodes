@@ -1,15 +1,15 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 16|🇺🇸 美国4|@ripaojiedian
+  name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 11133
-  server: 198.181.34.22
-  skip-cert-verify: false
+  port: 1112
+  server: 54.46.125.108
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
-  type: vmess
-  uuid: 29b25bdf-9a83-4dde-90c7-77c51cd23724
+  type: trojan
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
   name: 16|🇭🇰 香港2|@ripaojiedian
   password: ccf426f1fe78
@@ -29,15 +29,15 @@ proxies:
   name: 16,17|香港6|@ripaojiedian
   network: ws
   port: '80'
-  server: 0e7f1016-sva740-te0v28-1mh67.hk3.p5pv.com
+  server: fe3a9432-sv0xs0-sywkhi-1o4kv.hk3.p5pv.com
   servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+  uuid: 87b31a02-172e-11ee-a11f-f23c913c8d2b
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
+      Host: fe3a9432-sv0xs0-sywkhi-1o4kv.hk3.p5pv.com
     path: /
 - alterId: 2
   cipher: auto
