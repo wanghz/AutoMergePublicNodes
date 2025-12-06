@@ -4,7 +4,7 @@ proxies:
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
   port: 1112
-  server: 54.46.125.108
+  server: 18.163.210.14
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
@@ -24,21 +24,6 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 16,17|香港6|@ripaojiedian
-  network: ws
-  port: '80'
-  server: fe3a9432-sv0xs0-sywkhi-1o4kv.hk3.p5pv.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 87b31a02-172e-11ee-a11f-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: fe3a9432-sv0xs0-sywkhi-1o4kv.hk3.p5pv.com
-    path: /
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian

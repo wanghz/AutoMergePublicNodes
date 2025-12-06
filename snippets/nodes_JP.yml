@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: a4ebd80:164401
+    mode: tls
+  port: 2377
+  server: 172.237.6.53
+  type: ss
