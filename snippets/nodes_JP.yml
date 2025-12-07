@@ -4,7 +4,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: a4ebd80:164401
+    host: (TG @WangCai2)b5a99e1:21612
     mode: tls
   port: 2377
   server: 172.237.6.53
