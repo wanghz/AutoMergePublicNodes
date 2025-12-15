@@ -149,31 +149,27 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 2173
-  server: 54.238.178.152
+  port: 4569
+  server: 43.199.188.28
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
-  uuid: 539443eb-5076-496b-80ad-20b5c87f92f0
-- alterId: 2
-  cipher: auto
-  name: 16|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 80
-  server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇺🇸 美国4|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: e7b7ab7:102816
+    mode: tls
+  port: 2377
+  server: 95.174.71.98
+  type: ss
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian
@@ -184,22 +180,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 17|香港2|@ripaojiedian
+  name: 17|日本4|@ripaojiedian
   network: tcp
-  port: '59501'
-  server: 183.236.97.72
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0f227b79-c26c-4a85-a6b8-fb3f5017f0d3
-- alterId: 0
-  cipher: auto
-  name: 17|新加坡4|@ripaojiedian
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
+  port: '30806'
+  server: v6.hdacd.com
   servername: ''
   tls: false
   type: vmess
