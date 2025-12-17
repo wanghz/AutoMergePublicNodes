@@ -67,14 +67,8 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: aes-128-gcm
-  name: 16|🇺🇸 美国4|@ripaojiedian
-  password: t6d26id0pjzdo3x5wtlf
-  port: 10878
-  server: 69.164.240.83
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 16|🇺🇸 美国5|@ripaojiedian
+  name: 16|🇺🇸 美国4|@ripaojiedian
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
