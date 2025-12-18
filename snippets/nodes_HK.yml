@@ -1,15 +1,15 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 16|🇺🇸 美国3|@ripaojiedian
+  name: 16|🇮🇳 印度|@ripaojiedian
   password: BxceQaOe
-  port: 4569
-  server: 43.199.204.139
-  skip-cert-verify: true
+  port: 550
+  server: 103.97.203.220
+  skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
-  type: trojan
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  type: vmess
+  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian
