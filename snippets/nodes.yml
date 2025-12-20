@@ -151,21 +151,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|🇮🇳 印度|@ripaojiedian
+  name: 16|🇲🇾 马来西亚|@ripaojiedian
   password: BxceQaOe
-  port: 550
-  server: 103.97.203.220
+  port: 59517
+  server: 183.236.97.46
   skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
   type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
-- cipher: rc4-md5
-  name: 16|🇯🇵 日本5|@ripaojiedian
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 172.105.199.111
-  type: ss
+  uuid: a4697da0-0904-49c7-8f02-5d90c261e9ab
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian
@@ -178,31 +172,11 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 17|日本4|@ripaojiedian
+  name: 17|马来西亚|@ripaojiedian
   network: tcp
-  port: '59515'
-  server: 183.236.97.42
+  port: '59517'
+  server: 183.236.97.46
   servername: ''
   tls: false
   type: vmess
-  uuid: 900bc795-d8be-4eed-ac47-d1b73dde62a7
-- alterId: 0
-  cipher: auto
-  name: 17|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 17|印度|@ripaojiedian
-  network: tcp
-  port: '550'
-  server: 103.97.203.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+  uuid: a4697da0-0904-49c7-8f02-5d90c261e9ab
