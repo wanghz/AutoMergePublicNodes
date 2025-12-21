@@ -1,15 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|🇲🇾 马来西亚|@ripaojiedian
+  name: 16|🇺🇸 美国4|@ripaojiedian
   password: BxceQaOe
-  port: 59517
-  server: 183.236.97.46
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
   type: vmess
-  uuid: a4697da0-0904-49c7-8f02-5d90c261e9ab
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 2
+  cipher: auto
+  name: 16,17|香港2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: chacha20-ietf
+  name: 16|🇭🇰 香港6|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.183.191
+  type: ss
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian
