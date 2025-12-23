@@ -160,17 +160,26 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-cfb
-  name: 16|🇭🇰 香港2|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 216.250.97.82
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16,17|香港2|@ripaojiedian
+  network: ws
+  port: '16632'
+  server: 111.47.247.196
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f93123ed-84e2-4165-aaaa-db46a6eceb69
+  ws-opts:
+    headers:
+      Host: abfba8affeca9988664697aab83c3851.mobgslb.tbcache.com
+    path: /
 - cipher: aes-256-cfb
   name: 16|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.145
+  server: 103.186.155.23
   type: ss
 - alterId: 2
   cipher: auto
@@ -178,6 +187,16 @@ proxies:
   network: tcp
   port: '30807'
   server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 17|日本4|@ripaojiedian
+  network: tcp
+  port: '30806'
+  server: v6.hdacd.com
   servername: ''
   tls: false
   type: vmess
