@@ -14,17 +14,17 @@ proxies:
   cipher: auto
   name: 16,17|香港2|@ripaojiedian
   network: ws
-  port: '16632'
-  server: 111.47.247.196
-  servername: ''
+  port: '443'
+  server: 154.38.116.8
+  servername: hk.nbee.pp.ua
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: f93123ed-84e2-4165-aaaa-db46a6eceb69
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
   ws-opts:
     headers:
-      Host: abfba8affeca9988664697aab83c3851.mobgslb.tbcache.com
-    path: /
+      Host: hk.nbee.pp.ua
+    path: /aa
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian
