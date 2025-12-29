@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- name: 16|🇯🇵 日本4|@ripaojiedian
+  network: ws
+  password: 12345678-1234-1234-1234-123456789123
+  port: 50383
+  server: 45.8.113.22
+  skip-cert-verify: false
+  sni: support.zoom.us.joss.gvpn2.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.zoom.us.joss.gvpn2.web.id
+    path: /Free-VPN-CF-Geo-Project/JP
