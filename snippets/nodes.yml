@@ -160,29 +160,23 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf
-  name: 16|🇭🇰 香港2|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.182.86
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: 53db9c44-94a1-4976-8682-5d1c3642058d
+  port: 10007
+  server: 14.17.71.67
   type: ss
-- name: 16|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  password: 12345678-1234-1234-1234-123456789123
-  port: 50383
-  server: 45.8.113.22
-  skip-cert-verify: false
-  sni: support.zoom.us.joss.gvpn2.web.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.gvpn2.web.id
-    path: /Free-VPN-CF-Geo-Project/JP
 - cipher: aes-256-cfb
   name: 16|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.232
+  server: 103.186.154.182
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇲🇾 马来西亚|@ripaojiedian
+  password: 53db9c44-94a1-4976-8682-5d1c3642058d
+  port: 10006
+  server: 14.17.71.67
   type: ss
 - alterId: 2
   cipher: auto
@@ -194,6 +188,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 17|香港2|@ripaojiedian
+  network: tcp
+  port: '43307'
+  server: 8.210.248.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591
 - alterId: 0
   cipher: auto
   name: 17|美国4|@ripaojiedian

@@ -10,12 +10,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf
-  name: 16|🇭🇰 香港2|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.182.86
-  type: ss
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian
@@ -26,3 +20,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 17|香港2|@ripaojiedian
+  network: tcp
+  port: '43307'
+  server: 8.210.248.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f6a1f4ad-9d26-43c7-bce3-025df8dac591

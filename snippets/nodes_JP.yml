@@ -1,13 +1,7 @@
 proxies:
-- name: 16|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  password: 12345678-1234-1234-1234-123456789123
-  port: 50383
-  server: 45.8.113.22
-  skip-cert-verify: false
-  sni: support.zoom.us.joss.gvpn2.web.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.gvpn2.web.id
-    path: /Free-VPN-CF-Geo-Project/JP
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: 53db9c44-94a1-4976-8682-5d1c3642058d
+  port: 10007
+  server: 14.17.71.67
+  type: ss
