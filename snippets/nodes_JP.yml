@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- cipher: aes-128-gcm
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: 30f1d255-b825-435a-945c-fe5b597a1b8f
+  port: 33116
+  server: 120.232.217.4
+  type: ss
