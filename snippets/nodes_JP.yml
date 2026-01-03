@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 103.106.228.247
+  type: ss
