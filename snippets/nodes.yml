@@ -153,30 +153,39 @@ proxies:
   cipher: auto
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 1112
-  server: 18.181.195.198
+  port: 1221
+  server: 13.231.188.173
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇯🇵 日本4|@ripaojiedian
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 103.106.228.247
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 16,17|香港2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 - cipher: aes-256-cfb
   name: 16|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
-  port: 7747
-  server: 221.150.109.90
+  port: 22376
+  server: 125.141.31.75
   type: ss
 - cipher: aes-256-cfb
   name: 16|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.251
+  server: 103.186.154.248
   type: ss
 - alterId: 2
   cipher: auto
