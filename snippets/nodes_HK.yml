@@ -3,28 +3,13 @@ proxies:
   cipher: auto
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 1221
-  server: 13.231.188.173
+  port: 1112
+  server: 18.177.146.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 16,17|香港2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian
