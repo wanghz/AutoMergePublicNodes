@@ -149,28 +149,34 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- alterId: 0
+- alterId: 2
   cipher: auto
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 1112
-  server: 18.162.123.56
-  skip-cert-verify: false
+  port: 4569
+  server: 43.198.110.101
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
-  uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: e611027a-7b55-4f64-b8df-258f2d7ef95c
+  port: 18005
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
+  type: ss
 - cipher: aes-256-cfb
   name: 16|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
-  port: 5206
-  server: 27.255.82.134
+  port: 3733
+  server: 27.255.82.135
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 16|🇲🇾 马来西亚|@ripaojiedian
-  password: 46d46fd902d485e8
-  port: 11201
-  server: 202.122.145.125
+  name: 16|🇸🇬 新加坡4|@ripaojiedian
+  password: e611027a-7b55-4f64-b8df-258f2d7ef95c
+  port: 18017
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
   type: ss
 - alterId: 2
   cipher: auto
@@ -182,13 +188,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 17|香港2|@ripaojiedian
-  network: tcp
-  port: '19226'
-  server: jy-hk.kunlun07dns.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 48d361a8-e9a1-3c28-9b51-47775d62077e
