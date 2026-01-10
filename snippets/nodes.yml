@@ -154,29 +154,23 @@ proxies:
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
   port: 4569
-  server: 43.198.110.101
+  server: 43.199.60.168
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇯🇵 日本4|@ripaojiedian
-  password: e611027a-7b55-4f64-b8df-258f2d7ef95c
-  port: 18005
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
-  type: ss
 - cipher: aes-256-cfb
   name: 16|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
-  port: 3733
-  server: 27.255.82.135
+  port: 28860
+  server: 168.126.234.233
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 新加坡4|@ripaojiedian
-  password: e611027a-7b55-4f64-b8df-258f2d7ef95c
-  port: 18017
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.358.onl
+- cipher: aes-256-cfb
+  name: 16|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.17
   type: ss
 - alterId: 2
   cipher: auto
