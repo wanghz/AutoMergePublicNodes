@@ -153,39 +153,36 @@ proxies:
   cipher: auto
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 2173
-  server: 43.198.151.117
+  port: 1221
+  server: 95.40.125.94
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 16,17|香港2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+- cipher: aes-256-gcm
+  name: 16|🇭🇰 香港2|@ripaojiedian
+  password: 7e1dd4c55bf85da5
+  port: 50521
+  server: 212.192.15.59
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: 0690659746980c46
+  port: 10201
+  server: 167.17.179.197
+  type: ss
 - cipher: aes-256-cfb
   name: 16|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
-  port: 51978
-  server: 168.126.234.247
+  port: 11815
+  server: 121.170.203.148
   type: ss
 - cipher: aes-256-cfb
-  name: 16|🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.119
+  name: 16|🇰🇷 韩国2|@ripaojiedian
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
   type: ss
 - alterId: 2
   cipher: auto
