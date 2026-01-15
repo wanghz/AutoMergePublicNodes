@@ -1,20 +1,20 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 1112
-  server: 13.113.239.128
+  port: 2173
+  server: 13.192.183.185
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: e49b8721-f124-4999-814a-fc777c0ae190
 - cipher: chacha20-ietf
   name: 16|🇭🇰 香港2|@ripaojiedian
   password: asd123456
   port: 8388
-  server: 103.149.183.200
+  server: 103.149.182.79
   type: ss
 - alterId: 2
   cipher: auto
@@ -26,3 +26,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 17|香港6|@ripaojiedian
+  network: tcp
+  port: '47081'
+  server: oss-4.qqa678.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e49b8721-f124-4999-814a-fc777c0ae190

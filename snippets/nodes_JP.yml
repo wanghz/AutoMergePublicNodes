@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- cipher: aes-128-gcm
+  name: 16|🇯🇵 日本4|@ripaojiedian
+  password: b637f2e47b7827b308ebf399008075d2
+  port: 26334
+  server: 223.95.183.132
+  type: ss
