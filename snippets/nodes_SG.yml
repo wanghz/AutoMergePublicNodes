@@ -1,7 +1,7 @@
 proxies:
-- cipher: aes-128-gcm
+- cipher: aes-256-gcm
   name: 16|🇸🇬 新加坡4|@ripaojiedian
-  password: b637f2e47b7827b308ebf399008075d2
-  port: 25819
-  server: 223.95.183.132
+  password: d2umVadPT1m/FwIn
+  port: 8388
+  server: 194.87.10.161
   type: ss
