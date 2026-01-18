@@ -4,7 +4,7 @@ proxies:
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
   port: 4569
-  server: 18.162.188.208
+  server: 13.114.104.131
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false

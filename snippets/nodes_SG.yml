@@ -1,7 +1,1 @@
-proxies:
-- cipher: aes-256-gcm
-  name: 16|🇸🇬 新加坡4|@ripaojiedian
-  password: d2umVadPT1m/FwIn
-  port: 8388
-  server: 194.87.10.161
-  type: ss
+proxies: []
