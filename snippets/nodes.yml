@@ -153,8 +153,8 @@ proxies:
   cipher: auto
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 2773
-  server: 13.114.104.131
+  port: 1112
+  server: 18.163.116.85
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
@@ -164,7 +164,7 @@ proxies:
   name: 16|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.76
+  server: 103.186.154.12
   type: ss
 - alterId: 2
   cipher: auto
