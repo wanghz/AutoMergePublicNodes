@@ -1,15 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 16|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 4569
-  server: 16.162.22.195
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: trojan
-  uuid: bfb47846-aedb-4ea3-a81f-27895a4ec1bb
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian
@@ -24,9 +13,9 @@ proxies:
   cipher: auto
   name: 17|香港2|@ripaojiedian
   network: tcp
-  port: '52080'
-  server: 61.15.60.153
+  port: '34659'
+  server: 47.242.192.233
   servername: ''
   tls: false
   type: vmess
-  uuid: bfb47846-aedb-4ea3-a81f-27895a4ec1bb
+  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
