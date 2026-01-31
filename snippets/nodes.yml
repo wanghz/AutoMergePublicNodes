@@ -151,15 +151,30 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|🇺🇸 美国3|@ripaojiedian
+  name: 16|🇯🇵 日本4|@ripaojiedian
   password: BxceQaOe
-  port: 1112
-  server: 52.195.175.115
-  skip-cert-verify: true
+  port: 47083
+  server: tunnel1.qqa678.com
+  skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
-  type: trojan
-  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
+  type: vmess
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
+- alterId: 2
+  cipher: auto
+  name: 16,17|香港2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 6f5bbcfb-t8v340-ta7sek-1thts.hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cb96c846-fd6d-11ef-a910-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian
@@ -170,13 +185,23 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 17|香港2|@ripaojiedian
+  name: 17|新加坡4|@ripaojiedian
   network: tcp
-  port: '34659'
-  server: 47.242.192.233
+  port: '30845'
+  server: v45.hdacd.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 8482671e-846f-45c7-aec4-531c79f775ec
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 17|日本4|@ripaojiedian
+  network: tcp
+  port: '47083'
+  server: tunnel1.qqa678.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f8c122d-5b86-4c19-af87-64f458a88223
