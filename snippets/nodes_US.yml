@@ -67,3 +67,9 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: aes-256-cfb
+  name: 16|🇺🇸 美国4|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.217.198.211
+  type: ss
