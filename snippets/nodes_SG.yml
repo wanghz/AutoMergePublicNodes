@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇸🇬 新加坡4|@ripaojiedian
+  password: 049d354a-2cf1-4956-b6d8-d04aa4969b64
+  port: 22350
+  server: assets-cfnode67.cloudflarecdn-edge.rfsconfig.com
+  type: ss
