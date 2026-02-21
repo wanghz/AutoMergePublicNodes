@@ -151,14 +151,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 38780
-  server: 54.238.211.1
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  name: 16|🇹🇼 台湾|@ripaojiedian
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 16811
+  server: ipv6-tw02.cnddns.com
+  skip-cert-verify: false
+  sni: 45.32.28.232
   tls: false
-  type: trojan
+  type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - alterId: 2
   cipher: auto
@@ -172,10 +172,10 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 17|香港2|@ripaojiedian
+  name: 17|台湾|@ripaojiedian
   network: tcp
-  port: '9006'
-  server: select-hk.ddnskunlun.com
+  port: '16811'
+  server: ipv6-tw02.cnddns.com
   servername: ''
   tls: false
   type: vmess

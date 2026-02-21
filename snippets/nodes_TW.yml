@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 17|台湾|@ripaojiedian
+  network: tcp
+  port: '16811'
+  server: ipv6-tw02.cnddns.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
