@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|🇹🇼 台湾|@ripaojiedian
+  name: 16|🇯🇵 日本4|@ripaojiedian
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
-  port: 16811
-  server: ipv6-tw02.cnddns.com
+  port: 2053
+  server: 05.tokyometropolis.kiev.ua
   skip-cert-verify: false
   sni: 45.32.28.232
   tls: false
-  type: vmess
+  type: trojan
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - alterId: 2
   cipher: auto
