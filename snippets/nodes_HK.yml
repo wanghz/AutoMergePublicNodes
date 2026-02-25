@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|🇺🇸 美国4|@ripaojiedian
+  name: 16|🇮🇳 印度|@ripaojiedian
   password: BxceQaOe
-  port: 9028
-  server: select-us.ddnskunlun.com
+  port: 11929
+  server: board-01.ddnskunlun.com
   skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
