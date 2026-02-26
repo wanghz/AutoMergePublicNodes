@@ -151,10 +151,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|🇮🇳 印度|@ripaojiedian
+  name: 16|🇵🇱 波兰|@ripaojiedian
   password: BxceQaOe
-  port: 11929
-  server: board-01.ddnskunlun.com
+  port: 11885
+  server: board-02.ddnskunlun.com
   skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
@@ -172,10 +172,20 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 17|印度|@ripaojiedian
+  name: 17|美国4|@ripaojiedian
   network: tcp
-  port: '11929'
-  server: board-01.ddnskunlun.com
+  port: '9027'
+  server: select-us.ddnskunlun.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: 17|波兰|@ripaojiedian
+  network: tcp
+  port: '11885'
+  server: board-02.ddnskunlun.com
   servername: ''
   tls: false
   type: vmess
