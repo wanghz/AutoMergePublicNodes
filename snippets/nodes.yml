@@ -149,17 +149,17 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 8401
-  server: 16.163.155.36
+  port: 37223
+  server: 43.207.164.92
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian
@@ -170,3 +170,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 17|香港2|@ripaojiedian
+  network: tcp
+  port: '6001'
+  server: cn01.365cloud8754.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
