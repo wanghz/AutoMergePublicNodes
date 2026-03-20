@@ -3,13 +3,19 @@ proxies:
   cipher: auto
   name: 16|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 8401
-  server: 95.40.3.110
+  port: 14919
+  server: 54.95.208.150
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
+- cipher: aes-128-gcm
+  name: 16|🇭🇰 香港6|@ripaojiedian
+  password: d72781da-3ea8-4d7f-9bca-c04ed410443b
+  port: 50000
+  server: 106.75.162.7
+  type: ss
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian
