@@ -166,6 +166,12 @@ proxies:
   port: 50000
   server: 106.75.162.7
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇲🇾 马来西亚
+  password: 9ef232ac-12a3-4ca9-9217-1dea53d77b8a
+  port: 19707
+  server: ccoo1.whtjdasha.com
+  type: ss
 - alterId: 2
   cipher: auto
   name: 17|香港|@ripaojiedian
