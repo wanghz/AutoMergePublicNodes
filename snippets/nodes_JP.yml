@@ -1,16 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 16,17|日本4|@ripaojiedian
-  network: ws
-  port: '11612'
-  server: jp248_2.cowvpn.space
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a
-  ws-opts:
-    headers:
-      Host: ws248_2.baidu.com
-    path: /
+proxies: []
