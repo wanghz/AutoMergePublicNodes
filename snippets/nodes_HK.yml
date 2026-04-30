@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|🇺🇸 美国4|@ripaojiedian
+  name: 16|🇺🇸 美国5|@ripaojiedian
   password: BxceQaOe
   port: 180
-  server: 82.198.246.250
+  server: 82.198.246.233
   skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
