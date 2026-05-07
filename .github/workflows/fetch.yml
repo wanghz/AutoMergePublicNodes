@@ -35,10 +35,19 @@ jobs:
       run: |                 
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        git pull origin master
+        
+        # 推荐写法：先 pull --rebase，再 commit
+        git pull --rebase origin master   # ← 改成这一行
+        
         git add list*
         git add snippets/
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
+        
+        # 防止没有改动时 commit 失败
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
+        fi
     - name: 推送更改
       uses: ad-m/github-push-action@master
       with:
