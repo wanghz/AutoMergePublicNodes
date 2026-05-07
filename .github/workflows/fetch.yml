@@ -18,12 +18,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 迁出代码
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         fetch-depth: 0
         token: ${{ secrets.GITHUB_TOKEN }}      
     - name: 安装 Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v6
       with:
         python-version: '3.x'
         cache: 'pip'
@@ -89,6 +89,6 @@ jobs:
         done
         echo "urls=${urls%,*}" >> $GITHUB_OUTPUT
     - name: 清除 JsDelivr CDN 缓存
-      uses: egad13/purge-jsdelivr-cache@v1.0.3
+      uses: egad13/purge-jsdelivr-cache@v1
       with:
         url: ${{ steps.purge_urls.outputs.urls }}
