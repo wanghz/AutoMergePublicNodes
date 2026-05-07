@@ -1,4 +1,17 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 5|香港
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国5|@ripaojiedian
