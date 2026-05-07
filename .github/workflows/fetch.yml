@@ -39,24 +39,37 @@ jobs:
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         
-        # 1. 添加新内容
+        echo "=== 开始强制提交流程 ==="
+        
+        # 1. 添加我们刚抓取的新内容
         git add list.yml list_result.csv snippets/adblock.yml
         
-        # 2. 如果有改动，先临时提交
+        # 2. 临时提交（防止后面丢失）
         git commit -m "temp: new fetched data" || true
         
-        # 3. 强制重置到远程最新状态
+        # 3. 拉取远程代码
         git fetch origin
+        
+        # 4. 重置到远程最新状态
         git reset --hard origin/master
         
-        # 4. 重新覆盖我们刚抓取的结果（最关键）
+        # 5. 重新覆盖我们最新抓取的结果（关键）
         git add list.yml list_result.csv snippets/adblock.yml
         
-        # 5. 提交
+        # 6. 如果还有冲突，强制使用我们这边的版本
+        if git ls-files -u | grep -E 'list.yml|adblock.yml'; then
+          echo "发现冲突，强制使用本地新版本..."
+          git checkout --ours list.yml
+          git checkout --ours snippets/adblock.yml
+          git add list.yml snippets/adblock.yml
+        fi
+        
+        # 7. 最终提交
         if git diff --staged --quiet; then
-          echo "No changes to commit"
+          echo "没有实际改动，跳过提交"
         else
           git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 更新节点"
+          echo "提交成功"
         fi
         
     - name: 推送更改
