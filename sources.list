@@ -48,20 +48,20 @@ https://raw.githubusercontent.com/kkkouo/kkkouo.github.io/main/djsdy
 # !https://freefq.neocities.org/free.txt
 # !https://freefq.neocities.org/free.xml
 # +date https://nodefree.org/dy/%Y/%m/%Y%m%d.txt
-+date https://nodefree.org/dy/%Y/%m/%Y%m%d.yaml
-+date https://clashnode.com/wp-content/uploads/%Y/%m/%Y%m%d.txt
+# +date https://nodefree.org/dy/%Y/%m/%Y%m%d.yaml
+# +date https://clashnode.com/wp-content/uploads/%Y/%m/%Y%m%d.txt
 # +date https://clashnode.com/wp-content/uploads/%Y/%m/%Y%m%d.yaml
-!+date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt
+# !+date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt
 # !+date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.yaml
-!+date https://oneclash.cc/wp-content/uploads/%Y/%m/%Y%m%d.txt
+# !+date https://oneclash.cc/wp-content/uploads/%Y/%m/%Y%m%d.txt
 # !+date https://oneclash.cc/wp-content/uploads/%Y/%m/%Y%m%d.yaml
-!+date https://wefound.cc/freenode/%Y/%m/%Y%m%d.txt
+# !+date https://wefound.cc/freenode/%Y/%m/%Y%m%d.txt
 # !+date https://wefound.cc/freenode/%Y/%m/%Y%m%d.yaml
 # !https://sub.nicevpn.top/long
 # !https://sub.nicevpn.top/Clash.yaml
 # https://sub.sharecentre.online/sub
-https://prop.cf/?name=paimon&client=base64
-https://prop.cf/?name=paimon&client=clash
+# https://prop.cf/?name=paimon&client=base64
+# https://prop.cf/?name=paimon&client=clash
 # !https://clash.221207.xyz/pubclashyaml
 # !https://free.jingfu.cf/clash/proxies
 
