@@ -39,29 +39,24 @@ jobs:
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         
-        echo "=== 开始强制更新 ==="
+        echo "=== 强制使用本地最新数据 ==="
         
-        # 添加新生成的文件
+        # 直接强制覆盖冲突文件（最关键）
         git add list.yml list_result.csv snippets/adblock.yml
         
-        # 先临时提交我们的新数据
-        git commit -m "temp: new fetched data" || true
+        # 临时提交新数据
+        git commit -m "temp: new data" || true
         
-        # 强制同步远程最新代码（丢弃远程改动）
+        # 强制重置 + 重新应用新数据
         git fetch origin
         git reset --hard origin/master
         
-        # 重新覆盖我们刚抓取的新内容
+        git checkout --ours list.yml snippets/adblock.yml 2>/dev/null || true
         git add list.yml list_result.csv snippets/adblock.yml
-        
-        # 如果还有 unmerged，强制使用我们这边的版本
-        git checkout --ours list.yml || true
-        git checkout --ours snippets/adblock.yml || true
-        git add list.yml snippets/adblock.yml || true
         
         # 最终提交
         if git diff --staged --quiet; then
-          echo "没有检测到改动，跳过提交"
+          echo "没有改动，跳过提交"
         else
           git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 更新节点"
           echo "✅ 提交成功"
