@@ -36,30 +36,20 @@ jobs:
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         
-        # 1. 先暂存 fetch.py 产生的新内容
         git add list.yml list_result.csv snippets/adblock.yml
         
-        # 2. 暂存当前修改
-        git stash push -m "AutoMerge new data"
+        # 如果有改动就先提交
+        git commit -m "temp: new data" || true
         
-        # 3. 拉取远程最新代码
-        git pull --rebase origin master || {
-          echo "Rebase failed, trying reset..."
-          git rebase --abort || true
-          git fetch origin
-          git reset --hard origin/master
-        }
+        # 强制同步远程（最关键的一步）
+        git fetch origin
+        git reset --hard origin/master
         
-        # 4. 恢复本地新内容（关键：强制覆盖）
-        git stash pop || true
-        
-        # 5. 再次添加文件，解决冲突时保留我们的版本
+        # 重新应用我们刚抓取的新内容
         git add list.yml list_result.csv snippets/adblock.yml
         
-        # 6. 检查是否有实际改动再提交
         if git diff --staged --quiet; then
-          echo "No changes to commit"
-          git stash drop || true
+          echo "No changes detected"
         else
           git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 更新节点"
         fi
