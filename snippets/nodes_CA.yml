@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 4|Canada
+  network: ws
+  port: '443'
+  server: 158.51.121.63
+  servername: seribus.org
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: seribus.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '4|Canada #1'
+  network: ws
+  port: 443
+  server: 107.175.91.118
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001
+  ws-opts:
+    headers:
+      Host: ''
+    path: /v2ray-wisp
