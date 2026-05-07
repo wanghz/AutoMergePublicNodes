@@ -35,40 +35,13 @@ jobs:
       run: python ./fetch.py
       
     - name: 提交更改
-      run: |
+      run: |                 
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        
-        echo "=== 强制使用本地最新数据 ==="
-        
-        # 直接强制覆盖冲突文件（最关键）
-        git add list.yml list_result.csv snippets/adblock.yml
-        
-        # 临时提交新数据
-        git commit -m "temp: new data" || true
-        
-        # 强制重置 + 重新应用新数据
-        git fetch origin
-        git reset --hard origin/master
-        
-        git checkout --ours list.yml snippets/adblock.yml 2>/dev/null || true
-        git add list.yml list_result.csv snippets/adblock.yml
-        
-        # 最终提交
-        if git diff --staged --quiet; then
-          echo "没有改动，跳过提交"
-        else
-          git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 更新节点"
-          echo "✅ 提交成功"
-        fi
-        
-        # 7. 最终提交
-        if git diff --staged --quiet; then
-          echo "没有实际改动，跳过提交"
-        else
-          git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 更新节点"
-          echo "提交成功"
-        fi
+        git pull origin master
+        git add list*
+        git add snippets/
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
         
     - name: 推送更改
       uses: ad-m/github-push-action@master
