@@ -32,33 +32,38 @@ jobs:
       run: python ./fetch.py
       
     - name: 提交更改
-      run: |                 
+      run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         
-        # 保存 fetch.py 的修改
+        # 1. 先暂存 fetch.py 产生的新内容
         git add list.yml list_result.csv snippets/adblock.yml
-        git stash push -m "AutoMerge changes"
         
-        # 拉取最新远程代码
+        # 2. 暂存当前修改
+        git stash push -m "AutoMerge new data"
+        
+        # 3. 拉取远程最新代码
         git pull --rebase origin master || {
-          echo "Pull failed, aborting stash"
-          git stash drop
-          exit 1
+          echo "Rebase failed, trying reset..."
+          git rebase --abort || true
+          git fetch origin
+          git reset --hard origin/master
         }
         
-        # 恢复修改
-        git stash pop
+        # 4. 恢复本地新内容（关键：强制覆盖）
+        git stash pop || true
         
-        # 再次添加并检查是否有实际改动
+        # 5. 再次添加文件，解决冲突时保留我们的版本
         git add list.yml list_result.csv snippets/adblock.yml
         
+        # 6. 检查是否有实际改动再提交
         if git diff --staged --quiet; then
           echo "No changes to commit"
           git stash drop || true
         else
           git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 更新节点"
         fi
+        
     - name: 推送更改
       uses: ad-m/github-push-action@master
       with:
