@@ -36,17 +36,28 @@ jobs:
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         
-        # 推荐写法：先 pull --rebase，再 commit
-        git pull --rebase origin master   # ← 改成这一行
+        # 保存 fetch.py 的修改
+        git add list.yml list_result.csv snippets/adblock.yml
+        git stash push -m "AutoMerge changes"
         
-        git add list*
-        git add snippets/
+        # 拉取最新远程代码
+        git pull --rebase origin master || {
+          echo "Pull failed, aborting stash"
+          git stash drop
+          exit 1
+        }
         
-        # 防止没有改动时 commit 失败
+        # 恢复修改
+        git stash pop
+        
+        # 再次添加并检查是否有实际改动
+        git add list.yml list_result.csv snippets/adblock.yml
+        
         if git diff --staged --quiet; then
           echo "No changes to commit"
+          git stash drop || true
         else
-          git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
+          git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 更新节点"
         fi
     - name: 推送更改
       uses: ad-m/github-push-action@master
