@@ -1,15 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 3|Taiwan
-  network: ws
-  port: 20521
-  server: 103.229.124.3
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 292e9c90-25b3-4ff5-b98a-9ef5877714ab
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+proxies: []

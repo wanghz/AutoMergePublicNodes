@@ -1,15 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 美国5|@ripaojiedian
-  password: BxceQaOe
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  sni: t.me%2Fripaojiedian
-  tls: false
+  name: 6|Hong Kong
+  network: ws
+  port: '8810'
+  server: hk.aicvideo.info
+  tls: true
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: c7075b83-2d8f-4b76-b6fd-cc829ae6d75a
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /dgs
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
