@@ -1,17 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|Hong Kong
+  name: 4|Hong Kong
   network: ws
-  port: '8810'
-  server: hk.aicvideo.info
-  tls: true
+  port: 44867
+  server: 47.244.120.197
+  servername: ''
+  tls: false
   type: vmess
-  uuid: c7075b83-2d8f-4b76-b6fd-cc829ae6d75a
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: /dgs
+      Host: ''
+    path: /arki?ed=2048
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
