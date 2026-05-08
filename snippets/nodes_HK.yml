@@ -1,7 +1,21 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
   name: 5|香港
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: '5|香港 #1'
   network: ws
   port: 80
   server: 545c50c6-t70f40-thiwul-1gcq2.hkt.gotochinatown.net
