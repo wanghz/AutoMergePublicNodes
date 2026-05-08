@@ -1,32 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5|香港
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  servername: ''
+  name: 12|🇺🇸 美国5|@ripaojiedian
+  password: BxceQaOe
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  sni: t.me%2Fripaojiedian
   tls: false
   type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 2
-  cipher: auto
-  name: '5|香港 #1'
-  network: ws
-  port: 80
-  server: 545c50c6-t70f40-thiwul-1gcq2.hkt.gotochinatown.net
-  servername: 545c50c6-t70f40-thiwul-1gcq2.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 545c50c6-t70f40-thiwul-1gcq2.hkt.gotochinatown.net
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
