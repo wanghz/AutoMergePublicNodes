@@ -1,55 +1,72 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
   name: 3|Hongkong
   network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
+  port: 443
+  server: n1753101277.4u9ma.icu
+  servername: n1753101277.4u9ma.icu
+  tls: true
   type: vmess
-  uuid: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
+  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
   ws-opts:
     headers:
-      Host: ''
+      Host: n1753101277.4u9ma.icu
     path: /
 - alterId: 0
   cipher: auto
-  name: 4|États Unis
-  network: tcp
-  port: 443
-  server: 165.140.216.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: 0
-  cipher: auto
-  name: 4|Hong Kong
+  name: 5|アメリカ
   network: ws
-  port: 44867
-  server: 47.244.120.197
+  port: 31469
+  server: 149.30.232.103
   servername: ''
   tls: false
   type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 6|Portugal
+  name: 6|Japan
   network: ws
   port: '80'
-  server: pq-hungary1.09vpn.com
-  servername: ''
+  server: 172.111.146.64
   tls: false
   type: vmess
-  uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
   ws-opts:
     headers:
       Host: ''
     path: /vmess/
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|74e2|puddincat07@Telegram
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|48ea|puddincat07@Telegram
+  password: gqkUCvmeOTghYJXF1YIuk5
+  port: 443
+  server: 71.19.148.74
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 7|gb|84f5|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|e2b7|puddincat07@Telegram
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
+  type: ss
 - alterId: 0
   cipher: auto
   name: 7|de|2231|puddincat07@Telegram
@@ -63,32 +80,11 @@ proxies:
   ws-headers:
     Host: 82.198.246.37
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|e505|puddincat07@Telegram
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|gb|84f5|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|b3af|puddincat07@Telegram
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|us|1c5e|puddincat07@Telegram
-  password: gqkUCvmeOTghYJXF1YIuk5
-  port: 443
-  server: 71.19.148.74
+- cipher: aes-256-cfb
+  name: 7|kr|49ec|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
   type: ss
 - alterId: 0
   cipher: auto
@@ -103,43 +99,11 @@ proxies:
   ws-headers:
     Host: 82.198.246.214
   ws-path: /
-- cipher: aes-256-cfb
-  name: 7|kr|ee1d|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
-- cipher: aes-256-cfb
-  name: 7|us|2b15|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: '989'
-  server: 104.192.226.106
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|hk|786e|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 41632
-  server: 112.213.102.188
-  type: ss
-- name: 7|fi|0475|puddincat07@Telegram
+- name: 7|fi|0a4b|puddincat07@Telegram
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 185.102.136.201
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 7|de|1723|puddincat07@Telegram
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 89.167.100.106
+  server: 84.19.3.83
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -161,6 +125,63 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- name: 7|sg|d56a|puddincat07@Telegram
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 178.128.209.190
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 7|cz|6322|puddincat07@Telegram
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 95.85.245.152
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-256-cfb
+  name: 7|hk|786e|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 41632
+  server: 112.213.102.188
+  type: ss
+- name: 7|fi|d9c0|puddincat07@Telegram
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 195.26.230.99
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 7|sg|5d00|puddincat07@Telegram
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.160.207.33
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 7|fi|cad2|puddincat07@Telegram
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -174,37 +195,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 7|fi|0a4b|puddincat07@Telegram
+- name: 7|de|1723|puddincat07@Telegram
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 84.19.3.83
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 7|gb|7dbb|puddincat07@Telegram
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 91.211.114.208
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 7|sg|3b40|puddincat07@Telegram
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 139.59.239.116
+  server: 89.167.100.106
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
