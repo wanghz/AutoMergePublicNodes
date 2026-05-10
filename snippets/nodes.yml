@@ -44,40 +44,34 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: 7|us|d8a2|puddincat07@Telegram
+  name: 7|xx|0b64|puddincat07@Telegram
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|dac7|puddincat07@Telegram
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: feb7fa9:154948
     mode: tls
+    tls: false
   port: 2377
   server: 88.210.36.107
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|ae|0e79|puddincat07@Telegram
-  password: R2MPY2rqL2Gf3Lb1sP5n5fdEkUJ1d-wp
-  port: 51523
-  server: 31.57.56.193
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|72a6|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.99
+  name: 7|us|dc9a|puddincat07@Telegram
+  password: gqkUCvmeOTghYJXF1YIuk5
+  port: 443
+  server: 71.19.148.74
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|gb|6024|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|b586|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.35
+  name: 7|xx|7d94|puddincat07@Telegram
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
   type: ss
 - alterId: 0
   cipher: auto
@@ -93,40 +87,54 @@ proxies:
     Host: 82.198.246.214
   ws-path: /
 - cipher: aes-256-cfb
-  name: 7|kr|a07b|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|55da|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.89
-  type: ss
-- cipher: aes-256-cfb
   name: 7|vn|1edf|puddincat07@Telegram
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.244
   type: ss
-- name: 7|fi|c2c4|puddincat07@Telegram
+- name: 7|sg|3b40|puddincat07@Telegram
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 95.164.55.80
+  port: 443
+  server: 139.59.239.116
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 7|us|92ab|puddincat07@Telegram
+- name: 7|fi|d9c0|puddincat07@Telegram
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 193.23.201.26
+  port: 2053
+  server: 195.26.230.99
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 7|se|d32b|puddincat07@Telegram
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: '443'
+  server: 83.147.254.168
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 7|cz|6322|puddincat07@Telegram
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 95.85.245.152
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -140,6 +148,32 @@ proxies:
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 89.167.100.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 7|fi|0a4b|puddincat07@Telegram
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 84.19.3.83
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 7|cf|aeb1|puddincat07@Telegram
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.207.198.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
