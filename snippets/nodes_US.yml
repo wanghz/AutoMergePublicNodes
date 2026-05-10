@@ -1,31 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 3|USA
-  network: ws
-  port: 8443
-  server: 162.159.152.4
-  tls: true
-  type: vmess
-  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
-  ws-opts:
-    headers:
-      Host: frsys.fl-dl.com
-    path: /gbt
-- alterId: 0
+- alterId: 2
   cipher: auto
   name: 6|United States
-  network: ws
-  port: 31469
-  server: 149.30.232.103
-  servername: ''
+  network: tcp
+  port: '30808'
+  server: v8.hdacd.com
   tls: false
   type: vmess
-  uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
