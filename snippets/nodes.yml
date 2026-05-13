@@ -3,25 +3,20 @@ proxies:
   cipher: auto
   name: 4|Royaume-Uni
   network: tcp
-  port: '180'
-  server: 82.198.246.97
+  port: 180
+  server: 82.198.246.46
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: auto
-  name: 6|United States
-  network: ws
-  port: '10022'
-  server: 43.162.105.30
-  servername: ''
+  cipher: aes-128-gcm
+  name: 6|United Kingdom
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
   tls: false
   type: vmess
-  uuid: 91a988dc-99d5-4c0d-a999-a1d4dd72ad21
-  ws-opts:
-    headers:
-      Host: us1-ss.flyparts.cn
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 7,12|🇺🇸 美国5|@ripaojiedian

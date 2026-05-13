@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|United States
-  network: ws
-  port: '10022'
-  server: 43.162.105.30
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 91a988dc-99d5-4c0d-a999-a1d4dd72ad21
-  ws-opts:
-    headers:
-      Host: us1-ss.flyparts.cn
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
