@@ -1,58 +1,61 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Kanada
-  network: ws
-  port: 443
-  server: 134.195.198.147
+  name: 3,13|美国4|@ripaojiedian
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '3|UK #1'
+  network: tcp
+  port: '180'
+  server: 82.198.246.46
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 4|États Unis
   network: ws
-  port: 8443
-  server: 172.64.152.23
-  tls: true
-  type: vmess
-  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
-  ws-opts:
-    headers:
-      Host: frsys.fl-dl.com
-    path: /gbt
-- alterId: 0
-  cipher: auto
-  name: 5|アメリカ
-  network: ws
-  port: '443'
-  server: 209.126.84.189
+  port: 20086
+  server: 173.249.209.146
   servername: ''
   tls: false
   type: vmess
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf
   ws-opts:
     headers:
-      Host: 209.126.84.189
-    path: /vmessws
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
-  name: '5|アメリカ #1'
-  network: ws
-  port: 8443
-  server: 162.159.152.4
-  tls: true
+  name: 4|Australie
+  network: tcp
+  port: '45653'
+  server: 94.232.247.165
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
+  uuid: 9e91d19a-c73f-4276-adbc-b337c374259c
+- alterId: 0
+  cipher: auto
+  name: 5|ポルトガル共和国
+  network: ws
+  port: '80'
+  server: pq-hungary1.09vpn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 703f722a-4bdf-4e9d-9afd-a681fdf87c74
   ws-opts:
     headers:
-      Host: frsys.fl-dl.com
-    path: /gbt
+      Host: ''
+    path: /vmess/
 - alterId: 0
   cipher: auto
   name: 7,12|🇺🇸 美国5|@ripaojiedian
@@ -347,16 +350,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 13|美国4|@ripaojiedian
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 13|美国5|@ripaojiedian
