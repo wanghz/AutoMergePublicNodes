@@ -1,18 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5|香港
+  name: 4|Royaume-Uni
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 6|United States
   network: ws
-  port: 36703
-  server: 47.244.120.197
+  port: '10022'
+  server: 43.162.105.30
   servername: ''
   tls: false
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: 91a988dc-99d5-4c0d-a999-a1d4dd72ad21
   ws-opts:
     headers:
-      Host: ''
-    path: /arki?ed=2048
+      Host: us1-ss.flyparts.cn
+    path: /
 - alterId: 0
   cipher: auto
   name: 7,12|🇺🇸 美国5|@ripaojiedian
