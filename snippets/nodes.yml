@@ -1,18 +1,13 @@
 proxies:
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 3|Japan
-  network: ws
-  port: 80
-  server: jp01.a0a.xyz
-  servername: jp01.a0a.xyz
+  name: 3|USA
+  network: tcp
+  port: '22324'
+  server: 216.106.183.35
   tls: false
   type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: jp01.a0a.xyz
-    path: /cctv13.m3u8
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 7,12|🇺🇸 美国5|@ripaojiedian
