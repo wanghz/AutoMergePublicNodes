@@ -1,17 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5|香港
+  name: 4|Hong Kong
   network: ws
-  port: 443
-  server: n1753356378.4u9ma.icu
-  servername: n1753356378.4u9ma.icu
+  port: '443'
+  server: n1761296878.4u9ma.icu
+  servername: ''
   tls: true
   type: vmess
-  uuid: 37b20639-0d6e-46f2-9db5-472201b10cdd
+  uuid: 78f61544-3393-4e6b-9c77-5deaa0c7471d
   ws-opts:
     headers:
-      Host: n1753356378.4u9ma.icu
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
