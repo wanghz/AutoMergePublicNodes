@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|Hong Kong
-  network: ws
-  port: '443'
-  server: n1761296878.4u9ma.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 78f61544-3393-4e6b-9c77-5deaa0c7471d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 12|🇺🇸 美国5|@ripaojiedian
   password: BxceQaOe
   port: 180

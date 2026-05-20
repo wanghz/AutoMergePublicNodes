@@ -1,11 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 5|台湾
-  network: tcp
-  port: '56738'
-  server: 103.127.243.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+proxies: []
