@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 3|USA
+  network: ws
+  port: '2053'
+  server: usaapp1.jisuyun.top
+  servername: usaapp1.jisuyun.top
+  tls: true
+  type: vmess
+  uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
+  ws-opts:
+    headers:
+      Host: usaapp1.jisuyun.top
+    path: /usavm
+- alterId: 0
+  cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
