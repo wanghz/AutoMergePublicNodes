@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 5|日本
+  network: tcp
+  port: '49803'
+  server: 153.121.73.175
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
