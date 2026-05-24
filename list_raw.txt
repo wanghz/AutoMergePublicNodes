@@ -1,21 +1,20 @@
-vmess://eyJ2IjogIjIiLCAicHMiOiAiMyw2fFVuaXRlZCBTdGF0ZXMiLCAiYWRkIjogIjY3LjIyMC44NS40NiIsICJwb3J0IjogMTgwMDAsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUifQ==
-vmess://eyJ2IjogIjIiLCAicHMiOiAiNnzmnKrlkb3lkI0iLCAiYWRkIjogImhldTgzdWppZWl3b2V1ODNqMmV3amVodXdlaHU4LmRlbnRpc2Nhbi5jYSIsICJwb3J0IjogIjgwIiwgImFpZCI6IDAsICJzY3kiOiAiYXV0byIsICJuZXQiOiAid3MiLCAidHlwZSI6ICJub25lIiwgInRscyI6ICIiLCAiaWQiOiAiZTI5MjNiYzYtODIwNC00NzY4LTk4ZWEtMzc5ZDQ4ZWE4YTdhIiwgInNuaSI6ICIiLCAiaG9zdCI6ICJoZXU4M3VqaWVpd29ldTgzajJld2plaHV3ZWh1OC5kZW50aXNjYW4uY2EiLCAicGF0aCI6ICIvMWF3Tnp4UlN3S3Nka1BWS1AwWlFxbEhqdDEwc3AifQ==
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#7%7Cxx%7C2f84%7Cpuddincat07%40Telegram
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg007147vhp.cybervena.com:50099#7%7Cxx%7C58cd%7Cpuddincat07%40Telegram
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@185.189.160.105:41632#7%7Ctw%7Cca17%7Cpuddincat07%40Telegram
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.205:8080#7%7Cgb%7C3a5d%7Cpuddincat07%40Telegram
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#7%7Cgb%7C53f2%7Cpuddincat07%40Telegram
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#7%7Cxx%7C099d%7Cpuddincat07%40Telegram
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#7%7Cus%7Ca225%7Cpuddincat07%40Telegram
-trojan://GKHWMe2R4qwNcNxu6l3KMkdd@219.103.68.164:20770?sni=vpn1.rnmcnm.com&type=ws&host=vpn1.rnmcnm.com&path=/trj-ws#7%7Cjp%7Cd6ff%7Cpuddincat07%40Telegram
-ss://YWVzLTI1Ni1nY206MzJjMGVhNmU4MjMzNDFhMg==@45.140.168.54:50129#7%7Cru%7C5228%7Cpuddincat07%40Telegram
-ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.59:38388#7%7Cvn%7C632f%7Cpuddincat07%40Telegram
+vmess://eyJ2IjogIjIiLCAicHMiOiAiNnxIb25nIEtvbmciLCAiYWRkIjogIm4xNzYxMjk2ODg5LjR1OW1hLmljdSIsICJwb3J0IjogIjQ0MyIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogIjVmZGM2YWIxLTgzNDctNDExYy05YmJmLWZiYzNlYTg1M2QyZiIsICJzbmkiOiAiIiwgImhvc3QiOiAibjE3NjEyOTY4ODkuNHU5bWEuaWN1IiwgInBhdGgiOiAiLyJ9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#7%7Cxx%7Ced1c%7Cpuddincat07%40Telegram
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.186:8080#7%7Cgb%7Ccfde%7Cpuddincat07%40Telegram
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpncWtVQ3ZtZU9UZ2hZSlhGMVlJdWs1@71.19.148.74:443#7%7Cus%7Ca65e%7Cpuddincat07%40Telegram
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#7%7Cxx%7Ce424%7Cpuddincat07%40Telegram
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg007147vhp.cybervena.com:50099#7%7Cxx%7Cd920%7Cpuddincat07%40Telegram
+ss://YWVzLTI1Ni1nY206MzJjMGVhNmU4MjMzNDFhMg==@45.140.168.54:50129#7%7Cru%7C5e92%7Cpuddincat07%40Telegram
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.59:38388#7%7Cvn%7C5a0a%7Cpuddincat07%40Telegram
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==@185.189.160.105:41632#7%7Ctw%7C6b56%7Cpuddincat07%40Telegram
+ss://YWVzLTI1Ni1nY206NjNkN2MxNzUwNmQxZjQ4Yg==@203.32.26.24:20129#7%7Ckr%7C5b88%7Cpuddincat07%40Telegram
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.150:38388#7%7Cvn%7C4f69%7Cpuddincat07%40Telegram
-ss://YWVzLTI1Ni1nY206NjNkN2MxNzUwNmQxZjQ4Yg==@203.32.26.24:20129#7%7Ckr%7Ceddb%7Cpuddincat07%40Telegram
-trojan://8r%3C%5B9%27l6hAO%238ZQi@95.81.113.186:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳 @WangCai2#7%7Cfi%7Ccad2%7Cpuddincat07%40Telegram
-trojan://8r%3C%5B9%27l6hAO%238ZQi@89.167.100.106:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳 @WangCai2#7%7Cde%7C1723%7Cpuddincat07%40Telegram
-trojan://8r%3C%5B9%27l6hAO%238ZQi@185.102.136.201:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳 @WangCai2#7%7Cfi%7C0475%7Cpuddincat07%40Telegram
-trojan://8r%3C%5B9%27l6hAO%238ZQi@185.207.198.253:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳 @WangCai2#7%7Ccf%7Caeb1%7Cpuddincat07%40Telegram
+trojan://GKHWMe2R4qwNcNxu6l3KMkdd@219.103.68.164:20770?sni=vpn1.rnmcnm.com&type=ws&host=vpn1.rnmcnm.com&path=/trj-ws#7%7Cjp%7C89ef%7Cpuddincat07%40Telegram
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.115:38388#7%7Cvn%7C4be1%7Cpuddincat07%40Telegram
+trojan://8r%3C%5B9%27l6hAO%238ZQi@178.128.209.190:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev&type=ws&path=/trTelegram🇨🇳 @WangCai2#7%7Csg%7Cd56a%7Cpuddincat07%40Telegram
+trojan://8r%3C%5B9%27l6hAO%238ZQi@43.160.207.33:443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳 @WangCai2#7%7Csg%7C5d00%7Cpuddincat07%40Telegram
+trojan://8r%3C%5B9%27l6hAO%238ZQi@95.164.55.80:8443?allowInsecure=1&sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳 @WangCai2#7%7Cfi%7Cc2c4%7Cpuddincat07%40Telegram
+trojan://8r%3C%5B9%27l6hAO%238ZQi@194.76.173.184:2053?sni=Koma-YT.PAGeS.Dev&type=ws&host=Koma-YT.PAGeS.Dev&path=/trTelegram🇨🇳+@WangCai2#7%7Cde%7C8cd1%7Cpuddincat07%40Telegram
 vmess://eyJ2IjogIjIiLCAicHMiOiAiOXxnaXRodWIuY29tL2ZyZWVmcSAtIOWNsOW6piAgMiIsICJhZGQiOiAiMjAyLjc4LjE2Mi41IiwgInBvcnQiOiA0NDMsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogIjJmZjk3YzZkLTg1NTctNDJhNC1iNDNmLTE5Yzc3YzU5NTllYSIsICJzbmkiOiAiIiwgImhvc3QiOiAiaXJzb2Z0LnN5dGVzLm5ldCIsICJwYXRoIjogIi9AZm9yd2FyZHYycmF5In0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiOXxnaXRodWIuY29tL2ZyZWVmcSAtIOWNsOW6piAgMyIsICJhZGQiOiAiMjAyLjc4LjE2Mi41IiwgInBvcnQiOiA0NDMsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogIjExODI4N2QyLWU5NjgtNDJlMS04MGQwLTEyZmEyZjVkMzhkNiIsICJzbmkiOiAiIiwgImhvc3QiOiAic2FoYW5kLnNlcnZlbWluZWNyYWZ0Lm5ldCIsICJwYXRoIjogIi9AZm9yd2FyZHYycmF5In0=
 vmess://eyJ2IjogIjIiLCAicHMiOiAiOXxnaXRodWIuY29tL2ZyZWVmcSAtIOe+juWbvUNsb3VkRmxhLi4uIiwgImFkZCI6ICJ3d3cuZGFya3Jvb20ubG9sIiwgInBvcnQiOiA4MDgwLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICIyMjgyNmI0NC01YzFhLTRiNGItZGJhYS04M2EyZThiZDk1ZjAiLCAiaG9zdCI6ICJ3d3cuZGFya3Jvb20ubG9sIiwgInBhdGgiOiAiLyJ9
@@ -25,7 +24,7 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiOXxnaXRodWIuY29tL2ZyZWVmcSAtIOe+juWbvUNsb3VkRmxh
 vmess://eyJ2IjogIjIiLCAicHMiOiAiOXxnaXRodWIuY29tL2ZyZWVmcSAtIOWNsOW6piAgMTAiLCAiYWRkIjogIjIwMi43OC4xNjIuNSIsICJwb3J0IjogNDQzLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogInRscyIsICJpZCI6ICI3MTZlZGVkNi0yMjAxLTRkYmQtOWQ2My0xNjM4YzllOGU2NzciLCAic25pIjogIiIsICJob3N0IjogInBlbmRhci5vbnRoZXdpZmkuY29tIiwgInBhdGgiOiAiL0Bmb3J3YXJkdjJyYXkifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAiOXxnaXRodWIuY29tL2ZyZWVmcSAtIOe+juWbvUZhc3RseeWFqOeQgy4uLiIsICJhZGQiOiAiZ292LnVrIiwgInBvcnQiOiA0NDMsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogIjc3ODQ4ODI0LTkzYjctNGI4OS1mZmQwLWU5MWFmZmY0MDZjZSIsICJob3N0IjogInpoZXNoaXNjcC5jb20iLCAicGF0aCI6ICIvNzc4NDg4MjQifQ==
 vmess://eyJ2IjogIjIiLCAicHMiOiAiOXxnaXRodWIuY29tL2ZyZWVmcSAtIOe+juWbvUNsb3VkRmxhLi4uICMzIiwgImFkZCI6ICJzZXJ2ZXIzMi5iZWhlc2h0YmFuZWguY29tIiwgInBvcnQiOiA4ODgwLCAiYWlkIjogMCwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICIwNDRiYThlZC03Mjg1LTQ3MmEtYmMxNC1mYjkxZGM2YmU0YzkiLCAic25pIjogIiIsICJob3N0IjogInNlcnZlcjMyLmJlaGVzaHRiYW5laC5jb20iLCAicGF0aCI6ICIvIn0=
-ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@47.129.174.107:443#10%7C%E6%9C%AA%E5%91%BD%E5%90%8D%20%231
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@47.129.174.107:443#10%7C%E6%9C%AA%E5%91%BD%E5%90%8D
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@52.193.244.212:443#10%7C%E5%89%8DTG
 trojan://3690911436885991424@easy-mako.opossum872.cfd:443?allowInsecure=1#10%7C%E8%AE%A2%E9%98%85%E5%B7%B2%E6%9B%B4%E8%AF%B7%E5%89%8D%E5%BE%80%E9%A2%91%E9%81%93%E8%8E%B7%E5%8F%96
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU=@63.180.254.10:443#12%7Ctg%E9%A2%91%E9%81%93%3A%40ripaojiedian
@@ -33,4 +32,4 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiMTJ88J+HuvCfh7gg576O5Zu9NXxAcmlwYW9qaWVkaWFuIiwg
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTN86aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTN8576O5Zu9NHxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICI4Mi4xOTguMjQ2LjI1MCIsICJwb3J0IjogIjE4MCIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCAic25pIjogIiJ9
 vmess://eyJ2IjogIjIiLCAicHMiOiAiMTN8576O5Zu9NXxAcmlwYW9qaWVkaWFuIiwgImFkZCI6ICI4Mi4xOTguMjQ2LjIzMyIsICJwb3J0IjogIjE4MCIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCAic25pIjogIiJ9
-https://WfRtOr.absslk.xyz/3c96fd90ddd0dca93545c40ca0dd29e8
+https://OejYIq.absslk.xyz/46fd3a676f2c58727510413d4efadd42
