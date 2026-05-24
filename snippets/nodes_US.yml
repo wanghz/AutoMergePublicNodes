@@ -3,12 +3,12 @@ proxies:
   cipher: auto
   name: 3|USA
   network: tcp
-  port: '55310'
-  server: 23.226.135.232
+  port: '18000'
+  server: 38.91.107.49
   servername: ''
   tls: false
   type: vmess
-  uuid: 22066968-ef90-455e-b981-4bf782d25386
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
