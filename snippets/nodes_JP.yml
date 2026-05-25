@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 5|日本
+  network: raw
+  port: '38510'
+  server: 8.209.218.109
+  tls: false
+  type: vmess
+  uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9

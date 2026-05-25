@@ -1,25 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|Hong Kong
-  network: tcp
-  port: '22324'
-  server: 213.156.141.52
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 5|香港
-  network: tcp
-  port: '11638'
-  server: 27.122.57.43
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
-- alterId: 0
-  cipher: auto
   name: 12|🇺🇸 美国5|@ripaojiedian
   password: BxceQaOe
   port: 180

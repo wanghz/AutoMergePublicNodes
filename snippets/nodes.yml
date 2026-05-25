@@ -1,137 +1,131 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|Hong Kong
-  network: tcp
-  port: '22324'
-  server: 213.156.141.52
+  name: 4|Canada
+  network: ws
+  port: '8222'
+  server: 104.168.1.102
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 0d9bd1bc-6d14-44f2-8bfa-dd6210d1b14f
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 4|États Unis
   network: tcp
-  port: '39742'
-  server: 38.207.177.134
-  tls: false
-  type: vmess
-  uuid: 36cf6565-bc71-4f8c-9e30-a9cc6156e583
-- alterId: 0
-  cipher: auto
-  name: 5|香港
-  network: tcp
-  port: '11638'
-  server: 27.122.57.43
+  port: '55310'
+  server: 23.226.135.232
   servername: ''
   tls: false
   type: vmess
-  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+  uuid: 22066968-ef90-455e-b981-4bf782d25386
 - alterId: 0
   cipher: auto
-  name: 5|アメリカ
+  name: 5|日本
   network: raw
-  port: '443'
-  server: 165.140.216.141
+  port: '38510'
+  server: 8.209.218.109
   tls: false
   type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
 - cipher: chacha20-ietf-poly1305
-  name: 7|xx|7f73|puddincat07@Telegram
+  name: 7|xx|28ab|puddincat07@Telegram
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: r3mrcg007117fb8.cybervena.com
+  server: r3mrcg007134n4g.cybervena.com
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|kr|dbec|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|xx|55de|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|kr|e519|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|xx|6ac6|puddincat07@Telegram
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|de|8e02|puddincat07@Telegram
-  password: PWpjPo3tqhPN4yRZ
-  port: 20001
-  server: 8.209.74.72
-  type: ss
-- cipher: aes-128-gcm
-  name: 7|jp|dedc|puddincat07@Telegram
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|eb1b|puddincat07@Telegram
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|nl|64b4|puddincat07@Telegram
-  password: WC0GbiCk67K8nHDaDHmYIX
-  port: 19582
-  server: 159.223.236.36
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|nl|ee6a|puddincat07@Telegram
+  name: 7|nl|0365|puddincat07@Telegram
   password: VpKABcOpNNA0l5G2AVOmw8
   port: 62685
   server: 213.109.147.242
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|nl|fa18|puddincat07@Telegram
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.227
-  type: ss
-- cipher: aes-128-gcm
-  name: 7|us|48ee|puddincat07@Telegram
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.244
-  type: ss
 - cipher: aes-256-cfb
-  name: 7|tw|528f|puddincat07@Telegram
+  name: 7|tw|6b8f|puddincat07@Telegram
   password: qwerREWQ@@
   port: 41632
   server: 185.189.160.105
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|nl|e05b|puddincat07@Telegram
+  name: 7|gb|3732|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|tw|0eca|puddincat07@Telegram
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 114.45.177.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 7|us|8798|puddincat07@Telegram
+  password: uwmRUOVM5ljNAtPj
+  port: 443
+  server: 154.53.57.143
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 7|us|addc|puddincat07@Telegram
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.169
+  type: ss
+- cipher: aes-128-gcm
+  name: 7|us|afc2|puddincat07@Telegram
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.170
+  type: ss
+- cipher: aes-128-gcm
+  name: 7|us|abf5|puddincat07@Telegram
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.236
+  type: ss
+- cipher: aes-128-gcm
+  name: 7|us|9496|puddincat07@Telegram
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.167
+  type: ss
+- cipher: aes-128-gcm
+  name: 7|us|877b|puddincat07@Telegram
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.244
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|nl|0236|puddincat07@Telegram
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 193.29.139.179
   type: ss
-- cipher: aes-256-cfb
-  name: 7|si|c613|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.244.150
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|nl|7619|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.235
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|nl|97e3|puddincat07@Telegram
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 193.29.139.157
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|a3f9|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.187
-  type: ss
-- cipher: aes-128-gcm
-  name: 7|us|64c8|puddincat07@Telegram
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.167
+  name: 7|gb|741c|puddincat07@Telegram
+  password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt
+  port: 55988
+  server: 185.5.38.111
   type: ss
 - alterId: 0
   cipher: auto
