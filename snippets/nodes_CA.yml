@@ -2,11 +2,9 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 4|Canada
-  network: ws
-  port: '8222'
-  server: 104.168.1.102
+  network: tcp
+  port: 18000
+  server: 134.195.196.211
   tls: false
   type: vmess
-  uuid: 0d9bd1bc-6d14-44f2-8bfa-dd6210d1b14f
-  ws-opts:
-    path: /
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
