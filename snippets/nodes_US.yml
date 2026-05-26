@@ -1,30 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
-  network: ws
-  port: '31469'
-  server: 149.30.232.103
+  name: 6|United States
+  network: tcp
+  port: 18000
+  server: 169.197.142.22
+  servername: null
   tls: false
   type: vmess
-  uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '3|USA #1'
-  network: ws
-  port: '80'
-  server: 38.107.234.57
-  tls: false
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: google.com
-    path: /vmess/
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...

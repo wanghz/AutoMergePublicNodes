@@ -1,6 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 4|Hong Kong
+  network: tcp
+  port: 22324
+  server: 213.156.141.52
+  servername: null
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 5|香港
+  network: ws
+  port: '36703'
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
   name: 12|🇺🇸 美国5|@ripaojiedian
   password: BxceQaOe
   port: 180
