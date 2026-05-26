@@ -2,26 +2,16 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 4|Hong Kong
-  network: tcp
-  port: 22324
-  server: 213.156.141.52
-  servername: null
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 5|香港
   network: ws
-  port: '36703'
-  server: 47.244.120.197
+  port: '55185'
+  server: 47.243.135.74
   tls: false
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
   ws-opts:
     headers:
       Host: ''
-    path: /arki?ed=2048
+    path: /Notif_Chat
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国5|@ripaojiedian
