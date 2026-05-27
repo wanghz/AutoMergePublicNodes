@@ -2,16 +2,12 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 4|Hong Kong
-  network: ws
-  port: '55185'
-  server: 47.243.135.74
+  network: tcp
+  port: 22324
+  server: 213.156.141.52
   tls: false
   type: vmess
-  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
-  ws-opts:
-    headers:
-      Host: ''
-    path: /Notif_Chat
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 12|🇺🇸 美国5|@ripaojiedian
