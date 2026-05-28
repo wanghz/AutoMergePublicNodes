@@ -1,41 +1,109 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|Chine
+  name: 3|USA
   network: tcp
-  port: 11130
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 6|China
-  network: tcp
-  port: 11143
-  server: dotu-krv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: 6|Malaysia
-  network: ws
-  port: '8613'
-  server: 47.250.45.234
+  port: '443'
+  server: 165.140.216.141
   servername: ''
   tls: false
   type: vmess
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+- alterId: 0
+  cipher: auto
+  name: 5|アメリカ
+  network: tcp
+  port: '18000'
+  server: 38.91.107.49
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: none
+  name: 5|未命名
+  network: ws
+  port: '8443'
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: 6|Hong Kong
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
       Host: ''
     path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 6|China
+  network: tcp
+  port: 11128
+  server: dotu-usv1.kunlun03dns.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - cipher: chacha20-ietf-poly1305
-  name: 7|xx|eaf0|puddincat07@Telegram
+  name: 7|xx|34ee|puddincat07@Telegram
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|e374|puddincat07@Telegram
+  password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
+  port: 31348
+  server: 89.185.84.34
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|ca|9d0b|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 35.183.96.211
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|67b5|puddincat07@Telegram
   password: XUMTygEM1jVYIvysXKqA5T
   port: 443
   server: hackney-latest-strike.freesocks.work
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|0e34|puddincat07@Telegram
+  password: gqkUCvmeOTghYJXF1YIuk5
+  port: 443
+  server: 71.19.148.74
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|e63d|puddincat07@Telegram
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg007117fb8.cybervena.com
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|ca|ce86|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 35.183.129.131
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|us|d958|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 13.218.172.80
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 7|cz|7109|puddincat07@Telegram
@@ -44,59 +112,6 @@ proxies:
   server: 45.83.130.97
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|us|df3a|puddincat07@Telegram
-  password: gqkUCvmeOTghYJXF1YIuk5
-  port: 443
-  server: 71.19.148.74
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|e9c1|puddincat07@Telegram
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: aes-256-cfb
-  name: 7|vn|8d46|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.208
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|4f0e|puddincat07@Telegram
-  password: AQGAAMQLZoxMT4EUxNPuFwKImsAviZTHTEMmHFlRrDKJpMnS
-  port: 31348
-  server: 89.185.84.34
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|vn|9e6f|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.202
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|vn|383c|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.232
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|vn|8bae|puddincat07@Telegram
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.200
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|cae2|puddincat07@Telegram
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  type: ss
 - alterId: 0
   cipher: auto
   name: 7,12|🇺🇸 美国5|@ripaojiedian
@@ -107,32 +122,34 @@ proxies:
   sni: t.me%2Fripaojiedian
   tls: false
   type: vmess
-  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-256-cfb
+  name: 7|ca|bdb4|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 15.157.68.13
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|xx|d861|puddincat07@Telegram
+  name: 7|xx|d0c7|puddincat07@Telegram
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg007117fb8.cybervena.com
+  port: '50099'
+  server: r3mrcg00129437x.cybervena.com
   type: ss
+  udp: true
 - cipher: aes-128-gcm
-  name: 7|us|f805|puddincat07@Telegram
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.236
+  name: 7|xx|6daf|puddincat07@Telegram
+  password: d9c577328fb349fe
+  port: 43641
+  server: bff6ce3.xvvrkb.lol
   type: ss
-- cipher: aes-128-gcm
-  name: 7|jp|a8a0|puddincat07@Telegram
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
+  udp: true
+- cipher: aes-256-gcm
+  name: 7|us|1d7d|puddincat07@Telegram
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.121.43.51
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|9dc2|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.217
-  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
@@ -258,7 +275,7 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: aes-256-cfb
-  name: 10|未命名
+  name: '10|未命名 #1'
   password: amazonskr05
   port: 443
   server: 47.129.174.107

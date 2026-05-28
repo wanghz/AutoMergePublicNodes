@@ -3,8 +3,9 @@ proxies:
   cipher: auto
   name: 6|China
   network: tcp
-  port: 11143
-  server: dotu-krv1.kunlun03dns.com
+  port: 11128
+  server: dotu-usv1.kunlun03dns.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
