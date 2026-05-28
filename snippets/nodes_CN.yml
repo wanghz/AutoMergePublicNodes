@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 6|China
+  network: tcp
+  port: 11143
+  server: dotu-krv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
   name: 9|github.com/freefq - 广东省移动 7
   network: ws
   port: '20401'
