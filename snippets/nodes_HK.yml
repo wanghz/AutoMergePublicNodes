@@ -1,14 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 4|Hong Kong
-  network: tcp
-  port: 22324
-  server: 213.156.141.52
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
