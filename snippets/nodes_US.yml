@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 6|United States
+  network: ws
+  port: '80'
+  server: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e2923bc6-8204-4768-98ea-379d48ea8a7a
+  ws-opts:
+    headers:
+      Host: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
+    path: /1awNzxRSwKsdkPVKP0ZQqlHjt10sp
+- alterId: 0
+  cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
