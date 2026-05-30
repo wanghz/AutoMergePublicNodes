@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 4|Canada
+  network: ws
+  port: '80'
+  server: 45.15.170.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 820d4b4f-3357-4dc7-9381-6e5fd52b5f39
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
