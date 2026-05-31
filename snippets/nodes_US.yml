@@ -3,16 +3,16 @@ proxies:
   cipher: auto
   name: 6|United States
   network: ws
-  port: 2053
-  server: usaapp1.jisuyun.top
-  servername: usaapp1.jisuyun.top
-  tls: true
+  port: '80'
+  server: 3h-kazakhstan1.09vpn.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: usaapp1.jisuyun.top
-    path: /usavm
+      Host: 3h-kazakhstan1.09vpn.com
+    path: /vmess/
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
