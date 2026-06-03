@@ -1,18 +1,58 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Hongkong
+  name: 4|Canada
+  network: tcp
+  port: 18000
+  server: 23.162.200.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: '4|Canada #1'
   network: ws
-  port: 443
-  server: 8.210.239.58
-  servername: n1761296889.4u9ma.icu
+  port: '80'
+  server: 45.15.170.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 820d4b4f-3357-4dc7-9381-6e5fd52b5f39
+  ws-opts:
+    headers:
+      Host: pelang.org
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 6|India
+  network: tcp
+  port: 22324
+  server: 172.232.103.186
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 6|Hong Kong
+  network: ws
+  port: '443'
+  server: 47.242.163.203
+  servername: n1761296878.4u9ma.icu
   tls: true
   type: vmess
-  uuid: 5fdc6ab1-8347-411c-9bbf-fbc3ea853d2f
+  uuid: 78f61544-3393-4e6b-9c77-5deaa0c7471d
   ws-opts:
     headers:
       Host: ''
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|ca34|puddincat07@Telegram
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
 - alterId: 0
   cipher: auto
   name: 7,12|🇺🇸 美国4|@ripaojiedian
@@ -25,12 +65,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|2555|puddincat07@Telegram
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
 - alpn:
   - http/1.1
   name: 7|us|5075|puddincat07@Telegram
@@ -53,44 +87,73 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|de|8839|puddincat07@Telegram
-  password: PWpjPo3tqhPN4yRZ
-  port: 20001
-  server: 8.209.74.72
+  name: 7|za|fee8|puddincat07@Telegram
+  password: aduB9HGxQHjA2SBMRjkHX6
+  port: 443
+  server: 102.37.156.224
   type: ss
+- alpn:
+  - http/1.1
+  name: 7|fr|e8ca|puddincat07@Telegram
+  network: tcp
+  password: telegram-id-directvpn
+  port: '22223'
+  server: 13.36.49.197
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|gb|decf|puddincat07@Telegram
+  name: 7|nl|6f3e|puddincat07@Telegram
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 82.38.31.155
+  server: 193.29.139.204
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|nl|c3d6|puddincat07@Telegram
+  name: 7|nl|cda0|puddincat07@Telegram
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
   server: 193.29.139.233
   type: ss
-- cipher: aes-256-gcm
-  name: 7|us|bea5|puddincat07@Telegram
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.75.137.42
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|a286|puddincat07@Telegram
+  password: mzeMYBJYp4Bo7nA1qYLvv7QG73igtAA85nt4pr8A9ntx2qhDfYgRtiJ7iH7VrcneQKNmtvpbsvvFKPaUATYELi18iH56Ttr4
+  port: 56594
+  server: download.riferoser.icu
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 7|kr|9610|puddincat07@Telegram
+  name: 7|kr|5ce3|puddincat07@Telegram
   password: qwerREWQ@@
-  port: 51472
-  server: 221.150.109.88
+  port: 4652
+  server: 218.237.185.230
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|xx|6448|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 49032
-  server: p221.panda001.net
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|7952|puddincat07@Telegram
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
   type: ss
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|de|64cd|puddincat07@Telegram
+  password: 9RviNa4tscjcmCB408vLSg
+  port: 44354
+  server: 46.101.245.131
+  type: ss
+- alterId: 4
+  cipher: auto
+  client-fingerprint: chrome
+  name: 7|sg|dd28|puddincat07@Telegram
+  network: ws
+  port: 443
+  server: 103.253.26.134
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      host: eeh7iewe.com
+    path: /ws
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
