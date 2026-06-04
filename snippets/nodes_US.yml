@@ -2,17 +2,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 6|United States
-  network: ws
-  port: 39495
-  server: 129.146.77.248
+  network: tcp
+  port: 48111
+  server: 129.146.143.80
   servername: ''
   tls: false
   type: vmess
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cctv13.m3u8
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
