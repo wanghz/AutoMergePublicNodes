@@ -2,9 +2,23 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 3|USA
+  network: ws
+  port: 39495
+  server: 129.146.77.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '3|USA #1'
   network: tcp
   port: 22324
-  server: 66.163.117.58
+  server: 216.106.183.35
   servername: ''
   tls: false
   type: vmess
