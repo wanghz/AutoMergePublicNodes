@@ -1,9 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 3|USA
+  network: ws
+  port: 48060
+  server: 66.154.106.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f60ecc88-d704-489c-e3b9-082805317e7b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 6|United States
   network: tcp
-  port: 22324
+  port: '22324'
   server: 66.163.117.58
   servername: ''
   tls: false

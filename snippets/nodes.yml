@@ -1,10 +1,62 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|UK
+  name: 3|Deutschland
   network: ws
-  port: 32682
-  server: 185.248.33.173
+  port: 17184
+  server: 77.90.60.29
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 27104fae-f047-4993-902a-9368d8a3e9bc
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 3|USA
+  network: ws
+  port: 48060
+  server: 66.154.106.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f60ecc88-d704-489c-e3b9-082805317e7b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 4|Allemagne
+  network: ws
+  port: 59949
+  server: 77.90.60.29
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 4|Australie
+  network: tcp
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: '4|Allemagne #1'
+  network: ws
+  port: 21879
+  server: 77.90.60.29
   servername: imafake.locker
   tls: true
   type: vmess
@@ -15,10 +67,48 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 3|Deutschland
+  name: 5|スイス連邦
   network: ws
-  port: 57398
-  server: 77.90.60.29
+  port: 29808
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 5|英国
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 5|フランス共和国
+  network: ws
+  port: '80'
+  server: de4.niekotin.de
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 38ed5d70-443e-4ac3-b877-ea21d97fed93
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 6|United Kingdom
+  network: ws
+  port: 17870
+  server: 185.248.33.173
   servername: imafake.locker
   tls: true
   type: vmess
@@ -29,47 +119,9 @@ proxies:
     path: /speedtest
 - alterId: 0
   cipher: auto
-  name: 4|Suisse
-  network: ws
-  port: 46486
-  server: 109.61.109.204
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: 5|スウェーデン王国
-  network: tcp
-  port: '1006'
-  server: 51.20.184.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7966c3ea-d744-486d-b0d1-57a749642ca7
-- alterId: 0
-  cipher: auto
-  name: 6|United Kingdom
-  network: ws
-  port: 38809
-  server: 185.248.33.173
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
   name: 6|United States
   network: tcp
-  port: 22324
+  port: '22324'
   server: 66.163.117.58
   servername: ''
   tls: false
@@ -77,14 +129,32 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 6|France
-  network: tcp
-  port: '2052'
-  server: 51.195.235.71
-  servername: ''
-  tls: false
+  name: 6|Switzerland
+  network: ws
+  port: 44284
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
   type: vmess
-  uuid: 59e28f78-c31b-4613-9d9f-1e6732a31f46
+  uuid: c50f9480-2e1d-40db-9458-630e79636663
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: '6|Switzerland #1'
+  network: ws
+  port: 25304
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 12929592-a7bd-41eb-ab4d-d804f76c4ff9
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
 - cipher: aes-256-cfb
   name: 7|ca|084f|puddincat07@Telegram
   password: amazonskr05
