@@ -1,48 +1,82 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Frankreich
+  name: 3|USA
+  network: ws
+  port: 39495
+  server: 129.146.77.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 3|Kanada
+  network: tcp
+  port: 18000
+  server: 134.195.196.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 4|France
   network: tcp
   port: '2053'
   server: node-fr.connectsuite.org
-  servername: node-fr.connectsuite.org
+  servername: ''
   tls: true
   type: vmess
   uuid: 2f4234f9-8f33-4c7f-952f-565ffa5f5fb7
 - alterId: 0
   cipher: auto
-  name: 3|Japan
-  network: ws
-  port: '25686'
-  server: jp02.a0a.xyz
+  name: 4|Australie
+  network: tcp
+  port: '6004'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: 5|アメリカ
+  network: tcp
+  port: '22324'
+  server: 216.106.183.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: '5|アメリカ #1'
+  network: tcp
+  port: 22324
+  server: 216.106.185.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 5|フィリピン共和国
+  network: ws
+  port: 80
+  server: 61.245.11.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
   ws-opts:
     headers:
-      Host: jp02.a0a.xyz
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 5|フランス共和国
-  network: tcp
-  port: '2053'
-  server: de5.taskflowhub.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ca58b165-0f7d-49aa-9fae-a017e8a0f884
-- alterId: 0
-  cipher: auto
-  name: 5|英国
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+      Host: ''
+    path: /vmess/
 - cipher: chacha20-ietf-poly1305
   name: 7|xx|73cc|puddincat07@Telegram
   password: hbGrpfvNrJsUmKmPbR3iY2
