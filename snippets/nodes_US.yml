@@ -3,26 +3,16 @@ proxies:
   cipher: auto
   name: 3|USA
   network: ws
-  port: 48060
-  server: 66.154.106.185
-  servername: ''
-  tls: false
+  port: '443'
+  server: cf.scpnb.top
+  servername: graph-keep-beds-catalog.trycloudflare.com
+  tls: true
   type: vmess
-  uuid: f60ecc88-d704-489c-e3b9-082805317e7b
+  uuid: 7fd8d1db-96ec-4e46-80a8-74ad9472384e
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|United States
-  network: tcp
-  port: '22324'
-  server: 66.163.117.58
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+      Host: graph-keep-beds-catalog.trycloudflare.com
+    path: /7fd8d1db-96ec-4e46-80a8-74ad9472384e-vm
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
