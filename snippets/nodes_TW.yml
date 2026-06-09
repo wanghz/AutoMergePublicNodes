@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Taiwan
+  name: 6|Taiwan
   network: tcp
   port: 35034
   server: 165.154.195.38

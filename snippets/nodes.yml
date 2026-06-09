@@ -1,7 +1,75 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Taiwan
+  name: 3|UK
+  network: ws
+  port: 51192
+  server: 185.248.33.173
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 27104fae-f047-4993-902a-9368d8a3e9bc
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 3|USA
+  network: tcp
+  port: 18000
+  server: 169.197.142.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: '3|USA #1'
+  network: tcp
+  port: 22324
+  server: 66.163.117.58
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 5|英国
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 5|スイス連邦
+  network: ws
+  port: 10559
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 9631096d-3032-4942-9446-bdf12665682b
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 6|Italy
+  network: tcp
+  port: 22324
+  server: 45.92.70.236
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 6|Taiwan
   network: tcp
   port: 35034
   server: 165.154.195.38
@@ -11,45 +79,19 @@ proxies:
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
-  name: 6|Hong Kong
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 6|United Kingdom
+  name: 6|France
   network: tcp
-  port: '180'
-  server: 82.198.246.37
+  port: '2053'
+  server: it.connfull.org
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: f6e74ff5-3798-4ecb-9ee8-b0919501f91c
 - cipher: chacha20-ietf-poly1305
-  name: 7|xx|f358|puddincat07@Telegram
+  name: 7|xx|ad8f|puddincat07@Telegram
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|cc18|puddincat07@Telegram
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|us|9ccb|puddincat07@Telegram
-  password: gqkUCvmeOTghYJXF1YIuk5
-  port: 443
-  server: 71.19.148.74
   type: ss
 - alpn:
   - http/1.1
@@ -65,60 +107,74 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-gcm
-  name: 7|jp|8b5f|puddincat07@Telegram
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 103.106.228.175
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|de|45cc|puddincat07@Telegram
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
-  type: ss
-- cipher: aes-256-cfb
-  name: 7|nl|45fc|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.23.63
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|gb|47ca|puddincat07@Telegram
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-- cipher: aes-256-cfb
-  name: 7|kr|4bd2|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|8692|puddincat07@Telegram
+  password: gqkUCvmeOTghYJXF1YIuk5
+  port: 443
+  server: 71.19.148.74
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|nl|d0d5|puddincat07@Telegram
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.189
+  name: 7|xx|aa5d|puddincat07@Telegram
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|nl|94bf|puddincat07@Telegram
+  name: 7|xx|bc09|puddincat07@Telegram
+  password: a5115845-cc23-4082-905e-869fe212dfef
+  port: 36321
+  server: account-center.zzdy25.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|a8ff|puddincat07@Telegram
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.0.177
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|nl|240e|puddincat07@Telegram
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 193.29.139.235
+  server: 193.29.139.151
   type: ss
-- cipher: aes-256-cfb
-  name: 7|ca|ffb1|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 52.60.99.199
+- cipher: aes-256-gcm
+  name: 7|at|6e86|puddincat07@Telegram
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.180.197.41
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|us|d4d4|puddincat07@Telegram
-  password: yKVMoB3AwiTEznpnoq2FYR
-  port: 28687
-  server: 193.47.60.186
+  name: 7|xx|0d9a|puddincat07@Telegram
+  password: mzeMYBJYp4Bo7nA1qYLvv7QG73igtAA85nt4pr8A9ntx2qhDfYgRtiJ7iH7VrcneQKNmtvpbsvvFKPaUATYELi18iH56Ttr4
+  port: 56594
+  server: download.riferoser.icu
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|za|ac79|puddincat07@Telegram
+  password: aduB9HGxQHjA2SBMRjkHX6
+  port: 443
+  server: 102.37.156.224
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|8579|puddincat07@Telegram
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a1.samanehha.co
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|us|0ede|puddincat07@Telegram
+  password: 9d6cceaa373bf2c8acb22e60b6a58be6
+  port: 443
+  server: 45.79.79.37
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|se|e137|puddincat07@Telegram
+  password: DmMQUmI7pgQDnrWqLXC00L
+  port: 15214
+  server: 94.228.165.234
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
