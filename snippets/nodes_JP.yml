@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|Japan
+  name: 3|Japan
   network: ws
   port: 25686
   server: 140.83.51.161
