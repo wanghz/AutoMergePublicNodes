@@ -3,12 +3,12 @@ proxies:
   cipher: auto
   name: 6|United States
   network: ws
-  port: 52570
+  port: 26803
   server: 96.47.230.5
   servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
+  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
   ws-opts:
     headers:
       Host: imafake.locker
@@ -17,12 +17,12 @@ proxies:
   cipher: auto
   name: '6|United States #1'
   network: ws
-  port: 28589
+  port: 28883
   server: 96.47.230.5
   servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 4ec66d81-9565-4d8e-ae58-2bacfde95f48
+  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
   ws-opts:
     headers:
       Host: imafake.locker
@@ -31,12 +31,12 @@ proxies:
   cipher: auto
   name: '6|United States #2'
   network: ws
-  port: 39358
+  port: 26922
   server: 96.47.230.5
   servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
+  uuid: 254551f6-ec28-4938-ad0e-0aa4aa1965ec
   ws-opts:
     headers:
       Host: imafake.locker

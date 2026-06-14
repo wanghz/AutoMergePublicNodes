@@ -1,38 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Südkorea
+  name: 4|États Unis
   network: ws
-  port: 443
-  server: 152.67.218.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 4|Inde
-  network: tcp
-  port: '22324'
-  server: 172.232.103.186
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 6|United States
-  network: ws
-  port: 52570
+  port: 17115
   server: 96.47.230.5
   servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
+  uuid: b01d1e26-2f84-48da-88a1-1d06a77857f3
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 6|United States
+  network: ws
+  port: 26803
+  server: 96.47.230.5
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
   ws-opts:
     headers:
       Host: imafake.locker
@@ -41,12 +31,12 @@ proxies:
   cipher: auto
   name: '6|United States #1'
   network: ws
-  port: 28589
+  port: 28883
   server: 96.47.230.5
   servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 4ec66d81-9565-4d8e-ae58-2bacfde95f48
+  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
   ws-opts:
     headers:
       Host: imafake.locker
@@ -55,30 +45,16 @@ proxies:
   cipher: auto
   name: '6|United States #2'
   network: ws
-  port: 39358
+  port: 26922
   server: 96.47.230.5
   servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
+  uuid: 254551f6-ec28-4938-ad0e-0aa4aa1965ec
   ws-opts:
     headers:
       Host: imafake.locker
     path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: 6|Philippines
-  network: ws
-  port: '80'
-  server: 61.245.11.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
 - cipher: chacha20-ietf-poly1305
   name: 7|xx|e2b9|puddincat07@Telegram
   password: hbGrpfvNrJsUmKmPbR3iY2
@@ -93,59 +69,11 @@ proxies:
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 7|nl|e4a8|puddincat07@Telegram
-  password: fbx1Fw7mENCd7vZMvorQZ5
-  port: 8080
-  server: 193.29.139.227
-  type: ss
-- cipher: aes-256-cfb
-  name: 7|kr|9175|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|761a|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.149
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|b93d|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.194
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|us|39e4|puddincat07@Telegram
-  password: 4e287631dc4fc8fc
-  port: 12012
-  server: 62.146.231.112
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|5254|puddincat07@Telegram
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|d8f5|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.214
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|507d|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|5fe1|puddincat07@Telegram
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: admin.c1.webramz.co
+- cipher: aes-256-gcm
+  name: 7|tr|c231|puddincat07@Telegram
+  password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
+  port: 1122
+  server: 103.130.147.40
   type: ss
 - alterId: 0
   cipher: auto
@@ -160,19 +88,71 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: 7|xx|93e6|puddincat07@Telegram
-  password: 1kVr0KATIJI7mwOF
-  port: 443
-  server: admin.c1.havij.co
+  name: 7|xx|2d8b|puddincat07@Telegram
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
   type: ss
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 7|us|4b0c|puddincat07@Telegram
-  password: 8JCsPssfgS8tiRwiMlhARg==
-  port: 12000
-  server: 15.204.247.49
-  skip-cert-verify: true
-  tls: true
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|712d|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.184
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|nl|cc19|puddincat07@Telegram
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.233
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|d00d|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.208
+  type: ss
+- cipher: aes-256-gcm
+  name: 7|ca|e96c|puddincat07@Telegram
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.198.95
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|761a|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.149
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|fr|d510|puddincat07@Telegram
+  password: a58fa62b4944ddbf
+  port: 57456
+  server: 81.19.137.222
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|lt|6c7d|puddincat07@Telegram
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.164
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|lt|9808|puddincat07@Telegram
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.166
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|87a1|puddincat07@Telegram
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|577a|puddincat07@Telegram
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: 71.19.148.143
   type: ss
 - alterId: 0
   cipher: auto
