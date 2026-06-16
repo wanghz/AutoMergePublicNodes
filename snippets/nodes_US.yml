@@ -1,34 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|United States
-  network: ws
-  port: 37066
-  server: 96.47.230.5
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: '6|United States #1'
-  network: ws
-  port: 27703
-  server: 96.47.230.5
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: 9631096d-3032-4942-9446-bdf12665682b
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
