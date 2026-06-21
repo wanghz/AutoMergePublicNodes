@@ -3,26 +3,12 @@ proxies:
   cipher: auto
   name: 3|USA
   network: tcp
-  port: 443
-  server: atiins.com.tr
-  servername: atiins.com.tr
-  tls: true
-  type: vmess
-  uuid: 97775936-05ea-4fea-8562-e9eb98559790
-- alterId: 0
-  cipher: auto
-  name: '3|USA #1'
-  network: ws
-  port: 80
-  server: myvpshosting.name.ng
-  servername: myvpshosting.name.ng
+  port: 22324
+  server: 216.106.183.35
+  servername: ''
   tls: false
   type: vmess
-  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
-  ws-opts:
-    headers:
-      Host: myvpshosting.name.ng
-    path: /vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
