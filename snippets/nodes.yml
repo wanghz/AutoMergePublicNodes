@@ -1,28 +1,52 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|Royaume-Uni
+  name: 4|Turquie
   network: tcp
-  port: 180
-  server: 82.198.246.97
+  port: '49946'
+  server: 185.153.231.167
   servername: ''
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 41b73303-5622-4736-ffc1-b60abc1f2347
 - alterId: 0
   cipher: auto
-  name: 4|Canada
+  name: 4|Hong Kong
   network: ws
-  port: '6666'
-  server: 107.173.27.219
-  servername: 107.173.27.219
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
   tls: false
   type: vmess
-  uuid: f0a2fbe5-29bf-468c-ddc1-b524552d1a23
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
       Host: ''
-    path: /youtube
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 5|未命名
+  network: ws
+  port: '443'
+  server: 104.18.19.99
+  servername: vyvzyhgz.com
+  tls: true
+  type: vmess
+  uuid: b4a65611-4969-42b2-bc74-5768b940bd9e
+  ws-opts:
+    headers:
+      Host: vyvzyhgz.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6|United States
+  network: tcp
+  port: 22324
+  server: 66.163.117.58
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 7|xx|e2b9|puddincat07@Telegram
@@ -67,47 +91,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /
-- allowInsecure: '1'
-  name: 7|cf|573e|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.193.213.11
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- cipher: rc4-md5
-  name: 7|gb|1af8|puddincat07@Telegram
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|gb|3ce3|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.203
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|tr|c231|puddincat07@Telegram
-  password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
-  port: 1122
-  server: 103.130.147.40
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|de|d8af|puddincat07@Telegram
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
-  type: ss
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
@@ -120,20 +103,73 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  name: 7|jp|ba8e|puddincat07@Telegram
+  password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
+  port: 40003
+  server: 47.79.144.115
+  type: ss
+- cipher: rc4-md5
+  name: 7|cn|0b51|puddincat07@Telegram
+  password: dbEcUJ
+  port: 24603
+  server: 211.99.97.8
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|xx|3518|puddincat07@Telegram
-  password: ba89b12a-b50b-45a1-ba6b-0181f24fd68b
-  port: 51706
-  server: shct.pkyun.xyz
+  name: 7|it|7894|puddincat07@Telegram
+  password: cg0KkMjbGdJEh
+  port: 998
+  server: 176.105.252.178
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: 7|us|793e|puddincat07@Telegram
-  password: Yc2CtrIz8L
-  port: 30129
-  server: 172.245.205.50
+- cipher: aes-256-cfb
+  name: 7|xx|8710|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 58449
+  server: p234.panda004.net
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: 7|xx|876d|puddincat07@Telegram
+  password: 8be51adf-b081-4fb9-b751-8859cca58fd4
+  port: 7704
+  server: fell3.dogsvpn.top
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|kr|9c86|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 4315
+  server: 125.141.26.10
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|gb|036a|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.235.55.42
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 7|xx|03b1|puddincat07@Telegram
+  password: dbEcUJ
+  port: 24603
+  server: sgp02.ktp.wtf
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 7|gb|1af8|puddincat07@Telegram
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
+  type: ss
+- cipher: aes-256-gcm
+  name: 7|tr|c231|puddincat07@Telegram
+  password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
+  port: 1122
+  server: 103.130.147.40
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
@@ -259,7 +295,7 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: aes-256-cfb
-  name: 10|未命名
+  name: '10|未命名 #1'
   password: amazonskr05
   port: 443
   server: 47.129.174.107
