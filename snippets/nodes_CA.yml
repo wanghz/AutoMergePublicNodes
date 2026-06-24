@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 4|Canada
+  network: ws
+  port: '6666'
+  server: 107.173.27.219
+  servername: 107.173.27.219
+  tls: false
+  type: vmess
+  uuid: f0a2fbe5-29bf-468c-ddc1-b524552d1a23
+  ws-opts:
+    headers:
+      Host: ''
+    path: /youtube
