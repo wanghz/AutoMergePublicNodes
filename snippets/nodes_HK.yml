@@ -1,4 +1,29 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 5|香港
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 12|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 22657
+  server: 54.46.109.132
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: false
+  type: trojan
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
