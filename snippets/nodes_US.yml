@@ -2,17 +2,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 6|United States
-  network: ws
-  port: 80
-  server: 3h-kazakhstan1.09vpn.com
+  network: tcp
+  port: 22324
+  server: 66.163.117.58
   servername: ''
   tls: false
   type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /vmess/
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
