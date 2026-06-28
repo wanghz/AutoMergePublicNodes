@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
+  name: 6|United States
   network: ws
   port: 80
   server: 3h-kazakhstan1.09vpn.com
