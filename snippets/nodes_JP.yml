@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5|日本
+  name: 6|Japan
   network: ws
   port: 80
   server: 172.111.146.64
