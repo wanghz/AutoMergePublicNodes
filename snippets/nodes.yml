@@ -1,46 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Kanada
+  name: 3|USA
   network: tcp
-  port: '13659'
-  server: 154.37.223.56
+  port: 18000
+  server: 67.220.95.3
   servername: ''
   tls: false
   type: vmess
-  uuid: 137fcb24-2538-49ef-ce1e-329ebe5edcbe
-- alterId: 0
-  cipher: auto
-  name: 4|Japon
-  network: ws
-  port: 25686
-  server: 140.83.51.161
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
-  ws-opts:
-    headers:
-      Host: jp02.a0a.xyz
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 6|United States
-  network: tcp
-  port: '10086'
-  server: 57.151.100.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 550e8400-e29b-41d4-a716-446655440000
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- cipher: chacha20-ietf-poly1305
   name: 7|xx|e2b9|puddincat07@Telegram
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
-  skip-cert-verify: true
-  tls: true
   type: ss
 - name: 7|xx|ea40|puddincat07@Telegram
   obfs: salamander
@@ -52,14 +25,6 @@ proxies:
   sni: vn2.yuntong.click
   type: hysteria2
   udp: true
-- cipher: aes-256-gcm
-  name: 7|cn|45bd|puddincat07@Telegram
-  password: '123'
-  port: 1001
-  server: 61.171.92.202
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - name: 7|hk|9760|puddincat07@Telegram
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
@@ -68,6 +33,14 @@ proxies:
   skip-cert-verify: true
   sni: de.01.naiun.bilibili.com
   type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 7|cn|45bd|puddincat07@Telegram
+  password: '123'
+  port: 1001
+  server: 61.171.92.202
+  skip-cert-verify: true
+  type: ss
   udp: true
 - alterId: 2
   cipher: auto
@@ -81,11 +54,41 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|xx|1e03|puddincat07@Telegram
+- client-fingerprint: chrome
+  name: 7|jp|b264|puddincat07@Telegram
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: www.shopify.com
+  server: 38.47.105.76
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /
+- client-fingerprint: chrome
+  name: 7|us|4b66|puddincat07@Telegram
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 162.159.36.20
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /
+- name: 7|jp|36b5|puddincat07@Telegram
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 108.160.132.132
   skip-cert-verify: false
   sni: tjsp.hhxaf.cc.cd
   type: trojan
@@ -93,12 +96,18 @@ proxies:
     headers:
       Host: tjsp.hhxaf.cc.cd
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 7|za|ed8c|puddincat07@Telegram
-  password: aduB9HGxQHjA2SBMRjkHX6
+- name: 7|kr|76da|puddincat07@Telegram
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: 102.37.156.224
-  type: ss
+  server: 211.49.57.178
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
 - client-fingerprint: chrome
   name: 7|xx|ca43|puddincat07@Telegram
   network: ws
@@ -114,48 +123,49 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/50.0.2661.94 Safari/537.36
     path: /
-- alterId: 0
-  name: 7|de|7675|puddincat07@Telegram
+- client-fingerprint: chrome
+  name: 7|de|ce1d|puddincat07@Telegram
   network: tcp
-  password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
   port: 443
-  server: 185.137.157.154
-  skip-cert-verify: true
-  sni: fra154.clientfirewall.click
-  tls: true
+  server: 92.119.35.123
   type: trojan
   udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|nl|a0f3|puddincat07@Telegram
-  password: 36ZCHeabUSfKjfQEvJ4HDV
-  port: 54170
-  server: 185.242.86.156
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|us|577a|puddincat07@Telegram
-  password: p78naCf2EfOlRSLTX0wFVx
+- client-fingerprint: chrome
+  name: 7|jp|502e|puddincat07@Telegram
+  network: tcp
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
   port: 443
-  server: 71.19.148.143
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- name: 7|xx|3653|puddincat07@Telegram
+  server: 103.125.216.68
+  type: trojan
+  udp: true
+- name: 7|xx|1e03|puddincat07@Telegram
   network: ws
-  password: Mitivpn
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: iranpoems.ir
+  server: www.shopify.com
   skip-cert-verify: false
-  sni: www.gamingdll.ir
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 7|jp|a15a|puddincat07@Telegram
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 64.176.36.17
+  sni: tjsp.hhxaf.cc.cd
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.gamingdll.ir
-    path: /usa=mitivpn
+      Host: tjsp.hhxaf.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
