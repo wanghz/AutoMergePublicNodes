@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '3,4|États Unis #1'
-  network: ws
-  port: 80
-  server: 69.84.182.49
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
