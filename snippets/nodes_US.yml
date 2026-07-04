@@ -1,18 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,6|United States
-  network: ws
-  port: 80
-  server: yg2.ygkkk.dpdns.org
+  name: 6|United States
+  network: tcp
+  port: 22324
+  server: 67.220.72.237
   servername: ''
   tls: false
   type: vmess
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
