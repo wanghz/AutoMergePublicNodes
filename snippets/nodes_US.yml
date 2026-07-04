@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,5|アメリカ
+  name: 3,6|United States
   network: ws
-  port: '80'
-  server: yg1.ygkkk.dpdns.org
+  port: 80
+  server: yg2.ygkkk.dpdns.org
   servername: ''
   tls: false
   type: vmess
