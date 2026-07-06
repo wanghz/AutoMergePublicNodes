@@ -4,7 +4,7 @@ proxies:
   name: 3|USA
   network: tcp
   port: 18000
-  server: 67.220.85.46
+  server: 84.17.41.2
   servername: ''
   tls: false
   type: vmess
