@@ -2,17 +2,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 6|United States
-  network: ws
-  port: '20086'
-  server: 173.249.209.146
+  network: tcp
+  port: '22324'
+  server: 216.106.183.35
   servername: ''
   tls: false
   type: vmess
-  uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
