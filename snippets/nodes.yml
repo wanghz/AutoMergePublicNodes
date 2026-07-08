@@ -1,28 +1,70 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5,6|Canada
+  name: 3|USA
   network: tcp
-  port: '10086'
-  server: 107.172.75.141
+  port: 22324
+  server: 216.106.183.35
   servername: ''
   tls: false
   type: vmess
-  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 5|シンガポール
+  name: 3|Japan
   network: ws
-  port: '443'
-  server: n1747624274.4u9ma.icu
+  port: 80
+  server: 172.111.146.64
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
   ws-opts:
     headers:
-      Host: n1747624274.4u9ma.icu
-    path: /
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 4|未命名
+  network: ws
+  port: 80
+  server: 104.21.89.181
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
+  ws-opts:
+    headers:
+      Host: accklsj.bufu.us.ci
+    path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
+- alterId: 0
+  cipher: auto
+  name: 5|アメリカ
+  network: ws
+  port: 39495
+  server: 129.146.77.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 6|India
+  network: ws
+  port: '80'
+  server: 152.67.8.205
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - name: 7|hk|b589|puddincat07@Telegram
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -31,20 +73,32 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   type: hysteria2
   udp: true
-- name: 7|xx|8d96|puddincat07@Telegram
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-kr-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-kr-003.fastervpn.world
-  type: hysteria2
-  udp: true
 - name: 7|nl|f4a6|puddincat07@Telegram
   password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
   port: 443
   server: 5.255.102.165
   skip-cert-verify: true
   sni: www.microsoft.com
+  type: hysteria2
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 7,12|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 11353
+  server: 16.162.220.240
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: false
+  type: trojan
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 7|us|3003|puddincat07@Telegram
+  password: 13d29042-ab82-4195-9cd4-2bafc518e201
+  port: 52625
+  server: 147.90.235.195
+  skip-cert-verify: true
+  sni: apps.apple.com
   type: hysteria2
   udp: true
 - alpn:
@@ -60,24 +114,6 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
-- name: 7|xx|ea40|puddincat07@Telegram
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: vn2.yuntong.click
-  skip-cert-verify: true
-  sni: vn2.yuntong.click
-  type: hysteria2
-  udp: true
-- name: 7|us|3003|puddincat07@Telegram
-  password: 13d29042-ab82-4195-9cd4-2bafc518e201
-  port: 52625
-  server: 147.90.235.195
-  skip-cert-verify: true
-  sni: apps.apple.com
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
   name: 7|xx|bdd2|puddincat07@Telegram
   network: tcp
@@ -88,23 +124,14 @@ proxies:
   sni: qfdfsg.wsone.icu
   type: trojan
   udp: true
-- name: 7|nl|c163|puddincat07@Telegram
-  obfs: salamander
-  obfs-password: EsimObfs_9mK2x7
-  password: EsimHy2Game_7xK9mPq2
-  port: 443
-  server: 198.105.112.118
+- name: 7|hk|16ee|puddincat07@Telegram
+  network: tcp
+  password: BxceQaOe
+  port: '11353'
+  server: 16.162.220.240
   skip-cert-verify: true
-  sni: nl.esimpson.org
-  type: hysteria2
-  udp: true
-- name: 7|sg|4ff6|puddincat07@Telegram
-  password: 13d29042-ab82-4195-9cd4-2bafc518e201
-  port: 50117
-  server: 45.88.42.29
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: hysteria2
+  sni: t.me/ripaojiedian
+  type: trojan
   udp: true
 - alpn:
   - h3
@@ -116,42 +143,45 @@ proxies:
   sni: oracle1.chenlan.top
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  name: 7|xx|2c29|puddincat07@Telegram
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  name: 7|gb|9975|puddincat07@Telegram
-  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  port: 443
-  server: 31.77.144.133
+- name: 7|sg|4ff6|puddincat07@Telegram
+  password: 13d29042-ab82-4195-9cd4-2bafc518e201
+  port: 50117
+  server: 45.88.42.29
   skip-cert-verify: true
-  sni: argg9.auragg.org
+  sni: iosapps.itunes.apple.com
   type: hysteria2
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 7,12|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 11353
-  server: 16.162.220.240
+- name: 7|xx|8d96|puddincat07@Telegram
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-kr-003.fastervpn.world
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: trojan
+  sni: vpn-kr-003.fastervpn.world
+  type: hysteria2
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: 7|de|55a3|puddincat07@Telegram
-  password: 1hhrqrokj3ag
+  name: 7|br|0880|puddincat07@Telegram
+  password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+  port: 17283
+  server: 38.180.221.143
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|za|d18d|puddincat07@Telegram
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  port: 16233
+  server: 102.133.165.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|no|8469|puddincat07@Telegram
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|0a2c|puddincat07@Telegram
+  password: G5p6ww4o67HB
   port: 8388
-  server: 209.46.102.22
+  server: 108.181.0.177
   type: ss
 - alterId: 0
   cipher: auto
@@ -278,7 +308,7 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: aes-256-cfb
-  name: 10|未命名
+  name: '10|未命名 #1'
   password: amazonskr05
   port: 443
   server: 47.129.174.107
