@@ -1,4 +1,28 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 5,6|Canada
+  network: tcp
+  port: '10086'
+  server: 107.172.75.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
+- alterId: 0
+  cipher: auto
+  name: 5|シンガポール
+  network: ws
+  port: '443'
+  server: n1747624274.4u9ma.icu
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
 - name: 7|hk|b589|puddincat07@Telegram
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -25,16 +49,6 @@ proxies:
   udp: true
 - alpn:
   - h3
-  name: 7|gb|9975|puddincat07@Telegram
-  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  port: 443
-  server: 31.77.144.133
-  skip-cert-verify: true
-  sni: argg9.auragg.org
-  type: hysteria2
-  udp: true
-- alpn:
-  - h3
   disable-sni: false
   name: 7|fr|091c|puddincat07@Telegram
   password: dongtaiwang.com
@@ -46,20 +60,6 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
-- name: 7|sg|4ff6|puddincat07@Telegram
-  password: 13d29042-ab82-4195-9cd4-2bafc518e201
-  port: 50117
-  server: 45.88.42.29
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|e2b9|puddincat07@Telegram
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  type: ss
 - name: 7|xx|ea40|puddincat07@Telegram
   obfs: salamander
   obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
@@ -78,6 +78,16 @@ proxies:
   sni: apps.apple.com
   type: hysteria2
   udp: true
+- client-fingerprint: chrome
+  name: 7|xx|bdd2|puddincat07@Telegram
+  network: tcp
+  password: M7v%w11Se*
+  port: 443
+  server: qfdfsg.wsone.icu
+  skip-cert-verify: true
+  sni: qfdfsg.wsone.icu
+  type: trojan
+  udp: true
 - name: 7|nl|c163|puddincat07@Telegram
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
@@ -88,6 +98,14 @@ proxies:
   sni: nl.esimpson.org
   type: hysteria2
   udp: true
+- name: 7|sg|4ff6|puddincat07@Telegram
+  password: 13d29042-ab82-4195-9cd4-2bafc518e201
+  port: 50117
+  server: 45.88.42.29
+  skip-cert-verify: true
+  sni: iosapps.itunes.apple.com
+  type: hysteria2
+  udp: true
 - alpn:
   - h3
   name: 7|xx|59ca|puddincat07@Telegram
@@ -96,6 +114,25 @@ proxies:
   server: oracle1.chenlan.top
   skip-cert-verify: true
   sni: oracle1.chenlan.top
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 7|xx|2c29|puddincat07@Telegram
+  network: tcp
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  name: 7|gb|9975|puddincat07@Telegram
+  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+  port: 443
+  server: 31.77.144.133
+  skip-cert-verify: true
+  sni: argg9.auragg.org
   type: hysteria2
   udp: true
 - alterId: 2
@@ -111,33 +148,11 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: 7|za|d18d|puddincat07@Telegram
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  port: 16233
-  server: 102.133.165.160
+  name: 7|de|55a3|puddincat07@Telegram
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
   type: ss
-- cipher: aes-128-gcm
-  name: 7|us|7e54|puddincat07@Telegram
-  password: SwPfc22G83_s
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: v3.fjdd.shop
-    mode: websocket
-    mux: false
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 104.16.96.41
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|pa|6aaa|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 138.186.142.4
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
