@@ -2,14 +2,10 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 3|Japan
-  network: ws
-  port: 80
-  server: 172.111.146.64
+  network: tcp
+  port: '22324'
+  server: 172.104.80.66
   servername: ''
   tls: false
   type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
