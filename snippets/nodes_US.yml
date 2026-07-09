@@ -3,12 +3,26 @@ proxies:
   cipher: auto
   name: 3|USA
   network: tcp
-  port: '18000'
-  server: 67.220.95.3
+  port: '443'
+  server: 165.140.216.142
   servername: ''
   tls: false
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: 6|United States
+  network: ws
+  port: '80'
+  server: yg6.ygkkk.dpdns.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dc0672f1-1a09-42ec-8f46-0a7e68349e79
+  ws-opts:
+    headers:
+      Host: remains-istanbul-hide-convention.trycloudflare.com
+    path: /dc0672f1-1a09-42ec-8f46-0a7e68349e79-vm
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
