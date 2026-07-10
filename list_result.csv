@@ -2,10 +2,10 @@
 0,https://fastestcloud.xyz/api/v1/client/subscribe?token=c0a4aafbde9d90c05d1aebf0b2440778,0
 1,https://nodefree.org/dy/2024/03/20240320.txt,0
 2,https://oss.v2rayse.com/proxies/data/2024-03-20/2u1ntze.txt,0
-3,https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/static/sub_de,18
-4,https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/static/sub_fr,18
-5,https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/static/sub_ja,18
-6,https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/static/sub_ko-KR,18
+3,https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/static/sub_de,16
+4,https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/static/sub_fr,16
+5,https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/static/sub_ja,16
+6,https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/static/sub_ko-KR,16
 7,https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml,16
 8,https://raw.githubusercontent.com/abshare/abshare.github.io/main/README.md,38
 9,https://raw.githubusercontent.com/freefq/free/master/v2,15
@@ -19,4 +19,4 @@
 17,dynamic://kkzui,0
 18,dynamic://sharkdoor,0
 
-总计,,36
+总计,,40
