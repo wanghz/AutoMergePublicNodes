@@ -1,18 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|United States
-  network: ws
-  port: '443'
-  server: phoenix0202.zgjok.com
-  servername: phoenix0202.zgjok.com
-  tls: true
+  name: 3|USA
+  network: tcp
+  port: 22324
+  server: 216.106.183.35
+  servername: ''
+  tls: false
   type: vmess
-  uuid: d9c36b55-447a-4484-882b-d799f5301681
-  ws-opts:
-    headers:
-      Host: phoenix0202.zgjok.com
-    path: /d9c36b55-447a-4484-882b-d799f5301681
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
