@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Türkei
+  name: 4|Turquie
   network: ws
   port: 443
   server: 94.131.108.36
@@ -15,32 +15,91 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 4|Malaisie
-  network: ws
-  port: '43063'
-  server: 47.250.45.234
+  name: 5|カナダ
+  network: tcp
+  port: '18000'
+  server: 134.195.196.211
   servername: ''
   tls: false
   type: vmess
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
-  ws-opts:
-    headers:
-      Host: 47.250.45.234
-    path: /arki
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 5|未命名
-  network: ws
-  port: 443
-  server: jp01.scpnb.top
+  name: 5|英国
+  network: tcp
+  port: 180
+  server: 82.198.246.9
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 5|日本
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
   ws-opts:
     headers:
-      Host: jp01.scpnb.top
-    path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
+      Host: jp02.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '5|英国 #1'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 5|アメリカ
+  network: tcp
+  port: 10086
+  server: 57.151.100.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 550e8400-e29b-41d4-a716-446655440000
+- alterId: 0
+  cipher: auto
+  name: 6|United States
+  network: tcp
+  port: 18000
+  server: 38.110.1.246
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 6|未命名
+  network: ws
+  port: '8443'
+  server: www.nextkyc.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 7|xx|e2b9|puddincat07@Telegram
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
@@ -61,32 +120,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 7|fr|a764|puddincat07@Telegram
-  password: amazonskr05
-  port: '443'
-  server: 35.180.199.237
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|jp|487a|puddincat07@Telegram
-  password: amazonskr05
-  port: '443'
-  server: 13.192.184.199
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|kr|9179|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
   name: 7|us|f113|puddincat07@Telegram
   password: amazonskr05
   port: '443'
   server: 3.16.130.237
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|jp|09db|puddincat07@Telegram
+  password: amazonskr05
+  port: '443'
+  server: 35.77.98.65
   type: ss
   udp: true
 - client-fingerprint: chrome
@@ -98,36 +142,75 @@ proxies:
   sni: yazhou10.dynu.net
   type: trojan
   udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|xx|e2b9|puddincat07@Telegram
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  skip-cert-verify: true
-  tls: true
+- cipher: aes-256-cfb
+  name: 7|us|e8f3|puddincat07@Telegram
+  password: amazonskr05
+  port: '443'
+  server: 18.119.164.101
   type: ss
-- alterId: 0
-  name: 7|de|ff40|puddincat07@Telegram
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.145
-  skip-cert-verify: true
-  tls: true
-  type: trojan
   udp: true
-- alterId: 0
-  name: 7|us|7183|puddincat07@Telegram
+- cipher: aes-256-cfb
+  name: 7|kr|8c58|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|jp|487a|puddincat07@Telegram
+  password: amazonskr05
+  port: '443'
+  server: 13.192.184.199
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|fr|a764|puddincat07@Telegram
+  password: amazonskr05
+  port: '443'
+  server: 35.180.199.237
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 7|us|f81e|puddincat07@Telegram
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 23.157.40.83
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 7|us|7e54|puddincat07@Telegram
+  password: SwPfc22G83_s
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: v3.fjdd.shop
+    mode: websocket
+    mux: false
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 104.16.96.41
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|xx|ed4b|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 50942
+  server: p233.panda004.net
+  type: ss
+  udp: true
+- name: 7|us|78f4|puddincat07@Telegram
   network: ws
-  password: MITIVPN
-  port: 443
-  server: 162.159.38.119
+  password: 0e81a9cd-d849-4101-8d64-574c283207de
+  port: 2083
+  server: 172.67.204.84
   skip-cert-verify: true
-  sni: de-jodo.App-Cloud.ir
-  tls: true
+  sni: de1.trojanvpn.de
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: de1.trojanvpn.de
+    path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fwebsocket'
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
