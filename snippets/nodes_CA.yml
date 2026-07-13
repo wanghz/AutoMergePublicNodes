@@ -1,11 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 4|Canada
-  network: tcp
-  port: '10086'
-  server: 107.172.75.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
+proxies: []
