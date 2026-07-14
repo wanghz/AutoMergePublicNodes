@@ -1,34 +1,52 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
-  network: tcp
-  port: '443'
-  server: 165.140.216.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: 0
-  cipher: auto
-  name: 3|Deutschland
-  network: tcp
-  port: '8998'
-  server: jazzghost.com
-  servername: jazzghost.com
-  tls: true
-  type: vmess
-  uuid: 45e6cc1d-fc2e-4c97-8633-b33caa28e130
-- alterId: 0
-  cipher: auto
-  name: 4|Canada
-  network: tcp
+  name: 3|Kanada
+  network: raw
   port: '18000'
   server: 134.195.196.211
   servername: ''
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 4|未命名
+  network: ws
+  port: 443
+  server: jp01.scpnb.top
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
+  ws-opts:
+    headers:
+      Host: jp01.scpnb.top
+    path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
+- alterId: 0
+  cipher: auto
+  name: 5|シンガポール
+  network: ws
+  port: '443'
+  server: n1747624260.4u9ma.icu
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
+- name: 7|cn|e2b2|puddincat07@Telegram
+  network: tcp
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: 39001
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: 114.80.8.128
+  tls: true
+  type: trojan
+  udp: true
 - grpc-opts:
     grpc-service-name: zhs
   name: 7|xx|5e38|puddincat07@Telegram
@@ -41,6 +59,21 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: 7|xx|23f4|puddincat07@Telegram
+  network: ws
+  password: bc2f8931-cb3d-4a13-8198-ad0d9d5ef06a
+  port: '443'
+  server: hkntt1.mmm.uw.to
+  skip-cert-verify: false
+  sni: HKNTT1.mmm.uw.to
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
+    path: /bc2f8931-cb3d-4a13-8198-ad0d9d5ef06a-tr
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 7|xx|e2b9|puddincat07@Telegram
@@ -88,6 +121,14 @@ proxies:
   sni: fast88.screw.page
   type: hysteria2
   udp: true
+- cipher: aes-256-cfb
+  name: 7|us|c551|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 3.145.57.90
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - name: 7|xx|4d48|puddincat07@Telegram
   password: xtoRpl9CCisiSwbIawiZ
   port: 443
@@ -119,38 +160,34 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|de|55a3|puddincat07@Telegram
-  password: 1hhrqrokj3ag
-  port: 8388
-  server: 209.46.102.22
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|za|d18d|puddincat07@Telegram
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  port: 16233
-  server: 102.133.165.160
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|us|3f76|puddincat07@Telegram
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 38.86.135.225
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|es|3836|puddincat07@Telegram
-  password: cBghTxo2s8cs8GWneXlRet
+  name: 7|us|6022|puddincat07@Telegram
+  password: hCCWOcIsK5wrFz4OX70rWf
   port: 443
-  server: 185.218.20.4
+  server: 216.105.168.18
   type: ss
+- name: 7|us|4d96|puddincat07@Telegram
+  obfs: salamander
+  obfs-password: 7e3ea7dfee4694e5e0e73383
+  password: 038663b35fe801158d3eca2dae5a6fb1
+  port: 443
+  server: 69.63.220.227
+  skip-cert-verify: true
+  sni: 69.63.220.227
+  type: hysteria2
   udp: true
-- cipher: aes-256-cfb
-  name: 7|pl|a71f|puddincat07@Telegram
-  password: TPqX8edgbAURcAMb
-  port: 9079
-  server: 217.30.10.68
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|70f6|puddincat07@Telegram
+  password: be443689-bc64-49ff-85a5-8eecaa2235d3
+  port: 41068
+  server: zz5.fgmcx.top
   type: ss
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|cn|becb|puddincat07@Telegram
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: 111.29.57.125
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
@@ -276,7 +313,7 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: aes-256-cfb
-  name: 10|未命名
+  name: '10|未命名 #1'
   password: amazonskr05
   port: 443
   server: 47.129.174.107
