@@ -1,9 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
+  name: 4|États Unis
+  network: tcp
+  port: 22324
+  server: 66.163.117.58
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: '4|États Unis #1'
   network: ws
-  port: '17432'
+  port: 17432
   server: 128.242.109.20
   servername: ''
   tls: false
@@ -13,6 +23,26 @@ proxies:
     headers:
       Host: ''
     path: /arki
+- alterId: 0
+  cipher: auto
+  name: 4|Allemagne
+  network: tcp
+  port: '8998'
+  server: jazzghost.com
+  servername: jazzghost.com
+  tls: true
+  type: vmess
+  uuid: 45e6cc1d-fc2e-4c97-8633-b33caa28e130
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 6|United States
+  network: tcp
+  port: 18000
+  server: 67.220.85.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - cipher: chacha20-ietf-poly1305
   name: 7|us|1cb5|puddincat07@Telegram
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv

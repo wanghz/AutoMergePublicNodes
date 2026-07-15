@@ -1,18 +1,14 @@
 proxies:
 - alterId: 0
-  cipher: auto
-  name: 3|USA
-  network: ws
-  port: '17432'
-  server: 128.242.109.20
+  cipher: aes-128-gcm
+  name: 6|United States
+  network: tcp
+  port: 18000
+  server: 67.220.85.46
   servername: ''
   tls: false
   type: vmess
-  uuid: 6cc4a312-2d18-4694-b92d-0af1c039e697
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
