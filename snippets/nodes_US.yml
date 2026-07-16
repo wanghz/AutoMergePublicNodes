@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
-  network: tcp
-  port: '10086'
-  server: 57.151.100.27
+  name: 6|United States
+  network: ws
+  port: 443
+  server: jp01.scpnb.top
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 550e8400-e29b-41d4-a716-446655440000
+  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
+  ws-opts:
+    headers:
+      Host: jp01.scpnb.top
+    path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
