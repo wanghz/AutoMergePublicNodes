@@ -1,15 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 5|日本
-  network: ws
-  port: '4010'
-  server: 45.76.202.45
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /liksuzcp
+proxies: []
