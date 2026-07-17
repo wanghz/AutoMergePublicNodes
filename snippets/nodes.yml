@@ -1,37 +1,84 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|États Unis
-  network: tcp
-  port: '16025'
-  server: c722s801.portablesubmarines.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-- alterId: 0
-  cipher: auto
-  name: 6|Hong Kong
+  name: 3|USA
   network: ws
-  port: 44867
-  server: 47.244.120.197
+  port: 39495
+  server: 129.146.77.248
   servername: ''
   tls: false
   type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
   ws-opts:
     headers:
       Host: ''
-    path: /arki?ed=2048
-- name: 7|xx|24d4|puddincat07@Telegram
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 4|États Unis
+  network: ws
+  port: '2087'
+  server: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+  servername: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+  tls: true
+  type: vmess
+  uuid: efdb11ca-8d37-40ab-9ec2-bdfd72ad4a5b
+  ws-opts:
+    headers:
+      Host: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
+    path: /mehdi
+- alterId: 0
+  cipher: auto
+  name: 5|アメリカ
+  network: ws
+  port: 17432
+  server: 128.242.109.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6cc4a312-2d18-4694-b92d-0af1c039e697
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 6|Malaysia
   network: tcp
-  password: NQ26071394
-  port: '443'
-  server: living-hagfish.rooster465.autos
-  skip-cert-verify: false
-  sni: living-hagfish.rooster465.autos
-  type: trojan
-  udp: true
+  port: 10000
+  server: 47.250.135.244
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+- alterId: 0
+  cipher: auto
+  name: 6|未命名
+  network: ws
+  port: 443
+  server: 8cdn.njkrpl.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+  ws-opts:
+    headers:
+      Host: 8cdn.njkrpl.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '6|未命名 #1'
+  network: ws
+  port: 443
+  server: 4cdn.njkrpl.com
+  servername: 4cdn.njkrpl.com
+  tls: true
+  type: vmess
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 7|us|1cb5|puddincat07@Telegram
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -41,6 +88,22 @@ proxies:
     mode: tls
   port: 2377
   server: 88.210.36.106
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|de|1e4c|puddincat07@Telegram
+  password: amazonskr05
+  port: '443'
+  server: 63.183.207.82
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 7|xx|e2b9|puddincat07@Telegram
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  skip-cert-verify: true
+  tls: true
   type: ss
 - name: 7|xx|f463|puddincat07@Telegram
   network: ws
@@ -54,28 +117,15 @@ proxies:
     headers:
       Host: alternative.mhjstudio.ir
     path: /
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|xx|e2b9|puddincat07@Telegram
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- cipher: aes-256-cfb
-  name: 7|de|1e4c|puddincat07@Telegram
-  password: amazonskr05
+- name: 7|xx|24d4|puddincat07@Telegram
+  network: tcp
+  password: NQ26071394
   port: '443'
-  server: 63.183.207.82
-  type: ss
+  server: living-hagfish.rooster465.autos
+  skip-cert-verify: false
+  sni: living-hagfish.rooster465.autos
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 7|us|5c3a|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 18.190.176.112
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 7|sk|1309|puddincat07@Telegram
   password: Vr06rU_v1vFPYeXq9zbsAA
@@ -83,31 +133,6 @@ proxies:
   server: 156.146.40.84
   type: ss
   udp: true
-- alterId: 0
-  name: 7|ie|c363|puddincat07@Telegram
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: 3.249.67.252
-  skip-cert-verify: true
-  sni: singular-lark.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|nl|9e7b|puddincat07@Telegram
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 7|cn|abb9|puddincat07@Telegram
-  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
-  port: 10182
-  server: 36.139.183.164
-  tfo: false
-  type: ss
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
@@ -120,33 +145,60 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|cz|5cd7|puddincat07@Telegram
-  password: Vr06rU_v1vFPYeXq9zbsAA
-  port: 1080
-  server: 185.156.174.106
+- client-fingerprint: chrome
+  name: 7|xx|5c7e|puddincat07@Telegram
+  network: tcp
+  password: KV63147582
+  port: 443
+  server: electric-sturgeon.rooster465.autos
   skip-cert-verify: true
-  tls: true
-  type: ss
-- alterId: 0
-  name: 7|us|7f0d|puddincat07@Telegram
-  network: ws
-  password: MiTiVPN
-  port: 2087
-  server: 188.114.97.6
-  skip-cert-verify: true
-  sni: fl-bo--7---u.aPp-cLoud.IR
-  tls: true
+  sni: electric-sturgeon.rooster465.autos
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|fr|71cd|puddincat07@Telegram
-  password: LE6Ee6PELhVu
-  port: 443
-  server: 92.243.24.236
+  name: 7|nl|9e7b|puddincat07@Telegram
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
   type: ss
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|nl|447b|puddincat07@Telegram
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+- cipher: rc4-md5
+  name: 7|ca|4230|puddincat07@Telegram
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|us|5c3a|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 18.190.176.112
+  type: ss
+- client-fingerprint: chrome
+  name: 7|us|841c|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- cipher: aes-256-cfb
+  name: 7|kr|d204|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 3.34.192.249
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
@@ -272,7 +324,7 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: aes-256-cfb
-  name: 10|未命名
+  name: '10|未命名 #2'
   password: amazonskr05
   port: 443
   server: 47.129.174.107
