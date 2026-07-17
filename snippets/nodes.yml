@@ -1,14 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
+  name: 4|États Unis
   network: tcp
-  port: 18000
-  server: 84.17.41.2
+  port: '16025'
+  server: c722s801.portablesubmarines.com
   servername: ''
   tls: false
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+- alterId: 0
+  cipher: auto
+  name: 6|Hong Kong
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 - name: 7|xx|24d4|puddincat07@Telegram
   network: tcp
   password: NQ26071394
@@ -17,22 +31,6 @@ proxies:
   skip-cert-verify: false
   sni: living-hagfish.rooster465.autos
   type: trojan
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|xx|e2b9|puddincat07@Telegram
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- cipher: aes-256-cfb
-  name: 7|us|22b6|puddincat07@Telegram
-  password: amazonskr05
-  port: '443'
-  server: 18.226.248.109
-  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 7|us|1cb5|puddincat07@Telegram
@@ -56,6 +54,15 @@ proxies:
     headers:
       Host: alternative.mhjstudio.ir
     path: /
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 7|xx|e2b9|puddincat07@Telegram
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - cipher: aes-256-cfb
   name: 7|de|1e4c|puddincat07@Telegram
   password: amazonskr05
@@ -76,6 +83,31 @@ proxies:
   server: 156.146.40.84
   type: ss
   udp: true
+- alterId: 0
+  name: 7|ie|c363|puddincat07@Telegram
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: 3.249.67.252
+  skip-cert-verify: true
+  sni: singular-lark.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|nl|9e7b|puddincat07@Telegram
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 7|cn|abb9|puddincat07@Telegram
+  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
+  port: 10182
+  server: 36.139.183.164
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
@@ -88,52 +120,33 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 7|us|c74a|puddincat07@Telegram
-  password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
-  port: 16292
-  server: 38.54.80.160
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|de|9184|puddincat07@Telegram
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 7|cz|5cd7|puddincat07@Telegram
   password: Vr06rU_v1vFPYeXq9zbsAA
-  port: '1080'
-  server: 62.113.194.49
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|no|8469|puddincat07@Telegram
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 185.213.23.63
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|73d4|puddincat07@Telegram
-  password: QQgNHAq1zAzjVSjMSTp8Rt
-  port: 62801
-  server: 52.151.77.88
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|cn|8ff9|puddincat07@Telegram
-  password: d3c7f55f-e2af-4114-b0a3-058d219e2992
-  port: 27259
-  server: 120.199.94.30
-  type: ss
-  udp: true
-- name: 7|us|167e|puddincat07@Telegram
-  network: ws
-  password: cb1f26aa437d4bfa9b841d28503ce8cc
-  port: 443
-  server: 104.16.192.159
+  port: 1080
+  server: 185.156.174.106
   skip-cert-verify: true
-  sni: jobsapplyworld.com
+  tls: true
+  type: ss
+- alterId: 0
+  name: 7|us|7f0d|puddincat07@Telegram
+  network: ws
+  password: MiTiVPN
+  port: 2087
+  server: 188.114.97.6
+  skip-cert-verify: true
+  sni: fl-bo--7---u.aPp-cLoud.IR
+  tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: jobsapplyworld.com
-    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252F6b777a91'
+- cipher: chacha20-ietf-poly1305
+  name: 7|fr|71cd|puddincat07@Telegram
+  password: LE6Ee6PELhVu
+  port: 443
+  server: 92.243.24.236
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
