@@ -1,28 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|UK
-  network: tcp
-  port: '180'
-  server: 82.198.246.233
+  name: 4|États Unis
+  network: raw
+  port: '48111'
+  server: 129.146.143.80
   servername: ''
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
 - alterId: 0
   cipher: auto
-  name: 6|United States
-  network: ws
-  port: '443'
-  server: xsj004-10.facai2024.com
+  name: 4|Corée du Sud
+  network: tcp
+  port: '8888'
+  server: 146.56.112.110
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
-  ws-opts:
-    headers:
-      Host: xsj004-10.facai2024.com
-    path: /1f1aa362-25
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+- name: 7|xx|7876|puddincat07@Telegram
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: major-cobra.rooster465.autos
+  skip-cert-verify: false
+  sni: major-cobra.rooster465.autos
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 7|xx|e2b9|puddincat07@Telegram
@@ -32,18 +37,19 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 7,12|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 25651
-  server: 43.199.202.34
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: trojan
+- cipher: aes-256-cfb
+  name: 7|de|36f9|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 35.156.204.162
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|de|3b3f|puddincat07@Telegram
+  password: amazonskr05
+  port: '443'
+  server: 54.93.186.149
+  type: ss
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
   name: 7|sk|1309|puddincat07@Telegram
   password: Vr06rU_v1vFPYeXq9zbsAA
@@ -51,78 +57,97 @@ proxies:
   server: 156.146.40.84
   type: ss
   udp: true
+- name: 7|xx|67ef|puddincat07@Telegram
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: sharing-fawn.rooster465.autos
+  skip-cert-verify: false
+  sni: sharing-fawn.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|xx|f787|puddincat07@Telegram
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: exciting-turtle.rooster465.autos
+  skip-cert-verify: false
+  sni: exciting-turtle.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|xx|9960|puddincat07@Telegram
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: saved-mantis.rooster465.autos
+  skip-cert-verify: false
+  sni: saved-mantis.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|xx|62c1|puddincat07@Telegram
+  network: tcp
+  password: JA96378052
+  port: '443'
+  server: bursting-baboon.rooster465.autos
+  skip-cert-verify: false
+  sni: bursting-baboon.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|xx|d7c8|puddincat07@Telegram
+  network: tcp
+  password: JA96378052
+  port: '443'
+  server: modest-coral.rooster465.autos
+  skip-cert-verify: false
+  sni: modest-coral.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|xx|921d|puddincat07@Telegram
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: lucky-primate.rooster465.autos
+  skip-cert-verify: false
+  sni: lucky-primate.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|xx|003a|puddincat07@Telegram
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: quality-sheepdog.rooster465.autos
+  skip-cert-verify: false
+  sni: quality-sheepdog.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|gb|a1ac|puddincat07@Telegram
+  password: amazonskr05
+  port: '443'
+  server: 3.8.78.225
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|0a2c|puddincat07@Telegram
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.0.177
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 7|nl|a3cf|puddincat07@Telegram
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.204
   type: ss
-- name: 7|jp|95e9|puddincat07@Telegram
-  network: tcp
-  password: BxceQaOe
-  port: 24397
-  server: 54.238.245.134
+- name: 7|xx|badf|puddincat07@Telegram
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: ff2.yuntong.click
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|b810|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.15
-  type: ss
-- cipher: rc4-md5
-  name: 7|xx|5d16|puddincat07@Telegram
-  password: dbEcUJ
-  port: 24603
-  server: ge01.htz.wtf
-  type: ss
-  udp: true
-- name: 7|au|23e3|puddincat07@Telegram
-  network: tcp
-  password: XG59623478
-  port: '443'
-  server: 82.117.225.216
-  skip-cert-verify: false
-  sni: concise-buck.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|pa|6aaa|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 138.186.142.4
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|70f6|puddincat07@Telegram
-  password: be443689-bc64-49ff-85a5-8eecaa2235d3
-  port: 41068
-  server: zz5.fgmcx.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|cn|becb|puddincat07@Telegram
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: 111.29.57.125
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 7|fr|3154|puddincat07@Telegram
-  password: 7BcLdsO1WweoGD0X
-  port: 40368
-  server: 193.243.147.128
-  type: ss
-- client-fingerprint: chrome
-  name: 7|xx|9170|puddincat07@Telegram
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: excited-squirrel.rooster465.autos
-  skip-cert-verify: false
-  sni: excited-squirrel.rooster465.autos
-  type: trojan
+  sni: ff2.yuntong.click
+  type: hysteria2
   udp: true
 - alterId: 0
   cipher: auto
@@ -274,6 +299,17 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 12|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 25651
+  server: 43.199.202.34
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: false
+  type: trojan
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
