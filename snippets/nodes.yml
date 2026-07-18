@@ -1,24 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|États Unis
-  network: raw
-  port: '48111'
-  server: 129.146.143.80
+  name: 4|Singapour
+  network: ws
+  port: '443'
+  server: n1747624274.4u9ma.icu
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
 - alterId: 0
   cipher: auto
-  name: 4|Corée du Sud
-  network: tcp
-  port: '8888'
-  server: 146.56.112.110
+  name: 4|Japon
+  network: raw
+  port: '10038'
+  server: family.bucket.x9.kfc-520.com
   servername: ''
   tls: false
   type: vmess
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- alterId: 0
+  cipher: auto
+  name: 5|アメリカ
+  network: tcp
+  port: '10086'
+  server: 57.151.100.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 550e8400-e29b-41d4-a716-446655440000
 - name: 7|xx|7876|puddincat07@Telegram
   network: tcp
   password: HW85960347
