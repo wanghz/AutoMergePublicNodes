@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 3|Taiwan
+  network: tcp
+  port: '10039'
+  server: family.bucket.x9.kfc-520.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
