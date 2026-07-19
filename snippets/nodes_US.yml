@@ -1,58 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
-  network: ws
-  port: 443
-  server: zt-ai.cloud
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: fce3d6a4-0f12-49b5-a810-84bcf0fde202
-  ws-opts:
-    headers:
-      Host: zt-ai.cloud
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: '3|USA #1'
-  network: tcp
-  port: '18000'
-  server: 67.220.85.46
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 6|United States
-  network: ws
-  port: '8443'
-  server: tg.hrmp.kdns.fr
-  servername: tg.hrmp.kdns.fr
-  tls: true
-  type: vmess
-  uuid: af1ccd89-b66b-44e8-99b8-0d945078c04b
-  ws-opts:
-    headers:
-      Host: tg.hrmp.kdns.fr
-    path: /tirexvmess
-- alterId: 0
-  cipher: auto
-  name: '6|United States #1'
-  network: ws
-  port: '443'
-  server: 8cdn.njkrpl.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
