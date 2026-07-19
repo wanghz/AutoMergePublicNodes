@@ -3,7 +3,7 @@ proxies:
   cipher: auto
   name: 4|Canada
   network: tcp
-  port: 18000
+  port: '18000'
   server: 134.195.196.211
   servername: ''
   tls: false
