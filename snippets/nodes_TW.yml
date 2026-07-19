@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Taiwan
+  name: 5|台湾
   network: tcp
-  port: '10039'
+  port: '10047'
   server: family.bucket.x9.kfc-520.com
   servername: ''
   tls: false
