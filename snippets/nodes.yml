@@ -1,34 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
+  name: 5|英国
   network: tcp
-  port: '443'
-  server: 165.140.216.141
+  port: '180'
+  server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: 0
-  cipher: auto
-  name: 5|カナダ
-  network: tcp
-  port: '18000'
-  server: 134.195.196.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 5|アメリカ
-  network: tcp
-  port: '22324'
-  server: 216.106.185.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 7|jp|69bf|puddincat07@Telegram
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
   port: 52454
@@ -37,6 +17,22 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  name: 7|ir|80d8|puddincat07@Telegram
+  password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
+  port: 82
+  server: 94.183.124.95
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|de|1a5e|puddincat07@Telegram
+  password: amazonskr05
+  port: '443'
+  server: 63.180.180.176
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 7|de|dcb4|puddincat07@Telegram
   password: amazonskr05
@@ -44,123 +40,12 @@ proxies:
   server: 18.159.53.205
   type: ss
   udp: true
-- name: 7|cy|558e|puddincat07@Telegram
-  network: ws
-  password: p2QFnWdKPZt0evve7n-C52fTqRndJa5W
-  port: '443'
-  server: 103.27.157.97
-  skip-cert-verify: false
-  sni: rem.dtr.kotokopolb.ru
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /trojan-ws
-- client-fingerprint: chrome
-  name: 7|xx|5f19|puddincat07@Telegram
-  network: tcp
-  password: PD07395842
-  port: 443
-  server: tidy-gopher.rooster465.autos
-  skip-cert-verify: false
-  sni: tidy-gopher.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 7|xx|1e99|puddincat07@Telegram
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: quiet-condor.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 7|xx|8ed3|puddincat07@Telegram
-  network: tcp
-  password: PI36027154
-  port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: false
-  sni: upright-hamster.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 7|xx|81fd|puddincat07@Telegram
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: pretty-mollusk.rooster465.autos
-  skip-cert-verify: false
-  sni: pretty-mollusk.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 7|xx|bc3b|puddincat07@Telegram
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: growing-oyster.rooster465.autos
-  skip-cert-verify: false
-  sni: growing-oyster.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|xx|3653|puddincat07@Telegram
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: iranpoems.ir
-  skip-cert-verify: false
-  sni: www.gamingdll.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.gamingdll.ir
-    path: /usa=mitivpn
-- client-fingerprint: chrome
-  name: 7|us|7df2|puddincat07@Telegram
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: 54.245.167.246
-  skip-cert-verify: false
-  sni: tolerant-rattler.rooster465.autos
-  type: trojan
-  udp: true
-- name: 7|us|4926|puddincat07@Telegram
-  network: tcp
-  password: 0ebb269c9f2d4e8e46b0cd4105a55134
-  port: 49361
-  server: 163.245.196.68
-  skip-cert-verify: false
-  sni: 163.245.196.68.sslip.io
-  type: trojan
-  udp: true
-- name: 7|cf|e254|puddincat07@Telegram
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- client-fingerprint: chrome
-  name: 7|au|73d3|puddincat07@Telegram
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: 82.117.225.56
-  skip-cert-verify: false
-  sni: stirring-dane.rooster465.autos
-  type: trojan
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|3b4b|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.34
+  type: ss
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
@@ -171,19 +56,44 @@ proxies:
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 7|de|20f7|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 63.176.169.206
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|e901|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.10
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|in|3177|puddincat07@Telegram
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.71
+  name: 7|gb|84ee|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.57
   type: ss
+- client-fingerprint: chrome
+  name: 7|us|7df2|puddincat07@Telegram
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: 54.245.167.246
+  skip-cert-verify: false
+  sni: tolerant-rattler.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: rc4-md5
+  name: 7|xx|c046|puddincat07@Telegram
+  password: dbEcUJ
+  port: 24603
+  server: sgp03.ktp.wtf
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|kr|fd43|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 58449
+  server: 222.112.15.140
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
