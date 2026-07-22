@@ -1,72 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|États Unis
-  network: tcp
-  port: 22324
-  server: 216.106.185.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 4|Finlande
-  network: tcp
-  port: '52525'
-  server: 65.109.219.124
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 358f44f0-2686-46c8-9cc6-ec52abd66df4
-- alterId: 0
-  cipher: auto
-  name: 5|カナダ
-  network: tcp
-  port: '18000'
-  server: 134.195.196.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 6|United Kingdom
+  name: 5|英国
   network: tcp
   port: '180'
-  server: 82.198.246.37
-  servername: fra5.chasem2026sud.com
+  server: 82.198.246.233
+  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|xx|e2b9|puddincat07@Telegram
-  password: gaM3vd5zfR1ay1v7hfn4X6
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- name: 7|us|4926|puddincat07@Telegram
+  cipher: auto
+  name: 6|South Korea
   network: tcp
-  password: 0ebb269c9f2d4e8e46b0cd4105a55134
-  port: 49361
-  server: 163.245.196.68
-  skip-cert-verify: false
-  sni: 163.245.196.68.sslip.io
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 7|xx|b690|puddincat07@Telegram
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: square-anchovy.rooster465.autos
-  skip-cert-verify: false
-  sni: square-anchovy.rooster465.autos
-  type: trojan
-  udp: true
+  port: '80'
+  server: 217.142.138.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- alterId: 0
+  cipher: auto
+  name: 6|Spain
+  network: raw
+  port: '22324'
+  server: 85.90.217.42
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-cfb
   name: 7|de|dcb4|puddincat07@Telegram
   password: amazonskr05
@@ -74,21 +36,12 @@ proxies:
   server: 18.159.53.205
   type: ss
   udp: true
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 7|sg|b1d0|puddincat07@Telegram
-  password: a172cf0d-ae89-42f3-8505-0c51dae293a1
-  port: 443
-  server: 8.210.171.48
-  skip-cert-verify: true
-  tls: true
-  type: ss
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 11993
-  server: 18.166.225.126
+  port: 29085
+  server: 43.198.106.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
@@ -96,71 +49,72 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: 7|in|1bfd|puddincat07@Telegram
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.80
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|ead3|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.192
-  type: ss
-- cipher: aes-256-cfb
-  name: 7|de|36f9|puddincat07@Telegram
-  password: amazonskr05
+  name: 7|gb|b810|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
-  server: 35.156.204.162
+  server: 82.38.31.15
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|87a1|puddincat07@Telegram
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+- client-fingerprint: chrome
+  name: 7|xx|81fd|puddincat07@Telegram
+  network: tcp
+  password: NQ26071394
   port: 443
-  server: 146.19.49.251
-  type: ss
-- name: 7|xx|badf|puddincat07@Telegram
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  port: 443
-  server: ff2.yuntong.click
-  skip-cert-verify: true
-  sni: ff2.yuntong.click
-  type: hysteria2
+  server: pretty-mollusk.rooster465.autos
+  skip-cert-verify: false
+  sni: pretty-mollusk.rooster465.autos
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|us|577a|puddincat07@Telegram
-  password: p78naCf2EfOlRSLTX0wFVx
+- client-fingerprint: chrome
+  name: 7|xx|bc3b|puddincat07@Telegram
+  network: tcp
+  password: XG59623478
   port: 443
-  server: 71.19.148.143
-  type: ss
-- cipher: rc4-md5
-  name: 7|us|c950|puddincat07@Telegram
-  obfs: plain
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  protocol: origin
-  server: 107.151.182.253
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 7|us|dc13|puddincat07@Telegram
-  password: qFvn2fNEvBgM5knffrN96q
-  port: 9483
-  server: 92.118.112.101
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|e913|puddincat07@Telegram
-  password: p78naCf2EfOlRSLTX0wFVx
+  server: growing-oyster.rooster465.autos
+  skip-cert-verify: false
+  sni: growing-oyster.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 7|pl|c8e4|puddincat07@Telegram
+  network: tcp
+  password: PI36027154
   port: 443
-  server: pupas-shirting-unsung.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|us|4508|puddincat07@Telegram
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  server: 62.112.222.26
+  skip-cert-verify: false
+  sni: upright-hamster.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 7|xx|8ed3|puddincat07@Telegram
+  network: tcp
+  password: PI36027154
   port: 443
-  server: 23.95.75.146
-  type: ss
+  server: upright-hamster.rooster465.autos
+  skip-cert-verify: false
+  sni: upright-hamster.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 7|xx|b475|puddincat07@Telegram
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: tolerant-rattler.rooster465.autos
+  skip-cert-verify: true
+  sni: tolerant-rattler.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 7|us|11db|puddincat07@Telegram
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: 44.252.127.212
+  skip-cert-verify: false
+  sni: better-silkworm.rooster465.autos
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
