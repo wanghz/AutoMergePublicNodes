@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5|英国
+  name: 6|United Kingdom
   network: tcp
   port: '180'
   server: 82.198.246.233
