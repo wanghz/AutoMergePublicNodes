@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|United Kingdom
+  name: 3|UK
   network: tcp
   port: '180'
-  server: 82.198.246.233
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
@@ -50,8 +50,8 @@ proxies:
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 29085
-  server: 43.198.106.37
+  port: 25651
+  server: 18.163.182.53
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
