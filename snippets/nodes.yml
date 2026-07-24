@@ -1,28 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 3|Singapur
-  network: ws
-  port: '443'
-  server: n1747624274.4u9ma.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  ws-opts:
-    headers:
-      Host: n1747624274.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|United States
-  network: tcp
-  port: '48111'
-  server: 129.146.143.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
 - name: 7|jp|69bf|puddincat07@Telegram
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
   port: 52454
@@ -59,12 +35,6 @@ proxies:
   port: 443
   server: 34.207.112.128
   type: ss
-- cipher: aes-256-gcm
-  name: 7|ir|80d8|puddincat07@Telegram
-  password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
-  port: 82
-  server: 94.183.124.95
-  type: ss
 - name: 7|us|db5e|puddincat07@Telegram
   network: ws
   password: humanity
@@ -88,18 +58,18 @@ proxies:
   tls: false
   type: trojan
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|us|1405|puddincat07@Telegram
-  network: ws
-  password: humanity
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|4508|puddincat07@Telegram
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
-  server: 104.18.152.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+  server: 23.95.75.146
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|4bc4|puddincat07@Telegram
+  password: 86039b71-ba82-4ca8-838e-87086ae666de
+  port: 10011
+  server: 107.175.87.207
+  type: ss
 - name: 7|xx|7cca|puddincat07@Telegram
   password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
   port: 443
@@ -108,40 +78,38 @@ proxies:
   sni: prodfr.h2corp.org
   type: hysteria2
   udp: true
-- name: 7|us|ac48|puddincat07@Telegram
-  network: ws
-  password: humanity
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|87a1|puddincat07@Telegram
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
   port: 443
-  server: 208.103.161.101
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: /assignment
-- name: 7|us|fdce|puddincat07@Telegram
-  network: tcp
-  password: BxceQaOe
-  port: 27826
-  server: 18.164.124.189
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 7|us|a7fc|puddincat07@Telegram
-  network: ws
-  password: MITIVPN
+  server: 146.19.49.251
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|577a|puddincat07@Telegram
+  password: p78naCf2EfOlRSLTX0wFVx
   port: 443
-  server: 104.18.16.56
-  skip-cert-verify: true
-  sni: i---7-MiTiVPN----o.aPp-cLoud.IR
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: mhv---MiTiVPN---MiTiVPN.aPp-cLoud.IR
-    path: '---'
+  server: 71.19.148.143
+  type: ss
+- cipher: rc4-md5
+  name: 7|us|c950|puddincat07@Telegram
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 107.151.182.253
+  type: ssr
+- cipher: aes-256-gcm
+  name: 7|ir|80d8|puddincat07@Telegram
+  password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
+  port: 82
+  server: 94.183.124.95
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|bf1e|puddincat07@Telegram
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001287h3p.cybervena.com
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 7|nl|447b|puddincat07@Telegram
   password: CJmTCCx7Ltud
