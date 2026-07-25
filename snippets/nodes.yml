@@ -1,28 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 5|大韓民国
-  network: tcp
-  port: '80'
-  server: 217.142.138.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-- alterId: 0
-  cipher: auto
-  name: 6|Japan
-  network: ws
-  port: '80'
-  server: 168.138.43.75
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: None
-    path: /cctv13.m3u8
 - name: 7|jp|69bf|puddincat07@Telegram
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
   port: 52454
@@ -45,24 +21,42 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- client-fingerprint: edge
-  name: 7|xx|acd7|puddincat07@Telegram
-  network: tcp
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: '20031'
-  server: kkvlvvq-a.catcat321.com
+- alterId: 2
+  cipher: auto
+  name: 7,12|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 51396
+  server: 18.166.59.129
   skip-cert-verify: true
-  sni: hk.catxstar.com
+  sni: t.me%2Fripaojiedian
+  tls: false
   type: trojan
   udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: 7|us|d41d|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 34.207.112.128
+  type: ss
 - cipher: aes-256-cfb
   name: 7|us|a621|puddincat07@Telegram
   password: amazonskr05
   port: 443
   server: 54.167.54.100
-  skip-cert-verify: true
   type: ss
-  udp: true
+- cipher: aes-256-cfb
+  name: 7|us|dc43|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 34.207.235.215
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|us|0fc9|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 54.197.30.38
+  type: ss
 - name: 7|us|db5e|puddincat07@Telegram
   network: ws
   password: humanity
@@ -75,12 +69,6 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- cipher: aes-256-cfb
-  name: 7|us|d41d|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 34.207.112.128
-  type: ss
 - name: 7|xx|39d1|puddincat07@Telegram
   network: ws
   password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
@@ -95,18 +83,23 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /
-- alterId: 2
-  cipher: auto
-  name: 7,12|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 51396
-  server: 18.166.59.129
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|3b4b|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.34
+  type: ss
+- alterId: 0
+  name: 7|xx|19a6|puddincat07@Telegram
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: ready-kangaroo.rooster465.autos
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
+  sni: ready-kangaroo.rooster465.autos
+  tls: true
   type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 7|cf|e254|puddincat07@Telegram
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
@@ -119,50 +112,17 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|9e5d|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.189
-  type: ss
-- name: 7|xx|c4ab|puddincat07@Telegram
-  network: ws
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: '443'
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  skip-cert-verify: false
-  sni: _acme-challenge.sb.cloudns.biz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/57.0.2987.133 Safari/537.36
-    path: /
-- name: 7|us|ac48|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 208.103.161.101
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: /assignment
 - cipher: rc4-md5
-  name: 7|xx|17ce|puddincat07@Telegram
+  name: 7|ca|4230|puddincat07@Telegram
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
+- cipher: rc4-md5
+  name: 7|xx|48af|puddincat07@Telegram
   password: dbEcUJ
   port: 24603
-  server: jp03.ktp.wtf
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 7|us|dc2d|puddincat07@Telegram
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.110.1.51
+  server: fr01.ktp.wtf
   type: ss
   udp: true
 - alterId: 0
