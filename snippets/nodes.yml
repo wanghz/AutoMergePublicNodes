@@ -21,30 +21,6 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- alterId: 2
-  cipher: auto
-  name: 7,12|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 51396
-  server: 18.166.59.129
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: trojan
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 7|us|d41d|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 34.207.112.128
-  type: ss
-- cipher: aes-256-cfb
-  name: 7|us|a621|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 54.167.54.100
-  type: ss
 - cipher: aes-256-cfb
   name: 7|us|dc43|puddincat07@Telegram
   password: amazonskr05
@@ -57,18 +33,18 @@ proxies:
   port: 443
   server: 54.197.30.38
   type: ss
-- name: 7|us|db5e|puddincat07@Telegram
-  network: ws
-  password: humanity
+- cipher: aes-256-cfb
+  name: 7|us|a621|puddincat07@Telegram
+  password: amazonskr05
   port: 443
-  server: 198.62.62.23
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
+  server: 54.167.54.100
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|us|d41d|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 34.207.112.128
+  type: ss
 - name: 7|xx|39d1|puddincat07@Telegram
   network: ws
   password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
@@ -83,12 +59,18 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|3b4b|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.34
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 7,12|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 51396
+  server: 18.166.59.129
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: false
+  type: trojan
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   name: 7|xx|19a6|puddincat07@Telegram
   network: tcp
@@ -100,29 +82,44 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 7|cf|e254|puddincat07@Telegram
+- name: 7|us|db5e|puddincat07@Telegram
   network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  password: humanity
   port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
+  server: 198.62.62.23
+  skip-cert-verify: false
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- cipher: rc4-md5
-  name: 7|ca|4230|puddincat07@Telegram
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
+      Host: www.calmlunch.com
+    path: /assignment
+- cipher: aes-256-gcm
+  name: 7|us|c468|puddincat07@Telegram
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 23.157.40.44
   type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 7|my|2ef4|puddincat07@Telegram
+  password: Yc2CtrIz8L
+  port: 16899
+  server: 172.252.217.147
+  type: ss
+  udp: true
 - cipher: rc4-md5
-  name: 7|xx|48af|puddincat07@Telegram
+  name: 7|xx|b39c|puddincat07@Telegram
   password: dbEcUJ
   port: 24603
-  server: fr01.ktp.wtf
+  server: tw15.ktp.wtf
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|sg|3abc|puddincat07@Telegram
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20177
+  server: 139.59.119.251
   type: ss
   udp: true
 - alterId: 0
