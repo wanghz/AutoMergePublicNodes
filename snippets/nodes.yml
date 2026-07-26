@@ -4,39 +4,11 @@ proxies:
   name: 4|États Unis
   network: tcp
   port: '18000'
-  server: 169.197.142.22
+  server: 67.220.95.3
   servername: ''
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 4|Japon
-  network: ws
-  port: 25686
-  server: 140.83.51.161
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
-  ws-opts:
-    headers:
-      Host: jp02.a0a.xyz
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 6|South Korea
-  network: ws
-  port: '443'
-  server: 152.67.218.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - name: 7|jp|69bf|puddincat07@Telegram
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
   port: 52454
