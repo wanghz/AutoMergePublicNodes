@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 6|Japan
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: jp02.a0a.xyz
+    path: /cctv13.m3u8
 - name: 7|jp|69bf|puddincat07@Telegram
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
   port: 52454
@@ -30,6 +44,18 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
+- name: 7|us|db5e|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.62.62.23
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
@@ -43,97 +69,56 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
-  name: 7|us|d4fb|puddincat07@Telegram
+  name: 7|fr|b078|puddincat07@Telegram
   network: tcp
-  password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
-  port: 450
-  server: 167.150.100.133
+  password: NQ26071394
+  port: 443
+  server: 35.181.65.111
   skip-cert-verify: true
-  sni: grape-power-sg.roxa.org
+  sni: ready-kangaroo.rooster465.autos
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|in|3177|puddincat07@Telegram
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.71
-  skip-cert-verify: true
-  tls: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|nl|9e7b|puddincat07@Telegram
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
   type: ss
-- name: 7|cf|e254|puddincat07@Telegram
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
+- cipher: rc4-md5
+  name: 7|xx|56e7|puddincat07@Telegram
+  password: dbEcUJ
+  port: 24603
+  server: jp02.ktp.wtf
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- name: 7|us|db5e|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.62.62.23
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- cipher: aes-256-cfb
-  name: 7,12|tg频道:@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 63.180.254.10
+- cipher: chacha20-ietf-poly1305
+  name: 7|de|59e0|puddincat07@Telegram
+  password: XwWVRmO2kKu6qK1Xlih3Lfe6Lh3RRa9r
+  port: 8388
+  server: 213.183.44.17
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|09c9|puddincat07@Telegram
+  password: g13S7doXar0A
+  port: 443
+  server: 205.134.180.137
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|es|3836|puddincat07@Telegram
+  password: cBghTxo2s8cs8GWneXlRet
+  port: 443
+  server: 185.218.20.4
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 7|cn|abb9|puddincat07@Telegram
-  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
-  port: 10182
-  server: 36.139.183.164
-  tfo: false
+  name: 7|xx|876d|puddincat07@Telegram
+  password: 8be51adf-b081-4fb9-b751-8859cca58fd4
+  port: 7704
+  server: fell3.dogsvpn.top
   type: ss
-- alterId: 0
-  name: 7|fr|67a2|puddincat07@Telegram
-  network: tcp
-  password: ON38567014
-  port: 443
-  server: 13.38.35.46
-  skip-cert-verify: true
-  sni: lucky-marmot.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 7|us|dc2b|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.12
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 7|nl|5984|puddincat07@Telegram
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: 193.169.239.162
-  skip-cert-verify: false
-  sni: distinct-ibex.rooster465.autos
-  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
@@ -279,6 +264,12 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 12|tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
