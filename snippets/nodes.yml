@@ -1,54 +1,52 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4,6|United Kingdom
+  name: 3|USA
+  network: tcp
+  port: '18000'
+  server: 38.110.1.246
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 3|Spanien
+  network: raw
+  port: '22324'
+  server: 85.90.217.42
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 4|Royaume-Uni
   network: tcp
   port: '180'
-  server: 82.198.246.250
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 5|ドイツ連邦共和国
-  network: tcp
-  port: '51459'
-  server: 91.107.139.186
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
-- alterId: 0
-  cipher: auto
-  name: 5|大韓民国
-  network: ws
-  port: 443
-  server: 152.67.218.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alpn:
-  - http/1.1
-  name: 7|us|d3cd|puddincat07@Telegram
-  network: ws
-  password: MiTiVPN
-  port: '2096'
-  server: 162.159.140.91
+  name: 7,12|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 29085
+  server: 95.41.27.1
   skip-cert-verify: true
-  sni: ib-bbg--MiTiVPN---MiTiVPN-u.kingnetwork.ir
+  sni: t.me%2Fripaojiedian
+  tls: false
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|cf7d|puddincat07@Telegram
+  password: xp6qduya33bvl863
+  port: 25026
+  server: best.kovira2.ir
+  type: ss
 - cipher: aes-256-gcm
   name: 7|ru|a0c2|puddincat07@Telegram
   password: cfe685726eea2c4b
@@ -57,11 +55,28 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|cf7d|puddincat07@Telegram
-  password: xp6qduya33bvl863
-  port: 25026
-  server: best.kovira2.ir
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 7|de|8097|puddincat07@Telegram
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 7|ua|b344|puddincat07@Telegram
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 194.54.80.37
+  skip-cert-verify: true
+  tls: true
   type: ss
 - alpn:
   - http/1.1
@@ -95,20 +110,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 7|de|8097|puddincat07@Telegram
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
 - name: 7|xx|00d9|puddincat07@Telegram
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -117,85 +118,27 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 7,12|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 29085
-  server: 95.41.27.1
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: trojan
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 7|ua|b344|puddincat07@Telegram
-  password: XF0klw7870vXn3uQIxe19Q
-  port: '1080'
-  server: 194.54.80.37
-  type: ss
-  udp: true
-- name: 7|us|88b7|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: 7|xx|e041|puddincat07@Telegram
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: ready-lion.rooster465.autos
-  skip-cert-verify: false
-  sni: ready-lion.rooster465.autos
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 7|xx|2d8b|puddincat07@Telegram
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|76ce|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.49
+- cipher: aes-256-cfb
+  name: 7|us|d41d|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 34.207.112.128
   type: ss
-- name: 7|us|841c|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 7|cf|e254|puddincat07@Telegram
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 7|nl|a0f3|puddincat07@Telegram
+  password: 36ZCHeabUSfKjfQEvJ4HDV
+  port: 54170
+  server: 185.242.86.156
+  skip-cert-verify: true
+  tls: true
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
