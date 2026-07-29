@@ -1,60 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
+  name: 3|Indien
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: 152.67.8.205
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 4|Singapour
   network: tcp
-  port: '18000'
-  server: 38.110.1.246
+  port: '59121'
+  server: 129.226.157.220
   servername: ''
   tls: false
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
 - alterId: 0
   cipher: auto
-  name: 3|Spanien
-  network: raw
-  port: '22324'
-  server: 85.90.217.42
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 4|Royaume-Uni
+  name: 6|United Kingdom
   network: tcp
   port: '180'
-  server: 82.198.246.37
+  server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: 7,12|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 29085
-  server: 95.41.27.1
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: trojan
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|cf7d|puddincat07@Telegram
-  password: xp6qduya33bvl863
-  port: 25026
-  server: best.kovira2.ir
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|ru|a0c2|puddincat07@Telegram
-  password: cfe685726eea2c4b
-  port: 10921
-  server: 185.22.154.103
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - alpn:
   - h3
   congestion-controller: bbr
@@ -69,21 +47,46 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|ua|b344|puddincat07@Telegram
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 194.54.80.37
-  skip-cert-verify: true
-  tls: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|bde7|puddincat07@Telegram
+  password: kvrov4vd4iszb3aw
+  port: '25026'
+  server: koviraaa.kovira2.ir
   type: ss
-- alpn:
-  - http/1.1
-  name: 7|us|3055|puddincat07@Telegram
+  udp: true
+- name: 7|xx|bd39|puddincat07@Telegram
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20048
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 7,12|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 38961
+  server: 18.166.236.71
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: false
+  type: trojan
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 7|xx|00d9|puddincat07@Telegram
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 7|us|3055|puddincat07@Telegram
   network: ws
   password: MiTiVPN
-  port: '2087'
+  port: 2087
   server: 104.18.6.178
   skip-cert-verify: true
   sni: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
@@ -91,15 +94,12 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      Host: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
-- alpn:
-  - http/1.1
-  name: 7|us|8d9d|puddincat07@Telegram
+- name: 7|us|8d9d|puddincat07@Telegram
   network: ws
   password: MITIVPN
-  port: '2053'
+  port: 2053
   server: 104.17.147.22
   skip-cert-verify: true
   sni: ikk---7-MiTiVPN----o.kingnetwork.ir
@@ -107,38 +107,71 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
+      Host: ikk---7-MiTiVPN----o.kingnetwork.ir
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
-- name: 7|xx|00d9|puddincat07@Telegram
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20066'
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|ua|b344|puddincat07@Telegram
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 194.54.80.37
+  type: ss
+  udp: true
+- name: 7|us|88b7|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.152.23
+  skip-cert-verify: false
+  sni: www.calmlunch.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
 - cipher: chacha20-ietf-poly1305
-  name: 7|xx|2d8b|puddincat07@Telegram
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
+  name: 7|de|3483|puddincat07@Telegram
+  password: jhblmJdHApr5afBcB1rtSt
+  port: 20888
+  server: 136.244.81.170
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: 7|us|d41d|puddincat07@Telegram
-  password: amazonskr05
+  name: 7|il|594d|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 193.182.144.65
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|gb|1a1f|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.235.55.21
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 7|us|8e8b|puddincat07@Telegram
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: j1.pplo.online
+    mode: websocket
+    mux: false
+    path: ''
+    skip-cert-verify: true
+    tls: false
   port: 443
-  server: 34.207.112.128
+  server: 172.67.192.10
   type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|nl|a0f3|puddincat07@Telegram
-  password: 36ZCHeabUSfKjfQEvJ4HDV
-  port: 54170
-  server: 185.242.86.156
-  skip-cert-verify: true
-  tls: true
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|tw|5562|puddincat07@Telegram
+  password: QozzuzLs2W32
+  port: 16505
+  server: 211.75.79.233
   type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
