@@ -1,14 +1,70 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|Czechia
-  network: tcp
-  port: '27726'
-  server: fj260306.freechatup.com
+  name: 3|未命名
+  network: ws
+  port: 8443
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: 4|Japon
+  network: ws
+  port: 25686
+  server: 140.83.51.161
   servername: ''
   tls: false
   type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: jp02.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '5|アメリカ #1'
+  network: ws
+  port: '8880'
+  server: 154.21.83.77
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04bccfa1-a6a8-4ace-991f-454624a8766f
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 04bccfa1-a6a8-4ace-991f-454624a8766f-vm
+- alterId: 0
+  cipher: auto
+  name: 6|United Kingdom
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 6|South Korea
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alpn:
   - h3
   congestion-controller: bbr
@@ -23,20 +79,6 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|166f|puddincat07@Telegram
-  password: zyqB77GsJ0CZnRBiWvF6buPpynCXXHQY6QDPrDNIwXU=
-  port: '19964'
-  server: n4.cover20.ir
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|se|599b|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 13.53.198.63
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
@@ -49,19 +91,13 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|us|3055|puddincat07@Telegram
-  network: ws
-  password: MiTiVPN
-  port: 2087
-  server: 104.18.6.178
-  skip-cert-verify: true
-  sni: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
-  type: trojan
+- cipher: aes-256-cfb
+  name: 7|se|599b|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 13.53.198.63
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      Host: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
 - cipher: aes-256-cfb
   name: 7|kr|9179|puddincat07@Telegram
   password: qwerREWQ@@
@@ -70,29 +106,51 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|nl|79d9|puddincat07@Telegram
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: '45819'
-  server: 158.101.208.107
+  name: 7|xx|70f6|puddincat07@Telegram
+  password: be443689-bc64-49ff-85a5-8eecaa2235d3
+  port: 41068
+  server: zz5.fgmcx.top
   type: ss
-  udp: true
-- name: 7|cf|e254|puddincat07@Telegram
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
+- cipher: chacha20-ietf-poly1305
+  name: 7|cn|becb|puddincat07@Telegram
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: 111.29.57.125
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 7|fr|3154|puddincat07@Telegram
+  password: 7BcLdsO1WweoGD0X
+  port: 40368
+  server: 193.243.147.128
+  type: ss
+- name: 7|us|e280|puddincat07@Telegram
+  network: tcp
+  password: 20bc0771-1fde-45ee-8052-3c26249c43dc
+  port: 34865
+  server: 144.24.4.176
+  sni: zurich.678789.xyz
   type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- cipher: aes-256-cfb
-  name: 7,12|tg频道:@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 63.180.254.10
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|0ba2|puddincat07@Telegram
+  password: cdc48a7a-b618-45af-a831-5afbd686b02f
+  port: 12202
+  server: gg21.hangfengjiasu.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 7|ru|7717|puddincat07@Telegram
+  password: RiPuKJJl18ZgvLpTjWxBwSfKiPkt9gzFKyxGCY8eHtOcDb2X
+  port: 31348
+  server: 5.189.201.250
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|kz|f99a|puddincat07@Telegram
+  password: DLW8QqdfAvfUHSeucMIF4E
+  port: 2636
+  server: 45.8.98.163
   type: ss
 - name: 7|us|a98a|puddincat07@Telegram
   network: ws
@@ -106,46 +164,6 @@ proxies:
     headers:
       Host: www.gossipglove.com
     path: /assignment
-- client-fingerprint: chrome
-  name: 7|xx|ab5d|puddincat07@Telegram
-  network: tcp
-  password: PD07395842
-  port: 443
-  server: magical-kodiak.rooster465.autos
-  skip-cert-verify: false
-  sni: magical-kodiak.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 7|xx|1ada|puddincat07@Telegram
-  network: tcp
-  password: ON38567014
-  port: 443
-  server: actual-aardvark.rooster465.autos
-  skip-cert-verify: false
-  sni: actual-aardvark.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 7|xx|e900|puddincat07@Telegram
-  network: tcp
-  password: FC60532879
-  port: 443
-  server: pretty-quail.rooster465.autos
-  skip-cert-verify: false
-  sni: pretty-quail.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 7|xx|9931|puddincat07@Telegram
-  network: tcp
-  password: JT80563429
-  port: 443
-  server: enough-basilisk.rooster465.autos
-  skip-cert-verify: false
-  sni: enough-basilisk.rooster465.autos
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
@@ -271,7 +289,7 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: aes-256-cfb
-  name: 10|未命名
+  name: '10|未命名 #1'
   password: amazonskr05
   port: 443
   server: 47.129.174.107
@@ -290,6 +308,12 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 12|tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
