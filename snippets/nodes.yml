@@ -1,34 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|États Unis
-  network: tcp
-  port: 18000
-  server: 67.220.85.46
+  name: 3|UK
+  network: raw
+  port: '180'
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: '4|États Unis #1'
-  network: tcp
-  port: '18000'
-  server: 38.110.1.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 5|チェコ共和国
-  network: tcp
-  port: '27726'
-  server: fj260205.freechatup.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - h3
   congestion-controller: bbr
@@ -43,18 +23,62 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+- name: 7|us|0da3|puddincat07@Telegram
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8080
+  server: 23.95.75.151
+  skip-cert-verify: true
+  sni: hopp-us.yyuyy.com
+  type: hysteria2
+  udp: true
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 15775
-  server: 54.46.46.228
+  port: 38961
+  server: 16.162.122.119
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 7|nl|447b|puddincat07@Telegram
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|kr|8c58|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- cipher: aes-256-gcm
+  name: 7|gb|cf29|puddincat07@Telegram
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|2c7f|puddincat07@Telegram
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
+  type: ss
+- name: 7|us|3f57|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
 - alterId: 0
   name: 7|xx|c4ab|puddincat07@Telegram
   network: ws
@@ -66,51 +90,56 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 7|xx|00d9|puddincat07@Telegram
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|kr|9179|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|gb|cbca|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: 7|us|6022|puddincat07@Telegram
+  password: hCCWOcIsK5wrFz4OX70rWf
   port: 443
-  server: 82.38.31.36
+  server: 216.105.168.18
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|9e5d|puddincat07@Telegram
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.189
-  type: ss
-- alterId: 0
-  name: 7|us|7183|puddincat07@Telegram
+- name: 7|us|ac48|puddincat07@Telegram
   network: ws
   password: humanity
   port: 443
-  server: 162.159.38.119
-  skip-cert-verify: true
+  server: 208.103.161.101
+  skip-cert-verify: false
   sni: www.creationlong.org
-  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: /assignment
+- name: 7|cf|e254|puddincat07@Telegram
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- client-fingerprint: chrome
+  name: 7|xx|7a6e|puddincat07@Telegram
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: glad-roughy.rooster465.autos
+  skip-cert-verify: false
+  sni: glad-roughy.rooster465.autos
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 7|gb|cf29|puddincat07@Telegram
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
+- client-fingerprint: chrome
+  name: 7|xx|1987|puddincat07@Telegram
+  network: tcp
+  password: KV63147582
+  port: 443
+  server: game-firefly.rooster465.autos
+  skip-cert-verify: false
+  sni: game-firefly.rooster465.autos
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
