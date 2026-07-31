@@ -1,24 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|United States
-  network: tcp
-  port: 22324
-  server: 216.106.185.141
+  name: 3|USA
+  network: ws
+  port: 8880
+  server: 154.17.238.183
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: b7479b73-8cea-4a82-97e8-bacf9bd86605
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: b7479b73-8cea-4a82-97e8-bacf9bd86605-vm
 - alterId: 0
   cipher: auto
-  name: '6|United States #1'
-  network: raw
-  port: '18000'
-  server: 38.110.1.246
+  name: 6|United States
+  network: tcp
+  port: '800'
+  server: 47.86.167.194
   servername: ''
   tls: false
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
