@@ -1,22 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Singapur
-  network: ws
-  port: '36802'
-  server: cindy51.ceoiii.com
+  name: 3|USA
+  network: tcp
+  port: '443'
+  server: 165.140.216.142
   servername: ''
   tls: false
   type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
-  name: 4,6|Taiwan
-  network: tcp
+  name: 3|Taiwan
+  network: raw
   port: '35034'
   server: 165.154.195.38
   servername: ''
@@ -25,24 +21,44 @@ proxies:
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
-  name: 4|États Unis
+  name: 4|Royaume-Uni
   network: tcp
-  port: '22324'
-  server: 66.163.117.58
+  port: '180'
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 5|アメリカ
+  name: 4|Corée du Sud
   network: tcp
-  port: '443'
-  server: 165.140.216.141
+  port: '80'
+  server: 217.142.138.61
   servername: ''
   tls: false
   type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 6|Czechia
+  network: tcp
+  port: '27726'
+  server: 195.133.193.18
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: '6|Czechia #1'
+  network: tcp
+  port: '27726'
+  server: fj260304.freechatup.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alpn:
   - h3
   congestion-controller: bbr
@@ -77,13 +93,6 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 7|us|78fa|puddincat07@Telegram
-  password: ljqdalu13..
-  port: 8313
-  server: 38.180.135.39
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 7|us|9e71|puddincat07@Telegram
   password: amazonskr05
@@ -99,6 +108,13 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|78fa|puddincat07@Telegram
+  password: ljqdalu13..
+  port: 8313
+  server: 38.180.135.39
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 7|kr|9179|puddincat07@Telegram
   password: qwerREWQ@@
@@ -107,18 +123,24 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|bf1e|puddincat07@Telegram
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001287h3p.cybervena.com
+  type: ss
 - cipher: aes-256-cfb
-  name: 7|xx|290e|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 54345
-  server: p110.panda001.net
+  name: 7|jp|ea56|puddincat07@Telegram
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
   type: ss
   udp: true
-- cipher: rc4-md5
-  name: 7|cn|0b51|puddincat07@Telegram
-  password: dbEcUJ
-  port: 24603
-  server: 211.99.97.8
+- cipher: aes-256-cfb
+  name: 7|hr|e117|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
   type: ss
   udp: true
 - alterId: 0
