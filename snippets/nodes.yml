@@ -1,4 +1,24 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 4|France
+  network: tcp
+  port: '2052'
+  server: node-uk.connectsuite.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 40b25dc2-8e1a-4889-b334-e3376ab3d865
+- alterId: 0
+  cipher: auto
+  name: 5|カナダ
+  network: tcp
+  port: '10086'
+  server: 107.172.75.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
 - alpn:
   - h3
   congestion-controller: bbr
@@ -13,6 +33,36 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+- alterId: 2
+  cipher: auto
+  name: 7,12|🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 29085
+  server: 16.162.164.238
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: false
+  type: trojan
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 7|xx|dd58|puddincat07@Telegram
+  network: tcp
+  password: ND91608427
+  port: '443'
+  server: definite-sturgeon.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-sturgeon.rooster465.autos
+  type: trojan
+  udp: true
+- name: 7|xx|8a1e|puddincat07@Telegram
+  network: tcp
+  password: ND91608427
+  port: '443'
+  server: moved-meerkat.rooster465.autos
+  skip-cert-verify: true
+  sni: moved-meerkat.rooster465.autos
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 7|xx|05ab|puddincat07@Telegram
   password: 28789988-887e-4e41-83cd-27bbfb7999ad
@@ -28,18 +78,6 @@ proxies:
   sni: hopp-us.yyuyy.com
   type: hysteria2
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 7,12|🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 29085
-  server: 16.162.164.238
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: false
-  type: trojan
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
   name: 7|cn|45bd|puddincat07@Telegram
   password: '123'
@@ -57,41 +95,16 @@ proxies:
   type: ss
   udp: false
 - cipher: chacha20-ietf-poly1305
-  name: 7|xx|7a56|puddincat07@Telegram
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|gb|cf29|puddincat07@Telegram
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
+  name: 7|nl|42be|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|za|d18d|puddincat07@Telegram
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  port: 16233
-  server: 102.133.165.160
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|ca|63ba|puddincat07@Telegram
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 23.162.200.77
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|de|55a3|puddincat07@Telegram
-  password: 1hhrqrokj3ag
-  port: 8388
-  server: 209.46.102.22
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|a12d|puddincat07@Telegram
-  password: 9bc1eddf-1674-40f1-ad64-00a6fc5c2054
-  port: 28894
-  server: gran.efnwgood.top
+  name: 7|ru|c983|puddincat07@Telegram
+  password: qgpdyzHj8rZW9fDxxkUHRI
+  port: 29312
+  server: 217.196.103.206
   type: ss
   udp: true
 - alterId: 0
