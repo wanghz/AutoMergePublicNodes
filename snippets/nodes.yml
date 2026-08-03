@@ -1,53 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Hongkong
-  network: ws
-  port: '36703'
-  server: 47.244.120.197
+  name: 3|Kanada
+  network: tcp
+  port: '10086'
+  server: 107.172.75.141
   servername: ''
   tls: false
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 4|Malaisie
-  network: raw
-  port: '10000'
-  server: 47.250.135.244
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-- cipher: chacha20-ietf-poly1305
-  name: 7|de|a52a|puddincat07@Telegram
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 152.70.26.250
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|us|1cb5|puddincat07@Telegram
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @VPNine1)7eb777f:123571
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
+  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 7|de|8097|puddincat07@Telegram
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  server: 89.144.35.232
   skip-cert-verify: true
-  type: ss
+  sni: www.microsoft.com
+  type: tuic
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|e1fb|puddincat07@Telegram
-  password: bSOOjTnIutwmTb9nTnIKm3
-  port: 5223
-  server: creativeboxde2.zanity.net
-  type: ss
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
 - cipher: chacha20-ietf-poly1305
   name: 7|xx|05ab|puddincat07@Telegram
   password: 28789988-887e-4e41-83cd-27bbfb7999ad
@@ -91,20 +66,36 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 7|de|8097|puddincat07@Telegram
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|6a08|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.155
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|0db8|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|nl|0cb9|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.235
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|nl|a3cf|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.204
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|se|1954|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 13.51.233.2
+  type: ss
 - cipher: aes-256-cfb
   name: 7|us|9e71|puddincat07@Telegram
   password: amazonskr05
@@ -112,27 +103,6 @@ proxies:
   server: 54.196.207.151
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 7,12|tg频道:@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 63.180.254.10
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|us|78fa|puddincat07@Telegram
-  password: ljqdalu13..
-  port: 8313
-  server: 38.180.135.39
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 7|cn|abb9|puddincat07@Telegram
-  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
-  port: 10182
-  server: 36.139.183.164
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
@@ -277,6 +247,12 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 12|tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
