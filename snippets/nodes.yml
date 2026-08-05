@@ -1,40 +1,10 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 3|USA
-  network: raw
-  port: '18000'
-  server: 38.110.1.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 3|Kanada
-  network: raw
-  port: '18000'
-  server: 134.195.196.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 6|United Kingdom
-  network: tcp
-  port: '180'
-  server: 82.198.246.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 15775
-  server: 18.163.193.0
+  port: 53001
+  server: 16.162.3.64
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
@@ -55,49 +25,20 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- cipher: chacha20-ietf-poly1305
-  name: 7|de|7898|puddincat07@Telegram
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 130.61.86.101
-  type: ss
-  udp: true
-- name: 7|us|0da3|puddincat07@Telegram
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8080
-  server: 23.95.75.151
-  skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
-  type: hysteria2
-  udp: true
-- name: 7|xx|bd39|puddincat07@Telegram
+- name: 7|xx|bf34|puddincat07@Telegram
   network: tcp
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: '20066'
-  server: oplosgru-c.catcat321.com
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: '39221'
+  server: speed-01.aliyun-web-tracker.cn
   skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
+  sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
-- name: 7|xx|cf7d|puddincat07@Telegram
-  network: ws
-  password: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
-  port: 443
-  server: cdn2.bpcdn.cc
-  skip-cert-verify: true
-  sni: 9l3ysxf7rj3nz549.tkgogocsgo.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 9l3ysxf7rj3nz549.tkgogocsgo.top
-    path: /images
-- cipher: aes-256-cfb
-  name: 7|jp|f147|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 13.231.162.164
+- cipher: chacha20-ietf-poly1305
+  name: 7|br|d92a|puddincat07@Telegram
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: '59319'
+  server: 137.131.181.254
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -108,25 +49,6 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-256-cfb
-  name: 7|jp|5359|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 13.231.179.245
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 7|xx|6907|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
-- cipher: aes-256-gcm
-  name: 7|gb|cf29|puddincat07@Telegram
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 7|xx|b116|puddincat07@Telegram
@@ -136,11 +58,29 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
-- cipher: aes-256-cfb
-  name: 7|kr|a0b3|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|0db8|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|nl|38a1|puddincat07@Telegram
+  password: VpKABcOpNNA0l5G2AVOmw8
+  port: 62685
+  server: 213.109.147.242
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|dd75|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.48
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|99d3|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.2
   type: ss
 - alterId: 0
   cipher: auto
