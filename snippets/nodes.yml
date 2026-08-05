@@ -1,44 +1,58 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|États Unis
+  name: 3|Kanada
   network: tcp
   port: '18000'
-  server: 84.17.41.2
+  server: 134.195.196.211
   servername: ''
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 1
+- alterId: 0
+  cipher: auto
+  name: 4|États Unis
+  network: tcp
+  port: '18000'
+  server: 67.220.85.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
   cipher: auto
   name: '4|États Unis #1'
   network: tcp
-  port: 22324
-  server: 67.220.72.237
+  port: '800'
+  server: 47.86.167.194
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   cipher: auto
-  name: 5|フランス共和国
-  network: tcp
-  port: '2052'
-  server: node-uk.connectsuite.org
+  name: 5|日本
+  network: ws
+  port: 25686
+  server: 140.83.51.161
   servername: ''
   tls: false
   type: vmess
-  uuid: 40b25dc2-8e1a-4889-b334-e3376ab3d865
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: jp02.a0a.xyz
+    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   name: 5|アメリカ
-  network: tcp
-  port: '52080'
-  server: 38.246.226.240
+  network: raw
+  port: '18000'
+  server: 38.91.107.49
   servername: ''
   tls: false
   type: vmess
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alpn:
   - h3
   congestion-controller: bbr
