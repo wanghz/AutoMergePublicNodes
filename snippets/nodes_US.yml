@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|United States
+  name: 3|USA
   network: tcp
-  port: 22324
-  server: 216.106.185.141
+  port: '800'
+  server: 47.86.167.194
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...

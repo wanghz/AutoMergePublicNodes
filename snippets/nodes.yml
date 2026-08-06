@@ -1,14 +1,68 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|United States
+  name: 3|USA
   network: tcp
-  port: 22324
-  server: 216.106.185.141
+  port: '800'
+  server: 47.86.167.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- alterId: 0
+  cipher: auto
+  name: 4|Allemagne
+  network: tcp
+  port: '18003'
+  server: 91.107.157.137
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e41f1455-24f5-4d28-9588-a2cba790171c
+- alterId: 0
+  cipher: auto
+  name: 4|États Unis
+  network: tcp
+  port: '22324'
+  server: 216.106.183.35
   servername: ''
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 4|Japon
+  network: ws
+  port: '25686'
+  server: 140.83.51.161
+  servername: jp02.a0a.xyz
+  tls: false
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: jp02.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 4|Tchéquie
+  network: tcp
+  port: '27726'
+  server: fj260205.freechatup.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 5|大韓民国
+  network: raw
+  port: '443'
+  server: 140.238.2.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - alpn:
   - h3
   congestion-controller: bbr
