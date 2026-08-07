@@ -1,61 +1,41 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
+  name: 3|Südkorea
   network: tcp
-  port: '800'
-  server: 47.86.167.194
+  port: '8888'
+  server: 146.56.112.110
   servername: ''
   tls: false
   type: vmess
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
 - alterId: 0
   cipher: auto
-  name: 4|Allemagne
-  network: tcp
-  port: '18003'
-  server: 91.107.157.137
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e41f1455-24f5-4d28-9588-a2cba790171c
-- alterId: 0
-  cipher: auto
-  name: 4|États Unis
-  network: tcp
-  port: '22324'
-  server: 216.106.183.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 4|Japon
+  name: 5|アメリカ
   network: ws
-  port: '25686'
-  server: 140.83.51.161
-  servername: jp02.a0a.xyz
-  tls: false
+  port: '8443'
+  server: www.nextkyc.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
   type: vmess
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      Host: jp02.a0a.xyz
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 4|Tchéquie
-  network: tcp
-  port: '27726'
-  server: fj260205.freechatup.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
   name: 5|大韓民国
+  network: tcp
+  port: '80'
+  server: 217.142.138.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- alterId: 0
+  cipher: auto
+  name: 6|South Korea
   network: raw
   port: '443'
   server: 140.238.2.250
@@ -81,8 +61,8 @@ proxies:
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 53001
-  server: 16.162.3.64
+  port: 34039
+  server: 95.40.58.84
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
