@@ -1,48 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Malaysia
+  name: 6|Singapore
   network: ws
-  port: 43063
-  server: 47.250.45.234
+  port: 443
+  server: n1747624274.4u9ma.icu
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
   ws-opts:
     headers:
-      Host: ''
-    path: /arki?ed=2048
+      Host: n1747624274.4u9ma.icu
+    path: /
 - alterId: 0
   cipher: auto
-  name: 4|États Unis
-  network: tcp
-  port: '22324'
-  server: 66.163.117.58
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 5|カナダ
+  name: 6|United States
   network: tcp
   port: '18000'
-  server: 23.162.200.198
+  server: 67.220.85.46
   servername: ''
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 1
-  cipher: auto
-  name: 6|United States
-  network: tcp
-  port: 22324
-  server: 67.220.72.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alpn:
   - h3
   congestion-controller: bbr
