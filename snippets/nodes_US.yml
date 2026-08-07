@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|United States
-  network: tcp
-  port: '18000'
-  server: 67.220.85.46
-  servername: ''
-  tls: false
+  name: 3|USA
+  network: ws
+  port: 443
+  server: StrEaMCorEnoDe8-apILINkHUb4-NeTwEbGate.CloUDsYnc9.cOm
+  servername: sTREAMcoRenODe8-apIliNKHub4-nEtWebgAtE.ClOUDSYnc9.COM
+  tls: true
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: cd78a4ff-a880-40c3-8417-e6a2a38c8963
+  ws-opts:
+    headers:
+      Host: STReamCoRENodE8-APiLInKHub4-netwEBGATE.clouDSYNC9.COm
+    path: /mU5O3LNBc0Byn1BgoYh8
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
