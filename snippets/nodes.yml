@@ -1,38 +1,48 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 3|Malaysia
+  network: ws
+  port: 43063
+  server: 47.250.45.234
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
   name: 4|États Unis
   network: tcp
-  port: 22324
-  server: 216.106.185.141
+  port: '22324'
+  server: 66.163.117.58
   servername: ''
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: '4|États Unis #1'
+  name: 5|カナダ
   network: tcp
-  port: '443'
-  server: 165.140.216.142
+  port: '18000'
+  server: 23.162.200.198
   servername: ''
   tls: false
   type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 1
   cipher: auto
-  name: 4|Corée du Sud
-  network: ws
-  port: 443
-  server: 152.67.218.38
+  name: 6|United States
+  network: tcp
+  port: 22324
+  server: 67.220.72.237
   servername: ''
   tls: false
   type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alpn:
   - h3
   congestion-controller: bbr
