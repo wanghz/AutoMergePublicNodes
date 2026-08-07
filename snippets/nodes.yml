@@ -1,48 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Südkorea
+  name: 4|États Unis
   network: tcp
-  port: '8888'
-  server: 146.56.112.110
+  port: 22324
+  server: 216.106.185.141
   servername: ''
   tls: false
   type: vmess
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 5|アメリカ
-  network: ws
-  port: '8443'
-  server: www.nextkyc.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
+  name: '4|États Unis #1'
+  network: tcp
+  port: '443'
+  server: 165.140.216.142
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: 4|Corée du Sud
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   ws-opts:
     headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: 5|大韓民国
-  network: tcp
-  port: '80'
-  server: 217.142.138.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-- alterId: 0
-  cipher: auto
-  name: 6|South Korea
-  network: raw
-  port: '443'
-  server: 140.238.2.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+      Host: ''
+    path: /
 - alpn:
   - h3
   congestion-controller: bbr
