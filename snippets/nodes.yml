@@ -1,52 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Hongkong
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 3|USA
-  network: ws
-  port: 443
-  server: StrEaMCorEnoDe8-apILINkHUb4-NeTwEbGate.CloUDsYnc9.cOm
-  servername: sTREAMcoRenODe8-apIliNKHub4-nEtWebgAtE.ClOUDSYnc9.COM
-  tls: true
-  type: vmess
-  uuid: cd78a4ff-a880-40c3-8417-e6a2a38c8963
-  ws-opts:
-    headers:
-      Host: STReamCoRENodE8-APiLInKHub4-netwEBGATE.clouDSYNC9.COm
-    path: /mU5O3LNBc0Byn1BgoYh8
-- alterId: 0
-  cipher: auto
   name: 5|英国
   network: tcp
   port: '180'
-  server: 82.198.246.233
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 5|カナダ
-  network: raw
-  port: '18000'
-  server: 23.162.200.198
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alpn:
   - h3
   congestion-controller: bbr
