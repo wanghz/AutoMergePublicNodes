@@ -1,38 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|Turquie
+  name: 5|英国
   network: tcp
-  port: 22324
-  server: 5.188.190.252
+  port: '180'
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 5|アメリカ
-  network: raw
-  port: '18000'
-  server: 38.91.107.49
+  network: tcp
+  port: '800'
+  server: 47.86.167.194
   servername: ''
   tls: false
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 6|Singapore
-  network: ws
-  port: '443'
-  server: n1747624274.4u9ma.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  ws-opts:
-    headers:
-      Host: n1747624274.4u9ma.icu
-    path: /
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alpn:
   - h3
   congestion-controller: bbr
