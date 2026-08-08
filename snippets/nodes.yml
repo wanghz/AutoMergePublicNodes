@@ -1,8 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
+  name: 4|Turquie
   network: tcp
+  port: 22324
+  server: 5.188.190.252
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 5|アメリカ
+  network: raw
   port: '18000'
   server: 38.91.107.49
   servername: ''
@@ -11,32 +21,18 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: '3|USA #1'
+  name: 6|Singapore
   network: ws
-  port: 39495
-  server: 129.146.77.248
+  port: '443'
+  server: n1747624274.4u9ma.icu
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
   ws-opts:
     headers:
-      Host: ''
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 6|Hong Kong
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
+      Host: n1747624274.4u9ma.icu
+    path: /
 - alpn:
   - h3
   congestion-controller: bbr
