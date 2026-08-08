@@ -1,24 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5|英国
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
+  name: 3|Südkorea
+  network: raw
+  port: '8888'
+  server: 146.56.112.110
   servername: ''
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
 - alterId: 0
   cipher: auto
   name: 5|アメリカ
-  network: tcp
-  port: '800'
-  server: 47.86.167.194
+  network: raw
+  port: '18000'
+  server: 38.91.107.49
   servername: ''
   tls: false
   type: vmess
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alpn:
   - h3
   congestion-controller: bbr
