@@ -1,14 +1,42 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|Singapore
+  name: 3|USA
   network: tcp
   port: '18000'
-  server: 149.88.23.202
+  server: 38.91.107.49
   servername: ''
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: '3|USA #1'
+  network: ws
+  port: 39495
+  server: 129.146.77.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 6|Hong Kong
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 - alpn:
   - h3
   congestion-controller: bbr
