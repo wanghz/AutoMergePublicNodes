@@ -1,20 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
+  name: 6|United States
   network: tcp
   port: '22324'
-  server: 216.106.183.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: '6|United States #1'
-  network: tcp
-  port: '22324'
-  server: 66.163.117.58
+  server: 216.106.185.141
   servername: ''
   tls: false
   type: vmess
