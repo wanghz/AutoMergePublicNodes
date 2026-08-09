@@ -1,32 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
-  network: ws
-  port: 20086
-  server: 173.249.209.146
+  name: 5|シンガポール
+  network: raw
+  port: '18000'
+  server: 149.88.23.207
   servername: ''
   tls: false
   type: vmess
-  uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 5|アメリカ
-  network: ws
-  port: 39495
-  server: 129.146.77.248
+  name: 6|South Korea
+  network: tcp
+  port: '443'
+  server: 140.238.2.250
   servername: ''
   tls: false
   type: vmess
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cctv13.m3u8
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - alpn:
   - h3
   congestion-controller: bbr
@@ -41,6 +33,14 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+- name: 7|xx|c44f|puddincat07@Telegram
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: de-two.quiet-rogue.site
+  skip-cert-verify: true
+  sni: de-two.quiet-rogue.site
+  type: hysteria2
+  udp: true
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
@@ -53,30 +53,6 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 7|xx|c44f|puddincat07@Telegram
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: de-two.quiet-rogue.site
-  skip-cert-verify: true
-  sni: de-two.quiet-rogue.site
-  type: hysteria2
-  udp: true
-- name: 7|xx|304b|puddincat07@Telegram
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: db1.mangshe.xyz
-  skip-cert-verify: true
-  sni: db1.mangshe.xyz
-  type: hysteria2
-  udp: true
-- name: 7|nl|7363|puddincat07@Telegram
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
-  skip-cert-verify: true
-  sni: www.linux.com
-  type: hysteria2
-  udp: true
 - name: 7|xx|ef9a|puddincat07@Telegram
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
@@ -87,41 +63,48 @@ proxies:
   sni: musicclips.videolinks.ru
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|bdc7|puddincat07@Telegram
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: '61312'
-  server: 129.151.81.122
+- name: 7|nl|7363|puddincat07@Telegram
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
+  sni: www.linux.com
+  type: hysteria2
+  udp: true
+- cipher: aes-256-cfb
+  name: 7|us|95ff|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 98.89.48.191
+  skip-cert-verify: true
   type: ss
   udp: true
-- alterId: 0
-  name: 7|us|42b4|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.64.105
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|761a|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.149
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|7a56|puddincat07@Telegram
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+- name: 7|xx|304b|puddincat07@Telegram
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: db1.mangshe.xyz
   skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 7|hk|6371|puddincat07@Telegram
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 119.246.1.143
-  skip-cert-verify: true
-  sni: 119.246.1.143
-  type: trojan
+  sni: db1.mangshe.xyz
+  type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|gb|038a|puddincat07@Telegram
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: '45819'
-  server: 92.5.238.164
+  name: 7|gb|87a1|puddincat07@Telegram
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
   type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 7|xx|372f|puddincat07@Telegram
   network: raw
@@ -132,6 +115,12 @@ proxies:
   sni: great-krill.rooster465.autos
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|577a|puddincat07@Telegram
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: 71.19.148.143
+  type: ss
 - client-fingerprint: chrome
   name: 7|hk|e04c|puddincat07@Telegram
   network: tcp
@@ -143,6 +132,14 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- cipher: rc4-md5
+  name: 7|us|c950|puddincat07@Telegram
+  obfs: plain
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  protocol: origin
+  server: 107.151.182.253
+  type: ssr
 - name: 7|xx|bd39|puddincat07@Telegram
   network: tcp
   password: 41c406e2-12b5-41f2-a329-d0621052d675
@@ -150,21 +147,6 @@ proxies:
   server: oplosgru-c.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- name: 7|xx|bf34|puddincat07@Telegram
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 39221
-  server: speed-01.aliyun-web-tracker.cn
-  skip-cert-verify: true
-  sni: speed-01.aliyun-web-tracker.cn
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|7a56|puddincat07@Telegram
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
