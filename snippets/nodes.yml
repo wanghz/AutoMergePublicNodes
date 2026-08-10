@@ -1,7 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|Germany
+  name: 3|UK
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 3|Kanada
+  network: tcp
+  port: '18000'
+  server: 23.162.200.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 3|Deutschland
   network: tcp
   port: '2070'
   server: esc.georkup.ir
@@ -9,28 +29,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 4d765598-33d4-4ef5-87d6-b3fa61918875
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 7|de|8097|puddincat07@Telegram
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- name: 7|xx|c44f|puddincat07@Telegram
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: de-two.quiet-rogue.site
-  skip-cert-verify: true
-  sni: de-two.quiet-rogue.site
-  type: hysteria2
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 5|アメリカ
+  network: tcp
+  port: '18000'
+  server: 67.220.95.3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 6|United Kingdom
+  network: tcp
+  port: '180'
+  server: 82.198.246.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 7|xx|ef9a|puddincat07@Telegram
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
@@ -49,18 +67,6 @@ proxies:
   sni: www.linux.com
   type: hysteria2
   udp: true
-- cipher: aes-256-cfb
-  name: 7|us|95ff|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 98.89.48.191
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|b763|puddincat07@Telegram
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
@@ -72,17 +78,31 @@ proxies:
   tls: false
   type: trojan
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 7|us|4bc4|puddincat07@Telegram
-  password: 86039b71-ba82-4ca8-838e-87086ae666de
-  port: 10011
-  server: 107.175.87.207
-  type: ss
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 7|de|8097|puddincat07@Telegram
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
 - cipher: aes-256-cfb
-  name: 7,12|tg频道:@ripaojiedian
+  name: 7|us|95ff|puddincat07@Telegram
   password: amazonskr05
   port: 443
-  server: 63.180.254.10
+  server: 98.89.48.191
+  type: ss
+- cipher: rc4-md5
+  name: 7|us|bcfb|puddincat07@Telegram
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.42.68
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 7|gb|87a1|puddincat07@Telegram
@@ -90,12 +110,35 @@ proxies:
   port: 443
   server: 146.19.49.251
   type: ss
+- client-fingerprint: chrome
+  name: 7|ie|524f|puddincat07@Telegram
+  network: tcp
+  password: UO36402987
+  port: 443
+  server: 54.216.124.178
+  skip-cert-verify: false
+  sni: warm-bass.rooster465.autos
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 7|us|577a|puddincat07@Telegram
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: 71.19.148.143
   type: ss
+- client-fingerprint: chrome
+  name: 7|xx|e6b3|puddincat07@Telegram
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  sni: support.zoom.us.blackshadow.dpdns.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.zoom.us.blackshadow.dpdns.org
+    path: /195.123.218.174-443
 - cipher: rc4-md5
   name: 7|us|c950|puddincat07@Telegram
   obfs: plain
@@ -104,6 +147,16 @@ proxies:
   protocol: origin
   server: 107.151.182.253
   type: ssr
+- client-fingerprint: chrome
+  name: 7|hk|6371|puddincat07@Telegram
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 119.246.1.143
+  skip-cert-verify: true
+  sni: 119.246.1.143
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 7|us|dc13|puddincat07@Telegram
   password: qFvn2fNEvBgM5knffrN96q
@@ -117,10 +170,10 @@ proxies:
   server: pupas-shirting-unsung.freesocks.work
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|xx|70f6|puddincat07@Telegram
-  password: be443689-bc64-49ff-85a5-8eecaa2235d3
-  port: 41068
-  server: zz5.fgmcx.top
+  name: 7|us|adba|puddincat07@Telegram
+  password: eDfN7SODQceIOmIAbtJJtK
+  port: 443
+  server: 198.98.53.130
   type: ss
 - alterId: 0
   cipher: auto
@@ -266,6 +319,12 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 12|tg频道:@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
