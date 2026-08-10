@@ -1,7 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
+  name: 4|États Unis
+  network: tcp
+  port: '800'
+  server: 47.86.167.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- alterId: 0
+  cipher: auto
+  name: 4|未命名
+  network: ws
+  port: '8443'
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '4|États Unis #1'
   network: tcp
   port: 22324
   server: 216.106.185.141
@@ -9,64 +33,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 3|Spanien
-  network: tcp
-  port: '22324'
-  server: 85.90.217.42
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 4|Taïwan
-  network: tcp
-  port: '51360'
-  server: lt.badns.help
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-- alterId: 0
-  cipher: auto
-  name: 4|Inde
-  network: ws
-  port: '80'
-  server: 152.67.8.205
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 4|Corée du Sud
-  network: ws
-  port: '10509'
-  server: 115.89.98.231
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4f1c1ca1-a422-4014-9423-04e39ed73b03
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: 5|アメリカ
-  network: tcp
-  port: '22324'
-  server: 216.106.183.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 7|de|8097|puddincat07@Telegram
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
 - name: 7|xx|ef9a|puddincat07@Telegram
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
@@ -97,96 +77,66 @@ proxies:
   type: trojan
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-128-gcm
-  name: 7|us|ec5a|puddincat07@Telegram
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.236
-  type: ss
 - cipher: aes-256-cfb
   name: 7|us|95ff|puddincat07@Telegram
   password: amazonskr05
   port: 443
   server: 98.89.48.191
   type: ss
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 7|de|8097|puddincat07@Telegram
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 7|nl|a0f3|puddincat07@Telegram
-  password: 36ZCHeabUSfKjfQEvJ4HDV
-  port: 54170
-  server: 185.242.86.156
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- cipher: aes-256-cfb
-  name: 7|us|6091|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 18.246.215.6
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 7|kr|6949|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 3.36.96.166
-  tfo: false
+- cipher: rc4-md5
+  name: 7|us|bcfb|puddincat07@Telegram
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.42.68
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 7|xx|d73d|puddincat07@Telegram
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
+  name: 7|nl|447b|puddincat07@Telegram
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
   type: ss
 - cipher: aes-256-cfb
-  name: 7|jp|da9f|puddincat07@Telegram
+  name: 7,12|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.179.174.138
-  tfo: false
+  server: 63.180.254.10
   type: ss
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 7|xx|bfd3|puddincat07@Telegram
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
-  tls: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 7|xx|876a|puddincat07@Telegram
-  password: be443689-bc64-49ff-85a5-8eecaa2235d3
-  port: 41049
-  server: hk2.fgmcx.top
-  tfo: false
+  name: 7|us|0a2c|puddincat07@Telegram
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.0.177
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|za|d18d|puddincat07@Telegram
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  port: 16233
+  server: 102.133.165.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|us|6022|puddincat07@Telegram
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
   type: ss
 - cipher: aes-128-gcm
-  name: 7|us|5088|puddincat07@Telegram
-  password: Yc2CtrIz8L
-  port: 16899
-  server: 172.245.180.193
+  name: 7|us|eba3|puddincat07@Telegram
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.167
   type: ss
-  udp: true
+- cipher: aes-256-gcm
+  name: 7|nl|5368|puddincat07@Telegram
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 172.99.188.99
+  type: ss
+- cipher: aes-256-cfb
+  name: 7|us|92fd|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 3.85.61.177
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
@@ -312,7 +262,7 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: aes-256-cfb
-  name: 10|未命名
+  name: '10|未命名 #1'
   password: amazonskr05
   port: 443
   server: 47.129.174.107
@@ -331,12 +281,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 12|tg频道:@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 63.180.254.10
-  type: ss
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
