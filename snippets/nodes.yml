@@ -1,24 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5|アメリカ
+  name: 3,4|Royaume-Uni
   network: tcp
-  port: '443'
-  server: 165.140.216.141
+  port: '180'
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 6|Canada
-  network: tcp
-  port: '18000'
-  server: 134.195.196.211
+  name: 6|The Netherlands
+  network: ws
+  port: '443'
+  server: apjhdggyx.com
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
 - alpn:
   - h3
   congestion-controller: bbr
@@ -33,14 +37,6 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- cipher: chacha20-ietf-poly1305
-  name: 7|xx|3f45|puddincat07@Telegram
-  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
-  port: 42982
-  server: autodiscover.fuzzyaytor.cyou
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - name: 7|xx|ef9a|puddincat07@Telegram
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
@@ -59,6 +55,12 @@ proxies:
   sni: www.linux.com
   type: hysteria2
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|3f45|puddincat07@Telegram
+  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
+  port: 42982
+  server: autodiscover.fuzzyaytor.cyou
+  type: ss
 - alterId: 2
   cipher: auto
   name: 7,12|🇺🇸 美国3|@ripaojiedian
@@ -69,68 +71,79 @@ proxies:
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 7|hr|e117|puddincat07@Telegram
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.184.60
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|76ce|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.49
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|70f6|puddincat07@Telegram
+  password: be443689-bc64-49ff-85a5-8eecaa2235d3
+  port: 41068
+  server: zz5.fgmcx.top
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|cn|becb|puddincat07@Telegram
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: 111.29.57.125
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 7|fr|3154|puddincat07@Telegram
+  password: 7BcLdsO1WweoGD0X
+  port: 40368
+  server: 193.243.147.128
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|nl|42be|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|gb|dd75|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.48
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|de|55a3|puddincat07@Telegram
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 7|xx|5432|puddincat07@Telegram
+  password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
+  port: 36018
+  server: 8h2k03.a3b5wy.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 7|fi|e00b|puddincat07@Telegram
+  password: WrszSP43UAOcFljDkb8vAL
+  port: 57262
+  server: 185.174.137.72
   type: ss
   udp: true
 - cipher: rc4-md5
-  name: 7|xx|48af|puddincat07@Telegram
-  password: dbEcUJ
-  port: 24603
-  server: fr01.ktp.wtf
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|ac7c|puddincat07@Telegram
-  password: mTypilmjidrr6dQYaOGHf7
-  port: 46130
-  server: 13.87.75.155
+  name: 7|xx|be71|puddincat07@Telegram
+  password: passfw2xs4e!
+  port: 8333
+  server: ssr5.ssrsub.com
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 7|hr|e700|puddincat07@Telegram
+  name: 7|gr|3096|puddincat07@Telegram
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 46.183.184.61
+  server: 192.71.166.102
   type: ss
   udp: true
-- name: 7|us|19f3|puddincat07@Telegram
-  network: ws
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 104.17.147.11
-  skip-cert-verify: true
-  sni: jobscareerfortoday.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jobscareerfortoday.com
-    path: 6b777a91
-- name: 7|us|9547|puddincat07@Telegram
-  network: ws
-  password: cb1f26aa437d4bfa9b841d28503ce8cc
-  port: 443
-  server: 104.16.159.2
-  skip-cert-verify: true
-  sni: jobscareerforstudent.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jobscareerforstudent.com
-    path: 6b777a91
-- cipher: chacha20-ietf-poly1305
-  name: 7|gb|597e|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.46
-  type: ss
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 印度  2
