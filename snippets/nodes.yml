@@ -1,51 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Kanada
-  network: raw
-  port: '18000'
-  server: 134.195.196.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 4|États Unis
-  network: ws
-  port: 41963
-  server: us.klxiaogou.com
-  servername: us.klxiaogou.com
-  tls: true
-  type: vmess
-  uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
-  ws-opts:
-    headers:
-      Host: us.klxiaogou.com
-    path: /124
-- alterId: 0
-  cipher: auto
-  name: 5|アメリカ
+  name: 6|United States
   network: tcp
   port: '22324'
-  server: 66.163.117.58
+  server: 216.106.183.35
   servername: ''
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 5|カナダ
-  network: tcp
-  port: '52080'
-  server: 154.37.223.56
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
-- alterId: 0
-  cipher: auto
-  name: 5|大韓民国
+  name: 6|South Korea
   network: tcp
   port: '443'
   server: 140.238.2.250
@@ -55,32 +21,18 @@ proxies:
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - alterId: 0
   cipher: auto
-  name: 5,6|India
+  name: 6|Philippines
   network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 152.67.8.205
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|United States
-  network: ws
-  port: 39495
-  server: 129.146.77.248
+  port: '80'
+  server: 61.245.11.60
   servername: ''
   tls: false
   type: vmess
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
   ws-opts:
     headers:
       Host: ''
-    path: /cctv13.m3u8
+    path: /vmess/
 - alpn:
   - h3
   congestion-controller: bbr
