@@ -1,7 +1,51 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Südkorea
+  name: 3|Kanada
+  network: raw
+  port: '18000'
+  server: 134.195.196.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 4|États Unis
+  network: ws
+  port: 41963
+  server: us.klxiaogou.com
+  servername: us.klxiaogou.com
+  tls: true
+  type: vmess
+  uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
+  ws-opts:
+    headers:
+      Host: us.klxiaogou.com
+    path: /124
+- alterId: 0
+  cipher: auto
+  name: 5|アメリカ
+  network: tcp
+  port: '22324'
+  server: 66.163.117.58
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 5|カナダ
+  network: tcp
+  port: '52080'
+  server: 154.37.223.56
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
+- alterId: 0
+  cipher: auto
+  name: 5|大韓民国
   network: tcp
   port: '443'
   server: 140.238.2.250
@@ -11,52 +55,32 @@ proxies:
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - alterId: 0
   cipher: auto
-  name: 3|Philippinen
+  name: 5,6|India
   network: ws
-  port: '80'
-  server: 61.245.11.60
-  servername: ''
+  port: 80
+  server: 152.67.8.205
+  servername: 152.67.8.205
   tls: false
   type: vmess
-  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     headers:
       Host: ''
-    path: /vmess/
+    path: /
 - alterId: 0
   cipher: auto
-  name: 5|未命名
+  name: 6|United States
   network: ws
-  port: 8443
-  server: 104.17.77.77
-  servername: v2ray1.dozapp.xyz
-  tls: true
+  port: 39495
+  server: 129.146.77.248
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
   ws-opts:
     headers:
       Host: ''
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: 6|Switzerland
-  network: tcp
-  port: '38998'
-  server: 178.83.45.29
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f
-- alterId: 0
-  cipher: auto
-  name: 6|Canada
-  network: tcp
-  port: '52080'
-  server: 154.37.223.56
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
+    path: /cctv13.m3u8
 - alpn:
   - h3
   congestion-controller: bbr
@@ -373,7 +397,7 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: aes-256-cfb
-  name: '10|未命名 #1'
+  name: 10|未命名
   password: amazonskr05
   port: 443
   server: 47.129.174.107
