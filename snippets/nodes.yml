@@ -1,24 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5|ドイツ連邦共和国
-  network: tcp
-  port: '15124'
-  server: 91.107.139.186
+  name: 5|アメリカ
+  network: ws
+  port: '41963'
+  server: us.klxiaogou.com
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 27633813-aade-4dd1-9e22-5e114fe034cd
-- alterId: 0
-  cipher: auto
-  name: 6|United States
-  network: tcp
-  port: '443'
-  server: 165.140.216.142
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  uuid: 7a4830df-5391-4748-b1c7-b6857ad04acb
+  ws-opts:
+    headers:
+      Host: us.klxiaogou.com
+    path: /124
 - alpn:
   - h3
   congestion-controller: bbr
