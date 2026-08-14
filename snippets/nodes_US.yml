@@ -2,17 +2,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 6|United States
-  network: ws
-  port: 443
-  server: rush-72frf.meeopp.site
+  network: tcp
+  port: 22324
+  server: 67.220.72.237
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-72frf.meeopp.site
-    path: /video/o2nwt7/r0r2dmbb.m3u8
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
