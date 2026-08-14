@@ -3,8 +3,8 @@ proxies:
   cipher: auto
   name: 6|United States
   network: tcp
-  port: 22324
-  server: 67.220.72.237
+  port: '22324'
+  server: 66.163.117.58
   servername: ''
   tls: false
   type: vmess
