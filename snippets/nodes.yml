@@ -1,24 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5|アメリカ
+  name: 3|Singapur
   network: tcp
-  port: '18000'
-  server: 38.110.1.246
+  port: '16115'
+  server: zfd-hkv2.kunlun01dns.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+- alterId: 0
+  cipher: auto
+  name: 4|Singapour
+  network: tcp
+  port: 18000
+  server: 149.88.23.202
   servername: ''
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 5|台湾
-  network: tcp
-  port: '35034'
-  server: 165.154.195.38
+  name: 5|フィリピン共和国
+  network: ws
+  port: 2053
+  server: deapp.jisuyun.top
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: ''
+    path: /devm
 - client-fingerprint: chrome
   name: 7|xx|7c66|puddincat07@Telegram
   network: tcp
