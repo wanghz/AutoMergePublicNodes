@@ -1,11 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 6|Singapore
-  network: tcp
-  port: '16115'
-  server: zfd-hkv2.kunlun01dns.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
+proxies: []
