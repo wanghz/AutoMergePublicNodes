@@ -3,12 +3,26 @@ proxies:
   cipher: auto
   name: 6|United States
   network: tcp
-  port: '22324'
-  server: 216.106.183.35
+  port: '800'
+  server: 47.86.167.194
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- alterId: 0
+  cipher: auto
+  name: '6|United States #1'
+  network: ws
+  port: '443'
+  server: 198.23.184.122
+  servername: xc163.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 6910f78e-3c38-46a1-b287-837279ad9b4a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /837279ad9b4a
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
