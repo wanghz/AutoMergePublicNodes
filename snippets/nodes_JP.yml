@@ -1,15 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Japan
+  name: 6|Japan
   network: ws
-  port: '80'
-  server: 168.138.43.75
-  servername: None
-  tls: false
+  port: '13118'
+  server: 140.83.57.20
+  servername: sg.11160321.de5.net
+  tls: true
   type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  uuid: 1f01e389-fbcb-494c-e46a-210ec36329c2
   ws-opts:
     headers:
-      Host: None
-    path: /cctv13.m3u8
+      Host: sg.11160321.de5.net
+    path: /
