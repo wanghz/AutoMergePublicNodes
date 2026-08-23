@@ -1,18 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
-  network: ws
-  port: '443'
-  server: rush-w1niu.teeopp.online
-  servername: rush-w1niu.teeopp.online
-  tls: true
+  name: '3|USA #1'
+  network: raw
+  port: '18000'
+  server: 67.220.95.3
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-w1niu.teeopp.online
-    path: /video/v4sx3q/zxzrurkc.m3u8
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
