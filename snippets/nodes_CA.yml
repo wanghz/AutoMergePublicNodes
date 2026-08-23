@@ -3,9 +3,9 @@ proxies:
   cipher: auto
   name: 4|Canada
   network: tcp
-  port: '52080'
-  server: 154.37.223.56
+  port: '18000'
+  server: 134.195.196.211
   servername: ''
   tls: false
   type: vmess
-  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
