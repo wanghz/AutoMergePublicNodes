@@ -3,12 +3,26 @@ proxies:
   cipher: auto
   name: 6|United States
   network: tcp
-  port: '443'
-  server: 165.140.216.141
+  port: '18000'
+  server: 169.197.142.22
   servername: ''
   tls: false
   type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: '6|United States #1'
+  network: ws
+  port: 39495
+  server: 129.146.77.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
