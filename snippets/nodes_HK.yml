@@ -3,13 +3,25 @@ proxies:
   cipher: auto
   name: 12|🇺🇸 美国3|@ripaojiedian
   password: BxceQaOe
-  port: 39024
-  server: 43.199.155.17
+  port: 34039
+  server: 54.179.227.94
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  name: 12|🇭🇰 香港2|@ripaojiedian
+  password: Butterfly123@qwe9527
+  port: 10001
+  server: 103.236.66.4
+  type: ss
+- cipher: aes-256-gcm
+  name: 12|🇭🇰 香港3|@ripaojiedian
+  password: Butterfly123@qwe9527
+  port: 10006
+  server: 112.28.141.77
+  type: ss
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
