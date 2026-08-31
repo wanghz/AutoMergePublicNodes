@@ -1,11 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 6|Singapore
-  network: tcp
-  port: '47630'
-  server: 43.228.126.187
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
+proxies: []
