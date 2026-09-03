@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 4|Hong Kong
-  network: ws
-  port: 35043
-  server: 156.245.232.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 2
   cipher: auto
   name: 12|🇺🇸 美国3|@ripaojiedian
