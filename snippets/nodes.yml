@@ -1,68 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Südkorea
-  network: ws
-  port: 80
-  server: 132.145.80.230
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 4|Singapour
-  network: raw
-  port: '18000'
-  server: 149.88.23.202
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 4|États Unis
-  network: tcp
-  port: '800'
-  server: 47.86.167.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- alterId: 0
-  cipher: auto
   name: 5|英国
   network: tcp
-  port: '2053'
-  server: 51.38.71.147
-  servername: node-uk.connectsuite.org
-  tls: true
-  type: vmess
-  uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
-- alterId: 0
-  cipher: auto
-  name: 6|United States
-  network: ws
-  port: 39495
-  server: 129.146.77.248
+  port: '180'
+  server: 82.198.246.97
   servername: ''
   tls: false
   type: vmess
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cctv13.m3u8
-- name: 7|sg|7987|puddincat07@Telegram
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 7|sg|7ac8|puddincat07@Telegram
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 13.212.76.106
+  server: 13.250.120.9
   skip-cert-verify: true
-  sni: vk.com
+  sni: 13.250.120.9
   tls: false
   type: hysteria2
 - name: 7|sg|9ef7|puddincat07@Telegram
@@ -70,15 +22,23 @@ proxies:
   port: 443
   server: 47.129.0.20
   skip-cert-verify: true
-  sni: 47.129.0.20
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: 7|xx|ff21|puddincat07@Telegram
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 1933
-  server: sg1.xiaoliyu.cyou
+- name: 7|sg|36bc|puddincat07@Telegram
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.151.142.26
   skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
+  sni: whatsapp.com
+  tls: false
+  type: hysteria2
+- name: 7|sg|7987|puddincat07@Telegram
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.212.76.106
+  skip-cert-verify: true
+  sni: vk.com
   tls: false
   type: hysteria2
 - name: 7|us|7a73|puddincat07@Telegram
@@ -105,12 +65,12 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 7|ro|029a|puddincat07@Telegram
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 205.237.109.165
-  skip-cert-verify: false
-  sni: hopp-netherland-new.dynuddns.net
+- name: 7|ca|b7ee|puddincat07@Telegram
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 15.223.122.197
+  skip-cert-verify: true
+  sni: t.me
   tls: false
   type: hysteria2
 - name: 7|ro|6b08|puddincat07@Telegram
@@ -118,6 +78,13 @@ proxies:
   port: 8443
   server: 205.237.109.175
   skip-cert-verify: true
+  sni: hopp-netherland-new.dynuddns.net
+  tls: false
+  type: hysteria2
+- name: 7|ro|38a5|puddincat07@Telegram
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 8443
+  server: 205.237.109.164
   sni: hopp-netherland-new.dynuddns.net
   tls: false
   type: hysteria2
@@ -129,10 +96,18 @@ proxies:
   sni: hopp-netherland-new.dynuddns.net
   tls: false
   type: hysteria2
-- name: 7|ca|b7ee|puddincat07@Telegram
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- name: 7|xx|6aa1|puddincat07@Telegram
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
   port: 443
-  server: 15.223.122.197
+  server: labs.frkn.org
+  skip-cert-verify: true
+  sni: labs.frkn.org
+  tls: false
+  type: hysteria2
+- name: 7|kr|e80b|puddincat07@Telegram
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  port: 50160
+  server: 152.67.200.82
   skip-cert-verify: true
   sni: t.me
   tls: false
@@ -143,21 +118,6 @@ proxies:
   server: 162.249.126.6
   skip-cert-verify: false
   sni: hopp-germany-new.ddnsguru.com
-  tls: false
-  type: hysteria2
-- name: 7|nl|f97e|puddincat07@Telegram
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 46.229.243.141
-  sni: grape-turbo-fr.roxa.org
-  tls: false
-  type: hysteria2
-- name: 7|xx|08af|puddincat07@Telegram
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-au-002.fastervpn.world
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: 7|us|d4f7|puddincat07@Telegram
@@ -176,14 +136,6 @@ proxies:
   server: 46.229.243.143
   skip-cert-verify: false
   sni: grape-turbo-fr.roxa.org
-  tls: false
-  type: hysteria2
-- name: 7|fr|86c8|puddincat07@Telegram
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 35.181.169.140
-  skip-cert-verify: true
-  sni: 35.181.169.140
   tls: false
   type: hysteria2
 - alterId: 0
