@@ -2,19 +2,9 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 6|United States
-  network: raw
+  network: tcp
   port: '18000'
-  server: 169.197.142.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: '6|United States #1'
-  network: raw
-  port: '18000'
-  server: 67.220.95.3
+  server: 67.220.85.46
   servername: ''
   tls: false
   type: vmess
