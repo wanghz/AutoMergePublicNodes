@@ -1,26 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|Hong Kong
-  network: ws
-  port: 36703
-  server: 47.244.120.197
+  name: 3|USA
+  network: tcp
+  port: '22324'
+  server: 66.163.117.58
   servername: ''
   tls: false
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 6|India
+  network: ws
+  port: '80'
+  server: 152.67.8.205
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     headers:
       Host: ''
-    path: /arki?ed=2048
-- name: 7|xx|3972|puddincat07@Telegram
-  password: HysTeria2026!Proxy
-  port: 8443
-  server: mz.hkychina.com
-  skip-cert-verify: false
-  sni: mz.hkychina.com
-  tls: false
-  type: hysteria2
+    path: ''
 - name: 7|us|c3d4|puddincat07@Telegram
   password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
   port: 8443
@@ -29,14 +31,27 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: 7|gb|d819|puddincat07@Telegram
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
+- name: 7|xx|8727|puddincat07@Telegram
+  password: 1beb216e3f60aea9555dae60d219a5ca
+  port: 50160
+  server: 152-69-231-175.liao.kdns.fr
+  sni: 152-69-231-175.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- name: 7|xx|82a1|puddincat07@Telegram
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 2.27.249.79
-  skip-cert-verify: false
-  sni: nl1.sferavpn.pro
+  server: vpn-in-001.fastervpn.world
+  skip-cert-verify: true
+  sni: ''
+  tls: false
+  type: hysteria2
+- name: 7|ro|70e4|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.170
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
 - name: 7|us|d4f7|puddincat07@Telegram
@@ -49,74 +64,22 @@ proxies:
   sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
-- name: 7|ro|e70d|puddincat07@Telegram
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 85.204.107.177
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: 7|gb|5e7a|puddincat07@Telegram
-  password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
-  port: 8443
-  server: 82.38.64.229
+- name: 7|xx|f25c|puddincat07@Telegram
+  password: BWAFlp8g53
+  port: 443
+  server: hys28.wba-pn.ru
   skip-cert-verify: true
-  sni: hopp-swizland-new.mysynology.net
+  sni: hys28.wba-pn.ru
   tls: false
   type: hysteria2
-- name: 7|ro|70e4|puddincat07@Telegram
+- name: 7|ro|e039|puddincat07@Telegram
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
-  server: 85.204.107.170
+  server: 85.204.107.185
   skip-cert-verify: true
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 7|us|9f71|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.17.111.8
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 7|us|246e|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 7|us|f608|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.77
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /assignment
 - name: 7|ro|4d15|puddincat07@Telegram
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
@@ -124,74 +87,69 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 7|us|b4ce|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.117
+- name: 7|xx|3972|puddincat07@Telegram
+  password: HysTeria2026!Proxy
+  port: 8443
+  server: mz.hkychina.com
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 7|us|e9fc|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.21.46.3
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 7|us|ea36|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.17.111.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 7|us|b395|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.26.15.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /assignment
-- name: 7|us|601d|puddincat07@Telegram
+  sni: mz.hkychina.com
+  tls: false
+  type: hysteria2
+- name: 7|ro|e70d|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.177
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: 7|xx|3f2a|puddincat07@Telegram
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: es1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: es1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 7|ro|cd55|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.178
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: 7|gb|d819|puddincat07@Telegram
   obfs: salamander
-  obfs-password: c1b4086fea89914496c7e10967a419216566
-  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  server: 162.249.125.133
+  server: 2.27.249.79
   skip-cert-verify: false
-  sni: hy2-new.aspidnet.xyz
+  sni: nl1.sferavpn.pro
+  tls: false
+  type: hysteria2
+- name: 7|ro|a44b|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.181
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: 7|xx|bcc0|puddincat07@Telegram
+  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
+  port: 443
+  server: go.wwwinternetvideo.click
+  skip-cert-verify: true
+  sni: admin.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- name: 7|xx|454e|puddincat07@Telegram
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: se.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: se.xiaoliyu.cyou
   tls: false
   type: hysteria2
 - alterId: 0
