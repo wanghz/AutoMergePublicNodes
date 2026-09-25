@@ -5,22 +5,30 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 100.42.228.109
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   tls: false
   type: trojan
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
+- cipher: aes-128-gcm
   name: 12|🇭🇰 香港2|@ripaojiedian
-  password: Butterfly123@qwe9527
-  port: 10001
-  server: 103.236.66.4
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36602
+  server: gd.bjnet2.com
   type: ss
-- cipher: aes-256-gcm
+- cipher: aes-128-gcm
   name: 12|🇭🇰 香港3|@ripaojiedian
-  password: Butterfly123@qwe9527
-  port: 10006
-  server: 112.28.141.77
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36602
+  server: gd2.bjnet2.com
   type: ss
 - alterId: 2
   cipher: auto
