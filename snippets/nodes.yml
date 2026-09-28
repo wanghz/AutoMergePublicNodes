@@ -1,13 +1,26 @@
 proxies:
-- auth: my_super_password_123
-  name: 7|xx|e524|puddincat07@Telegram
-  password: my_super_password_123
+- alterId: 0
+  cipher: auto
+  name: 6|未命名
+  network: ws
   port: 443
-  server: open.w2m.ink
-  skip-cert-verify: true
-  sni: open.w2m.ink
+  server: rush-6it6b.teeopp.quest
+  servername: rush-6it6b.teeopp.quest
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: rush-6it6b.teeopp.quest
+    path: /video/kz49hf/gbin5jve.m3u8
+- name: 7|xx|3972|puddincat07@Telegram
+  password: HysTeria2026!Proxy
+  port: 8443
+  server: mz.hkychina.com
+  skip-cert-verify: false
+  sni: mz.hkychina.com
+  tls: false
   type: hysteria2
-  udp: true
 - auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   name: 7|xx|5240|puddincat07@Telegram
   password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
@@ -16,33 +29,30 @@ proxies:
   skip-cert-verify: true
   sni: xjp1.mangshe.xyz
   type: hysteria2
-- name: 7|xx|8727|puddincat07@Telegram
-  password: 1beb216e3f60aea9555dae60d219a5ca
-  port: 50160
-  server: 152-69-231-175.liao.kdns.fr
-  sni: 152-69-231-175.liao.kdns.fr
-  tls: false
+- down: ''
+  fingerprint: ''
+  name: 7|xx|344a|puddincat07@Telegram
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: vpn-sg-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
   type: hysteria2
+  up: ''
 - name: 7|xx|aa43|puddincat07@Telegram
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 4433
   server: hk2.xiaoliyu.cyou
   skip-cert-verify: true
   type: hysteria2
-- name: 7|ca|b7ee|puddincat07@Telegram
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 15.223.122.197
-  skip-cert-verify: true
-  sni: 'off'
-  tls: false
-  type: hysteria2
-- name: 7|us|55d5|puddincat07@Telegram
-  password: 31329f25
-  port: 4443
-  server: 198.46.215.223
-  skip-cert-verify: true
-  sni: proxy.bingtao.xyz
+- name: 7|ro|4d56|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.172
+  skip-cert-verify: false
+  sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
 - auth: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
@@ -53,14 +63,6 @@ proxies:
   skip-cert-verify: true
   sni: grape-test-italy.dynuddns.net
   type: hysteria2
-- name: 7|ch|46cb|puddincat07@Telegram
-  password: 84a506ca5aca505696a454d828420b3f
-  port: 50160
-  server: 140.238.213.114
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - auth: gf1:gfhysteria2024
   name: 7|nl|7363|puddincat07@Telegram
   password: gf1:gfhysteria2024
@@ -68,34 +70,6 @@ proxies:
   server: 5.129.235.85
   skip-cert-verify: true
   sni: www.linux.com
-  type: hysteria2
-- name: 7|gb|f8b8|puddincat07@Telegram
-  password: we9_I1893UFj3149xbr1_k8qvJ8734ic_Mx82gH
-  port: 8443
-  server: 82.38.64.237
-  skip-cert-verify: false
-  sni: hopp-swizland-new.mysynology.net
-  tls: false
-  type: hysteria2
-- name: 7|xx|76e3|puddincat07@Telegram
-  obfs: salamander
-  obfs-password: HysteriaHowdy
-  password: HowdyHysteria2023w0W
-  port: 8443
-  server: hysteria.udpgw.com
-  skip-cert-verify: true
-  sni: sni-here.com
-  tls: false
-  type: hysteria2
-- auth: 633bc3be486b646190661ac2387c150a
-  name: 7|au|c385|puddincat07@Telegram
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-  password: 633bc3be486b646190661ac2387c150a
-  port: 443
-  server: 152.67.115.203
-  skip-cert-verify: true
-  sni: www.bing.com
   type: hysteria2
 - down: ''
   fingerprint: ''
@@ -109,28 +83,67 @@ proxies:
   sni: streambox.wwwinternetvideo.click
   type: hysteria2
   up: ''
-- name: 7|ru|6cb0|puddincat07@Telegram
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
+- name: 7|ro|4d15|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.183
+  sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 7|jp|873f|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 18.179.37.17
-  type: ss
-- name: 7|nl|a4cd|puddincat07@Telegram
-  obfs: salamander
-  obfs-password: HysteriaHowdy
-  password: HowdyHysteria2023w0W
-  port: 8443
-  server: 51.15.19.206
+- name: 7|us|55d5|puddincat07@Telegram
+  password: 31329f25
+  port: 4443
+  server: 198.46.215.223
   skip-cert-verify: true
-  sni: sni-here.com
+  sni: proxy.bingtao.xyz
+  tls: false
+  type: hysteria2
+- name: 7|ro|bbb7|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.184
+  skip-cert-verify: false
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: 7|ro|e039|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.185
+  skip-cert-verify: false
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: 7|ch|46cb|puddincat07@Telegram
+  password: 84a506ca5aca505696a454d828420b3f
+  port: 50160
+  server: 140.238.213.114
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 7|fr|08d8|puddincat07@Telegram
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: google.com
+  type: hysteria2
+- name: 7|ro|a44b|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.181
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: 7|ro|70e4|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.170
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
 - alterId: 0
@@ -258,7 +271,7 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: aes-256-cfb
-  name: 10|未命名
+  name: '10|未命名 #1'
   password: amazonskr05
   port: 443
   server: 47.129.174.107
