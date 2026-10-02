@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 6|Canada
+  network: tcp
+  port: '52080'
+  server: 154.37.223.56
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
