@@ -1,24 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
+  name: 4|Royaume-Uni
   network: tcp
-  port: '22324'
-  server: 216.106.183.35
+  port: '180'
+  server: 82.198.246.250
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 4|États Unis
-  network: tcp
-  port: '443'
-  server: 165.140.216.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 7|xx|febb|puddincat07@Telegram
   password: 96ab5cd282733fd4c312a61f972f330a
   port: 443
@@ -54,24 +44,6 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   type: hysteria2
   up: ''
-- name: 7|us|8fee|puddincat07@Telegram
-  password: 099830134df5ac3a04a4b21d39b8c395
-  port: 50160
-  server: 163.192.14.135
-  skip-cert-verify: true
-  sni: vk.com
-  tls: false
-  type: hysteria2
-- name: 7|sg|3afb|puddincat07@Telegram
-  obfs: salamander
-  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-  password: d042d150716709bb778cc73889cddb02
-  port: 443
-  server: 138.2.89.249
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
   name: 7|hk|b589|puddincat07@Telegram
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -88,6 +60,16 @@ proxies:
   sni: hy2.123266.xyz
   tls: false
   type: hysteria2
+- name: 7|sg|3afb|puddincat07@Telegram
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+  password: d042d150716709bb778cc73889cddb02
+  port: 443
+  server: 138.2.89.249
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 7|xx|966a|puddincat07@Telegram
   password: dongtaiwang.com
   port: 44356
@@ -96,13 +78,21 @@ proxies:
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
-- auth: gf1:gfhysteria2024
-  name: 7|us|7a73|puddincat07@Telegram
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 66.94.121.46
+- name: 7|us|8fee|puddincat07@Telegram
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
   skip-cert-verify: true
-  sni: www.broadcom.com
+  sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 7|sg|0ed4|puddincat07@Telegram
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
+  skip-cert-verify: true
+  sni: 138.2.73.238
+  tls: false
   type: hysteria2
 - auth: 5fa748137b6d822308eea4611f474ad5
   name: 7|us|c285|puddincat07@Telegram
@@ -125,6 +115,14 @@ proxies:
   skip-cert-verify: true
   sni: rmgyvpn.rest
   type: hysteria2
+- auth: gf1:gfhysteria2024
+  name: 7|us|7a73|puddincat07@Telegram
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 66.94.121.46
+  skip-cert-verify: true
+  sni: www.broadcom.com
+  type: hysteria2
 - name: 7|us|81c2|puddincat07@Telegram
   password: 4291c983-c520-46ac-82cc-48f14bef573f
   port: 35013
@@ -142,14 +140,6 @@ proxies:
   sni: xship.top
   type: hysteria2
   udp: true
-- name: 7|ch|46cb|puddincat07@Telegram
-  password: 84a506ca5aca505696a454d828420b3f
-  port: 50160
-  server: 140.238.213.114
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - auth: 3a702d4d1de4949005d8431220e040fb
   name: 7|ch|396b|puddincat07@Telegram
   obfs: salamander
