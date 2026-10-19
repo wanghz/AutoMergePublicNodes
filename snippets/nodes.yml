@@ -1,28 +1,48 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|India
+  name: 3|Hongkong
   network: ws
-  port: '80'
-  server: 152.67.8.205
+  port: 36703
+  server: 47.244.120.197
   servername: ''
   tls: false
   type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
       Host: ''
-    path: ''
+    path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: 6|United Kingdom
+  name: 3|Taiwan
   network: tcp
-  port: '180'
-  server: 82.198.246.37
+  port: '35034'
+  server: 165.154.195.38
   servername: ''
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- alterId: 0
+  cipher: auto
+  name: 3|USA
+  network: tcp
+  port: '800'
+  server: 47.86.167.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- alterId: 0
+  cipher: auto
+  name: 5|アメリカ
+  network: tcp
+  port: '18000'
+  server: 38.110.1.246
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - name: 7|xx|febb|puddincat07@Telegram
   password: 96ab5cd282733fd4c312a61f972f330a
   port: 443
@@ -38,12 +58,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 7|xx|966a|puddincat07@Telegram
-  password: dongtaiwang.com
-  port: 44356
-  server: hy2.561891.xyz
-  skip-cert-verify: false
-  sni: hy2.561891.xyz
+- name: 7|sg|3afb|puddincat07@Telegram
+  obfs: salamander
+  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+  password: d042d150716709bb778cc73889cddb02
+  port: 443
+  server: 138.2.89.249
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - auth: maintell
@@ -54,11 +76,20 @@ proxies:
   skip-cert-verify: true
   sni: bing.com
   type: hysteria2
-- name: 7|xx|4994|puddincat07@Telegram
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: hy2.123266.xyz
-  sni: hy2.123266.xyz
+- name: 7|xx|966a|puddincat07@Telegram
+  password: dongtaiwang.com
+  port: 44356
+  server: hy2.561891.xyz
+  skip-cert-verify: false
+  sni: hy2.561891.xyz
+  tls: false
+  type: hysteria2
+- name: 7|sg|0ed4|puddincat07@Telegram
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
+  skip-cert-verify: true
+  sni: 138.2.73.238
   tls: false
   type: hysteria2
 - name: 7|us|8fee|puddincat07@Telegram
@@ -67,6 +98,21 @@ proxies:
   server: 163.192.14.135
   skip-cert-verify: true
   sni: vk.com
+  tls: false
+  type: hysteria2
+- name: 7|xx|4994|puddincat07@Telegram
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: hy2.123266.xyz
+  sni: hy2.123266.xyz
+  tls: false
+  type: hysteria2
+- name: 7|xx|c671|puddincat07@Telegram
+  password: dongtaiwang.com
+  port: 44356
+  server: 142.249.37.90
+  skip-cert-verify: false
+  sni: hy2.561891.xyz
   tls: false
   type: hysteria2
 - auth: 5fa748137b6d822308eea4611f474ad5
@@ -79,41 +125,6 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: 7|us|81c2|puddincat07@Telegram
-  password: 4291c983-c520-46ac-82cc-48f14bef573f
-  port: 35013
-  server: 129.213.91.185
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 7|xx|c671|puddincat07@Telegram
-  password: dongtaiwang.com
-  port: 44356
-  server: 142.249.37.90
-  skip-cert-verify: false
-  sni: hy2.561891.xyz
-  tls: false
-  type: hysteria2
-- auth: lh92eQnxIpeg2odHHDg0SrcczqwS4e8Y
-  name: 7|br|adf1|puddincat07@Telegram
-  password: lh92eQnxIpeg2odHHDg0SrcczqwS4e8Y
-  port: 443
-  server: 179.255.104.98
-  skip-cert-verify: true
-  sni: dl1.yuanshicheng.com
-  type: hysteria2
-  udp: true
-- name: 7|sg|3afb|puddincat07@Telegram
-  obfs: salamander
-  obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-  password: d042d150716709bb778cc73889cddb02
-  port: 443
-  server: 138.2.89.249
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - auth: gf1:gfhysteria2024
   name: 7|us|7a73|puddincat07@Telegram
   password: gf1:gfhysteria2024
@@ -122,38 +133,49 @@ proxies:
   skip-cert-verify: true
   sni: www.broadcom.com
   type: hysteria2
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 7|hk|b589|puddincat07@Telegram
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- auth: https://xship.best
+  name: 7|xx|a030|puddincat07@Telegram
+  password: https://xship.best
   port: 443
-  server: 202.146.222.29
+  server: starlink-ft.251313.xyz
   skip-cert-verify: true
-  sni: 202.146.222.29
-  tls: false
+  sni: xship.top
   type: hysteria2
-- name: 7|xx|11ec|puddincat07@Telegram
-  password: 529f1911-04d5-4427-94b9-c851fd459a27
-  port: 443
-  server: nl-hy-test.tcp-reset-club.net
-  sni: tcp-reset-club.net
-  tls: false
-  type: hysteria2
-- name: 7|us|d4f7|puddincat07@Telegram
+  udp: true
+- auth: 633bc3be486b646190661ac2387c150a
+  name: 7|au|c385|puddincat07@Telegram
   obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+  password: 633bc3be486b646190661ac2387c150a
   port: 443
-  server: 130.49.161.70
+  server: 152.67.115.203
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: 7,12|🇭🇰 香港|@ripaojiedian
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 30807
+  server: v10.hdacd.com
   skip-cert-verify: false
-  sni: hy2.aspidnet.xyz
+  sni: de7.dedushka.top
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 7|us|81c2|puddincat07@Telegram
+  password: 4291c983-c520-46ac-82cc-48f14bef573f
+  port: 35013
+  server: 129.213.91.185
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 7|ch|396b|puddincat07@Telegram
-  obfs: salamander
-  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-  password: 3a702d4d1de4949005d8431220e040fb
-  port: 443
-  server: 152.67.75.161
+- name: 7|ch|46cb|puddincat07@Telegram
+  password: 84a506ca5aca505696a454d828420b3f
+  port: 50160
+  server: 140.238.213.114
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
@@ -308,15 +330,6 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 13|香港|@ripaojiedian
