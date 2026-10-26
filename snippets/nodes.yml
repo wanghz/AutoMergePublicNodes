@@ -1,24 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 4|Malaisie
+  name: 3|USA
   network: tcp
-  port: '10000'
-  server: 47.250.135.244
+  port: '800'
+  server: 47.86.167.194
   servername: ''
   tls: false
   type: vmess
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   cipher: auto
-  name: 6|United Kingdom
-  network: tcp
-  port: '2053'
-  server: 51.38.71.147
-  servername: node-uk.connectsuite.org
-  tls: true
+  name: 4|Hong Kong
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 5|アメリカ
+  network: tcp
+  port: '22324'
+  server: 66.163.117.58
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - name: 7|xx|febb|puddincat07@Telegram
   password: 96ab5cd282733fd4c312a61f972f330a
   port: 443
