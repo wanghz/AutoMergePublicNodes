@@ -1,14 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Bulgarien
+  name: 3|USA
   network: tcp
-  port: '110'
-  server: newrelax.relaxedboy.online
+  port: '18000'
+  server: 67.220.85.46
   servername: ''
   tls: false
   type: vmess
-  uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 5|台湾
+  network: tcp
+  port: '35034'
+  server: 165.154.195.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - name: 7|xx|febb|puddincat07@Telegram
   password: 96ab5cd282733fd4c312a61f972f330a
   port: 443
