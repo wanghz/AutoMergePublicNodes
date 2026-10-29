@@ -1,32 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Singapur
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  ws-opts:
-    headers:
-      Host: n1747624260.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 4|Malaisie
-  network: ws
-  port: 8613
-  server: 47.250.45.234
+  name: 4|États Unis
+  network: tcp
+  port: '22324'
+  server: 66.163.117.58
   servername: ''
   tls: false
   type: vmess
-  uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki?ed=2048
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - name: 7|xx|febb|puddincat07@Telegram
   password: 96ab5cd282733fd4c312a61f972f330a
   port: 443
