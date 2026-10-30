@@ -1,24 +1,52 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|USA
+  name: 4|États Unis
   network: tcp
   port: '18000'
-  server: 67.220.85.46
+  server: 38.110.1.246
   servername: ''
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: 5|アメリカ
-  network: tcp
-  port: '22324'
-  server: 66.163.117.58
+  name: 4|Malaisie
+  network: ws
+  port: 43063
+  server: 47.250.45.234
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 5|大韓民国
+  network: tcp
+  port: '8888'
+  server: 146.56.112.110
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+- alterId: 0
+  cipher: auto
+  name: 6|未命名
+  network: ws
+  port: 443
+  server: rush-6it6b.teeopp.quest
+  servername: rush-6it6b.teeopp.quest
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: rush-6it6b.teeopp.quest
+    path: /video/kz49hf/gbin5jve.m3u8
 - name: 7|xx|febb|puddincat07@Telegram
   password: 96ab5cd282733fd4c312a61f972f330a
   port: 443
@@ -279,7 +307,7 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: aes-256-cfb
-  name: 10|未命名
+  name: '10|未命名 #1'
   password: amazonskr05
   port: 443
   server: 47.129.174.107
