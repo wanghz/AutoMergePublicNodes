@@ -1,18 +1,48 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5|シンガポール
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
+  name: 3|USA
+  network: tcp
+  port: '48111'
+  server: 129.146.143.80
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+- alterId: 0
+  cipher: auto
+  name: 3|Singapur
+  network: raw
+  port: '18000'
+  server: 149.88.23.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 5|アメリカ
+  network: tcp
+  port: '443'
+  server: 165.140.216.142
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: 5|インド
+  network: ws
+  port: '80'
+  server: 152.67.8.205
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     headers:
-      Host: n1747624260.4u9ma.icu
-    path: /
+      Host: ''
+    path: ''
 - name: 7|xx|febb|puddincat07@Telegram
   password: 96ab5cd282733fd4c312a61f972f330a
   port: 443
@@ -298,22 +328,10 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 12|🇭🇰 香港|@ripaojiedian
-  port: 30807
-  server: v10.hdacd.com
+- name: 12|🇺🇸 美国2|@ripaojiedian
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 17285
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 13|香港|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  sni: cm.g.doubleclick.net
+  type: trojan
