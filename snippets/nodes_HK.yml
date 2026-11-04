@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|Hong Kong
+  name: 5|香港
   network: ws
   port: 44867
   server: 47.244.120.197
