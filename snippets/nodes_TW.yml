@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 12|🇹🇼 台湾｜02｜HiNet
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 6549
+  server: tw.ccwink.cc
+  skip-cert-verify: true
+  sni: baidu.com
+  type: anytls
+  udp: true
