@@ -2,17 +2,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 3|USA
-  network: ws
-  port: 443
-  server: vps123.kbxa.top
+  network: tcp
+  port: '443'
+  server: 165.140.216.141
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: cd07d6e6-f631-4757-a03c-b8727c568c85
-  ws-opts:
-    headers:
-      Host: vps123.kbxa.top
-    path: /123
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
 - alterId: 0
   cipher: auto
   name: 9|github.com/freefq - 美国CloudFla...
