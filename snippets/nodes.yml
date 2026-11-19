@@ -1,28 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|Südkorea
-  network: ws
-  port: 80
-  server: 132.145.80.230
+  name: 3|USA
+  network: tcp
+  port: '22324'
+  server: 66.163.117.58
   servername: ''
   tls: false
   type: vmess
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cctv13.m3u8
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 5|アメリカ
-  network: raw
-  port: '18000'
-  server: 38.91.107.49
+  network: tcp
+  port: '443'
+  server: 165.140.216.141
   servername: ''
   tls: false
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+- alterId: 0
+  cipher: auto
+  name: 5|カナダ
+  network: tcp
+  port: '52080'
+  server: 154.37.223.56
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
 - cipher: aes-256-gcm
   name: 7,12|🇮🇹 意大利|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
