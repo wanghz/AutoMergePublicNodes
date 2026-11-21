@@ -1,38 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5|アメリカ
-  network: tcp
-  port: '22324'
-  server: 66.163.117.58
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 5|未命名
+  name: 4|未命名
   network: ws
-  port: '443'
-  server: rush-t2tvv.ceeopp.site
-  servername: rush-t2tvv.ceeopp.site
+  port: 443
+  server: vps123.kbxa.top
+  servername: ''
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: cd07d6e6-f631-4757-a03c-b8727c568c85
   ws-opts:
     headers:
-      Host: rush-t2tvv.ceeopp.site
-    path: /video/ke716z/7x219hzy.m3u8
+      Host: vps123.kbxa.top
+    path: /123
 - alterId: 0
   cipher: auto
-  name: 6|Canada
+  name: 5|英国
   network: tcp
-  port: '52080'
-  server: 154.37.223.56
+  port: '180'
+  server: 82.198.246.97
   servername: ''
   tls: false
   type: vmess
-  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-gcm
   name: 7,12|🇮🇹 意大利|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
