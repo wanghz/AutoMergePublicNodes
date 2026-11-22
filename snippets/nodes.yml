@@ -1,42 +1,52 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 5|アメリカ
-  network: ws
-  port: 39495
-  server: 129.146.77.248
+  name: 3|UK
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 4|Hong Kong
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     headers:
       Host: ''
-    path: /cctv13.m3u8
+    path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: '5|アメリカ #1'
+  name: 4|France
   network: ws
-  port: '8443'
-  server: www.nextkyc.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: 6|United States
-  network: raw
-  port: '18000'
-  server: 38.91.107.49
+  port: '80'
+  server: 57.129.132.223
   servername: ''
   tls: false
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 6|South Korea
+  network: raw
+  port: '443'
+  server: 140.238.2.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - cipher: aes-256-gcm
   name: 7,12|🇮🇹 意大利|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
