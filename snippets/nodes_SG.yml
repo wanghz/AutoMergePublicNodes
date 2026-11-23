@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  name: 12|🇸🇬 新加坡1|@ripaojiedian
+  obfs: salamander
+  obfs-password: sj1awrdwnn5lbuno
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: bgsg2.hikigo.com
+  skip-cert-verify: true
+  sni: bgsg2.hikigo.com
+  type: hysteria2
+  udp: true

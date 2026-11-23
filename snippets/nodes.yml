@@ -1,52 +1,52 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|UK
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
+  name: 3|未命名
+  network: ws
+  port: 443
+  server: rush-6it6b.teeopp.quest
+  servername: rush-6it6b.teeopp.quest
+  tls: true
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: rush-6it6b.teeopp.quest
+    path: /video/kz49hf/gbin5jve.m3u8
 - alterId: 0
   cipher: auto
-  name: 4|Hong Kong
+  name: 4|États Unis
   network: ws
-  port: 44867
-  server: 47.244.120.197
+  port: 20086
+  server: 173.249.209.146
   servername: ''
   tls: false
   type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf
   ws-opts:
     headers:
       Host: ''
-    path: /arki?ed=2048
+    path: /
 - alterId: 0
   cipher: auto
-  name: 4|France
-  network: ws
-  port: '80'
-  server: 57.129.132.223
+  name: 4|Corée du Sud
+  network: tcp
+  port: '8888'
+  server: 146.56.112.110
   servername: ''
   tls: false
   type: vmess
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  ws-opts:
-    headers:
-      Host: google.com
-    path: /vmess/
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
 - alterId: 0
   cipher: auto
-  name: 6|South Korea
+  name: 5|シンガポール
   network: raw
-  port: '443'
-  server: 140.238.2.250
+  port: '18000'
+  server: 149.88.23.207
   servername: ''
   tls: false
   type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - cipher: aes-256-gcm
   name: 7,12|🇮🇹 意大利|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -110,12 +110,12 @@ proxies:
   server: 202.50.253.90
   type: ss
 - client-fingerprint: chrome
-  name: 7|xx|14f5|puddincat07@Telegram
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20028
-  server: sclass-b1.catcat321.com
+  name: 7,12|🇻🇳 越南|@ripaojiedian
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: xvxn1hkzf.mateflora.com
   skip-cert-verify: true
-  sni: hk.catxstar.com
+  sni: xvxn1hkzf.mateflora.com
   type: trojan
   udp: true
 - cipher: chacha20-ietf
@@ -283,7 +283,7 @@ proxies:
       Host: server32.beheshtbaneh.com
     path: /
 - cipher: aes-256-cfb
-  name: 10|未命名
+  name: '10|未命名 #1'
   password: amazonskr05
   port: 443
   server: 47.129.174.107
@@ -301,4 +301,42 @@ proxies:
   server: easy-mako.opossum872.cfd
   skip-cert-verify: true
   type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 12|🇭🇰 香港2|@ripaojiedian
+  password: 2902c46c8493
+  port: 443
+  server: ibsdsf.df6h451rh.xin
+  skip-cert-verify: true
+  sni: docs.microsoft.com
+  type: anytls
+  udp: true
+- auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  name: 12|🇸🇬 新加坡1|@ripaojiedian
+  obfs: salamander
+  obfs-password: sj1awrdwnn5lbuno
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: bgsg2.hikigo.com
+  skip-cert-verify: true
+  sni: bgsg2.hikigo.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  name: 12|🇹🇼 台湾2|@ripaojiedian
+  password: 0324fbc29561
+  port: 443
+  server: a54ge.df6h451rh.xin
+  skip-cert-verify: true
+  sni: docs.microsoft.com
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  name: 12|🇭🇰 香港|@ripaojiedian
+  password: 0324fbc29561
+  port: 443
+  server: 5641sdds.df6h451rh.xin
+  skip-cert-verify: true
+  sni: images.ctfassets.net
+  type: anytls
   udp: true
