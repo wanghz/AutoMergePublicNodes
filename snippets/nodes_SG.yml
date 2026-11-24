@@ -1,14 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 6|Singapore
-  network: tcp
-  port: '59121'
-  server: 129.226.157.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
 - auth: 57beeeb0-03fc-4fc9-94da-7604488a7134
   name: 12|🇸🇬 新加坡1|@ripaojiedian
   obfs: salamander
