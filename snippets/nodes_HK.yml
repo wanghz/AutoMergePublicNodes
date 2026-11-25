@@ -9,7 +9,7 @@ proxies:
   type: anytls
   udp: true
 - client-fingerprint: chrome
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 12|🇭🇰 香港3|@ripaojiedian
   password: 0324fbc29561
   port: 443
   server: 5641sdds.df6h451rh.xin
